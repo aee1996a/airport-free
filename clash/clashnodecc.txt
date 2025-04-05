@@ -1,6 +1,6 @@
 # 创建者：v2rayse.com 自动创建
-# 创建时间：2025-04-03 08:00:00
-# 节点类型：trojan, ss, vmess
+# 创建时间：2025-04-04 08:00:00
+# 节点类型：ss, trojan, vmess
 ---
 mixed-port: 7890
 allow-lan: false
@@ -49,56 +49,43 @@ tun:
   - "1.0.0.1"
 proxies:
 - name: "🇺🇸_US_美国"
-  type: "trojan"
-  server: "172.67.159.56"
-  port: 443
-  udp: true
-  sni: "Fgh9JkR5.890617.xYz"
-  password: "d67cfeaf-b277-44ac-ab99-9dd02a7c5299"
-  network: "ws"
-  alpn:
-  - "http/1.1"
-  ws-opts:
-    path: "/lWljHWvIMOj85lz42MdhsCLV"
-    headers:
-      host: "fgh9jkr5.890617.xyz"
-- name: "🇫🇷_FR_法国"
-  type: "trojan"
-  server: "35.180.183.189"
-  port: 22222
-  sni: "trojan.burgerip.co.uk"
-  password: "telegram-id-privatevpns"
-- name: "🇺🇸_US_美国_1"
   type: "ss"
-  server: "52.37.220.218"
+  server: "35.87.29.54"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
+- name: "🇩🇪_DE_德国->🇸🇬_SG_新加坡"
+  type: "ss"
+  server: "45.87.175.166"
+  port: 8080
+  cipher: "chacha20-ietf-poly1305"
+  password: "QCXDxuDlTTMD7jtgHUjIoj"
 - name: "🇺🇸_US_美国_2"
-  type: "vmess"
-  server: "104.21.21.226"
-  port: 80
-  uuid: "a8fce442-ae9a-4cc1-a0cc-20308ff0a0db"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/lsUVr8VBxF4ylXngZ"
-    headers:
-      host: "1c.890689.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国_3"
-  type: "ss"
-  server: "34.216.142.212"
-  port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
-- name: "🇺🇸_US_美国_5"
   type: "ss"
   server: "34.208.203.47"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
-- name: "🇺🇸_US_美国_7"
+- name: "🇦🇺_AU_澳大利亚"
+  type: "trojan"
+  server: "43.162.127.44"
+  port: 443
+  sni: "myvps.cfd"
+  password: "oIwjHDXpKePvYIg8"
+  skip-cert-verify: false
+- name: "🇨🇳_CN_中国->🇺🇸_US_美国"
+  type: "vmess"
+  server: "v7.heduian.link"
+  port: 30807
+  uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/oooo"
+    headers:
+      host: "ocbc.com"
+  alterId: 2
+- name: "🇺🇸_US_美国_3"
   type: "trojan"
   server: "104.21.49.59"
   port: 443
@@ -112,33 +99,92 @@ proxies:
     path: "/lWljHWvIMOj85lz42MdhsCLV"
     headers:
       host: "fgh9jkr5.890617.xyz"
-- name: "🇬🇧_GB_英国->🇺🇸_US_美国"
+- name: "🇺🇸_US_美国_4"
   type: "trojan"
-  server: "35.177.223.124"
-  port: 22222
-  sni: "trojan.burgerip.co.uk"
-  password: "telegram-id-privatevpns"
-  network: "tcp"
+  server: "172.67.159.56"
+  port: 443
+  udp: true
+  sni: "Fgh9JkR5.890617.xYz"
+  password: "d67cfeaf-b277-44ac-ab99-9dd02a7c5299"
+  network: "ws"
   alpn:
   - "http/1.1"
-- name: "🇺🇸_US_美国_8"
+  ws-opts:
+    path: "/lWljHWvIMOj85lz42MdhsCLV"
+    headers:
+      host: "fgh9jkr5.890617.xyz"
+- name: "🇺🇸_US_美国_5"
   type: "ss"
   server: "34.217.15.41"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
-- name: "🇦🇺_AU_澳大利亚"
-  type: "trojan"
-  server: "43.162.127.44"
-  port: 443
-  sni: "myvps.cfd"
-  password: "oIwjHDXpKePvYIg8"
-- name: "🇺🇸_US_美国_10"
+- name: "🇺🇸_US_美国_6"
   type: "ss"
-  server: "52.88.180.184"
+  server: "52.37.220.218"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  type: "ss"
+  server: "54.218.67.209"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇨🇳_CN_中国->🇺🇸_US_美国_1"
+  type: "vmess"
+  server: "v40.heduian.link"
+  port: 30840
+  sni: ""
+  uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/index"
+    headers:
+      host: "api100-core-quic-lf.amemv.com"
+  alterId: 0
+- name: "🇨🇳_CN_中国->🇺🇸_US_美国_2"
+  type: "ss"
+  server: "zf1.10101251.xyz"
+  port: 41705
+  cipher: "aes-256-gcm"
+  password: "4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f"
+- name: "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
+  type: "vmess"
+  server: "v25.heduian.link"
+  port: 30825
+  sni: ""
+  uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/oooo"
+    headers:
+      host: "baidu.com"
+  alterId: 2
+- name: "🇺🇸_US_美国_8"
+  type: "ss"
+  server: "35.94.124.230"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国_9"
+  type: "ss"
+  server: "34.216.142.212"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国_10"
+  type: "trojan"
+  server: "63.177.150.62"
+  port: 22222
+  sni: "trojan.burgerip.co.uk"
+  password: "telegram-id-directvpn"
+  network: "tcp"
+  alpn:
+  - "http/1.1"
 proxy-groups:
 - name: "🚀 节点选择"
   type: "select"
@@ -146,15 +192,20 @@ proxy-groups:
   - "♻️ 自动选择"
   - "DIRECT"
   - "🇺🇸_US_美国"
-  - "🇫🇷_FR_法国"
-  - "🇺🇸_US_美国_1"
+  - "🇩🇪_DE_德国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_7"
-  - "🇬🇧_GB_英国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_8"
   - "🇦🇺_AU_澳大利亚"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_3"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国_5"
+  - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_2"
+  - "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国_8"
+  - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
 - name: "♻️ 自动选择"
   type: "url-test"
@@ -163,15 +214,20 @@ proxy-groups:
   tolerance: 50
   proxies:
   - "🇺🇸_US_美国"
-  - "🇫🇷_FR_法国"
-  - "🇺🇸_US_美国_1"
+  - "🇩🇪_DE_德国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_7"
-  - "🇬🇧_GB_英国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_8"
   - "🇦🇺_AU_澳大利亚"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_3"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国_5"
+  - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_2"
+  - "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国_8"
+  - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
 - name: "🌍 国外媒体"
   type: "select"
@@ -180,15 +236,20 @@ proxy-groups:
   - "♻️ 自动选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
-  - "🇫🇷_FR_法国"
-  - "🇺🇸_US_美国_1"
+  - "🇩🇪_DE_德国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_7"
-  - "🇬🇧_GB_英国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_8"
   - "🇦🇺_AU_澳大利亚"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_3"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国_5"
+  - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_2"
+  - "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国_8"
+  - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
 - name: "📲 电报信息"
   type: "select"
@@ -196,15 +257,20 @@ proxy-groups:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
-  - "🇫🇷_FR_法国"
-  - "🇺🇸_US_美国_1"
+  - "🇩🇪_DE_德国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_7"
-  - "🇬🇧_GB_英国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_8"
   - "🇦🇺_AU_澳大利亚"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_3"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国_5"
+  - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_2"
+  - "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国_8"
+  - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
 - name: "Ⓜ️ 微软服务"
   type: "select"
@@ -212,15 +278,20 @@ proxy-groups:
   - "🎯 全球直连"
   - "🚀 节点选择"
   - "🇺🇸_US_美国"
-  - "🇫🇷_FR_法国"
-  - "🇺🇸_US_美国_1"
+  - "🇩🇪_DE_德国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_7"
-  - "🇬🇧_GB_英国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_8"
   - "🇦🇺_AU_澳大利亚"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_3"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国_5"
+  - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_2"
+  - "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国_8"
+  - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
 - name: "🍎 苹果服务"
   type: "select"
@@ -228,15 +299,20 @@ proxy-groups:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
-  - "🇫🇷_FR_法国"
-  - "🇺🇸_US_美国_1"
+  - "🇩🇪_DE_德国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_7"
-  - "🇬🇧_GB_英国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_8"
   - "🇦🇺_AU_澳大利亚"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_3"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国_5"
+  - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_2"
+  - "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国_8"
+  - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
 - name: "🎯 全球直连"
   type: "select"
@@ -261,15 +337,20 @@ proxy-groups:
   - "🎯 全球直连"
   - "♻️ 自动选择"
   - "🇺🇸_US_美国"
-  - "🇫🇷_FR_法国"
-  - "🇺🇸_US_美国_1"
+  - "🇩🇪_DE_德国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_7"
-  - "🇬🇧_GB_英国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_8"
   - "🇦🇺_AU_澳大利亚"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_3"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国_5"
+  - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
+  - "🇨🇳_CN_中国->🇺🇸_US_美国_2"
+  - "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国_8"
+  - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
 rule-providers:
   Apple:
@@ -379,26 +460,86 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国(mibei77.com 米贝节点分享), server: 23.150.248.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 120.232.153.63, port: 40105, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 183.236.51.38, port: 59554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(mibei77.com 米贝节点分享), server: 185.174.138.196, port: 2082, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560", ws-headers: {Host: yellow-paper-029c.yvonna.workers.dev}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 4, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 183.236.51.38, port: 55754, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 6, server: 23.150.248.199, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 7, server: 23.150.248.199, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 8, server: 23.150.248.199, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 9, server: 23.150.248.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享), server: 120.198.71.214, port: 40125, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 10, server: 209.94.90.64, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(mibei77.com 米贝节点分享) 2, server: 185.174.138.196, port: 2082, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560", ws-headers: {Host: yellow-paper-029c.yvonna.workers.dev}, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: 120.198.71.219, port: 42055, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 11, server: 23.150.248.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 23.150.248.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 13, server: 183.236.51.38, port: 56901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: 183.236.51.38, port: 51039, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 14, server: 120.232.153.123, port: 41402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 15, server: 120.234.102.229, port: 31998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: 120.232.153.63, port: 40105, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享), server: 154.197.64.67, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享), server: 213.241.198.189, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 120.234.102.229, port: 31998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 167.68.5.248, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: 108.165.152.78, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: 1387ebdd-su7b40-su6828-eme.b.fosant.com, port: 3683, type: vmess, uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 108.165.152.82, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 2, server: 46.254.92.191, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 亚美尼亚(mibei77.com 米贝节点分享), server: 188.164.159.25, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 亚美尼亚(mibei77.com 米贝节点分享) 2, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 3, server: 77.232.140.101, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: 154.197.64.67, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 4, server: 5.182.85.189, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 5, server: 176.124.223.50, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 6, server: damien.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: damien.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 7, server: 108.165.152.131, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 8, server: 209.94.90.64, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 9, server: kip.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: kip.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 10, server: theo.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: theo.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 6, server: 77.232.140.114, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 11, server: duke.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: duke.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 209.94.90.64, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 13, server: pranab.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: pranab.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 14, server: thaddeus.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: thaddeus.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 15, server: arvind.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: arvind.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 16, server: s2.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.17.133.52, ws-headers: {Host: 100-65-56-224.s2.db-link01.top}, udp: true}
+  - {name: 亚美尼亚(mibei77.com 米贝节点分享) 3, server: 188.164.159.74, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 17, server: kip.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: kip.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 7, server: 45.67.214.41, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 亚美尼亚(mibei77.com 米贝节点分享) 4, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 亚美尼亚(mibei77.com 米贝节点分享) 5, server: 188.164.159.220, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 亚美尼亚(mibei77.com 米贝节点分享) 6, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 4, server: 154.197.64.240, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 亚美尼亚(mibei77.com 米贝节点分享) 7, server: 188.164.159.175, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 8, server: 5.182.85.255, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 18, server: 38.110.1.146, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 19, server: 38.110.1.146, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 20, server: 38.107.226.14, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 21, server: 23.150.248.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享), server: 175.196.105.220, port: 12209, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 22, server: 38.110.1.146, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 23, server: 23.150.248.199, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 24, server: 154.9.207.173, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 25, server: 38.110.1.146, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 26, server: 38.110.1.146, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 27, server: 23.150.248.199, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 28, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 29, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 30, server: 183.236.51.38, port: 59554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 31, server: 23.150.248.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 5, server: 120.232.153.40, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 32, server: 38.110.1.146, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 6, server: zf1.10101251.xyz, port: 41705, type: ss, cipher: aes-256-gcm, password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f, udp: true}
+  - {name: NL荷兰(mibei77.com 米贝节点分享), server: 45.87.103.154, port: 52001, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 7, server: 183.236.51.38, port: 51039, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 33, server: 183.236.51.38, port: 56901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 34, server: 23.150.248.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 8, server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com, port: 3683, type: vmess, uuid: f39baabc-ef78-11ef-b714-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 35, server: 38.110.1.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 36, server: us7-03.890606.XyZ, port: 443, type: vmess, uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bua2hMcbA8wMzbGFtV, ws-headers: {Host: us7-03.890606.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 37, server: 23.150.248.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 9, server: 120.198.71.219, port: 51095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享) 2, server: 112.160.54.82, port: 21316, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 38, server: 47.79.88.27, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 10, server: 120.198.71.214, port: 34093, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(mibei77.com 米贝节点分享), server: 27.50.49.188, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 9, server: 92.243.74.239, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 11, server: 154.197.64.248, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享) 3, server: 121.175.42.160, port: 32443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 39, server: sage.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: sage.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享) 4, server: 121.150.230.201, port: 12136, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: JP日本(mibei77.com 米贝节点分享), server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享) 5, server: 183.102.173.114, port: 10032, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 40, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: lynn.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 41, server: sage.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: sage.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享) 10, server: 5.182.84.120, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享) 6, server: 211.196.12.95, port: 12344, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享) 7, server: 222.97.135.19, port: 21242, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 12, server: 183.236.51.38, port: 42550, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -406,50 +547,170 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 5
+      - 俄罗斯(mibei77.com 米贝节点分享) 2
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - 俄罗斯(mibei77.com 米贝节点分享) 4
+      - 俄罗斯(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - 俄罗斯(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - 亚美尼亚(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 17
+      - 俄罗斯(mibei77.com 米贝节点分享) 7
+      - 亚美尼亚(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 5
+      - 亚美尼亚(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 7
+      - 俄罗斯(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - KR韩国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 32
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
+      - US美国(mibei77.com 米贝节点分享) 37
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 38
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - SG新加坡(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - KR韩国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 39
+      - KR韩国(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
+      - KR韩国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 40
+      - US美国(mibei77.com 米贝节点分享) 41
+      - 俄罗斯(mibei77.com 米贝节点分享) 10
+      - KR韩国(mibei77.com 米贝节点分享) 6
+      - KR韩国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - US美国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 5
+      - 俄罗斯(mibei77.com 米贝节点分享) 2
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - 俄罗斯(mibei77.com 米贝节点分享) 4
+      - 俄罗斯(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - 俄罗斯(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - 亚美尼亚(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 17
+      - 俄罗斯(mibei77.com 米贝节点分享) 7
+      - 亚美尼亚(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 5
+      - 亚美尼亚(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 7
+      - 俄罗斯(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - KR韩国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 32
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
+      - US美国(mibei77.com 米贝节点分享) 37
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 38
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - SG新加坡(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - KR韩国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 39
+      - KR韩国(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
+      - KR韩国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 40
+      - US美国(mibei77.com 米贝节点分享) 41
+      - 俄罗斯(mibei77.com 米贝节点分享) 10
+      - KR韩国(mibei77.com 米贝节点分享) 6
+      - KR韩国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 12
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -457,25 +718,85 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 5
+      - 俄罗斯(mibei77.com 米贝节点分享) 2
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - 俄罗斯(mibei77.com 米贝节点分享) 4
+      - 俄罗斯(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - 俄罗斯(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - 亚美尼亚(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 17
+      - 俄罗斯(mibei77.com 米贝节点分享) 7
+      - 亚美尼亚(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 5
+      - 亚美尼亚(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 7
+      - 俄罗斯(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - KR韩国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 32
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
+      - US美国(mibei77.com 米贝节点分享) 37
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 38
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - SG新加坡(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - KR韩国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 39
+      - KR韩国(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
+      - KR韩国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 40
+      - US美国(mibei77.com 米贝节点分享) 41
+      - 俄罗斯(mibei77.com 米贝节点分享) 10
+      - KR韩国(mibei77.com 米贝节点分享) 6
+      - KR韩国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 12
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -495,25 +816,85 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 5
+      - 俄罗斯(mibei77.com 米贝节点分享) 2
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - 俄罗斯(mibei77.com 米贝节点分享) 4
+      - 俄罗斯(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - 俄罗斯(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - 亚美尼亚(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 17
+      - 俄罗斯(mibei77.com 米贝节点分享) 7
+      - 亚美尼亚(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 5
+      - 亚美尼亚(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 7
+      - 俄罗斯(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - KR韩国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 32
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
+      - US美国(mibei77.com 米贝节点分享) 37
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 38
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - SG新加坡(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - KR韩国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 39
+      - KR韩国(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
+      - KR韩国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 40
+      - US美国(mibei77.com 米贝节点分享) 41
+      - 俄罗斯(mibei77.com 米贝节点分享) 10
+      - KR韩国(mibei77.com 米贝节点分享) 6
+      - KR韩国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 12
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -521,6 +902,15 @@ proxy-groups:
       - HK香港(mibei77.com 米贝节点分享)
       - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -528,50 +918,170 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - US美国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 5
+      - 俄罗斯(mibei77.com 米贝节点分享) 2
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - 俄罗斯(mibei77.com 米贝节点分享) 4
+      - 俄罗斯(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - 俄罗斯(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - 亚美尼亚(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 17
+      - 俄罗斯(mibei77.com 米贝节点分享) 7
+      - 亚美尼亚(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 5
+      - 亚美尼亚(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 7
+      - 俄罗斯(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - KR韩国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 32
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
+      - US美国(mibei77.com 米贝节点分享) 37
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 38
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - SG新加坡(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - KR韩国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 39
+      - KR韩国(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
+      - KR韩国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 40
+      - US美国(mibei77.com 米贝节点分享) 41
+      - 俄罗斯(mibei77.com 米贝节点分享) 10
+      - KR韩国(mibei77.com 米贝节点分享) 6
+      - KR韩国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - US美国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 5
+      - 俄罗斯(mibei77.com 米贝节点分享) 2
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - 俄罗斯(mibei77.com 米贝节点分享) 4
+      - 俄罗斯(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - 俄罗斯(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - 亚美尼亚(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 17
+      - 俄罗斯(mibei77.com 米贝节点分享) 7
+      - 亚美尼亚(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 5
+      - 亚美尼亚(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 7
+      - 俄罗斯(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - KR韩国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 32
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
+      - US美国(mibei77.com 米贝节点分享) 37
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 38
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - SG新加坡(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - KR韩国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 39
+      - KR韩国(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
+      - KR韩国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 40
+      - US美国(mibei77.com 米贝节点分享) 41
+      - 俄罗斯(mibei77.com 米贝节点分享) 10
+      - KR韩国(mibei77.com 米贝节点分享) 6
+      - KR韩国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 12
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -579,25 +1089,85 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US美国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 5
+      - 俄罗斯(mibei77.com 米贝节点分享) 2
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - 俄罗斯(mibei77.com 米贝节点分享) 4
+      - 俄罗斯(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - 俄罗斯(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - 亚美尼亚(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 17
+      - 俄罗斯(mibei77.com 米贝节点分享) 7
+      - 亚美尼亚(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 5
+      - 亚美尼亚(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 7
+      - 俄罗斯(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - KR韩国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 32
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
+      - US美国(mibei77.com 米贝节点分享) 37
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 38
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - SG新加坡(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - KR韩国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 39
+      - KR韩国(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
+      - KR韩国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 40
+      - US美国(mibei77.com 米贝节点分享) 41
+      - 俄罗斯(mibei77.com 米贝节点分享) 10
+      - KR韩国(mibei77.com 米贝节点分享) 6
+      - KR韩国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -614,25 +1184,85 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US美国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 5
+      - 俄罗斯(mibei77.com 米贝节点分享) 2
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - 俄罗斯(mibei77.com 米贝节点分享) 4
+      - 俄罗斯(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - 俄罗斯(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - 亚美尼亚(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 17
+      - 俄罗斯(mibei77.com 米贝节点分享) 7
+      - 亚美尼亚(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 5
+      - 亚美尼亚(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - 亚美尼亚(mibei77.com 米贝节点分享) 7
+      - 俄罗斯(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - KR韩国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 32
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
+      - US美国(mibei77.com 米贝节点分享) 37
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 38
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - SG新加坡(mibei77.com 米贝节点分享)
+      - 俄罗斯(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - KR韩国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 39
+      - KR韩国(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
+      - KR韩国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 40
+      - US美国(mibei77.com 米贝节点分享) 41
+      - 俄罗斯(mibei77.com 米贝节点分享) 10
+      - KR韩国(mibei77.com 米贝节点分享) 6
+      - KR韩国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 12
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10837,7 +11467,7 @@ rules:
 
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/11 01:22:37
-# 配置生成日期：2025-04-03 12:07:58
+# 配置生成日期：2025-04-04 11:52:24
 
 mixed-port: 7890
 allow-lan: false
@@ -10894,6 +11524,7 @@ proxies:
     tls: false
     password: 6601fb90e9b3
     ip-version: dual
+    udp: true
     cipher: aes-128-gcm
   - name: 重度用户推荐使用机场
     type: ss
@@ -10902,6 +11533,7 @@ proxies:
     tls: false
     password: 6601fb90e9b3
     ip-version: dual
+    udp: true
     cipher: aes-128-gcm
   - name: 免费节点可能会泄漏访问记录
     type: ss
@@ -10910,73 +11542,90 @@ proxies:
     tls: false
     password: 6601fb90e9b3
     ip-version: dual
+    udp: true
     cipher: aes-128-gcm
-  - name: 🇸🇰_SK_斯洛伐克
-    type: ss
-    server: 156.146.40.194
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_1
     type: ss
-    server: 34.222.2.112
+    server: 35.87.29.54
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: 🇦🇺_AU_澳大利亚
-    type: trojan
-    server: 43.162.127.44
-    port: 443
-    network: tcp
-    tls: true
-    password: oIwjHDXpKePvYIg8
-    sni: myvps.cfd
-    skip-cert-verify: false
-    ip-version: dual
-  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - name: 🇩🇪_DE_德国->🇸🇬_SG_新加坡
     type: ss
-    server: 81.19.137.66
-    port: 44316
+    server: 45.87.175.166
+    port: 8080
     tls: false
-    password: Qx22XZwNt4SCcnWNkypEAj
+    password: QCXDxuDlTTMD7jtgHUjIoj
     ip-version: dual
+    udp: true
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_2
-    type: ss
-    server: 52.88.180.184
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_3
-    type: ss
-    server: 38.110.1.146
-    port: 7001
-    tls: false
-    password: RexnBgU7EV5ADxG
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    type: ss
-    server: 52.40.170.193
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
     type: ss
     server: 34.208.203.47
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
+  - name: 🇦🇺_AU_澳大利亚
+    type: trojan
+    server: 43.162.127.44
+    port: 443
+    tls: true
+    password: oIwjHDXpKePvYIg8
+    sni: myvps.cfd
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    type: vmess
+    server: v7.heduian.link
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: 🇺🇸_US_美国_4
+    type: trojan
+    server: 104.21.49.59
+    port: 443
+    network: ws
+    tls: true
+    password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+    sni: Fgh9JkR5.890617.xYz
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    ws-opts:
+      path: /lWljHWvIMOj85lz42MdhsCLV
+      headers:
+        host: fgh9jkr5.890617.xyz
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国_5
+    type: trojan
+    server: 172.67.159.56
+    port: 443
+    network: ws
+    tls: true
+    password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+    sni: Fgh9JkR5.890617.xYz
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    ws-opts:
+      path: /lWljHWvIMOj85lz42MdhsCLV
+      headers:
+        host: fgh9jkr5.890617.xyz
+    ip-version: dual
+    udp: true
   - name: 🇺🇸_US_美国_6
     type: ss
     server: 34.217.15.41
@@ -10984,23 +11633,8 @@ proxies:
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-    type: ss
-    server: 54.202.0.97
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-    type: ss
-    server: 77.239.117.121
-    port: 28694
-    tls: false
-    password: sojzFfZN5WMHqzvVJcDJJ9
-    ip-version: dual
-    cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国_7
     type: ss
     server: 52.37.220.218
@@ -11008,47 +11642,79 @@ proxies:
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇪🇸_ES_西班牙
-    type: trojan
-    server: 104.21.96.1
-    port: 2083
-    network: ws
-    tls: true
-    password: SD85M89IdW67
-    sni: yjc.twn24.ir
-    skip-cert-verify: false
-    ws-opts:
-      path: /@M3HDIO1
-      headers:
-        host: yjc.twn24.ir
-    ip-version: dual
-  - name: 🇺🇸_US_美国_8
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
     type: ss
-    server: 137.175.113.215
-    port: 8388
-    tls: false
-    password: asd123456
-    ip-version: dual
-    cipher: chacha20-ietf
-  - name: 🇺🇸_US_美国_10
-    type: ss
-    server: 34.209.118.169
+    server: 54.218.67.209
     port: 443
     tls: false
     password: amazonskr05
     ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: 🇹🇷_TR_土耳其
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
     type: vmess
-    server: 193.31.116.198
-    port: 14034
-    uuid: e2dbd04f-63ff-4885-abdc-7b78e41a473d
-    network: tcp
+    server: v40.heduian.link
+    port: 30840
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
     tls: false
     ip-version: dual
+    udp: true
     alterId: 0
     cipher: auto
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: ss
+    server: zf1.10101251.xyz
+    port: 41705
+    tls: false
+    password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+    type: vmess
+    server: v25.heduian.link
+    port: 30825
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    tls: false
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: 🇺🇸_US_美国_8
+    type: ss
+    server: 35.94.124.230
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_9
+    type: ss
+    server: 34.216.142.212
+    port: 443
+    tls: false
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_10
+    type: trojan
+    server: 63.177.150.62
+    port: 22222
+    network: tcp
+    tls: true
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -11058,22 +11724,22 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 重度用户推荐使用机场
       - 免费节点可能会泄漏访问记录
-      - 🇸🇰_SK_斯洛伐克
       - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇹🇷_TR_土耳其
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -11083,22 +11749,22 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 重度用户推荐使用机场
       - 免费节点可能会泄漏访问记录
-      - 🇸🇰_SK_斯洛伐克
       - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇹🇷_TR_土耳其
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -11108,22 +11774,22 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 重度用户推荐使用机场
       - 免费节点可能会泄漏访问记录
-      - 🇸🇰_SK_斯洛伐克
       - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇹🇷_TR_土耳其
   - name: 📲 电报信息
     type: select
     proxies:
@@ -11132,22 +11798,22 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 重度用户推荐使用机场
       - 免费节点可能会泄漏访问记录
-      - 🇸🇰_SK_斯洛伐克
       - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇹🇷_TR_土耳其
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -11156,22 +11822,22 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 重度用户推荐使用机场
       - 免费节点可能会泄漏访问记录
-      - 🇸🇰_SK_斯洛伐克
       - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇹🇷_TR_土耳其
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -11180,22 +11846,22 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 重度用户推荐使用机场
       - 免费节点可能会泄漏访问记录
-      - 🇸🇰_SK_斯洛伐克
       - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇹🇷_TR_土耳其
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -11221,22 +11887,22 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 重度用户推荐使用机场
       - 免费节点可能会泄漏访问记录
-      - 🇸🇰_SK_斯洛伐克
       - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇹🇷_TR_土耳其
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
@@ -14962,138 +15628,77 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇸🇰_SK_斯洛伐克
-    type: ss
-    server: 156.146.40.194
-    port: 989
-    password: f8f7aCzcPKbsF8p3
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    type: vmess
+    server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+    port: 3683
+    uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+    network: tcp
     ip-version: dual
     udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_1
-    type: ss
-    server: 34.222.2.112
-    port: 443
-    password: amazonskr05
+    alterId: 0
+    cipher: auto
+  - name: 🇨🇳_CN_中国->🇨🇷_CR_哥斯达黎加
+    type: vmess
+    server: v37.heduian.link
+    port: 30837
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: ocbc.com
     ip-version: dual
     udp: true
-    cipher: aes-256-cfb
-  - name: 🇦🇺_AU_澳大利亚
-    type: trojan
-    server: 43.162.127.44
-    port: 443
-    password: oIwjHDXpKePvYIg8
-    sni: myvps.cfd
-    ip-version: dual
-    udp: true
-  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+    alterId: 2
+    cipher: auto
+  - name: 🇩🇪_DE_德国->🇸🇬_SG_新加坡_1
     type: ss
-    server: 81.19.137.66
-    port: 44316
-    password: Qx22XZwNt4SCcnWNkypEAj
+    server: 45.87.175.154
+    port: 8080
+    password: 4a2rfixophdjffa8KVA4Aa
     ip-version: dual
     udp: true
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_2
+  - name: 🇩🇪_DE_德国->🇸🇬_SG_新加坡_2
     type: ss
-    server: 52.88.180.184
+    server: 45.87.175.166
+    port: 8080
+    password: QCXDxuDlTTMD7jtgHUjIoj
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_5
+    type: ss
+    server: 34.216.142.212
     port: 443
     password: amazonskr05
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
+  - name: 🇩🇪_DE_德国
     type: ss
-    server: 38.110.1.146
-    port: 7001
-    password: RexnBgU7EV5ADxG
+    server: beesyar.org
+    port: 8080
+    password: QCXDxuDlTTMD7jtgHUjIoj
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    type: ss
+    server: zf1.10101251.xyz
+    port: 41705
+    password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
     ip-version: dual
     udp: true
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    type: ss
-    server: 52.40.170.193
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
-    type: ss
-    server: 34.208.203.47
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_6
-    type: ss
-    server: 34.217.15.41
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-    type: ss
-    server: 54.202.0.97
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-    type: ss
-    server: 77.239.117.121
-    port: 28694
-    password: sojzFfZN5WMHqzvVJcDJJ9
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_7
-    type: ss
-    server: 52.37.220.218
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇪🇸_ES_西班牙
-    type: trojan
-    server: 104.21.96.1
-    port: 2083
-    network: ws
-    password: SD85M89IdW67
-    sni: yjc.twn24.ir
-    skip-cert-verify: false
-    ws-opts:
-      path: /🆔@M3HDIO1
-      headers:
-        host: yjc.twn24.ir
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_8
-    type: ss
-    server: 137.175.113.215
-    port: 8388
-    password: asd123456
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf
-  - name: 🇺🇸_US_美国_9
-    type: ss
-    server: 34.209.118.169
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇹🇷_TR_土耳其
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
     type: vmess
-    server: 193.31.116.198
-    port: 14034
-    uuid: e2dbd04f-63ff-4885-abdc-7b78e41a473d
+    server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+    port: 3683
+    uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
     network: tcp
+    sni: ''
     ip-version: dual
     udp: true
     alterId: 0
@@ -15104,129 +15709,81 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇰_SK_斯洛伐克
-      - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇨🇷_CR_哥斯达黎加
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_1
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_2
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇹🇷_TR_土耳其
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 5000
     proxies:
-      - 🇸🇰_SK_斯洛伐克
-      - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇨🇷_CR_哥斯达黎加
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_1
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_2
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇹🇷_TR_土耳其
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇰_SK_斯洛伐克
-      - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇨🇷_CR_哥斯达黎加
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_1
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_2
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇹🇷_TR_土耳其
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇰_SK_斯洛伐克
-      - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇨🇷_CR_哥斯达黎加
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_1
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_2
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇹🇷_TR_土耳其
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇰_SK_斯洛伐克
-      - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇨🇷_CR_哥斯达黎加
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_1
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_2
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇹🇷_TR_土耳其
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇰_SK_斯洛伐克
-      - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇨🇷_CR_哥斯达黎加
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_1
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_2
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇹🇷_TR_土耳其
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -15249,22 +15806,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇰_SK_斯洛伐克
-      - 🇺🇸_US_美国_1
-      - 🇦🇺_AU_澳大利亚
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇨🇷_CR_哥斯达黎加
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_1
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡_2
       - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇪🇸_ES_西班牙
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇹🇷_TR_土耳其
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
@@ -18949,115 +19498,295 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(yudou66.com 玉豆免费节点), server: 120.198.71.219, port: 42055, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(yudou66.com 玉豆免费节点), server: 185.174.138.196, port: 2082, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560", ws-headers: {Host: yellow-paper-029c.yvonna.workers.dev}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: 120.232.153.123, port: 41402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 120.234.102.229, port: 31998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 23.150.248.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 23.150.248.199, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: 183.236.51.38, port: 56901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: 209.94.90.64, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: 香港(yudou66.com 玉豆免费节点) 2, server: 120.198.71.214, port: 34093, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 38.110.1.146, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 韩国(yudou66.com 玉豆免费节点), server: 211.184.62.104, port: 14895, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 38.110.1.146, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 38.110.1.146, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 183.236.51.38, port: 56901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(yudou66.com 玉豆免费节点), server: 120.232.153.40, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本(yudou66.com 玉豆免费节点), server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 7, server: 23.150.248.199, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 8, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 9, server: 23.150.248.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 10, server: 183.236.51.38, port: 51039, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 11, server: 183.236.51.38, port: 59554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(yudou66.com 玉豆免费节点) 2, server: 185.174.138.196, port: 2082, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560", ws-headers: {Host: yellow-paper-029c.yvonna.workers.dev}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 12, server: 120.232.153.63, port: 40105, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 13, server: 183.236.51.38, port: 55754, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 14, server: arvind.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: arvind.ns.cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: 香港(yudou66.com 玉豆免费节点) 3, server: 120.232.153.40, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: 38.110.1.146, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: s2.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.17.133.52, ws-headers: {Host: 100-65-56-224.s2.db-link01.top}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 7, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 8, server: 120.232.153.63, port: 40105, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 9, server: 38.110.1.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 10, server: damien.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: damien.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 11, server: 23.150.248.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 12, server: 38.110.1.146, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 13, server: 23.150.248.199, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 14, server: 183.236.51.38, port: 51039, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 15, server: 38.110.1.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 16, server: 23.150.248.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆免费节点), server: 13.250.14.76, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 17, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 18, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zxjp-b.tkong.cc}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 19, server: 38.107.226.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 20, server: 120.234.102.229, port: 31998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 21, server: 38.107.226.14, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 22, server: 38.107.226.14, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 23, server: 23.150.248.199, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 24, server: kfjdi.pages.dev, port: 443, type: trojan, password: er668, sni: kfjdi.pages.dev, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 25, server: 183.236.51.38, port: 55754, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国(yudou66.com 玉豆免费节点) 2, server: 121.150.230.201, port: 12136, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国(yudou66.com 玉豆免费节点) 3, server: 222.107.236.137, port: 25005, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 26, server: 209.94.90.64, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国(yudou66.com 玉豆免费节点) 4, server: 112.160.54.82, port: 21316, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 27, server: 135.84.74.27, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 28, server: s3.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.25.204.117, ws-headers: {Host: 100-6-204-129.s3.db-link01.top}, udp: true}
+  - {name: 香港(yudou66.com 玉豆免费节点) 2, server: 120.198.71.214, port: 34093, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(yudou66.com 玉豆免费节点) 3, server: 154.211.8.152, port: 2053, type: trojan, password: wb6368, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(yudou66.com 玉豆免费节点), server: 5.182.84.120, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: 香港(yudou66.com 玉豆免费节点) 4, server: 120.198.71.214, port: 40125, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 15, server: kip.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: kip.ns.cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 16, server: 167.68.4.131, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 29, server: 154.9.207.173, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 30, server: 188.164.159.175, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 31, server: 167.68.4.131, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 日本(yudou66.com 玉豆免费节点) 2, server: 103.116.7.103, port: 2083, type: trojan, password: wb6368, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰(yudou66.com 玉豆免费节点), server: 89.110.86.132, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(yudou66.com 玉豆免费节点) 2, server: 46.254.92.191, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 32, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 33, server: 188.164.159.25, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 34, server: zf1.10101251.xyz, port: 41705, type: ss, cipher: aes-256-gcm, password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f, udp: true}
+  - {name: 俄罗斯(yudou66.com 玉豆免费节点) 3, server: 5.182.85.189, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 35, server: 108.165.152.82, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 36, server: 108.165.152.67, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 香港(yudou66.com 玉豆免费节点) 5, server: 154.197.64.67, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 37, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(yudou66.com 玉豆免费节点) 4, server: 45.67.214.41, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 38, server: duke.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: duke.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 39, server: 108.165.152.202, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 40, server: 167.68.5.248, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 41, server: 209.94.90.64, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(yudou66.com 玉豆免费节点) 5, server: 77.232.140.101, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 42, server: 188.164.159.220, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 43, server: 108.165.152.59, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 44, server: 216.24.57.1, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆免费节点) 2, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 45, server: 38.107.226.14, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 46, server: 183.236.51.38, port: 59554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 47, server: 38.107.226.14, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 48, server: 38.107.226.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 49, server: 38.107.226.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(yudou66.com 玉豆免费节点)
-      - 俄罗斯(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 韩国(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点)
+      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 香港(yudou66.com 玉豆免费节点) 2
-      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 7
       - 美国(yudou66.com 玉豆免费节点) 8
       - 美国(yudou66.com 玉豆免费节点) 9
       - 美国(yudou66.com 玉豆免费节点) 10
       - 美国(yudou66.com 玉豆免费节点) 11
-      - 俄罗斯(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 12
       - 美国(yudou66.com 玉豆免费节点) 13
       - 美国(yudou66.com 玉豆免费节点) 14
-      - 香港(yudou66.com 玉豆免费节点) 3
-      - 香港(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 15
       - 美国(yudou66.com 玉豆免费节点) 16
+      - 新加坡(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 17
+      - 美国(yudou66.com 玉豆免费节点) 18
+      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国(yudou66.com 玉豆免费节点) 20
+      - 美国(yudou66.com 玉豆免费节点) 21
+      - 美国(yudou66.com 玉豆免费节点) 22
+      - 美国(yudou66.com 玉豆免费节点) 23
+      - 美国(yudou66.com 玉豆免费节点) 24
+      - 美国(yudou66.com 玉豆免费节点) 25
+      - 韩国(yudou66.com 玉豆免费节点) 2
+      - 韩国(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 26
+      - 韩国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 27
+      - 美国(yudou66.com 玉豆免费节点) 28
+      - 香港(yudou66.com 玉豆免费节点) 2
+      - 香港(yudou66.com 玉豆免费节点) 3
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - 香港(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 29
+      - 美国(yudou66.com 玉豆免费节点) 30
+      - 美国(yudou66.com 玉豆免费节点) 31
+      - 日本(yudou66.com 玉豆免费节点) 2
+      - 乌克兰(yudou66.com 玉豆免费节点)
+      - 俄罗斯(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 32
+      - 美国(yudou66.com 玉豆免费节点) 33
+      - 美国(yudou66.com 玉豆免费节点) 34
+      - 俄罗斯(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 35
+      - 美国(yudou66.com 玉豆免费节点) 36
+      - 香港(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 37
+      - 俄罗斯(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 38
+      - 美国(yudou66.com 玉豆免费节点) 39
+      - 美国(yudou66.com 玉豆免费节点) 40
+      - 美国(yudou66.com 玉豆免费节点) 41
+      - 俄罗斯(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 42
+      - 美国(yudou66.com 玉豆免费节点) 43
+      - 美国(yudou66.com 玉豆免费节点) 44
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 45
+      - 美国(yudou66.com 玉豆免费节点) 46
+      - 美国(yudou66.com 玉豆免费节点) 47
+      - 美国(yudou66.com 玉豆免费节点) 48
+      - 美国(yudou66.com 玉豆免费节点) 49
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港(yudou66.com 玉豆免费节点)
-      - 俄罗斯(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 韩国(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点)
+      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 香港(yudou66.com 玉豆免费节点) 2
-      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 7
       - 美国(yudou66.com 玉豆免费节点) 8
       - 美国(yudou66.com 玉豆免费节点) 9
       - 美国(yudou66.com 玉豆免费节点) 10
       - 美国(yudou66.com 玉豆免费节点) 11
-      - 俄罗斯(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 12
       - 美国(yudou66.com 玉豆免费节点) 13
       - 美国(yudou66.com 玉豆免费节点) 14
-      - 香港(yudou66.com 玉豆免费节点) 3
-      - 香港(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 15
       - 美国(yudou66.com 玉豆免费节点) 16
+      - 新加坡(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 17
+      - 美国(yudou66.com 玉豆免费节点) 18
+      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国(yudou66.com 玉豆免费节点) 20
+      - 美国(yudou66.com 玉豆免费节点) 21
+      - 美国(yudou66.com 玉豆免费节点) 22
+      - 美国(yudou66.com 玉豆免费节点) 23
+      - 美国(yudou66.com 玉豆免费节点) 24
+      - 美国(yudou66.com 玉豆免费节点) 25
+      - 韩国(yudou66.com 玉豆免费节点) 2
+      - 韩国(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 26
+      - 韩国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 27
+      - 美国(yudou66.com 玉豆免费节点) 28
+      - 香港(yudou66.com 玉豆免费节点) 2
+      - 香港(yudou66.com 玉豆免费节点) 3
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - 香港(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 29
+      - 美国(yudou66.com 玉豆免费节点) 30
+      - 美国(yudou66.com 玉豆免费节点) 31
+      - 日本(yudou66.com 玉豆免费节点) 2
+      - 乌克兰(yudou66.com 玉豆免费节点)
+      - 俄罗斯(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 32
+      - 美国(yudou66.com 玉豆免费节点) 33
+      - 美国(yudou66.com 玉豆免费节点) 34
+      - 俄罗斯(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 35
+      - 美国(yudou66.com 玉豆免费节点) 36
+      - 香港(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 37
+      - 俄罗斯(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 38
+      - 美国(yudou66.com 玉豆免费节点) 39
+      - 美国(yudou66.com 玉豆免费节点) 40
+      - 美国(yudou66.com 玉豆免费节点) 41
+      - 俄罗斯(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 42
+      - 美国(yudou66.com 玉豆免费节点) 43
+      - 美国(yudou66.com 玉豆免费节点) 44
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 45
+      - 美国(yudou66.com 玉豆免费节点) 46
+      - 美国(yudou66.com 玉豆免费节点) 47
+      - 美国(yudou66.com 玉豆免费节点) 48
+      - 美国(yudou66.com 玉豆免费节点) 49
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(yudou66.com 玉豆免费节点)
-      - 俄罗斯(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 韩国(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点)
+      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 香港(yudou66.com 玉豆免费节点) 2
-      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 7
       - 美国(yudou66.com 玉豆免费节点) 8
       - 美国(yudou66.com 玉豆免费节点) 9
       - 美国(yudou66.com 玉豆免费节点) 10
       - 美国(yudou66.com 玉豆免费节点) 11
-      - 俄罗斯(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 12
       - 美国(yudou66.com 玉豆免费节点) 13
       - 美国(yudou66.com 玉豆免费节点) 14
-      - 香港(yudou66.com 玉豆免费节点) 3
-      - 香港(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 15
       - 美国(yudou66.com 玉豆免费节点) 16
+      - 新加坡(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 17
+      - 美国(yudou66.com 玉豆免费节点) 18
+      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国(yudou66.com 玉豆免费节点) 20
+      - 美国(yudou66.com 玉豆免费节点) 21
+      - 美国(yudou66.com 玉豆免费节点) 22
+      - 美国(yudou66.com 玉豆免费节点) 23
+      - 美国(yudou66.com 玉豆免费节点) 24
+      - 美国(yudou66.com 玉豆免费节点) 25
+      - 韩国(yudou66.com 玉豆免费节点) 2
+      - 韩国(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 26
+      - 韩国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 27
+      - 美国(yudou66.com 玉豆免费节点) 28
+      - 香港(yudou66.com 玉豆免费节点) 2
+      - 香港(yudou66.com 玉豆免费节点) 3
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - 香港(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 29
+      - 美国(yudou66.com 玉豆免费节点) 30
+      - 美国(yudou66.com 玉豆免费节点) 31
+      - 日本(yudou66.com 玉豆免费节点) 2
+      - 乌克兰(yudou66.com 玉豆免费节点)
+      - 俄罗斯(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 32
+      - 美国(yudou66.com 玉豆免费节点) 33
+      - 美国(yudou66.com 玉豆免费节点) 34
+      - 俄罗斯(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 35
+      - 美国(yudou66.com 玉豆免费节点) 36
+      - 香港(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 37
+      - 俄罗斯(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 38
+      - 美国(yudou66.com 玉豆免费节点) 39
+      - 美国(yudou66.com 玉豆免费节点) 40
+      - 美国(yudou66.com 玉豆免费节点) 41
+      - 俄罗斯(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 42
+      - 美国(yudou66.com 玉豆免费节点) 43
+      - 美国(yudou66.com 玉豆免费节点) 44
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 45
+      - 美国(yudou66.com 玉豆免费节点) 46
+      - 美国(yudou66.com 玉豆免费节点) 47
+      - 美国(yudou66.com 玉豆免费节点) 48
+      - 美国(yudou66.com 玉豆免费节点) 49
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -19076,29 +19805,74 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(yudou66.com 玉豆免费节点)
-      - 俄罗斯(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 韩国(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点)
+      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 香港(yudou66.com 玉豆免费节点) 2
-      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 7
       - 美国(yudou66.com 玉豆免费节点) 8
       - 美国(yudou66.com 玉豆免费节点) 9
       - 美国(yudou66.com 玉豆免费节点) 10
       - 美国(yudou66.com 玉豆免费节点) 11
-      - 俄罗斯(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 12
       - 美国(yudou66.com 玉豆免费节点) 13
       - 美国(yudou66.com 玉豆免费节点) 14
-      - 香港(yudou66.com 玉豆免费节点) 3
-      - 香港(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 15
       - 美国(yudou66.com 玉豆免费节点) 16
+      - 新加坡(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 17
+      - 美国(yudou66.com 玉豆免费节点) 18
+      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国(yudou66.com 玉豆免费节点) 20
+      - 美国(yudou66.com 玉豆免费节点) 21
+      - 美国(yudou66.com 玉豆免费节点) 22
+      - 美国(yudou66.com 玉豆免费节点) 23
+      - 美国(yudou66.com 玉豆免费节点) 24
+      - 美国(yudou66.com 玉豆免费节点) 25
+      - 韩国(yudou66.com 玉豆免费节点) 2
+      - 韩国(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 26
+      - 韩国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 27
+      - 美国(yudou66.com 玉豆免费节点) 28
+      - 香港(yudou66.com 玉豆免费节点) 2
+      - 香港(yudou66.com 玉豆免费节点) 3
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - 香港(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 29
+      - 美国(yudou66.com 玉豆免费节点) 30
+      - 美国(yudou66.com 玉豆免费节点) 31
+      - 日本(yudou66.com 玉豆免费节点) 2
+      - 乌克兰(yudou66.com 玉豆免费节点)
+      - 俄罗斯(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 32
+      - 美国(yudou66.com 玉豆免费节点) 33
+      - 美国(yudou66.com 玉豆免费节点) 34
+      - 俄罗斯(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 35
+      - 美国(yudou66.com 玉豆免费节点) 36
+      - 香港(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 37
+      - 俄罗斯(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 38
+      - 美国(yudou66.com 玉豆免费节点) 39
+      - 美国(yudou66.com 玉豆免费节点) 40
+      - 美国(yudou66.com 玉豆免费节点) 41
+      - 俄罗斯(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 42
+      - 美国(yudou66.com 玉豆免费节点) 43
+      - 美国(yudou66.com 玉豆免费节点) 44
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 45
+      - 美国(yudou66.com 玉豆免费节点) 46
+      - 美国(yudou66.com 玉豆免费节点) 47
+      - 美国(yudou66.com 玉豆免费节点) 48
+      - 美国(yudou66.com 玉豆免费节点) 49
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -19107,92 +19881,228 @@ proxy-groups:
       - 香港(yudou66.com 玉豆免费节点) 2
       - 香港(yudou66.com 玉豆免费节点) 3
       - 香港(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点) 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港(yudou66.com 玉豆免费节点)
-      - 俄罗斯(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 韩国(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点)
+      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 香港(yudou66.com 玉豆免费节点) 2
-      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 7
       - 美国(yudou66.com 玉豆免费节点) 8
       - 美国(yudou66.com 玉豆免费节点) 9
       - 美国(yudou66.com 玉豆免费节点) 10
       - 美国(yudou66.com 玉豆免费节点) 11
-      - 俄罗斯(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 12
       - 美国(yudou66.com 玉豆免费节点) 13
       - 美国(yudou66.com 玉豆免费节点) 14
-      - 香港(yudou66.com 玉豆免费节点) 3
-      - 香港(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 15
       - 美国(yudou66.com 玉豆免费节点) 16
+      - 新加坡(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 17
+      - 美国(yudou66.com 玉豆免费节点) 18
+      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国(yudou66.com 玉豆免费节点) 20
+      - 美国(yudou66.com 玉豆免费节点) 21
+      - 美国(yudou66.com 玉豆免费节点) 22
+      - 美国(yudou66.com 玉豆免费节点) 23
+      - 美国(yudou66.com 玉豆免费节点) 24
+      - 美国(yudou66.com 玉豆免费节点) 25
+      - 韩国(yudou66.com 玉豆免费节点) 2
+      - 韩国(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 26
+      - 韩国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 27
+      - 美国(yudou66.com 玉豆免费节点) 28
+      - 香港(yudou66.com 玉豆免费节点) 2
+      - 香港(yudou66.com 玉豆免费节点) 3
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - 香港(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 29
+      - 美国(yudou66.com 玉豆免费节点) 30
+      - 美国(yudou66.com 玉豆免费节点) 31
+      - 日本(yudou66.com 玉豆免费节点) 2
+      - 乌克兰(yudou66.com 玉豆免费节点)
+      - 俄罗斯(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 32
+      - 美国(yudou66.com 玉豆免费节点) 33
+      - 美国(yudou66.com 玉豆免费节点) 34
+      - 俄罗斯(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 35
+      - 美国(yudou66.com 玉豆免费节点) 36
+      - 香港(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 37
+      - 俄罗斯(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 38
+      - 美国(yudou66.com 玉豆免费节点) 39
+      - 美国(yudou66.com 玉豆免费节点) 40
+      - 美国(yudou66.com 玉豆免费节点) 41
+      - 俄罗斯(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 42
+      - 美国(yudou66.com 玉豆免费节点) 43
+      - 美国(yudou66.com 玉豆免费节点) 44
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 45
+      - 美国(yudou66.com 玉豆免费节点) 46
+      - 美国(yudou66.com 玉豆免费节点) 47
+      - 美国(yudou66.com 玉豆免费节点) 48
+      - 美国(yudou66.com 玉豆免费节点) 49
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港(yudou66.com 玉豆免费节点)
-      - 俄罗斯(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 韩国(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点)
+      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 香港(yudou66.com 玉豆免费节点) 2
-      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 7
       - 美国(yudou66.com 玉豆免费节点) 8
       - 美国(yudou66.com 玉豆免费节点) 9
       - 美国(yudou66.com 玉豆免费节点) 10
       - 美国(yudou66.com 玉豆免费节点) 11
-      - 俄罗斯(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 12
       - 美国(yudou66.com 玉豆免费节点) 13
       - 美国(yudou66.com 玉豆免费节点) 14
-      - 香港(yudou66.com 玉豆免费节点) 3
-      - 香港(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 15
       - 美国(yudou66.com 玉豆免费节点) 16
+      - 新加坡(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 17
+      - 美国(yudou66.com 玉豆免费节点) 18
+      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国(yudou66.com 玉豆免费节点) 20
+      - 美国(yudou66.com 玉豆免费节点) 21
+      - 美国(yudou66.com 玉豆免费节点) 22
+      - 美国(yudou66.com 玉豆免费节点) 23
+      - 美国(yudou66.com 玉豆免费节点) 24
+      - 美国(yudou66.com 玉豆免费节点) 25
+      - 韩国(yudou66.com 玉豆免费节点) 2
+      - 韩国(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 26
+      - 韩国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 27
+      - 美国(yudou66.com 玉豆免费节点) 28
+      - 香港(yudou66.com 玉豆免费节点) 2
+      - 香港(yudou66.com 玉豆免费节点) 3
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - 香港(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 29
+      - 美国(yudou66.com 玉豆免费节点) 30
+      - 美国(yudou66.com 玉豆免费节点) 31
+      - 日本(yudou66.com 玉豆免费节点) 2
+      - 乌克兰(yudou66.com 玉豆免费节点)
+      - 俄罗斯(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 32
+      - 美国(yudou66.com 玉豆免费节点) 33
+      - 美国(yudou66.com 玉豆免费节点) 34
+      - 俄罗斯(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 35
+      - 美国(yudou66.com 玉豆免费节点) 36
+      - 香港(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 37
+      - 俄罗斯(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 38
+      - 美国(yudou66.com 玉豆免费节点) 39
+      - 美国(yudou66.com 玉豆免费节点) 40
+      - 美国(yudou66.com 玉豆免费节点) 41
+      - 俄罗斯(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 42
+      - 美国(yudou66.com 玉豆免费节点) 43
+      - 美国(yudou66.com 玉豆免费节点) 44
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 45
+      - 美国(yudou66.com 玉豆免费节点) 46
+      - 美国(yudou66.com 玉豆免费节点) 47
+      - 美国(yudou66.com 玉豆免费节点) 48
+      - 美国(yudou66.com 玉豆免费节点) 49
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(yudou66.com 玉豆免费节点)
-      - 俄罗斯(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 韩国(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点)
+      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 香港(yudou66.com 玉豆免费节点) 2
-      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 7
       - 美国(yudou66.com 玉豆免费节点) 8
       - 美国(yudou66.com 玉豆免费节点) 9
       - 美国(yudou66.com 玉豆免费节点) 10
       - 美国(yudou66.com 玉豆免费节点) 11
-      - 俄罗斯(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 12
       - 美国(yudou66.com 玉豆免费节点) 13
       - 美国(yudou66.com 玉豆免费节点) 14
-      - 香港(yudou66.com 玉豆免费节点) 3
-      - 香港(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 15
       - 美国(yudou66.com 玉豆免费节点) 16
+      - 新加坡(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 17
+      - 美国(yudou66.com 玉豆免费节点) 18
+      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国(yudou66.com 玉豆免费节点) 20
+      - 美国(yudou66.com 玉豆免费节点) 21
+      - 美国(yudou66.com 玉豆免费节点) 22
+      - 美国(yudou66.com 玉豆免费节点) 23
+      - 美国(yudou66.com 玉豆免费节点) 24
+      - 美国(yudou66.com 玉豆免费节点) 25
+      - 韩国(yudou66.com 玉豆免费节点) 2
+      - 韩国(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 26
+      - 韩国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 27
+      - 美国(yudou66.com 玉豆免费节点) 28
+      - 香港(yudou66.com 玉豆免费节点) 2
+      - 香港(yudou66.com 玉豆免费节点) 3
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - 香港(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 29
+      - 美国(yudou66.com 玉豆免费节点) 30
+      - 美国(yudou66.com 玉豆免费节点) 31
+      - 日本(yudou66.com 玉豆免费节点) 2
+      - 乌克兰(yudou66.com 玉豆免费节点)
+      - 俄罗斯(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 32
+      - 美国(yudou66.com 玉豆免费节点) 33
+      - 美国(yudou66.com 玉豆免费节点) 34
+      - 俄罗斯(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 35
+      - 美国(yudou66.com 玉豆免费节点) 36
+      - 香港(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 37
+      - 俄罗斯(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 38
+      - 美国(yudou66.com 玉豆免费节点) 39
+      - 美国(yudou66.com 玉豆免费节点) 40
+      - 美国(yudou66.com 玉豆免费节点) 41
+      - 俄罗斯(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 42
+      - 美国(yudou66.com 玉豆免费节点) 43
+      - 美国(yudou66.com 玉豆免费节点) 44
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 45
+      - 美国(yudou66.com 玉豆免费节点) 46
+      - 美国(yudou66.com 玉豆免费节点) 47
+      - 美国(yudou66.com 玉豆免费节点) 48
+      - 美国(yudou66.com 玉豆免费节点) 49
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -19208,29 +20118,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(yudou66.com 玉豆免费节点)
-      - 俄罗斯(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点)
+      - 韩国(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 3
       - 美国(yudou66.com 玉豆免费节点) 4
+      - 香港(yudou66.com 玉豆免费节点)
+      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 香港(yudou66.com 玉豆免费节点) 2
-      - 日本(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 7
       - 美国(yudou66.com 玉豆免费节点) 8
       - 美国(yudou66.com 玉豆免费节点) 9
       - 美国(yudou66.com 玉豆免费节点) 10
       - 美国(yudou66.com 玉豆免费节点) 11
-      - 俄罗斯(yudou66.com 玉豆免费节点) 2
       - 美国(yudou66.com 玉豆免费节点) 12
       - 美国(yudou66.com 玉豆免费节点) 13
       - 美国(yudou66.com 玉豆免费节点) 14
-      - 香港(yudou66.com 玉豆免费节点) 3
-      - 香港(yudou66.com 玉豆免费节点) 4
       - 美国(yudou66.com 玉豆免费节点) 15
       - 美国(yudou66.com 玉豆免费节点) 16
+      - 新加坡(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 17
+      - 美国(yudou66.com 玉豆免费节点) 18
+      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国(yudou66.com 玉豆免费节点) 20
+      - 美国(yudou66.com 玉豆免费节点) 21
+      - 美国(yudou66.com 玉豆免费节点) 22
+      - 美国(yudou66.com 玉豆免费节点) 23
+      - 美国(yudou66.com 玉豆免费节点) 24
+      - 美国(yudou66.com 玉豆免费节点) 25
+      - 韩国(yudou66.com 玉豆免费节点) 2
+      - 韩国(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 26
+      - 韩国(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 27
+      - 美国(yudou66.com 玉豆免费节点) 28
+      - 香港(yudou66.com 玉豆免费节点) 2
+      - 香港(yudou66.com 玉豆免费节点) 3
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - 香港(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 29
+      - 美国(yudou66.com 玉豆免费节点) 30
+      - 美国(yudou66.com 玉豆免费节点) 31
+      - 日本(yudou66.com 玉豆免费节点) 2
+      - 乌克兰(yudou66.com 玉豆免费节点)
+      - 俄罗斯(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 32
+      - 美国(yudou66.com 玉豆免费节点) 33
+      - 美国(yudou66.com 玉豆免费节点) 34
+      - 俄罗斯(yudou66.com 玉豆免费节点) 3
+      - 美国(yudou66.com 玉豆免费节点) 35
+      - 美国(yudou66.com 玉豆免费节点) 36
+      - 香港(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 37
+      - 俄罗斯(yudou66.com 玉豆免费节点) 4
+      - 美国(yudou66.com 玉豆免费节点) 38
+      - 美国(yudou66.com 玉豆免费节点) 39
+      - 美国(yudou66.com 玉豆免费节点) 40
+      - 美国(yudou66.com 玉豆免费节点) 41
+      - 俄罗斯(yudou66.com 玉豆免费节点) 5
+      - 美国(yudou66.com 玉豆免费节点) 42
+      - 美国(yudou66.com 玉豆免费节点) 43
+      - 美国(yudou66.com 玉豆免费节点) 44
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - 美国(yudou66.com 玉豆免费节点) 45
+      - 美国(yudou66.com 玉豆免费节点) 46
+      - 美国(yudou66.com 玉豆免费节点) 47
+      - 美国(yudou66.com 玉豆免费节点) 48
+      - 美国(yudou66.com 玉豆免费节点) 49
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
