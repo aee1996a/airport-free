@@ -1,5 +1,5 @@
-未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/0-20250507.txt
-未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/1-20250507.txt
-未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/2-20250507.txt
-未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/3-20250507.txt
-未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/4-20250507.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/0-20250507.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/1-20250507.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/2-20250507.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/3-20250507.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/4-20250507.txt
