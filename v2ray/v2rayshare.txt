@@ -1,1 +1,1 @@
-未获取到到节点，错误代码:520 Server Error: <none> for url: https://v2rayshare.githubrowcontent.com/2025/05/20250524.txt
+未获取到到节点，错误代码:522 Server Error: <none> for url: https://v2rayshare.githubrowcontent.com/2025/05/20250524.txt
