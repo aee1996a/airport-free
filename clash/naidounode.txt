@@ -1,1 +1,1 @@
-未获取到到节点，错误代码：404 Client Error: Not Found for url: https://naidounode.com/node/20250603-clash.yaml
+未获取到到节点，错误代码：404 Client Error: Not Found for url: https://naidounode.com/node/20250604-clash.yaml
