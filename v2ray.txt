@@ -560,7 +560,7 @@ vless://55520747-311e-4015-83ce-be46e2060ce3@168.138.13.201:443?encryption=none&
 trojan://Aimer@121.167.230.98:50000?security=tls&sni=epml.ambercc.filegear-sg.me&alpn=h3&fp=randomized&allowInsecure=1&type=ws&host=epml.ambercc.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#ICN
 trojan://Aimer@5.35.68.249:2053?security=tls&sni=epml.ambercc.filegear-sg.me&alpn=h3&fp=randomized&allowInsecure=1&type=ws&host=epml.ambercc.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#AMS
 
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250706-v2ray.txt
+未获取到到节点，错误代码:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 ss://YWVzLTI1Ni1jZmI6YUxwUXRmRVplNDQ1UXlIaw==@103.172.116.103:9098#%E6%9C%AA%E7%9F%A5
 ss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA==@59.56.77.178:15001#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD-%3E%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
 vless://c58905af-2040-413e-adbc-0e81cc8eb35f@104.24.200.13:8880?security=none&type=ws&encryption=none&headerType=none#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
