@@ -1,5 +1,5 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/0-20250711.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/1-20250711.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/2-20250711.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/3-20250711.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/4-20250711.txt
+未获取到到节点，错误代码:500 Server Error: Internal Server Error for url: https://nodev2ray.com/uploads/2025/07/0-20250712.txt
+未获取到到节点，错误代码:500 Server Error: Internal Server Error for url: https://nodev2ray.com/uploads/2025/07/1-20250712.txt
+未获取到到节点，错误代码:500 Server Error: Internal Server Error for url: https://nodev2ray.com/uploads/2025/07/2-20250712.txt
+未获取到到节点，错误代码:500 Server Error: Internal Server Error for url: https://nodev2ray.com/uploads/2025/07/3-20250712.txt
+未获取到到节点，错误代码:500 Server Error: Internal Server Error for url: https://nodev2ray.com/uploads/2025/07/4-20250712.txt
