@@ -328,7 +328,7 @@ ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local;obfs=ht
 ss://YWVzLTI1Ni1nY206OGE2Y2ExNGMwOTM2@137.220.142.150:443?plugin=v2ray-plugin;mode=websocket;path=/wrdfiatyd;host=jpxw9v1.dashengjs.net;tls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
 
 
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250909-v2ray.txt
+未获取到到节点，错误代码:HTTPSConnectionPool(host='www.naidounode.com', port=443): Max retries exceeded with url: /node/20250909-v2ray.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f65743ef230>, 'Connection to www.naidounode.com timed out. (connect timeout=None)'))
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@37.235.49.168:989#%E2%9A%A1%20b2n.ir/v2ray-configs%20%7C%20444
 vmess://eyJhZGQiOiIxMDMuNTcuMjQ5LjIwNCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmMTMxNDNhNy01NDJkLTQ5ZWMtOTQyOC0wOTgxNDJiNjk3N2MiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HvfCfh71YWChBemFkTmV0LnQubWUpICgxNykiLCJzY3kiOiJub25lIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 vmess://eyJhZGQiOiI4OS4zMS4xMjAuMTkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQ0NTM3NTk1LTljY2MtNGI4My04OTM2LTVmOWFkMzIyOTAxOSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiLimqHvuI9UZWxlZ3JhbSA9IEBTT1NrZXlORVQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
