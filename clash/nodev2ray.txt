@@ -1,5 +1,5 @@
-未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/0-20250914.yaml
-未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/1-20250914.yaml
-未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/2-20250914.yaml
-未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/3-20250914.yaml
-未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/4-20250914.yml
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/0-20250915.yaml
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/1-20250915.yaml
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/2-20250915.yaml
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/3-20250915.yaml
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/4-20250915.yml
