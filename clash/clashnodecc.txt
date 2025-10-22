@@ -1,6 +1,6 @@
 # 创建者：v2rayse.com 自动创建
-# 创建时间：2025-10-20 08:00:00
-# 节点类型：vmess, ss
+# 创建时间：2025-10-21 08:00:00
+# 节点类型：trojan, ss
 ---
 mixed-port: 7890
 allow-lan: false
@@ -48,86 +48,63 @@ tun:
   - "1.1.1.1"
   - "1.0.0.1"
 proxies:
-- name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-  type: "vmess"
-  server: "v29.heduian.link"
-  port: 30829
-  uuid: "cbb3f877-d1fb-344c-87a9-d153bffd5484"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/oooo"
-    headers:
-      host: "ocbc.com"
-  alterId: 2
-- name: "🇪🇸_ES_西班牙->🇺🇸_US_美国"
-  type: "vmess"
-  server: "212.192.15.176"
-  port: 25169
-  sni: ""
-  uuid: "566bf452-a086-41f0-a474-d7ae067956ee"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/"
-  alterId: 0
-- name: "🇳🇱_NL_荷兰"
+- name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  type: "trojan"
+  server: "36.156.102.115"
+  port: 26876
+  password: "BxceQaOe"
+  skip-cert-verify: true
+- name: "🇺🇸_US_美国_1"
   type: "ss"
-  server: "178.208.78.170"
-  port: 23822
-  cipher: "chacha20-ietf-poly1305"
-  password: "6hWNCD6EzQuP3V2aEFURwS"
+  server: "13.38.44.116"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
 proxy-groups:
 - name: "🚀 节点选择"
   type: "select"
   proxies:
   - "♻️ 自动选择"
   - "DIRECT"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇪🇸_ES_西班牙->🇺🇸_US_美国"
-  - "🇳🇱_NL_荷兰"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_1"
 - name: "♻️ 自动选择"
   type: "url-test"
   url: "http://www.gstatic.com/generate_204"
   interval: 300
   tolerance: 50
   proxies:
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇪🇸_ES_西班牙->🇺🇸_US_美国"
-  - "🇳🇱_NL_荷兰"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_1"
 - name: "🌍 国外媒体"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "♻️ 自动选择"
   - "🎯 全球直连"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇪🇸_ES_西班牙->🇺🇸_US_美国"
-  - "🇳🇱_NL_荷兰"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_1"
 - name: "📲 电报信息"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇪🇸_ES_西班牙->🇺🇸_US_美国"
-  - "🇳🇱_NL_荷兰"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_1"
 - name: "Ⓜ️ 微软服务"
   type: "select"
   proxies:
   - "🎯 全球直连"
   - "🚀 节点选择"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇪🇸_ES_西班牙->🇺🇸_US_美国"
-  - "🇳🇱_NL_荷兰"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_1"
 - name: "🍎 苹果服务"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇪🇸_ES_西班牙->🇺🇸_US_美国"
-  - "🇳🇱_NL_荷兰"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_1"
 - name: "🎯 全球直连"
   type: "select"
   proxies:
@@ -150,9 +127,8 @@ proxy-groups:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "♻️ 自动选择"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇪🇸_ES_西班牙->🇺🇸_US_美国"
-  - "🇳🇱_NL_荷兰"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_1"
 rule-providers:
   Apple:
     type: "http"
@@ -262,16 +238,13 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: KR韩国(mibei77.com 米贝节点分享), server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:30b::201, port: 33200, type: vmess, uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: www.bing.com}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享), server: "2001:41d0:70e:c100::", port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /linkvws, ws-headers: {Host: serkat.org}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
   - {name: FR法国(mibei77.com 米贝节点分享) 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享) 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享) 4, server: 2001:bc8:32d7:30b::201, port: 33200, type: vmess, uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享), server: bestcdn1.868863.xyz, port: 443, type: vmess, uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aejynik, ws-headers: {Host: vv-a2-cdn.the-best-airport.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 2, server: bestcdn3.868863.xyz, port: 443, type: vmess, uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aejynik, ws-headers: {Host: vv-c2-cdn.the-best-airport.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 3, server: bestcdn1.868863.xyz, port: 443, type: vmess, uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aejynik, ws-headers: {Host: vv-a4-cdn.the-best-airport.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 5, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享) 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 3, server: 2001:bc8:32d7:30b::201, port: 33200, type: vmess, uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: www.bing.com}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -280,14 +253,11 @@ proxy-groups:
       - 🎯 全球直连
       - KR韩国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
       - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 5
       - FR法国(mibei77.com 米贝节点分享) 5
   - name: ♻️ 自动选择
     type: url-test
@@ -296,14 +266,11 @@ proxy-groups:
     proxies:
       - KR韩国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
       - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 5
       - FR法国(mibei77.com 米贝节点分享) 5
   - name: 🎥 NETFLIX
     type: select
@@ -313,14 +280,11 @@ proxy-groups:
       - 🎯 全球直连
       - KR韩国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
       - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 5
       - FR法国(mibei77.com 米贝节点分享) 5
   - name: ⛔️ 广告拦截
     type: select
@@ -342,14 +306,11 @@ proxy-groups:
       - 🎯 全球直连
       - KR韩国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
       - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 5
       - FR法国(mibei77.com 米贝节点分享) 5
   - name: 🌏 国内媒体
     type: select
@@ -363,14 +324,11 @@ proxy-groups:
       - 🔰 节点选择
       - KR韩国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
       - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 5
       - FR法国(mibei77.com 米贝节点分享) 5
   - name: 📲 电报信息
     type: select
@@ -379,14 +337,11 @@ proxy-groups:
       - 🎯 全球直连
       - KR韩国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
       - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 5
       - FR法国(mibei77.com 米贝节点分享) 5
   - name: 🍎 苹果服务
     type: select
@@ -396,14 +351,11 @@ proxy-groups:
       - ♻️ 自动选择
       - KR韩国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
       - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 5
       - FR法国(mibei77.com 米贝节点分享) 5
   - name: 🎯 全球直连
     type: select
@@ -422,14 +374,11 @@ proxy-groups:
       - ♻️ 自动选择
       - KR韩国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
       - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 5
       - FR法国(mibei77.com 米贝节点分享) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
@@ -10654,18 +10603,19 @@ proxies:
   - {name: 🇭🇰 香港|@stairnode, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@stairnode, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true, skip-cert-verify: false}}
   - {name: 🇭🇰 香港3|@stairnode, server: 43.247.134.213, port: 58509, client-fingerprint: chrome, type: vmess, uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@stairnode, server: 202.181.103.235, port: 2381, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5|@stairnode, server: 36.151.195.112, port: 4556, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@stairnode, server: 36.151.251.18, port: 811, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.57.238, port: 1331, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.57.238, port: 3161, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@stairnode, server: 202.181.103.246, port: 5041, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 202.181.103.246, port: 2283, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@stairnode, server: 36.156.102.115, port: 44095, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡4|@stairnode, server: 103.36.91.32, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
-  - {name: 🇺🇸 美国|@stairnode, server: 202.181.103.235, port: 2381, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2|@stairnode, server: 202.181.103.235, port: 2467, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港4|@stairnode, server: 203.198.122.55, port: 443, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港5|@stairnode, server: 36.150.215.138, port: 4451, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@stairnode, server: 36.151.251.18, port: 2145, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.136.130, port: 4452, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.136.130, port: 1331, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@stairnode, server: 160.16.68.250, port: 5321, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 202.181.103.246, port: 2283, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@stairnode, server: 36.156.102.115, port: 2088, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡4|@stairnode, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇺🇸 美国|@stairnode, server: 160.16.68.250, port: 2467, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@stairnode, server: 160.16.68.250, port: 2381, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇺🇸 美国3|@stairnode, server: 36.156.102.115, port: 26876, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇺🇸 美国4|@stairnode, server: 124.236.46.114, port: 47083, client-fingerprint: chrome, type: vmess, uuid: fd49381f-9fd8-4403-8698-48331a4d775d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -10688,6 +10638,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -10710,6 +10661,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -10732,6 +10684,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 📲 电报信息
     type: select
     proxies:
@@ -10753,6 +10706,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -10774,6 +10728,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -10795,6 +10750,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -10817,6 +10773,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -10855,6 +10812,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇺🇸 美国4|@stairnode
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -14420,25 +14378,46 @@ tun:
 
 proxies:
   - type: vmess
-    name: 美国_1
-    server: entrance04.qqa678.cc
-    port: 47084
-    uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: ""
-  - type: vmess
-    name: 美国_2
-    server: entrance04.qqa678.cc
-    port: 47081
-    uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: ""
-  - type: vmess
     name: 法国_1
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: ""
+  - type: vmess
+    name: 法国_2
+    server: 2001:bc8:32d7:30b::201
+    port: 33200
+    uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: www.bing.com
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: www.bing.com
+  - type: vmess
+    name: 法国_3
+    server: 2001:bc8:32d7:30b::201
+    port: 33200
+    uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: www.bing.com
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: www.bing.com
+  - type: vmess
+    name: 法国_4
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -14451,7 +14430,7 @@ proxies:
       headers:
         Host: ""
   - type: vmess
-    name: 法国_2
+    name: 法国_5
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -14460,43 +14439,53 @@ proxies:
     cipher: auto
     servername: ""
     ws-opts:
-      path: /
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
       headers:
         Host: ""
   - type: vmess
-    name: 美国_3
-    server: 172.67.160.44
+    name: 美国_1
+    server: bestcdn3.868863.xyz
     port: 443
-    uuid: 086c655d-0c12-47dd-9d5a-2670089201ee
+    uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9
     alterId: 0
     network: ws
     cipher: auto
-    servername: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
+    servername: vv-c2-cdn.the-best-airport.top
     ws-opts:
-      path: /ri9mOOVJuAimB74kgXZ
+      path: /aejynik
       headers:
-        Host: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
+        Host: vv-c2-cdn.the-best-airport.top
     tls: true
   - type: vmess
-    name: 美国_4
-    server: entrance02.qqa678.cc
-    port: 47083
-    uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5
+    name: 美国_2
+    server: bestcdn1.868863.xyz
+    port: 443
+    uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9
     alterId: 0
-    network: tcp
+    network: ws
     cipher: auto
-    servername: ""
+    servername: vv-a2-cdn.the-best-airport.top
+    ws-opts:
+      path: /aejynik
+      headers:
+        Host: vv-a2-cdn.the-best-airport.top
+    tls: true
   - type: vmess
-    name: 美国_5
-    server: entrance01.qqa678.cc
-    port: 47084
-    uuid: 8e94ed0e-3717-4c46-aa13-6757a89b392e
+    name: 美国_3
+    server: bestcdn1.868863.xyz
+    port: 443
+    uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9
     alterId: 0
-    network: tcp
+    network: ws
     cipher: auto
-    servername: ""
+    servername: vv-a4-cdn.the-best-airport.top
+    ws-opts:
+      path: /aejynik
+      headers:
+        Host: vv-a4-cdn.the-best-airport.top
+    tls: true
   - type: vmess
-    name: 美国_6
+    name: 法国_6
     server: "2001:41d0:70e:c100::"
     port: 443
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -14509,353 +14498,22 @@ proxies:
       headers:
         Host: serkat.org
     tls: true
-  - type: vmess
-    name: 美国_7
-    server: v8.heduian.link
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: ws
-    cipher: auto
-    servername: v8.heduian.link
-    ws-opts:
-      path: /oooo
-      headers:
-        Host: v8.heduian.link
-  - type: vmess
-    name: 美国_8
-    server: v29.heduian.link
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: ws
-    cipher: auto
-    servername: ocbc.com
-    ws-opts:
-      path: /oooo
-      headers:
-        Host: ocbc.com
   - type: ss
-    name: 美国_9
+    name: 美国_4
     server: switcher-nick-croquet.freesocks.work
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 9tqhMdIrTkgQ46PvhyAtMH
   - type: ss
-    name: 德国_1
-    server: 45.87.175.155
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: ss
-    name: 德国_2
-    server: 45.87.175.174
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: ss
-    name: 美国_10
-    server: 151.242.251.152
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: ss
-    name: 德国_3
-    server: 45.87.175.197
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: ss
-    name: 美国_11
+    name: 美国_5
     server: switcher-nick-croquet.freesocks.work
     port: 443
     cipher: chacha20-ietf-poly1305
     password: RFK38Cg7APneSB5cWDcpbm
-  - type: ss
-    name: 美国_12
-    server: arxfw2b78fi2q9hzylhn.freesocks.work
+  - type: vless
+    name: 日本_1
+    server: 158.101.80.84
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: Nk9asglDzHzjktVzTkvhaA
-  - type: vless
-    name: 美国_13
-    server: medrd.vtpmng.top
-    port: 8443
-    uuid: 8339a5e8-6141-41f1-9abc-bbf1a06ac5ae
-    network: ws
-    servername: medrd.vtpmng.top
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: medrd.vtpmng.top
-  - type: vless
-    name: 美国_14
-    server: fin7.ipstatic.info
-    port: 48600
-    uuid: 35db9be8-2cd3-4085-9bb3-6b2472e05e7d
-    network: tcp
-    servername: Uewuy.divarcdn.com
-    encryption: none
-  - type: vless
-    name: 美国_15
-    server: time.is
-    port: 443
-    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-    network: ws
-    servername: a.azadnet002.ddns-ip.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: a.azadnet002.ddns-ip.net
-  - type: vless
-    name: 美国_16
-    server: all.tellmethetrue.shop
-    port: 443
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-    network: grpc
-    servername: pqh30v1.hiddendom.shop
-    tls: true
-    encryption: none
-    alpn:
-      - h2
-  - type: vless
-    name: 美国_17
-    server: 172.67.160.44
-    port: 443
-    uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
-    network: ws
-    servername: 8dbc269c-38ed-0d38-7a26-970a14604a96.huangshang.site
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /0SCvfqSaeeB74kgXZ
-      headers:
-        Host: 8dbc269c-38ed-0d38-7a26-970a14604a96.huangshang.site
-  - type: vless
-    name: 美国_18
-    server: 183.240.179.88
-    port: 11443
-    uuid: df245bf8-8253-4029-90d8-ef30cfac75f1
-    network: tcp
-    encryption: none
-  - type: vless
-    name: 美国_19
-    server: small-meal.oneeat.co
-    port: 80
-    uuid: d1e44075-8c92-4698-9db0-e71d7015b757
-    network: ws
-    servername: small-meal.oneeat.co
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: small-meal.oneeat.co
-  - type: vless
-    name: 美国_20
-    server: handsome-device.oneeat.co
-    port: 80
-    uuid: 2ad87f95-7a0b-4018-8497-5ecaac2f0ddf
-    network: ws
-    servername: handsome-device.oneeat.co
-    encryption: none
-    ws-opts:
-      path: /?---Join-TELEGRAM-FREEV2RNG---Join-TELEGRAM-FREEV2RNG---Join-TELEGRAM-FREEV2RNG---Join-TELEGRAM-FREEV2RNG---Join-TELEGRAM-FREEV2RNG
-      headers:
-        Host: handsome-device.oneeat.co
-  - type: vless
-    name: 美国_21
-    server: 172.67.160.44
-    port: 443
-    uuid: 086c655d-0c12-47dd-9d5a-2670089201ee
-    network: ws
-    servername: cb93136c-7ed8-136d-45b5-5254c891e290.huangshang.site
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /0SCvfqSaeeB74kgXZ
-      headers:
-        Host: cb93136c-7ed8-136d-45b5-5254c891e290.huangshang.site
-  - type: vless
-    name: 美国_22
-    server: 147.79.20.47
-    port: 443
-    uuid: 0de36d61-ac9e-4105-92cd-8fe97921b48b
-    network: ws
-    servername: swus.zyk.biz.id
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: swus.zyk.biz.id
-  - type: vless
-    name: 美国_23
-    server: sweet-combination.seotoolsforyou.co.uk
-    port: 80
-    uuid: 05020a61-3c0c-4ead-b256-7851ff905a75
-    network: ws
-    encryption: none
-    ws-opts:
-      path: /
-  - type: vless
-    name: 美国_24
-    server: join-raiv2mmr-telegram.koyeb.app
-    port: 443
-    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
-    network: ws
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
-  - type: vless
-    name: 美国_25
-    server: 190.93.246.137
-    port: 443
-    uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
-    network: ws
-    servername: abc.vpneee.top
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /YnqGMcAt/
-      headers:
-        Host: abc.vpneee.top
-  - type: vless
-    name: 美国_26
-    server: ef7c2383-03bb-fec2-327b-34f6b2ace7cb.freevpnatm2025.dpdns.org
-    port: 443
-    uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
-    network: ws
-    servername: ef7c2383-03bb-fec2-327b-34f6b2ace7cb.freevpnatm2025.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /z4RnlCBxj2oeA85VyjPCYXwETL
-      headers:
-        Host: ef7c2383-03bb-fec2-327b-34f6b2ace7cb.freevpnatm2025.dpdns.org
-    alpn:
-      - http/1.1
-  - type: vless
-    name: 美国_27
-    server: join-raiv2mmr-telegram.koyeb.app
-    port: 443
-    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
-    network: ws
-    servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
-  - type: vless
-    name: 美国_28
-    server: cloudflare-ip.mofashi.ltd
-    port: 443
-    uuid: dea991b4-696f-4e9e-9761-1e1b31bb02de
-    network: ws
-    servername: 2.294294.xyz
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /snippets
-      headers:
-        Host: 2.294294.xyz
-  - type: vless
-    name: 美国_29
-    server: join-raiv2mmr-telegram.koyeb.app
-    port: 443
-    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
-    network: ws
-    servername: join-raiv2mmr-telegram.koyeb.app
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
-      headers:
-        Host: join-raiv2mmr-telegram.koyeb.app
-  - type: vless
-    name: 美国_30
-    server: 188.42.145.253
-    port: 2096
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    network: ws
-    servername: gaosir.unfeeling.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram@freecodes/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - type: vless
-    name: 美国_31
-    server: 188.42.145.253
-    port: 2096
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    network: ws
-    servername: gaosir.unfeeling.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /freecodes@节点狂魔/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - type: vless
-    name: 美国_32
-    server: net2026cd.zanddynastyofpersia.org
-    port: 443
-    uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-    network: ws
-    servername: net2026cd.zanddynastyofpersia.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /eJsVXFVZ6iavNx1EFxOyH861WH
-  - type: vless
-    name: 美国_33
-    server: 104.21.36.57
-    port: 443
-    uuid: 6f6e8f09-c1b3-48fd-ab00-18f921d875ef
-    network: ws
-    servername: profit.fullmargintraders.com
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /wsv/6f6e8f09-c1b3-48fd-ab00-18f921d875ef
-      headers:
-        Host: profit.fullmargintraders.com
-  - type: vless
-    name: 美国_34
-    server: wwwopensignalcom-goodspeed-8xx.pages.dev.
-    port: 443
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    network: ws
-    servername: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
-    tls: true
-    encryption: none
-    ws-opts:
-      path: //
-      headers:
-        Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
-  - type: vless
-    name: 美国_35
-    server: 188.42.145.253
-    port: 2096
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    network: ws
-    servername: gaosir.unfeeling.sbs
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - type: vless
-    name: 美国_36
-    server: 188.42.145.253
-    port: 2096
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
     network: ws
     servername: gaosir.unfeeling.sbs
@@ -14866,178 +14524,729 @@ proxies:
       headers:
         Host: gaosir.unfeeling.sbs
   - type: vless
-    name: 美国_37
-    server: nrtcfdns.zone.id
-    port: 443
-    uuid: dea991b4-696f-4e9e-9761-1e1b31bb02de
+    name: 日本_2
+    server: 113.37.149.36
+    port: 12553
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
     network: ws
-    servername: 2.294294.xyz
+    servername: gaosir.unfeeling.sbs
     tls: true
     encryption: none
     ws-opts:
-      path: /snippets
+      path: Telegram@freecodes/?ed=2560
       headers:
-        Host: 2.294294.xyz
-  - type: trojan
-    name: 美国_38
-    server: 138.124.118.34
-    port: 443
-    password: iwangjie
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_6
+    server: 64.49.14.41
+    port: 8443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
     network: ws
-    sni: nodes.830901.xyz
+    servername: gaosir.unfeeling.sbs
     tls: true
+    encryption: none
     ws-opts:
-      path: /proxyip=proxyip.fxxk.dedyn.io
+      path: /X@节点狂魔/
       headers:
-        Host: nodes.830901.xyz
-  - type: trojan
-    name: 美国_39
-    server: tuntro001.instconn.com
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_3
+    server: 160.16.203.210
     port: 443
-    password: ef269dbc-0486-451f-b94b-d0c354bc3f1c
-    network: tcp
-    sni: awshk.686911.xyz
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
     tls: true
-  - type: trojan
-    name: 美国_40
-    server: 141.94.68.216
+    encryption: none
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_7
+    server: 217.60.38.191
     port: 2053
-    password: iwangjie
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
     network: ws
-    sni: nodes.830901.xyz
+    servername: gaosir.unfeeling.sbs
     tls: true
+    encryption: none
     ws-opts:
-      path: /?ed=2560
+      path: freecodes/?ed=2560
       headers:
-        Host: nodes.830901.xyz
-  - type: trojan
-    name: 美国_41
-    server: 135.125.232.253
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_8
+    server: 31.192.238.71
     port: 2053
-    password: iwangjie
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
     network: ws
-    sni: nodes.830901.xyz
+    servername: gaosir.unfeeling.sbs
     tls: true
+    encryption: none
     ws-opts:
-      path: /?ed=2560
+      path: /X@节点狂魔/?ed=2560
       headers:
-        Host: nodes.830901.xyz
-  - type: trojan
-    name: 美国_42
-    server: 83.147.254.185
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_9
+    server: 47.79.90.37
+    port: 49153
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_10
+    server: 61.83.202.17
+    port: 10042
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_4
+    server: 113.37.149.36
+    port: 12553
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_5
+    server: 113.37.149.36
+    port: 12553
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 香港_1
+    server: 202.85.53.74
     port: 443
-    password: iwangjie
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
     network: ws
-    sni: nodes.830901.xyz
+    servername: gaosir.unfeeling.sbs
     tls: true
+    encryption: none
     ws-opts:
-      path: /?ed=2560
+      path: /X@节点狂魔/?ed=2560
       headers:
-        Host: nodes.830901.xyz
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 香港_2
+    server: 202.85.53.74
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_11
+    server: 202.85.53.74
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_12
+    server: 31.192.238.71
+    port: 2053
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_6
+    server: 153.121.45.101
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_13
+    server: 220.128.110.108
+    port: 43
+    uuid: e258977b-e413-4718-a3af-02d75492c349
+    network: ws
+    servername: mf.xmma.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: mf.xmma.xyz
+  - type: vless
+    name: 香港_3
+    server: 210.6.207.42
+    port: 18622
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_14
+    server: 31.192.238.71
+    port: 2053
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_7
+    server: 160.16.203.210
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_15
+    server: 61.220.128.226
+    port: 43
+    uuid: e258977b-e413-4718-a3af-02d75492c349
+    network: ws
+    servername: mf.xmma.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: mf.xmma.xyz
+  - type: vless
+    name: 日本_8
+    server: 113.37.149.36
+    port: 12553
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@freecodes/
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_9
+    server: 160.16.203.210
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@freecodes/
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_10
+    server: 153.121.45.101
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_16
+    server: 210.6.207.42
+    port: 18622
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_11
+    server: 160.16.203.210
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_17
+    server: 31.192.238.71
+    port: 2053
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@freecodes/
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 英国
+    server: 141.11.43.124
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_18
+    server: 47.79.91.168
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_19
+    server: 31.192.238.71
+    port: 2053
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 韩国
+    server: 121.167.146.253
+    port: 12902
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_20
+    server: 220.72.245.245
+    port: 50001
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_21
+    server: 121.167.146.253
+    port: 12902
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_12
+    server: 160.16.203.210
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 香港_4
+    server: 202.85.53.74
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_22
+    server: 182.31.70.92
+    port: 12147
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_23
+    server: 211.229.77.184
+    port: 27443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_24
+    server: 121.176.175.54
+    port: 10249
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_25
+    server: 31.192.238.71
+    port: 2053
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_26
+    server: 211.57.90.42
+    port: 50000
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_27
+    server: 31.192.238.71
+    port: 2053
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 日本_13
+    server: 153.121.45.101
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_28
+    server: 211.177.114.117
+    port: 50001
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_29
+    server: 31.192.238.71
+    port: 2053
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_30
+    server: 31.192.238.71
+    port: 8443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 香港_5
+    server: 202.85.53.74
+    port: 443
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_31
+    server: 222.113.18.206
+    port: 10004
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: freecodes/?ed=2560
+      headers:
+        Host: gaosir.unfeeling.sbs
+  - type: vless
+    name: 美国_32
+    server: 188.42.145.253
+    port: 2096
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    servername: gaosir.unfeeling.sbs
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /XU0001F1E8U0001F1F3@节点狂魔/?ed=2560fp=chrome
+      headers:
+        Host: gaosir.unfeeling.sbs
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国_1
-      - 美国_2
       - 法国_1
       - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 美国_1
+      - 美国_2
       - 美国_3
+      - 法国_6
       - 美国_4
       - 美国_5
+      - 日本_1
+      - 日本_2
       - 美国_6
+      - 日本_3
       - 美国_7
       - 美国_8
       - 美国_9
-      - 德国_1
-      - 德国_2
       - 美国_10
-      - 德国_3
+      - 日本_4
+      - 日本_5
+      - 香港_1
+      - 香港_2
       - 美国_11
       - 美国_12
+      - 日本_6
       - 美国_13
+      - 香港_3
       - 美国_14
+      - 日本_7
       - 美国_15
+      - 日本_8
+      - 日本_9
+      - 日本_10
       - 美国_16
+      - 日本_11
       - 美国_17
+      - 英国
       - 美国_18
       - 美国_19
+      - 韩国
       - 美国_20
       - 美国_21
+      - 日本_12
+      - 香港_4
       - 美国_22
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
+      - 日本_13
       - 美国_28
       - 美国_29
       - 美国_30
+      - 香港_5
       - 美国_31
       - 美国_32
-      - 美国_33
-      - 美国_34
-      - 美国_35
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 美国_1
-      - 美国_2
       - 法国_1
       - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 美国_1
+      - 美国_2
       - 美国_3
+      - 法国_6
       - 美国_4
       - 美国_5
+      - 日本_1
+      - 日本_2
       - 美国_6
+      - 日本_3
       - 美国_7
       - 美国_8
       - 美国_9
-      - 德国_1
-      - 德国_2
       - 美国_10
-      - 德国_3
+      - 日本_4
+      - 日本_5
+      - 香港_1
+      - 香港_2
       - 美国_11
       - 美国_12
+      - 日本_6
       - 美国_13
+      - 香港_3
       - 美国_14
+      - 日本_7
       - 美国_15
+      - 日本_8
+      - 日本_9
+      - 日本_10
       - 美国_16
+      - 日本_11
       - 美国_17
+      - 英国
       - 美国_18
       - 美国_19
+      - 韩国
       - 美国_20
       - 美国_21
+      - 日本_12
+      - 香港_4
       - 美国_22
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
+      - 日本_13
       - 美国_28
       - 美国_29
       - 美国_30
+      - 香港_5
       - 美国_31
       - 美国_32
-      - 美国_33
-      - 美国_34
-      - 美国_35
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
     interval: 300
     tolerance: 5000
   - name: 🎯 全球直连
@@ -15057,53 +15266,64 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国_1
-      - 美国_2
       - 法国_1
       - 法国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
+      - 美国_1
+      - 美国_2
       - 美国_3
+      - 法国_6
       - 美国_4
       - 美国_5
+      - 日本_1
+      - 日本_2
       - 美国_6
+      - 日本_3
       - 美国_7
       - 美国_8
       - 美国_9
-      - 德国_1
-      - 德国_2
       - 美国_10
-      - 德国_3
+      - 日本_4
+      - 日本_5
+      - 香港_1
+      - 香港_2
       - 美国_11
       - 美国_12
+      - 日本_6
       - 美国_13
+      - 香港_3
       - 美国_14
+      - 日本_7
       - 美国_15
+      - 日本_8
+      - 日本_9
+      - 日本_10
       - 美国_16
+      - 日本_11
       - 美国_17
+      - 英国
       - 美国_18
       - 美国_19
+      - 韩国
       - 美国_20
       - 美国_21
+      - 日本_12
+      - 香港_4
       - 美国_22
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
+      - 日本_13
       - 美国_28
       - 美国_29
       - 美国_30
+      - 香港_5
       - 美国_31
       - 美国_32
-      - 美国_33
-      - 美国_34
-      - 美国_35
-      - 美国_36
-      - 美国_37
-      - 美国_38
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
@@ -18720,51 +18940,59 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vless","name":"美國_1","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nspk.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"俄罗斯_1","server":"81.19.140.131","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vless","name":"希臘","server":"185.39.207.121","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
   - {"type":"vless","name":"美國_2","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_1","server":"212.129.5.242","port":22008,"uuid":"77a33d77-7af9-4c33-9556-d6711becca04","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.yahoo.com","tls":false,"udp":true}
-  - {"type":"vless","name":"土耳其_1","server":"185.39.204.70","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nspk.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"伊朗_1","server":"mci.dl101movis.ir","port":80,"uuid":"117ca567-3180-4d62-abcc-8fc0104c93ff","skip-cert-verify":true}
-  - {"type":"vless","name":"德国_1","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"join-raiv2mmr-telegram.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"join-raiv2mmr-telegram.koyeb.app"}}}
-  - {"type":"vless","name":"德国_2","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"美国_2","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"美国_3","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr"}}
-  - {"type":"vless","name":"美国_4","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"美国_5","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"美国_6","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"美国_7","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"join-raiv2mmr-telegram.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"join-raiv2mmr-telegram.koyeb.app"}}}
-  - {"type":"vless","name":"美国_8","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"美国_9","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"join-raiv2mmr-telegram.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"join-raiv2mmr-telegram.koyeb.app"}}}
-  - {"type":"vless","name":"美国_10","server":"104.20.31.27","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"美國_3","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr"}}
-  - {"type":"vless","name":"美国_11","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr"}}
-  - {"type":"vless","name":"美國_4","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"德国_3","server":"join-raiv2mmr-telegram.koyeb.app","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"vless","name":"俄罗斯_2","server":"81.19.140.131","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vless","name":"芬兰","server":"109.172.54.49","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_12","server":"a1-direct.the-best-airport.top","port":9443,"uuid":"07fe5ad4-6157-4857-91fe-8270ebd648d9","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"icloud.cdn-apple.com","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_13","server":"b1-direct.the-best-airport.top","port":8443,"uuid":"07fe5ad4-6157-4857-91fe-8270ebd648d9","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"icloud.cdn-apple.com","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_14","server":"c1-direct.the-best-airport.top","port":4443,"uuid":"07fe5ad4-6157-4857-91fe-8270ebd648d9","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"icloud.cdn-apple.com","tls":false,"udp":true}
-  - {"type":"vless","name":"美国_15","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_1","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
+  - {"type":"vless","name":"芬兰_1","server":"109.172.54.49","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"俄罗斯","server":"81.19.140.131","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"土耳其","server":"185.39.204.70","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nspk.ru","tls":false,"udp":true}
   - {"type":"vless","name":"日本_1","server":"160.187.111.222","port":443,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","skip-cert-verify":true,"network":"tcp","servername":"images-na.ssl-images-amazon.com","tls":false,"udp":true}
-  - {"type":"vless","name":"瑞士","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
-  - {"type":"vless","name":"土耳其_2","server":"185.39.204.70","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nspk.ru","tls":false,"udp":true}
-  - {"type":"vless","name":"希腊","server":"185.39.207.121","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
   - {"type":"vless","name":"新西兰","server":"212.129.5.242","port":22008,"uuid":"77a33d77-7af9-4c33-9556-d6711becca04","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.yahoo.com","tls":false,"udp":true}
-  - {"type":"vless","name":"伊朗_2","server":"mci.dl101movis.ir","port":80,"uuid":"117ca567-3180-4d62-abcc-8fc0104c93ff","skip-cert-verify":true}
-  - {"type":"vless","name":"美国_16","server":"172.66.156.81","port":80,"uuid":"01cea818-a80b-4945-a883-f5164cde4ad3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy","headers":{"host":"websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com."}}}
-  - {"type":"vless","name":"美国_17","server":"172.66.156.81","port":80,"uuid":"01cea818-a80b-4945-a883-f5164cde4ad3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy","headers":{"host":"websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com."}}}
-  - {"type":"vless","name":"美国_18","server":"104.20.31.27","port":443,"uuid":"5c9b6087-f955-4506-9c1d-67a5aae44bc9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app","ws-opts":{"path":"/@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr","headers":{"host":"JOIN-RAIV2MMR-TELEGRAM.koyeb.app"}}}
-  - {"type":"trojan","name":"日本_2","server":"36.151.251.18","port":811,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"vless","name":"希臘","server":"185.39.207.121","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"日本_2","server":"160.187.111.222","port":443,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","skip-cert-verify":true,"network":"tcp","servername":"images-na.ssl-images-amazon.com","tls":false,"udp":true}
+  - {"type":"vless","name":"US_1","server":"bestcdn3.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_2","server":"cdn.2020111.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_3","server":"cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_2","server":"bestcf.top","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_3","server":"bestcdn3.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_4","server":"bestcdn2.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_4","server":"cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_5","server":"cdn.2020111.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_5","server":"cdn.2020111.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"瑞士_1","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_6","server":"bestcf.top","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"芬兰_2","server":"109.172.54.49","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"US_6","server":"bestcdn2.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_7","server":"bestcdn3.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_7","server":"bestcdn1.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_8","server":"bestcdn.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_9","server":"cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_10","server":"berryisfast.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"mg","server":"berryisfast.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_11","server":"bestcdn1.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_8","server":"berryisbest.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_12","server":"berryisbest.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_9","server":"berryisbest.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_10","server":"bestcf.top","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_13","server":"bestcdn.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_14","server":"b1-direct.the-best-airport.top","port":8443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"icloud.cdn-apple.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_11","server":"bestcdn.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_15","server":"bestcdn1.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_16","server":"bestcdn1.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-c1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-c1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_17","server":"berryisfast.cloudflare.182682.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"US_18","server":"bestcdn1.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-b1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-b1.the-best-airport.top"}}}
+  - {"type":"vless","name":"美国_12","server":"bestcdn2.868863.xyz","port":443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v-fp-a1.the-best-airport.top","ws-opts":{"path":"/aejynik","headers":{"host":"v-fp-a1.the-best-airport.top"}}}
+  - {"type":"vless","name":"希腊","server":"185.39.207.121","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"vk.cc","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_13","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"ad.mail.ru","tls":false,"udp":true}
+  - {"type":"vless","name":"US_19","server":"c1-direct.the-best-airport.top","port":4443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"icloud.cdn-apple.com","tls":false,"udp":true}
+  - {"type":"vless","name":"瑞士_2","server":"212.18.104.19","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nspk.ru","tls":false,"udp":true}
+  - {"type":"vless","name":"US_20","server":"a1-direct.the-best-airport.top","port":9443,"uuid":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"icloud.cdn-apple.com","tls":false,"udp":true}
+  - {"type":"vless","name":"美国_14","server":"212.129.5.242","port":22008,"uuid":"77a33d77-7af9-4c33-9556-d6711becca04","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.yahoo.com","tls":false,"udp":true}
+  - {"type":"trojan","name":"日本_3","server":"36.151.251.18","port":811,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"trojan","name":"新加坡","server":"36.156.102.115","port":44095,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"美国_19","server":"36.156.102.115","port":26876,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"德国_4","server":"63.180.33.188","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trojan.burgerip.co.uk","network":"tcp"}
-  - {"type":"trojan","name":"日本_3","server":"202.181.103.246","port":2283,"password":"c53647f3153f784b3c695ffbe5fb43c0","udp":true,"skip-cert-verify":true,"sni":"www.nintendogames.net","network":"tcp"}
-  - {"type":"trojan","name":"日本_4","server":"202.181.103.246","port":2283,"password":"c53647f3153f784b3c695ffbe5fb43c0","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"日本_5","server":"36.151.195.112","port":4556,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"sni":"36.151.195.112","network":"tcp"}
-  - {"type":"trojan","name":"香港","server":"36.151.195.112","port":4556,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"trojan","name":"美国_20","server":"bestcdn3.868863.xyz","port":443,"password":"07fe5ad4-6157-4857-91fe-8270ebd648d9","udp":true,"skip-cert-verify":true,"sni":"tt-c4-cdn.the-best-airport.top","network":"ws","ws-opts":{"path":"/videomuaawe","headers":{"host":"tt-c4-cdn.the-best-airport.top"}}}
+  - {"type":"trojan","name":"美国_15","server":"36.156.102.115","port":26876,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"中国","server":"36.156.102.115","port":26876,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"美国_16","server":"bestcdn1.868863.xyz","port":443,"password":"8580842a-c8ae-46c7-86e1-0a28ed1d38d5","udp":true,"skip-cert-verify":true,"sni":"tt-a1-cdn.the-best-airport.top","network":"ws","ws-opts":{"path":"/agraeabtegrrh","headers":{"host":"tt-a1-cdn.the-best-airport.top"}}}
+  - {"type":"trojan","name":"美国_17","server":"36.156.102.115","port":26876,"password":"BxceQaOe","udp":true,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -18772,51 +19000,59 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 美國_1
-      - 俄罗斯_1
-      - 希臘
       - 美國_2
       - 美国_1
-      - 土耳其_1
-      - 伊朗_1
-      - 德国_1
-      - 德国_2
+      - 芬兰_1
+      - 俄罗斯
+      - 土耳其
+      - 日本_1
+      - 新西兰
+      - 希臘
+      - 日本_2
+      - US_1
+      - US_2
+      - US_3
       - 美国_2
       - 美国_3
       - 美国_4
+      - US_4
+      - US_5
       - 美国_5
+      - 瑞士_1
       - 美国_6
+      - 芬兰_2
+      - US_6
+      - US_7
       - 美国_7
+      - US_8
+      - US_9
+      - US_10
+      - mg
+      - US_11
       - 美国_8
+      - US_12
       - 美国_9
       - 美国_10
-      - 美國_3
+      - US_13
+      - US_14
       - 美国_11
-      - 美國_4
-      - 德国_3
-      - 俄罗斯_2
-      - 芬兰
+      - US_15
+      - US_16
+      - US_17
+      - US_18
       - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 日本_1
-      - 瑞士
-      - 土耳其_2
       - 希腊
-      - 新西兰
-      - 伊朗_2
+      - 美国_13
+      - US_19
+      - 瑞士_2
+      - US_20
+      - 美国_14
+      - 日本_3
+      - 新加坡
+      - 美国_15
+      - 中国
       - 美国_16
       - 美国_17
-      - 美国_18
-      - 日本_2
-      - 新加坡
-      - 美国_19
-      - 德国_4
-      - 日本_3
-      - 日本_4
-      - 日本_5
-      - 香港
-      - 美国_20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -18824,51 +19060,59 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 美國_1
-      - 俄罗斯_1
-      - 希臘
       - 美國_2
       - 美国_1
-      - 土耳其_1
-      - 伊朗_1
-      - 德国_1
-      - 德国_2
+      - 芬兰_1
+      - 俄罗斯
+      - 土耳其
+      - 日本_1
+      - 新西兰
+      - 希臘
+      - 日本_2
+      - US_1
+      - US_2
+      - US_3
       - 美国_2
       - 美国_3
       - 美国_4
+      - US_4
+      - US_5
       - 美国_5
+      - 瑞士_1
       - 美国_6
+      - 芬兰_2
+      - US_6
+      - US_7
       - 美国_7
+      - US_8
+      - US_9
+      - US_10
+      - mg
+      - US_11
       - 美国_8
+      - US_12
       - 美国_9
       - 美国_10
-      - 美國_3
+      - US_13
+      - US_14
       - 美国_11
-      - 美國_4
-      - 德国_3
-      - 俄罗斯_2
-      - 芬兰
+      - US_15
+      - US_16
+      - US_17
+      - US_18
       - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 日本_1
-      - 瑞士
-      - 土耳其_2
       - 希腊
-      - 新西兰
-      - 伊朗_2
+      - 美国_13
+      - US_19
+      - 瑞士_2
+      - US_20
+      - 美国_14
+      - 日本_3
+      - 新加坡
+      - 美国_15
+      - 中国
       - 美国_16
       - 美国_17
-      - 美国_18
-      - 日本_2
-      - 新加坡
-      - 美国_19
-      - 德国_4
-      - 日本_3
-      - 日本_4
-      - 日本_5
-      - 香港
-      - 美国_20
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -18876,204 +19120,236 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美國_1
-      - 俄罗斯_1
-      - 希臘
       - 美國_2
       - 美国_1
-      - 土耳其_1
-      - 伊朗_1
-      - 德国_1
-      - 德国_2
+      - 芬兰_1
+      - 俄罗斯
+      - 土耳其
+      - 日本_1
+      - 新西兰
+      - 希臘
+      - 日本_2
+      - US_1
+      - US_2
+      - US_3
       - 美国_2
       - 美国_3
       - 美国_4
+      - US_4
+      - US_5
       - 美国_5
+      - 瑞士_1
       - 美国_6
+      - 芬兰_2
+      - US_6
+      - US_7
       - 美国_7
+      - US_8
+      - US_9
+      - US_10
+      - mg
+      - US_11
       - 美国_8
+      - US_12
       - 美国_9
       - 美国_10
-      - 美國_3
+      - US_13
+      - US_14
       - 美国_11
-      - 美國_4
-      - 德国_3
-      - 俄罗斯_2
-      - 芬兰
+      - US_15
+      - US_16
+      - US_17
+      - US_18
       - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 日本_1
-      - 瑞士
-      - 土耳其_2
       - 希腊
-      - 新西兰
-      - 伊朗_2
+      - 美国_13
+      - US_19
+      - 瑞士_2
+      - US_20
+      - 美国_14
+      - 日本_3
+      - 新加坡
+      - 美国_15
+      - 中国
       - 美国_16
       - 美国_17
-      - 美国_18
-      - 日本_2
-      - 新加坡
-      - 美国_19
-      - 德国_4
-      - 日本_3
-      - 日本_4
-      - 日本_5
-      - 香港
-      - 美国_20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 美國_1
-      - 俄罗斯_1
-      - 希臘
       - 美國_2
       - 美国_1
-      - 土耳其_1
-      - 伊朗_1
-      - 德国_1
-      - 德国_2
+      - 芬兰_1
+      - 俄罗斯
+      - 土耳其
+      - 日本_1
+      - 新西兰
+      - 希臘
+      - 日本_2
+      - US_1
+      - US_2
+      - US_3
       - 美国_2
       - 美国_3
       - 美国_4
+      - US_4
+      - US_5
       - 美国_5
+      - 瑞士_1
       - 美国_6
+      - 芬兰_2
+      - US_6
+      - US_7
       - 美国_7
+      - US_8
+      - US_9
+      - US_10
+      - mg
+      - US_11
       - 美国_8
+      - US_12
       - 美国_9
       - 美国_10
-      - 美國_3
+      - US_13
+      - US_14
       - 美国_11
-      - 美國_4
-      - 德国_3
-      - 俄罗斯_2
-      - 芬兰
+      - US_15
+      - US_16
+      - US_17
+      - US_18
       - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 日本_1
-      - 瑞士
-      - 土耳其_2
       - 希腊
-      - 新西兰
-      - 伊朗_2
+      - 美国_13
+      - US_19
+      - 瑞士_2
+      - US_20
+      - 美国_14
+      - 日本_3
+      - 新加坡
+      - 美国_15
+      - 中国
       - 美国_16
       - 美国_17
-      - 美国_18
-      - 日本_2
-      - 新加坡
-      - 美国_19
-      - 德国_4
-      - 日本_3
-      - 日本_4
-      - 日本_5
-      - 香港
-      - 美国_20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 美國_1
-      - 俄罗斯_1
-      - 希臘
       - 美國_2
       - 美国_1
-      - 土耳其_1
-      - 伊朗_1
-      - 德国_1
-      - 德国_2
+      - 芬兰_1
+      - 俄罗斯
+      - 土耳其
+      - 日本_1
+      - 新西兰
+      - 希臘
+      - 日本_2
+      - US_1
+      - US_2
+      - US_3
       - 美国_2
       - 美国_3
       - 美国_4
+      - US_4
+      - US_5
       - 美国_5
+      - 瑞士_1
       - 美国_6
+      - 芬兰_2
+      - US_6
+      - US_7
       - 美国_7
+      - US_8
+      - US_9
+      - US_10
+      - mg
+      - US_11
       - 美国_8
+      - US_12
       - 美国_9
       - 美国_10
-      - 美國_3
+      - US_13
+      - US_14
       - 美国_11
-      - 美國_4
-      - 德国_3
-      - 俄罗斯_2
-      - 芬兰
+      - US_15
+      - US_16
+      - US_17
+      - US_18
       - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 日本_1
-      - 瑞士
-      - 土耳其_2
       - 希腊
-      - 新西兰
-      - 伊朗_2
+      - 美国_13
+      - US_19
+      - 瑞士_2
+      - US_20
+      - 美国_14
+      - 日本_3
+      - 新加坡
+      - 美国_15
+      - 中国
       - 美国_16
       - 美国_17
-      - 美国_18
-      - 日本_2
-      - 新加坡
-      - 美国_19
-      - 德国_4
-      - 日本_3
-      - 日本_4
-      - 日本_5
-      - 香港
-      - 美国_20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 美國_1
-      - 俄罗斯_1
-      - 希臘
       - 美國_2
       - 美国_1
-      - 土耳其_1
-      - 伊朗_1
-      - 德国_1
-      - 德国_2
+      - 芬兰_1
+      - 俄罗斯
+      - 土耳其
+      - 日本_1
+      - 新西兰
+      - 希臘
+      - 日本_2
+      - US_1
+      - US_2
+      - US_3
       - 美国_2
       - 美国_3
       - 美国_4
+      - US_4
+      - US_5
       - 美国_5
+      - 瑞士_1
       - 美国_6
+      - 芬兰_2
+      - US_6
+      - US_7
       - 美国_7
+      - US_8
+      - US_9
+      - US_10
+      - mg
+      - US_11
       - 美国_8
+      - US_12
       - 美国_9
       - 美国_10
-      - 美國_3
+      - US_13
+      - US_14
       - 美国_11
-      - 美國_4
-      - 德国_3
-      - 俄罗斯_2
-      - 芬兰
+      - US_15
+      - US_16
+      - US_17
+      - US_18
       - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 日本_1
-      - 瑞士
-      - 土耳其_2
       - 希腊
-      - 新西兰
-      - 伊朗_2
+      - 美国_13
+      - US_19
+      - 瑞士_2
+      - US_20
+      - 美国_14
+      - 日本_3
+      - 新加坡
+      - 美国_15
+      - 中国
       - 美国_16
       - 美国_17
-      - 美国_18
-      - 日本_2
-      - 新加坡
-      - 美国_19
-      - 德国_4
-      - 日本_3
-      - 日本_4
-      - 日本_5
-      - 香港
-      - 美国_20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -19097,51 +19373,59 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美國_1
-      - 俄罗斯_1
-      - 希臘
       - 美國_2
       - 美国_1
-      - 土耳其_1
-      - 伊朗_1
-      - 德国_1
-      - 德国_2
+      - 芬兰_1
+      - 俄罗斯
+      - 土耳其
+      - 日本_1
+      - 新西兰
+      - 希臘
+      - 日本_2
+      - US_1
+      - US_2
+      - US_3
       - 美国_2
       - 美国_3
       - 美国_4
+      - US_4
+      - US_5
       - 美国_5
+      - 瑞士_1
       - 美国_6
+      - 芬兰_2
+      - US_6
+      - US_7
       - 美国_7
+      - US_8
+      - US_9
+      - US_10
+      - mg
+      - US_11
       - 美国_8
+      - US_12
       - 美国_9
       - 美国_10
-      - 美國_3
+      - US_13
+      - US_14
       - 美国_11
-      - 美國_4
-      - 德国_3
-      - 俄罗斯_2
-      - 芬兰
+      - US_15
+      - US_16
+      - US_17
+      - US_18
       - 美国_12
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 日本_1
-      - 瑞士
-      - 土耳其_2
       - 希腊
-      - 新西兰
-      - 伊朗_2
+      - 美国_13
+      - US_19
+      - 瑞士_2
+      - US_20
+      - 美国_14
+      - 日本_3
+      - 新加坡
+      - 美国_15
+      - 中国
       - 美国_16
       - 美国_17
-      - 美国_18
-      - 日本_2
-      - 新加坡
-      - 美国_19
-      - 德国_4
-      - 日本_3
-      - 日本_4
-      - 日本_5
-      - 香港
-      - 美国_20
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
