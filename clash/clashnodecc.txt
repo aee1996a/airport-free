@@ -1,4 +1,4 @@
-未获取到节点，错误代码：404 Client Error: Not Found for url: https://node.clashnode.cc/uploads/2025/10/0-20251029.yaml
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://node.clashnode.cc/uploads/2025/10/0-20251030.yaml
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -7,14 +7,13 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: US美国(mibei77.com 米贝节点分享), server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 47.245.106.193, port: 22433, type: vmess, uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享), server: 113.99.143.139, port: 40316, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 113.99.143.139, port: 26470, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
   - {name: FR法国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享) 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享) 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 4, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 113.99.143.139, port: 26470, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -23,13 +22,12 @@ proxy-groups:
       - 🎯 全球直连
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
       - FR法国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -37,13 +35,12 @@ proxy-groups:
     proxies:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
       - FR法国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -52,13 +49,12 @@ proxy-groups:
       - 🎯 全球直连
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
       - FR法国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -79,19 +75,16 @@ proxy-groups:
       - 🎯 全球直连
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
       - FR法国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -100,13 +93,12 @@ proxy-groups:
       - 🔰 节点选择
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
       - FR法国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -114,13 +106,12 @@ proxy-groups:
       - 🎯 全球直连
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
       - FR法国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -129,13 +120,12 @@ proxy-groups:
       - ♻️ 自动选择
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
       - FR法国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,13 +143,12 @@ proxy-groups:
       - ♻️ 自动选择
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
       - FR法国(mibei77.com 米贝节点分享)
       - FR法国(mibei77.com 米贝节点分享) 2
       - FR法国(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10382,21 +10371,20 @@ proxies:
   - {name: 6元高速机场：cczzuu.top, server: 3.9.17.198, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇭🇰 香港|@stairnode, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@stairnode, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 🇭🇰 香港3|@stairnode, server: 43.247.134.213, port: 59516, client-fingerprint: chrome, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@stairnode, server: 36.150.215.237, port: 1821, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@stairnode, server: 58.152.46.98, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇭🇰 香港6|@stairnode, server: oss-cn-shanghai.letssepub.com, port: 20021, client-fingerprint: chrome, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港7|@stairnode, server: 9438890c-t4whs0-t6blpv-1ldl3.hk.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
-  - {name: 🇯🇵 日本|@stairnode, server: 36.150.215.237, port: 1821, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.240.91, port: 4452, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.240.91, port: 3161, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡|@stairnode, server: 160.16.204.136, port: 2283, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 160.16.124.55, port: 5041, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3|@stairnode, server: 36.151.251.35, port: 24392, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@stairnode, server: 36.156.102.72, port: 194, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@stairnode, server: 58.152.53.3, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@stairnode, server: 43.247.135.64, port: 54804, client-fingerprint: chrome, type: vmess, uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|@stairnode, server: 36.150.215.236, port: 401, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.144.208, port: 1332, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.144.208, port: 3161, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡|@stairnode, server: 160.16.138.24, port: 2283, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 160.16.138.24, port: 5041, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@stairnode, server: 36.150.215.197, port: 2088, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡4|@stairnode, server: 113.99.143.139, port: 26470, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, tfo: false}
+  - {name: 🇸🇬 新加坡5|@stairnode, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: sgal.dagrate.eu.org, network: ws, ws-opts: {path: /, headers: {Host: sgal.dagrate.eu.org}}}
   - {name: 🇺🇸 美国|@stairnode, server: 160.16.236.32, port: 2467, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇺🇸 美国2|@stairnode, server: 160.16.236.32, port: 2381, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国3|@stairnode, server: 36.150.215.241, port: 27409, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3|@stairnode, server: 36.150.215.236, port: 27409, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -10406,11 +10394,9 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
-      - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
       - 🇭🇰 香港6|@stairnode
-      - 🇭🇰 香港7|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -10418,6 +10404,7 @@ proxy-groups:
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇸🇬 新加坡4|@stairnode
+      - 🇸🇬 新加坡5|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
@@ -10430,11 +10417,9 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
-      - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
       - 🇭🇰 香港6|@stairnode
-      - 🇭🇰 香港7|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -10442,6 +10427,7 @@ proxy-groups:
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇸🇬 新加坡4|@stairnode
+      - 🇸🇬 新加坡5|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
@@ -10454,11 +10440,9 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
-      - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
       - 🇭🇰 香港6|@stairnode
-      - 🇭🇰 香港7|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -10466,6 +10450,7 @@ proxy-groups:
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇸🇬 新加坡4|@stairnode
+      - 🇸🇬 新加坡5|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
@@ -10477,11 +10462,9 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
-      - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
       - 🇭🇰 香港6|@stairnode
-      - 🇭🇰 香港7|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -10489,6 +10472,7 @@ proxy-groups:
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇸🇬 新加坡4|@stairnode
+      - 🇸🇬 新加坡5|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
@@ -10500,11 +10484,9 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
-      - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
       - 🇭🇰 香港6|@stairnode
-      - 🇭🇰 香港7|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -10512,6 +10494,7 @@ proxy-groups:
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇸🇬 新加坡4|@stairnode
+      - 🇸🇬 新加坡5|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
@@ -10523,11 +10506,9 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
-      - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
       - 🇭🇰 香港6|@stairnode
-      - 🇭🇰 香港7|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -10535,6 +10516,7 @@ proxy-groups:
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇸🇬 新加坡4|@stairnode
+      - 🇸🇬 新加坡5|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
@@ -10547,11 +10529,9 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
-      - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
       - 🇭🇰 香港6|@stairnode
-      - 🇭🇰 香港7|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -10559,6 +10539,7 @@ proxy-groups:
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇸🇬 新加坡4|@stairnode
+      - 🇸🇬 新加坡5|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
@@ -10587,11 +10568,9 @@ proxy-groups:
       - 6元高速机场：cczzuu.top
       - 🇭🇰 香港|@stairnode
       - 🇭🇰 香港2|@stairnode
-      - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
       - 🇭🇰 香港6|@stairnode
-      - 🇭🇰 香港7|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -10599,6 +10578,7 @@ proxy-groups:
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
       - 🇸🇬 新加坡4|@stairnode
+      - 🇸🇬 新加坡5|@stairnode
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
@@ -14275,4 +14255,4 @@ proxy-groups:
       - 法国_1
       - 法国_2
       - 美国_32
-未获取到节点，错误代码：404 Client Error: Not Found for url: https://node.clashnode.cc/uploads/2025/10/4-20251029.yaml
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://node.clashnode.cc/uploads/2025/10/4-20251030.yaml
