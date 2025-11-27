@@ -59,6 +59,22 @@ tun:
 
 proxies:
   - type: vless
+    name: 🇰🇷_KR_韩国
+    server: 59.2.75.64
+    port: 50001
+    uuid: 6923b959-c65f-764c-b072-94711382d716
+    network: ws
+    servername: s2.sni565.netlib.re
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=tw.sni2025.netlib.re
+      headers:
+        Host: s2.sni565.netlib.re
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
     name: 🇦🇺_AU_澳大利亚
     server: 43.161.227.251
     port: 60006
@@ -76,61 +92,6 @@ proxies:
       - h3
   - type: vless
     name: 🇨🇳_CN_中国
-    server: 8.218.189.27
-    port: 443
-    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-    network: ws
-    servername: s3.sni565.netlib.re
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /proxyip=tw.sni2025.netlib.re
-      headers:
-        Host: s3.sni565.netlib.re
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: trojan
-    name: 🇺🇸_US_美国
-    server: wangcai.cf.877774.xyz
-    port: 2096
-    password: 12345678-1234-1234-1234-123456789123
-    network: ws
-    sni: joss.gpj1.web.id
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/HK?Telegram🇨🇳 @WangCai2
-      headers:
-        Host: joss.gpj1.web.id
-  - type: vless
-    name: 🇰🇷_KR_韩国
-    server: 211.195.83.140
-    port: 50003
-    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-    network: ws
-    servername: s3.sni565.netlib.re
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /proxyip=tw.sni2025.netlib.re
-      headers:
-        Host: s3.sni565.netlib.re
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 🇺🇸_US_美国_1
-    server: wangcai.cf.877774.xyz
-    port: 2096
-    uuid: d78d48df-b788-4a95-9e9f-77c9b2f69822
-    network: ws
-    servername: joss.gpj1.web.id
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/HK?Telegram🇨🇳 @WangCai2
-      headers:
-        Host: joss.gpj1.web.id
-  - type: vless
-    name: 🇨🇳_CN_中国_1
     server: 220.128.110.108
     port: 43
     uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
@@ -146,21 +107,49 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 🇺🇸_US_美国_2
-    server: 108.162.198.24
-    port: 2096
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    name: 🇦🇺_AU_澳大利亚_1
+    server: 43.161.227.251
+    port: 60007
+    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
     network: ws
-    servername: kuangbao.xiejiang.dpdns.org
+    servername: s3.sni565.netlib.re
     tls: true
+    encryption: none
     ws-opts:
-      path: /?ed=2560
+      path: /proxyip=tw.sni2025.netlib.re
       headers:
-        Host: kuangbao.xiejiang.dpdns.org
+        Host: s3.sni565.netlib.re
+    client-fingerprint: chrome
+    alpn:
+      - h3
+  - type: vmess
+    name: 【机场推荐：https://a0a.xyz/】45
+    server: 144.48.180.187
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
   - type: vless
     name: 🇰🇷_KR_韩国_1
-    server: 106.242.64.238
-    port: 50000
+    server: 119.64.242.60
+    port: 60002
+    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+    network: ws
+    servername: s3.sni565.netlib.re
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=tw.sni2025.netlib.re
+      headers:
+        Host: s3.sni565.netlib.re
+    client-fingerprint: chrome
+    alpn:
+      - h3
+  - type: vless
+    name: 🇬🇧_GB_英国
+    server: 83.229.123.87
+    port: 443
     uuid: 6923b959-c65f-764c-b072-94711382d716
     network: ws
     servername: s2.sni565.netlib.re
@@ -174,8 +163,8 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 🇯🇵_JP_日本
-    server: 54.95.79.44
+    name: 🇺🇸_US_美国
+    server: 68.64.176.135
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
     network: ws
@@ -185,66 +174,9 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: vless
-    name: 🇰🇷_KR_韩国_2
-    server: 115.90.84.220
-    port: 50001
-    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-    network: ws
-    servername: s3.sni565.netlib.re
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /proxyip=tw.sni2025.netlib.re
-      headers:
-        Host: s3.sni565.netlib.re
-    client-fingerprint: chrome
+    client-fingerprint: random
     alpn:
       - h3
-  - type: trojan
-    name: 🇺🇸_US_美国_3
-    server: 162.159.42.58
-    port: 443
-    password: "0"
-    network: ws
-    sni: c03237cb.ba73fe85.netlib.re
-    alpn:
-      - http/1.1
-    skip-cert-verify: true
-    fingerprint: random
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: c03237cb.ba73fe85.netlib.re
-  - type: vless
-    name: 🇺🇸_US_美国_4
-    server: 130.33.68.45
-    port: 443
-    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-    network: ws
-    servername: s3.sni565.netlib.re
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /proxyip=tw.sni2025.netlib.re
-      headers:
-        Host: s3.sni565.netlib.re
-    client-fingerprint: chrome
-    alpn:
-      - h3
-  - type: vless
-    name: 🇯🇵_JP_日本_1
-    server: 54.249.169.40
-    port: 443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
   - type: vless
     name: 🇷🇺_RU_俄罗斯
     server: 193.124.18.13
@@ -257,156 +189,100 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
-  - type: vmess
-    name: 🇺🇸US²_5|4.5MB/s|57%|GPT⁺|GM|YT|TK|NF|X
-    server: okl5i3.zeeoomboom.de
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    network: ws
-    cipher: auto
-    ws-opts:
-      path: /video/pmi58yp5.m3u8
-    tls: true
   - type: vless
-    name: 🇺🇸_US_美国_5
-    server: 172.66.156.81
-    port: 80
-    uuid: 0267b737-c79b-4092-95ad-74694cbbce32
+    name: 🇨🇭_CH_瑞士
+    server: 64.110.104.30
+    port: 443
+    uuid: 6923b959-c65f-764c-b072-94711382d716
     network: ws
-    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    servername: s2.sni565.netlib.re
+    tls: true
     encryption: none
     ws-opts:
-      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      path: /proxyip=tw.sni2025.netlib.re
       headers:
-        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+        Host: s2.sni565.netlib.re
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vmess
+    name: 🇳🇱 荷兰 05
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: v30.hdacd.com
+  - type: vmess
+    name: 🇺🇸US²_3|1.1MB/s|54%|GPT⁺|TK-GB|NF|X|KeepHistory
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    network: tcp
+    cipher: auto
   - type: trojan
-    name: 🇨🇳_CN_中国_2
-    server: 36.50.90.241
-    port: 35951
-    password: c6b96097-fe2d-487d-b9ef-60c994b90db2
-    network: ws
-    sni: joss.gpj1.web.id
-    fingerprint: randomized
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/36.50.90.241=35951
-      headers:
-        Host: joss.gpj1.web.id
+    name: 🇰🇷_KR_韩国_2
+    server: hk3.t.sgateway.link
+    port: 5223
+    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+    network: tcp
+    sni: pod-hk-z1.psusercontent.com
   - type: vmess
-    name: 🇫🇷FR²_4|4.2MB/s|100%|GPT⁺|YT|TK|NF|X
-    server: n5vaz1.zeeoomboom.de
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    network: ws
+    name: 🇩🇪 德国 24
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    network: tcp
     cipher: auto
-    ws-opts:
-      path: /video/i3o7f0yh.m3u8
-    tls: true
-  - type: vmess
-    name: 🇺🇸US²_12|5.1MB/s|100%|GPT⁺|YT|TK|NF|X
-    server: a3fyst.zeeoomboom.de
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    network: ws
-    cipher: auto
-    ws-opts:
-      path: /video/d4kapx2v.m3u8
-    tls: true
-  - type: vmess
-    name: 🇭🇰HK¹⁺_1|0.5MB/s|2%|YT|D+|X|KeepSucceed
-    server: 36.50.90.241
-    port: 35951
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
-    alterId: 0
-    network: ws
-    cipher: zero
-    servername: vm.gpj1.web.id
-    ws-opts:
-      path: /Geo-Project/36.50.90.241-35951
-      headers:
-        Host: vm.gpj1.web.id
-    tls: true
-  - type: vmess
-    name: 🇺🇸US²_6|4.1MB/s|100%|GPT⁺|YT|TK|NF|X
-    server: xyst5w.teeoomboom.de
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    network: ws
-    cipher: auto
-    ws-opts:
-      path: /video/g5petez.m3u8
-    tls: true
+    servername: v33.hdacd.com
   - type: ss
-    name: 🇫🇷_FR_法国
-    server: 35.181.172.34
+    name: 🇺🇸_US_美国_1
+    server: 3.76.39.215
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - type: ss
-    name: 🇩🇪_DE_德国
-    server: 45.87.175.166
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 1RWwXhwfAB5gAEozU4G2Pg
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇰🇷_KR_韩国
       - 🇦🇺_AU_澳大利亚
       - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
+      - 🇦🇺_AU_澳大利亚_1
+      - 【机场推荐：https://a0a.xyz/】45
       - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯
-      - 🇺🇸US²_5|4.5MB/s|57%|GPT⁺|GM|YT|TK|NF|X
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国_2
-      - 🇫🇷FR²_4|4.2MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇺🇸US²_12|5.1MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇭🇰HK¹⁺_1|0.5MB/s|2%|YT|D+|X|KeepSucceed
-      - 🇺🇸US²_6|4.1MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国
+      - 🇨🇭_CH_瑞士
+      - 🇳🇱 荷兰 05
+      - 🇺🇸US²_3|1.1MB/s|54%|GPT⁺|TK-GB|NF|X|KeepHistory
+      - 🇰🇷_KR_韩国_2
+      - 🇩🇪 德国 24
+      - 🇺🇸_US_美国_1
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - 🇰🇷_KR_韩国
       - 🇦🇺_AU_澳大利亚
       - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
+      - 🇦🇺_AU_澳大利亚_1
+      - 【机场推荐：https://a0a.xyz/】45
       - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯
-      - 🇺🇸US²_5|4.5MB/s|57%|GPT⁺|GM|YT|TK|NF|X
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国_2
-      - 🇫🇷FR²_4|4.2MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇺🇸US²_12|5.1MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇭🇰HK¹⁺_1|0.5MB/s|2%|YT|D+|X|KeepSucceed
-      - 🇺🇸US²_6|4.1MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国
+      - 🇨🇭_CH_瑞士
+      - 🇳🇱 荷兰 05
+      - 🇺🇸US²_3|1.1MB/s|54%|GPT⁺|TK-GB|NF|X|KeepHistory
+      - 🇰🇷_KR_韩国_2
+      - 🇩🇪 德国 24
+      - 🇺🇸_US_美国_1
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -426,29 +302,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷_KR_韩国
       - 🇦🇺_AU_澳大利亚
       - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国
-      - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
+      - 🇦🇺_AU_澳大利亚_1
+      - 【机场推荐：https://a0a.xyz/】45
       - 🇰🇷_KR_韩国_1
-      - 🇯🇵_JP_日本
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯
-      - 🇺🇸US²_5|4.5MB/s|57%|GPT⁺|GM|YT|TK|NF|X
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国_2
-      - 🇫🇷FR²_4|4.2MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇺🇸US²_12|5.1MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇭🇰HK¹⁺_1|0.5MB/s|2%|YT|D+|X|KeepSucceed
-      - 🇺🇸US²_6|4.1MB/s|100%|GPT⁺|YT|TK|NF|X
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国
+      - 🇨🇭_CH_瑞士
+      - 🇳🇱 荷兰 05
+      - 🇺🇸US²_3|1.1MB/s|54%|GPT⁺|TK-GB|NF|X|KeepHistory
+      - 🇰🇷_KR_韩国_2
+      - 🇩🇪 德国 24
+      - 🇺🇸_US_美国_1
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -531,159 +399,159 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: NL荷兰(mibei77.com 米贝节点分享)-clone, server: 69.28.82.253, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Geo-Project/69.28.82.253-443, ws-headers: {Host: vm.gpj1.web.id}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aa, ws-headers: {Host: hk.nbee.pp.ua}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL荷兰(mibei77.com 米贝节点分享), server: 45.87.175.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享), server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, skip-cert-verify: true, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: sh.ywx.fr, port: 10279, type: ss, cipher: chacha20-ietf-poly1305, password: c73ef1df-31e2-4713-8603-84fad596944e, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: wangcai.singdns.com, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 6, server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aa, ws-headers: {Host: hk.nbee.pp.ua}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 8, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 9, server: 144.48.180.187, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 10, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
   - {name: US美国(mibei77.com 米贝节点分享)-clone, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享), server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 2, server: 23.95.72.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享)-clone, server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aa, ws-headers: {Host: hk.nbee.pp.ua}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享)-clone 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 4, server: 103.75.118.125, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享)-clone 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 5, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 6, server: 154.21.201.83, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aa, ws-headers: {Host: hk.nbee.pp.ua}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 8, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 9, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: NL荷兰(mibei77.com 米贝节点分享)-clone 2, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 10, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享)-clone 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: JP日本(mibei77.com 米贝节点分享)-clone, server: kuame.missionsec.us, port: 443, type: trojan, password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D, sni: kuame.missionsec.us, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 12, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享)-clone 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享)-clone 6, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享)-clone, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 13, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 14, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享)-clone 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 15, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享)-clone 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享)-clone 4, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享)-clone 5, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享)-clone 7, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: RU俄罗斯(mibei77.com 米贝节点分享)-clone, server: 213.159.67.124, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 16, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享)-clone 17, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享)-clone 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 13, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 14, server: wangcai.singdns.com, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 15, server: wangcai.singdns.com, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 16, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 17, server: 78.40.116.178, port: 34094, type: ss, cipher: chacha20-ietf-poly1305, password: yo6h9qkhwz8UJoTZCRtoSi, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 18, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享), server: 144.48.180.187, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 19, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 20, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 21, server: wangcai.singdns.com, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 22, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 23, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 24, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
+  - {name: NL荷兰(mibei77.com 米贝节点分享) 2, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NL荷兰(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享)-clone
+      - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享)-clone 2
-      - FR法国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 3
-      - FR法国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 4
-      - FR法国(mibei77.com 米贝节点分享)-clone 3
-      - US美国(mibei77.com 米贝节点分享)-clone 5
-      - US美国(mibei77.com 米贝节点分享)-clone 6
-      - US美国(mibei77.com 米贝节点分享)-clone 7
-      - US美国(mibei77.com 米贝节点分享)-clone 8
-      - US美国(mibei77.com 米贝节点分享)-clone 9
-      - NL荷兰(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 10
-      - US美国(mibei77.com 米贝节点分享)-clone 11
-      - FR法国(mibei77.com 米贝节点分享)-clone 4
-      - JP日本(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 12
-      - FR法国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 6
-      - GB英国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 13
-      - US美国(mibei77.com 米贝节点分享)-clone 14
-      - GB英国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 15
-      - GB英国(mibei77.com 米贝节点分享)-clone 3
-      - GB英国(mibei77.com 米贝节点分享)-clone 4
-      - GB英国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 7
-      - RU俄罗斯(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 16
-      - US美国(mibei77.com 米贝节点分享)-clone 17
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - GB英国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - NL荷兰(mibei77.com 米贝节点分享) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - NL荷兰(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享)-clone
+      - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享)-clone 2
-      - FR法国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 3
-      - FR法国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 4
-      - FR法国(mibei77.com 米贝节点分享)-clone 3
-      - US美国(mibei77.com 米贝节点分享)-clone 5
-      - US美国(mibei77.com 米贝节点分享)-clone 6
-      - US美国(mibei77.com 米贝节点分享)-clone 7
-      - US美国(mibei77.com 米贝节点分享)-clone 8
-      - US美国(mibei77.com 米贝节点分享)-clone 9
-      - NL荷兰(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 10
-      - US美国(mibei77.com 米贝节点分享)-clone 11
-      - FR法国(mibei77.com 米贝节点分享)-clone 4
-      - JP日本(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 12
-      - FR法国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 6
-      - GB英国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 13
-      - US美国(mibei77.com 米贝节点分享)-clone 14
-      - GB英国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 15
-      - GB英国(mibei77.com 米贝节点分享)-clone 3
-      - GB英国(mibei77.com 米贝节点分享)-clone 4
-      - GB英国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 7
-      - RU俄罗斯(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 16
-      - US美国(mibei77.com 米贝节点分享)-clone 17
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - GB英国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - NL荷兰(mibei77.com 米贝节点分享) 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NL荷兰(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享)-clone
+      - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享)-clone 2
-      - FR法国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 3
-      - FR法国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 4
-      - FR法国(mibei77.com 米贝节点分享)-clone 3
-      - US美国(mibei77.com 米贝节点分享)-clone 5
-      - US美国(mibei77.com 米贝节点分享)-clone 6
-      - US美国(mibei77.com 米贝节点分享)-clone 7
-      - US美国(mibei77.com 米贝节点分享)-clone 8
-      - US美国(mibei77.com 米贝节点分享)-clone 9
-      - NL荷兰(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 10
-      - US美国(mibei77.com 米贝节点分享)-clone 11
-      - FR法国(mibei77.com 米贝节点分享)-clone 4
-      - JP日本(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 12
-      - FR法国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 6
-      - GB英国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 13
-      - US美国(mibei77.com 米贝节点分享)-clone 14
-      - GB英国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 15
-      - GB英国(mibei77.com 米贝节点分享)-clone 3
-      - GB英国(mibei77.com 米贝节点分享)-clone 4
-      - GB英国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 7
-      - RU俄罗斯(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 16
-      - US美国(mibei77.com 米贝节点分享)-clone 17
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - GB英国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - NL荷兰(mibei77.com 米贝节点分享) 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -702,163 +570,164 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NL荷兰(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享)-clone
+      - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享)-clone 2
-      - FR法国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 3
-      - FR法国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 4
-      - FR法国(mibei77.com 米贝节点分享)-clone 3
-      - US美国(mibei77.com 米贝节点分享)-clone 5
-      - US美国(mibei77.com 米贝节点分享)-clone 6
-      - US美国(mibei77.com 米贝节点分享)-clone 7
-      - US美国(mibei77.com 米贝节点分享)-clone 8
-      - US美国(mibei77.com 米贝节点分享)-clone 9
-      - NL荷兰(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 10
-      - US美国(mibei77.com 米贝节点分享)-clone 11
-      - FR法国(mibei77.com 米贝节点分享)-clone 4
-      - JP日本(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 12
-      - FR法国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 6
-      - GB英国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 13
-      - US美国(mibei77.com 米贝节点分享)-clone 14
-      - GB英国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 15
-      - GB英国(mibei77.com 米贝节点分享)-clone 3
-      - GB英国(mibei77.com 米贝节点分享)-clone 4
-      - GB英国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 7
-      - RU俄罗斯(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 16
-      - US美国(mibei77.com 米贝节点分享)-clone 17
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - GB英国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - NL荷兰(mibei77.com 米贝节点分享) 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - HK香港(mibei77.com 米贝节点分享)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - NL荷兰(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享)-clone
+      - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享)-clone 2
-      - FR法国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 3
-      - FR法国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 4
-      - FR法国(mibei77.com 米贝节点分享)-clone 3
-      - US美国(mibei77.com 米贝节点分享)-clone 5
-      - US美国(mibei77.com 米贝节点分享)-clone 6
-      - US美国(mibei77.com 米贝节点分享)-clone 7
-      - US美国(mibei77.com 米贝节点分享)-clone 8
-      - US美国(mibei77.com 米贝节点分享)-clone 9
-      - NL荷兰(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 10
-      - US美国(mibei77.com 米贝节点分享)-clone 11
-      - FR法国(mibei77.com 米贝节点分享)-clone 4
-      - JP日本(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 12
-      - FR法国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 6
-      - GB英国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 13
-      - US美国(mibei77.com 米贝节点分享)-clone 14
-      - GB英国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 15
-      - GB英国(mibei77.com 米贝节点分享)-clone 3
-      - GB英国(mibei77.com 米贝节点分享)-clone 4
-      - GB英国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 7
-      - RU俄罗斯(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 16
-      - US美国(mibei77.com 米贝节点分享)-clone 17
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - GB英国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - NL荷兰(mibei77.com 米贝节点分享) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - NL荷兰(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享)-clone
+      - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享)-clone 2
-      - FR法国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 3
-      - FR法国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 4
-      - FR法国(mibei77.com 米贝节点分享)-clone 3
-      - US美国(mibei77.com 米贝节点分享)-clone 5
-      - US美国(mibei77.com 米贝节点分享)-clone 6
-      - US美国(mibei77.com 米贝节点分享)-clone 7
-      - US美国(mibei77.com 米贝节点分享)-clone 8
-      - US美国(mibei77.com 米贝节点分享)-clone 9
-      - NL荷兰(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 10
-      - US美国(mibei77.com 米贝节点分享)-clone 11
-      - FR法国(mibei77.com 米贝节点分享)-clone 4
-      - JP日本(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 12
-      - FR法国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 6
-      - GB英国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 13
-      - US美国(mibei77.com 米贝节点分享)-clone 14
-      - GB英国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 15
-      - GB英国(mibei77.com 米贝节点分享)-clone 3
-      - GB英国(mibei77.com 米贝节点分享)-clone 4
-      - GB英国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 7
-      - RU俄罗斯(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 16
-      - US美国(mibei77.com 米贝节点分享)-clone 17
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - GB英国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - NL荷兰(mibei77.com 米贝节点分享) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NL荷兰(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享)-clone
+      - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享)-clone 2
-      - FR法国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 3
-      - FR法国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 4
-      - FR法国(mibei77.com 米贝节点分享)-clone 3
-      - US美国(mibei77.com 米贝节点分享)-clone 5
-      - US美国(mibei77.com 米贝节点分享)-clone 6
-      - US美国(mibei77.com 米贝节点分享)-clone 7
-      - US美国(mibei77.com 米贝节点分享)-clone 8
-      - US美国(mibei77.com 米贝节点分享)-clone 9
-      - NL荷兰(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 10
-      - US美国(mibei77.com 米贝节点分享)-clone 11
-      - FR法国(mibei77.com 米贝节点分享)-clone 4
-      - JP日本(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 12
-      - FR法国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 6
-      - GB英国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 13
-      - US美国(mibei77.com 米贝节点分享)-clone 14
-      - GB英国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 15
-      - GB英国(mibei77.com 米贝节点分享)-clone 3
-      - GB英国(mibei77.com 米贝节点分享)-clone 4
-      - GB英国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 7
-      - RU俄罗斯(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 16
-      - US美国(mibei77.com 米贝节点分享)-clone 17
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - GB英国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - NL荷兰(mibei77.com 米贝节点分享) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -874,40 +743,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NL荷兰(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享)-clone
+      - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享)-clone 2
-      - FR法国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 3
-      - FR法国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 4
-      - FR法国(mibei77.com 米贝节点分享)-clone 3
-      - US美国(mibei77.com 米贝节点分享)-clone 5
-      - US美国(mibei77.com 米贝节点分享)-clone 6
-      - US美国(mibei77.com 米贝节点分享)-clone 7
-      - US美国(mibei77.com 米贝节点分享)-clone 8
-      - US美国(mibei77.com 米贝节点分享)-clone 9
-      - NL荷兰(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 10
-      - US美国(mibei77.com 米贝节点分享)-clone 11
-      - FR法国(mibei77.com 米贝节点分享)-clone 4
-      - JP日本(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 12
-      - FR法国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 6
-      - GB英国(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 13
-      - US美国(mibei77.com 米贝节点分享)-clone 14
-      - GB英国(mibei77.com 米贝节点分享)-clone 2
-      - US美国(mibei77.com 米贝节点分享)-clone 15
-      - GB英国(mibei77.com 米贝节点分享)-clone 3
-      - GB英国(mibei77.com 米贝节点分享)-clone 4
-      - GB英国(mibei77.com 米贝节点分享)-clone 5
-      - FR法国(mibei77.com 米贝节点分享)-clone 7
-      - RU俄罗斯(mibei77.com 米贝节点分享)-clone
-      - US美国(mibei77.com 米贝节点分享)-clone 16
-      - US美国(mibei77.com 米贝节点分享)-clone 17
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - GB英国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - NL荷兰(mibei77.com 米贝节点分享) 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -11131,19 +11000,21 @@ proxies:
   - {name: 🇭🇰 香港|@stairnode, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港2|@stairnode, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true, skip-cert-verify: false}}
   - {name: 🇭🇰 香港3|@stairnode, server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@stairnode, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@stairnode, server: 58.152.53.22, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@stairnode, server: 160.16.212.152, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.131.243, port: 3169, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.107.37, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡|@stairnode, server: 3.113.21.213, port: 5552, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 202.181.103.246, port: 127, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3|@stairnode, server: 116.49.237.130, port: 1691, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@stairnode, server: 160.16.131.243, port: 702, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2|@stairnode, server: 160.16.63.16, port: 2890, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国3|@stairnode, server: 13.114.168.160, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@stairnode, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@stairnode, server: 112.120.31.179, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@stairnode, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港7|@stairnode, server: ss.020.node-for-bigairport.win, port: 11688, type: ss, cipher: aes-256-gcm, password: b0c9d775-32f7-459a-b24d-ecda7c9f3720}
+  - {name: 🇹🇼 台湾|@stairnode, server: glimmerdsds.sdl-sz.com, port: 39007, type: ssr, cipher: aes-256-cfb, password: "dajkd*/?", protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 9347:AhttlGdymF, obfs-param: 1f4c39347.microsoft.com}
+  - {name: 🇯🇵 日本|@stairnode, server: 160.16.242.183, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@stairnode, server: 153.121.45.139, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@stairnode, server: 153.121.44.99, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@stairnode, server: 160.16.116.227, port: 127, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 160.16.240.91, port: 2760, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3|@stairnode, server: 43.198.91.31, port: 3579, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@stairnode, server: 160.16.240.91, port: 4054, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@stairnode, server: 160.16.116.227, port: 4054, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国3|@stairnode, server: 18.162.187.235, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: 🇺🇸 美国4|@stairnode, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇻🇳 越南|@stairnode, server: 103.186.155.110, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -11156,6 +11027,9 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇭🇰 香港7|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -11166,7 +11040,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇻🇳 越南|@stairnode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -11179,6 +11052,9 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇭🇰 香港7|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -11189,7 +11065,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇻🇳 越南|@stairnode
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -11202,6 +11077,9 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇭🇰 香港7|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -11212,7 +11090,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇻🇳 越南|@stairnode
   - name: 📲 电报信息
     type: select
     proxies:
@@ -11224,6 +11101,9 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇭🇰 香港7|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -11234,7 +11114,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇻🇳 越南|@stairnode
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -11246,6 +11125,9 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇭🇰 香港7|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -11256,7 +11138,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇻🇳 越南|@stairnode
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -11268,6 +11149,9 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇭🇰 香港7|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -11278,7 +11162,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇻🇳 越南|@stairnode
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -11291,6 +11174,9 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇭🇰 香港7|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -11301,7 +11187,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇻🇳 越南|@stairnode
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -11330,6 +11215,9 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇭🇰 香港7|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
@@ -11340,7 +11228,6 @@ proxy-groups:
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
       - 🇺🇸 美国4|@stairnode
-      - 🇻🇳 越南|@stairnode
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -15213,7 +15100,7 @@ proxies:
   - {name: "[Hysteria2] All-@V2rayAlpha--43", server: sanjose.nezhasu.com, port: 443, type: hysteria2, password: 2b195c17-5ff5-4b0d-a809-210b92212394, auth: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: SanJose.nezhasu.com, skip-cert-verify: false}
   - {name: "[Hysteria2] MCI-IR--@V2rayAlpha-11", server: yn2.nezhasu.com, port: 443, type: hysteria2, password: 2b195c17-5ff5-4b0d-a809-210b92212394, auth: 2b195c17-5ff5-4b0d-a809-210b92212394, sni: yn2.nezhasu.com, skip-cert-verify: false}
   - {name: "[Hysteria2] https://t.me/Selinc", server: 31.57.241.25, port: 7009, type: hysteria2, password: 30c075af-9555-4671-b70e-43e3cfb2e707, auth: 30c075af-9555-4671-b70e-43e3cfb2e707, sni: d.eans.top, skip-cert-verify: false}
-  - {name: "[Hysteria2] ‍☠️@FreakConfig", server: 140.245.68.133, port: 30102, type: hysteria2, password: 338ce171-d764-4610-8fd5-6688b0d321f0, auth: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: false}
+  - {name: "[Hysteria2] All-@V2ray_Alpha--30", server: 140.245.68.133, port: 30102, type: hysteria2, password: 338ce171-d764-4610-8fd5-6688b0d321f0, auth: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: false}
   - {name: "[Hysteria2] telegram » mainv𝟮ray¹", server: 144.24.101.176, port: 30102, type: hysteria2, password: 338ce171-d764-4610-8fd5-6688b0d321f0, auth: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: false}
   - {name: "[Hysteria2] All-@V2rayAlpha--42", server: 158.180.77.90, port: 30102, type: hysteria2, password: 338ce171-d764-4610-8fd5-6688b0d321f0, auth: 338ce171-d764-4610-8fd5-6688b0d321f0, skip-cert-verify: false}
   - {name: "[Hysteria2] MCI-IR--@V2rayAlpha-8", server: 193.123.76.141, port: 30102, type: hysteria2, password: 338ce171-d764-4610-8fd5-6688b0d321f0, auth: 338ce171-d764-4610-8fd5-6688b0d321f0, sni: du.wish.ml, skip-cert-verify: false}
@@ -15266,7 +15153,7 @@ proxies:
   - {name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1", server: 83.147.253.96, port: 2053, type: hysteria2, password: B0YiBTalnr, auth: B0YiBTalnr, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
   - {name: "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3", server: 91.99.225.11, port: 443, type: hysteria2, password: BNKPIBT5bF, auth: BNKPIBT5bF, sni: refersion.com, skip-cert-verify: false, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle}
   - {name: "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4", server: 91.99.225.11, port: 20820, type: hysteria2, password: Bf8SIGCNHy, auth: Bf8SIGCNHy, sni: refersion.com, skip-cert-verify: false, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle}
-  - {name: "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1", server: 83.147.253.96, port: 2053, type: hysteria2, password: ByBeTp5j5C, auth: ByBeTp5j5C, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
+  - {name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2", server: 83.147.253.96, port: 2053, type: hysteria2, password: ByBeTp5j5C, auth: ByBeTp5j5C, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
   - {name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3", server: 83.147.253.96, port: 2053, type: hysteria2, password: CA6haTDbz3, auth: CA6haTDbz3, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
   - {name: "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5", server: 91.99.225.11, port: 443, type: hysteria2, password: Cp0LaDHbP7, auth: Cp0LaDHbP7, sni: refersion.com, skip-cert-verify: false, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle}
   - {name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4", server: 83.147.253.96, port: 2053, type: hysteria2, password: Eb38tgzoKH, auth: Eb38tgzoKH, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
@@ -15279,6 +15166,7 @@ proxies:
   - {name: "[Hysteria2] https://t.me/V2ray_Tunnel_Plus...", server: p5.punchline.ir, port: 14055, type: hysteria2, password: KYPSpQi9oC, auth: KYPSpQi9oC, skip-cert-verify: false, obfs: salamander, obfs-password: AOICMIWHB892R8LNKDQX}
   - {name: "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1", server: p5.punchline.ir, port: 48149, type: hysteria2, password: KYPSpQi9oC, auth: KYPSpQi9oC, skip-cert-verify: false, obfs: salamander, obfs-password: QOXMQNCOI891E2IACJ}
   - {name: "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2", server: p5.punchline.ir, port: 54075, type: hysteria2, password: KYPSpQi9oC, auth: KYPSpQi9oC, skip-cert-verify: false, obfs: salamander, obfs-password: qqodmxm9822E2Q8OC}
+  - {name: "[Hysteria2] +@Azarakhsh_Proxy+🩷", server: 179.61.132.96, port: 8443, type: hysteria2, password: KevinZakarian, auth: KevinZakarian, sni: 179.61.132.96, skip-cert-verify: false, obfs: salamander, obfs-password: KevinZakarian}
   - {name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7", server: 83.147.253.96, port: 2053, type: hysteria2, password: MaylSzuBEK, auth: MaylSzuBEK, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
   - {name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8", server: 83.147.253.96, port: 2053, type: hysteria2, password: MmKPeSinVL, auth: MmKPeSinVL, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
   - {name: "[Hysteria2] All-@V2rayAlpha--2 #1", server: 43.201.45.216, port: 29609, type: hysteria2, password: MxiGoEDnLJELZicwCXwsADPdF4, auth: MxiGoEDnLJELZicwCXwsADPdF4, sni: bing.com, skip-cert-verify: false}
@@ -15292,7 +15180,7 @@ proxies:
   - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1", server: 206.71.158.37, port: 35000, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1}
   - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3", server: 206.71.158.37, port: 35200, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1}
   - {name: "[Hysteria2] All--@IRAN_V2RAY1 #3", server: 206.71.158.37, port: 36300, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1}
-  - {name: "[Hysteria2] All--@IRAN_V2RAY1 #4", server: 206.71.158.37, port: 36400, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1}
+  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6", server: 206.71.158.37, port: 36400, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1}
   - {name: "[Hysteria2] @Hddify |~| چنل هدیفای", server: 206.71.158.37, port: 36600, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1}
   - {name: "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1", server: yapc-1.adamhayward.co.uk, port: 36300, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1}
   - {name: "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2", server: yapc-1.adamhayward.co.uk, port: 36600, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1}
@@ -15300,20 +15188,20 @@ proxies:
   - {name: "[Hysteria2] @FreakConfig 3", server: de.eyucdn.xyz, port: 2056, type: hysteria2, password: a084933d-0b41-4571-ae0c-7163b8c71ed1, auth: a084933d-0b41-4571-ae0c-7163b8c71ed1, sni: de.eyucdn.xyz, skip-cert-verify: false}
   - {name: "[Hysteria2] @Selinc #10", server: nl2.oomz.ru, port: 30000, type: hysteria2, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, auth: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: false}
   - {name: "[Hysteria2] @Selinc #11", server: us4.oomz.ru, port: 30000, type: hysteria2, password: ab858115-e0ab-4cb7-8e65-0804c35e52d5, auth: ab858115-e0ab-4cb7-8e65-0804c35e52d5, sni: bing.com, skip-cert-verify: false}
-  - {name: "[Hysteria2] ‍☠️@FreakConfig #1", server: tr.xn--9kqx4sc0n.shop, port: 21325, type: hysteria2, password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6, auth: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6, skip-cert-verify: false}
-  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8", server: 206.71.158.40, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
-  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7", server: 206.71.158.40, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: jnir.pichondan.com, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
-  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11", server: 206.71.158.41, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
-  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12", server: 206.71.158.41, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: jnir.pichondan.com, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
-  - {name: "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2", server: 77.90.41.197, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
-  - {name: "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4", server: 77.90.41.197, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: jnir.pichondan.com, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
-  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14", server: dir.cybsecguru.com, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: jnir.pichondan.com, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
+  - {name: "[Hysteria2] telegram @mtmvpn #2", server: tr.xn--9kqx4sc0n.shop, port: 21325, type: hysteria2, password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6, auth: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6, skip-cert-verify: false}
+  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9", server: 206.71.158.40, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
+  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12", server: 206.71.158.41, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
+  - {name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13", server: 206.71.158.41, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: jnir.pichondan.com, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
+  - {name: "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN", server: 77.90.41.197, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: api.kermanshahi.org, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
+  - {name: "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2", server: 77.90.41.197, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: jnir.pichondan.com, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
+  - {name: "[Hysteria2] @FreakConfig #5", server: dir.cybsecguru.com, port: 35000, type: hysteria2, password: b4bd0613-ff7c-4f2f-954d-185915e6ddad, auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad, sni: jnir.pichondan.com, skip-cert-verify: false, obfs: salamander, obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"}
   - {name: "[Hysteria2] @sunflowerplato🌻 #2", server: 108.165.213.197, port: 23891, type: hysteria2, password: c232f411-96b5-4b07-b2f7-66a434725ffb, auth: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: fus01.mistea.top, skip-cert-verify: false}
   - {name: "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_...", server: 193.142.59.41, port: 23899, type: hysteria2, password: c232f411-96b5-4b07-b2f7-66a434725ffb, auth: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: hl01.mistea.top, skip-cert-verify: false}
   - {name: "[Hysteria2] All-@V2rayAlpha--1", server: 38.45.89.97, port: 23892, type: hysteria2, password: c232f411-96b5-4b07-b2f7-66a434725ffb, auth: c232f411-96b5-4b07-b2f7-66a434725ffb, sni: fus02.mistea.top, skip-cert-verify: false}
   - {name: "[Hysteria2] All-@V2ray_Alpha--9", server: 40.233.83.110, port: 45979, type: hysteria2, password: cfe032e4-1bc3-454f-9d09-301b0aea08ff, auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff, sni: www.bing.com, skip-cert-verify: false}
   - {name: "[Hysteria2] All--@V2rayAlpha-1", server: sb1.oomz.ru, port: 30000, type: hysteria2, password: d3da4e16-9bef-4e54-9bd9-960d32740392, auth: d3da4e16-9bef-4e54-9bd9-960d32740392, sni: bing.com, skip-cert-verify: false}
   - {name: "[Hysteria2] All--@V2rayAlpha-2", server: sb2.oomz.ru, port: 30000, type: hysteria2, password: d3da4e16-9bef-4e54-9bd9-960d32740392, auth: d3da4e16-9bef-4e54-9bd9-960d32740392, sni: bing.com, skip-cert-verify: false}
+  - {name: "[Hysteria2] @meli_proxyy #9", server: tr.xn--gmq00sc0nuve.shop, port: 21105, type: hysteria2, password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, auth: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d, skip-cert-verify: false}
   - {name: "[Hysteria2] @FreakConfig #2", server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, port: 443, type: hysteria2, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, auth: df7bed3c-06eb-11f0-8ebc-f23c93141fad, sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk, skip-cert-verify: false}
   - {name: "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5", server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk, port: 1743, type: hysteria2, password: df7bed3c-06eb-11f0-8ebc-f23c93141fad, auth: df7bed3c-06eb-11f0-8ebc-f23c93141fad, sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk, skip-cert-verify: false}
   - {name: "[Hysteria2] @V2rayNG3 #16", server: 46.17.41.189, port: 50717, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: false}
@@ -15335,54 +15223,55 @@ proxies:
   - {name: "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2", server: adas-polo-ba-mahi.kotlet.org, port: 2083, type: hysteria2, password: siEk2SjZFG, auth: siEk2SjZFG, sni: ghasem.kotlet.org, skip-cert-verify: false, obfs: salamander, obfs-password: ki(rtoko(s-maret-khamneii}
   - {name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18", server: 83.147.253.96, port: 2053, type: hysteria2, password: vrhh6FbEdi, auth: vrhh6FbEdi, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
   - {name: "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15", server: 83.147.253.96, port: 2053, type: hysteria2, password: yPUN7h9I8E, auth: yPUN7h9I8E, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
-  - {name: "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6", server: 91.99.225.11, port: 443, type: hysteria2, password: yrBnLOzhOi, auth: yrBnLOzhOi, sni: refersion.com, skip-cert-verify: false, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle}
+  - {name: "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16", server: 91.99.225.11, port: 443, type: hysteria2, password: yrBnLOzhOi, auth: yrBnLOzhOi, sni: refersion.com, skip-cert-verify: false, obfs: salamander, obfs-password: Jsbdksj@V2RayyNGvpn$Miracle}
   - {name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19", server: 83.147.253.96, port: 2053, type: hysteria2, password: zZLCcbcZIl, auth: zZLCcbcZIl, sni: webservice-admin.tgju.org, skip-cert-verify: false, obfs: salamander, obfs-password: MiracleV2RayyNGvpnfreeconf}
   - {name: "[SS] tg频道:@ripaojiedian", server: 3.9.17.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "[VMess] 🇭🇰 香港|@ripaojiedian", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: "[SS] 🇭🇰 香港2|@ripaojiedian", server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78}
-  - {name: "[Trojan] 🇭🇰 香港3|@ripaojiedian", server: 58.152.110.92, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "[Trojan] 🇭🇰 香港3|@ripaojiedian", server: 58.152.110.120, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: "[Trojan] 🇭🇰 香港4|@ripaojiedian", server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
   - {name: "[Trojan] 🇭🇰 香港5|@ripaojiedian", server: 58.152.53.22, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: "[Trojan] 🇯🇵 日本|@ripaojiedian", server: 153.121.67.215, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: "[Trojan] 🇯🇵 日本2|@ripaojiedian", server: 160.16.57.238, port: 3169, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "[Trojan] 🇯🇵 日本3|@ripaojiedian", server: 160.16.144.208, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "[Trojan] 🇸🇬 新加坡|@ripaojiedian", server: 160.16.236.32, port: 5553, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "[Trojan] 🇸🇬 新加坡2|@ripaojiedian", server: 160.16.236.32, port: 2760, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "[Trojan] 🇯🇵 日本|@ripaojiedian", server: 160.16.212.152, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: "[Trojan] 🇯🇵 日本2|@ripaojiedian", server: 160.16.131.243, port: 3169, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "[Trojan] 🇯🇵 日本3|@ripaojiedian", server: 160.16.107.37, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "[Trojan] 🇸🇬 新加坡|@ripaojiedian", server: 3.113.21.213, port: 5552, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "[Trojan] 🇸🇬 新加坡2|@ripaojiedian", server: 202.181.103.246, port: 127, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: "[Trojan] 🇸🇬 新加坡3|@ripaojiedian", server: 116.49.237.130, port: 1691, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
-  - {name: "[Trojan] 🇺🇸 美国|@ripaojiedian", server: 3.113.21.213, port: 2890, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "[Trojan] 🇺🇸 美国2|@ripaojiedian", server: 160.16.63.16, port: 4054, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "[Trojan] 🇺🇸 美国3|@ripaojiedian", server: 18.162.97.46, port: 2569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
+  - {name: "[Trojan] 🇺🇸 美国|@ripaojiedian", server: 160.16.131.243, port: 702, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "[Trojan] 🇺🇸 美国2|@ripaojiedian", server: 160.16.63.16, port: 2890, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: "[Trojan] 🇺🇸 美国3|@ripaojiedian", server: 13.114.168.160, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false}
   - {name: "[VMess] 🇺🇸 美国4|@ripaojiedian", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "[SS] 🇻🇳 越南|@ripaojiedian", server: 103.186.155.110, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
   - {name: "[SS] tg频道:@ripaojiedian 2", server: 3.9.17.198, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
   - {name: "[VMess] 🇺🇸 美国4|@ripaojiedian 2", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "[Trojan] CA_speednode_0001", server: 69.28.82.253, port: 443, type: trojan, password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/69.28.82.253=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: "[Vless] CZ_speednode_0004", server: 193.124.18.13, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Trojan] DE_speednode_0005", server: 52.57.38.0, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: "[Vless] DE_speednode_0006", server: 80.76.32.12, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Trojan] DE_speednode_0007", server: 52.57.38.0, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: "[SS] 🇻🇳 越南|@ripaojiedian 2", server: 103.186.155.110, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
+  - {name: "[Trojan] BE_speednode_0001", server: 34.22.190.30, port: 443, type: trojan, password: 29ca24a5-e8aa-4cbd-9bcb-f96aba1d6f15, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/34.22.190.30=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: "[Trojan] CA_speednode_0003", server: 69.28.82.253, port: 443, type: trojan, password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/69.28.82.253=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: "[Trojan] CH_speednode_0005", server: 91.192.102.92, port: 443, type: trojan, password: 8d047125-8467-4724-bb62-ef64405dca78, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/91.192.102.92=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: "[Vless] CZ_speednode_0006", server: 193.124.18.13, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
   - {name: "[Vless] DE_speednode_0008", server: 185.103.252.54, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
   - {name: "[Vless] DE_speednode_0009", server: 77.221.157.32, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Trojan] ES_speednode_0010", server: 45.86.229.28, port: 443, type: trojan, password: 9ccc3e1d-3df5-4348-aa05-738310149cc3, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.86.229.28=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: "[Trojan] FR_speednode_0012", server: 51.15.210.1, port: 443, type: trojan, password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/51.15.210.1=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: "[Vless] GB_speednode_0016", server: 206.189.25.65, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] GB_speednode_0017", server: 167.99.86.115, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] GB_speednode_0018", server: 5.144.182.111, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Trojan] HK_speednode_0019", server: 58.152.110.92, port: 443, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: "[Trojan] IT_speednode_0020", server: 94.177.199.119, port: 8443, type: trojan, password: e04af4a8-ce76-4026-8480-82d0e35dd239, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: "[Vless] JP_speednode_0026", server: 18.183.89.240, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] JP_speednode_0030", server: 54.249.169.40, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] JP_speednode_0031", server: 52.68.194.189, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Trojan] NL_speednode_0035", server: 81.22.132.183, port: 443, type: trojan, password: ee339912-0c35-4fac-8d85-180b65bcd49c, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/81.22.132.183=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: "[Trojan] NL_speednode_0036", server: 89.110.120.197, port: 443, type: trojan, password: 35f8e682-54bd-42c7-b537-94a8e4c84bcd, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/89.110.120.197=443, headers: {Host: joss.gpj1.web.id}}}
-  - {name: "[Vless] PL_speednode_0037", server: 89.19.211.109, port: 8443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] PL_speednode_0038", server: 85.193.92.242, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] PL_speednode_0039", server: 85.193.95.220, port: 8443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] PL_speednode_0040", server: 85.193.95.220, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] PL_speednode_0041", server: 91.149.253.249, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] RU_speednode_0042", server: 80.90.187.190, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] RU_speednode_0043", server: 194.35.119.49, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] RU_speednode_0044", server: 194.35.119.135, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
-  - {name: "[Vless] US_speednode_0045", server: 69.84.182.13, port: 443, type: vless, uuid: 312d3555-d7a3-4674-869a-0e5b7ee03a35, tls: true, skip-cert-verify: false, servername: fr-1-fr-1.aiopen.sbs, network: ws, ws-opts: {path: /kbjc/fr1fp=random, headers: {Host: fr-1-fr-1.aiopen.sbs}}}
+  - {name: "[Trojan] EE_speednode_0010", server: 37.252.5.75, port: 443, type: trojan, password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/37.252.5.75=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: "[Vless] ES_speednode_0011", server: 68.221.24.211, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Trojan] ES_speednode_0012", server: 45.86.229.28, port: 443, type: trojan, password: 9ccc3e1d-3df5-4348-aa05-738310149cc3, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.86.229.28=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: "[Vless] GB_speednode_0013", server: 206.189.25.65, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Vless] KR_speednode_0016", server: 125.141.4.132, port: 50001, type: vless, uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7, tls: true, alpn: [h3], skip-cert-verify: false, servername: s3.sni565.netlib.re, network: ws, ws-opts: {path: /proxyip=tw.sni2025.netlib.refp=chrome, headers: {Host: s3.sni565.netlib.re}}}
+  - {name: "[Vless] KR_speednode_0017", server: 106.245.165.137, port: 50001, type: vless, uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7, tls: true, alpn: [h3], skip-cert-verify: false, servername: s3.sni565.netlib.re, network: ws, ws-opts: {path: /proxyip=tw.sni2025.netlib.refp=chrome, headers: {Host: s3.sni565.netlib.re}}}
+  - {name: "[Vless] KR_speednode_0018", server: 115.90.84.220, port: 50001, type: vless, uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7, tls: true, alpn: [h3], skip-cert-verify: false, servername: s3.sni565.netlib.re, network: ws, ws-opts: {path: /fp=chrome, headers: {Host: s3.sni565.netlib.re}}}
+  - {name: "[Vless] KR_speednode_0019", server: 121.131.104.228, port: 50001, type: vless, uuid: 6923b959-c65f-764c-b072-94711382d716, tls: true, alpn: [h3], skip-cert-verify: false, servername: s2.sni565.netlib.re, network: ws, ws-opts: {path: /proxyip=tw.sni2025.netlib.refp=chrome, headers: {Host: s2.sni565.netlib.re}}}
+  - {name: "[Vless] KR_speednode_0021", server: 175.210.217.204, port: 50001, type: vless, uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7, tls: true, alpn: [h3], skip-cert-verify: false, servername: s3.sni565.netlib.re, network: ws, ws-opts: {path: /proxyip=tw.sni2025.netlib.refp=chrome, headers: {Host: s3.sni565.netlib.re}}}
+  - {name: "[Trojan] NL_speednode_0025", server: 86.107.197.239, port: 443, type: trojan, password: e683d757-b855-44c3-b0b6-22586444914a, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/86.107.197.239=443, headers: {Host: joss.gpj1.web.id}}}
+  - {name: "[Vless] PL_speednode_0026", server: 81.200.154.2, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Vless] PL_speednode_0027", server: 193.124.41.29, port: 443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Vless] PL_speednode_0028", server: 85.193.92.242, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Vless] PL_speednode_0029", server: 85.193.95.23, port: 8443, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Trojan] RU_speednode_0030", server: 37.18.14.33, port: 443, type: trojan, password: Qzy7tgpRhu, sni: m.vk.com, skip-cert-verify: false}
+  - {name: "[Vless] RU_speednode_0031", server: 80.90.187.190, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Vless] RU_speednode_0033", server: 194.35.119.135, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Vless] RU_speednode_0034", server: 194.35.119.49, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: false, skip-cert-verify: false, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: kuangbao.xiejiang.dpdns.org}}}
+  - {name: "[Vless] RU_speednode_0035", server: zcreat.ethervpn.fun, port: 8443, type: vless, uuid: a47595a8-1add-401a-8189-e6799f8d8628, tls: true, alpn: [h2%2Chttp/1.1], skip-cert-verify: false, servername: zcreat.ethervpn.fun, network: ws, ws-opts: {path: "/websocketpl?ed=2047fp=chrome", headers: {Host: zcreat.ethervpn.fun}}}
+  - {name: "[Trojan] US_speednode_0043", server: 51.45.12.251, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: "[Trojan] US_speednode_0044", server: 51.45.12.251, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: "[SS] 🇭🇰 香港2|@ripaojiedian 2", server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true, skip-cert-verify: false}}
 proxy-groups:
   - name: 🔰 节点选择
@@ -15419,7 +15308,7 @@ proxy-groups:
       - "[Hysteria2] All-@V2rayAlpha--43"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-11"
       - "[Hysteria2] https://t.me/Selinc"
-      - "[Hysteria2] ‍☠️@FreakConfig"
+      - "[Hysteria2] All-@V2ray_Alpha--30"
       - "[Hysteria2] telegram » mainv𝟮ray¹"
       - "[Hysteria2] All-@V2rayAlpha--42"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-8"
@@ -15472,7 +15361,7 @@ proxy-groups:
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+      - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
@@ -15485,6 +15374,7 @@ proxy-groups:
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1"
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2"
+      - "[Hysteria2] +@Azarakhsh_Proxy+🩷"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8"
       - "[Hysteria2] All-@V2rayAlpha--2 #1"
@@ -15498,7 +15388,7 @@ proxy-groups:
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
       - "[Hysteria2] All--@IRAN_V2RAY1 #3"
-      - "[Hysteria2] All--@IRAN_V2RAY1 #4"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
       - "[Hysteria2] @Hddify |~| چنل هدیفای"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2"
@@ -15506,20 +15396,20 @@ proxy-groups:
       - "[Hysteria2] @FreakConfig 3"
       - "[Hysteria2] @Selinc #10"
       - "[Hysteria2] @Selinc #11"
-      - "[Hysteria2] ‍☠️@FreakConfig #1"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+      - "[Hysteria2] telegram @mtmvpn #2"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN"
       - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14"
+      - "[Hysteria2] @FreakConfig #5"
       - "[Hysteria2] @sunflowerplato🌻 #2"
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
       - "[Hysteria2] All-@V2rayAlpha--1"
       - "[Hysteria2] All-@V2ray_Alpha--9"
       - "[Hysteria2] All--@V2rayAlpha-1"
       - "[Hysteria2] All--@V2rayAlpha-2"
+      - "[Hysteria2] @meli_proxyy #9"
       - "[Hysteria2] @FreakConfig #2"
       - "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5"
       - "[Hysteria2] @V2rayNG3 #16"
@@ -15541,7 +15431,7 @@ proxy-groups:
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6"
+      - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19"
       - "[SS] tg频道:@ripaojiedian"
       - "[VMess] 🇭🇰 香港|@ripaojiedian"
@@ -15559,36 +15449,37 @@ proxy-groups:
       - "[Trojan] 🇺🇸 美国2|@ripaojiedian"
       - "[Trojan] 🇺🇸 美国3|@ripaojiedian"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian"
+      - "[SS] 🇻🇳 越南|@ripaojiedian"
       - "[SS] tg频道:@ripaojiedian 2"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian 2"
-      - "[Trojan] CA_speednode_0001"
-      - "[Vless] CZ_speednode_0004"
-      - "[Trojan] DE_speednode_0005"
-      - "[Vless] DE_speednode_0006"
-      - "[Trojan] DE_speednode_0007"
+      - "[SS] 🇻🇳 越南|@ripaojiedian 2"
+      - "[Trojan] BE_speednode_0001"
+      - "[Trojan] CA_speednode_0003"
+      - "[Trojan] CH_speednode_0005"
+      - "[Vless] CZ_speednode_0006"
       - "[Vless] DE_speednode_0008"
       - "[Vless] DE_speednode_0009"
-      - "[Trojan] ES_speednode_0010"
-      - "[Trojan] FR_speednode_0012"
-      - "[Vless] GB_speednode_0016"
-      - "[Vless] GB_speednode_0017"
-      - "[Vless] GB_speednode_0018"
-      - "[Trojan] HK_speednode_0019"
-      - "[Trojan] IT_speednode_0020"
-      - "[Vless] JP_speednode_0026"
-      - "[Vless] JP_speednode_0030"
-      - "[Vless] JP_speednode_0031"
-      - "[Trojan] NL_speednode_0035"
-      - "[Trojan] NL_speednode_0036"
-      - "[Vless] PL_speednode_0037"
-      - "[Vless] PL_speednode_0038"
-      - "[Vless] PL_speednode_0039"
-      - "[Vless] PL_speednode_0040"
-      - "[Vless] PL_speednode_0041"
-      - "[Vless] RU_speednode_0042"
-      - "[Vless] RU_speednode_0043"
-      - "[Vless] RU_speednode_0044"
-      - "[Vless] US_speednode_0045"
+      - "[Trojan] EE_speednode_0010"
+      - "[Vless] ES_speednode_0011"
+      - "[Trojan] ES_speednode_0012"
+      - "[Vless] GB_speednode_0013"
+      - "[Vless] KR_speednode_0016"
+      - "[Vless] KR_speednode_0017"
+      - "[Vless] KR_speednode_0018"
+      - "[Vless] KR_speednode_0019"
+      - "[Vless] KR_speednode_0021"
+      - "[Trojan] NL_speednode_0025"
+      - "[Vless] PL_speednode_0026"
+      - "[Vless] PL_speednode_0027"
+      - "[Vless] PL_speednode_0028"
+      - "[Vless] PL_speednode_0029"
+      - "[Trojan] RU_speednode_0030"
+      - "[Vless] RU_speednode_0031"
+      - "[Vless] RU_speednode_0033"
+      - "[Vless] RU_speednode_0034"
+      - "[Vless] RU_speednode_0035"
+      - "[Trojan] US_speednode_0043"
+      - "[Trojan] US_speednode_0044"
       - "[SS] 🇭🇰 香港2|@ripaojiedian 2"
   - name: ♻️ 自动选择
     type: url-test
@@ -15624,7 +15515,7 @@ proxy-groups:
       - "[Hysteria2] All-@V2rayAlpha--43"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-11"
       - "[Hysteria2] https://t.me/Selinc"
-      - "[Hysteria2] ‍☠️@FreakConfig"
+      - "[Hysteria2] All-@V2ray_Alpha--30"
       - "[Hysteria2] telegram » mainv𝟮ray¹"
       - "[Hysteria2] All-@V2rayAlpha--42"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-8"
@@ -15677,7 +15568,7 @@ proxy-groups:
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+      - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
@@ -15690,6 +15581,7 @@ proxy-groups:
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1"
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2"
+      - "[Hysteria2] +@Azarakhsh_Proxy+🩷"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8"
       - "[Hysteria2] All-@V2rayAlpha--2 #1"
@@ -15703,7 +15595,7 @@ proxy-groups:
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
       - "[Hysteria2] All--@IRAN_V2RAY1 #3"
-      - "[Hysteria2] All--@IRAN_V2RAY1 #4"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
       - "[Hysteria2] @Hddify |~| چنل هدیفای"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2"
@@ -15711,20 +15603,20 @@ proxy-groups:
       - "[Hysteria2] @FreakConfig 3"
       - "[Hysteria2] @Selinc #10"
       - "[Hysteria2] @Selinc #11"
-      - "[Hysteria2] ‍☠️@FreakConfig #1"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+      - "[Hysteria2] telegram @mtmvpn #2"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN"
       - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14"
+      - "[Hysteria2] @FreakConfig #5"
       - "[Hysteria2] @sunflowerplato🌻 #2"
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
       - "[Hysteria2] All-@V2rayAlpha--1"
       - "[Hysteria2] All-@V2ray_Alpha--9"
       - "[Hysteria2] All--@V2rayAlpha-1"
       - "[Hysteria2] All--@V2rayAlpha-2"
+      - "[Hysteria2] @meli_proxyy #9"
       - "[Hysteria2] @FreakConfig #2"
       - "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5"
       - "[Hysteria2] @V2rayNG3 #16"
@@ -15746,7 +15638,7 @@ proxy-groups:
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6"
+      - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19"
       - "[SS] tg频道:@ripaojiedian"
       - "[VMess] 🇭🇰 香港|@ripaojiedian"
@@ -15764,36 +15656,37 @@ proxy-groups:
       - "[Trojan] 🇺🇸 美国2|@ripaojiedian"
       - "[Trojan] 🇺🇸 美国3|@ripaojiedian"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian"
+      - "[SS] 🇻🇳 越南|@ripaojiedian"
       - "[SS] tg频道:@ripaojiedian 2"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian 2"
-      - "[Trojan] CA_speednode_0001"
-      - "[Vless] CZ_speednode_0004"
-      - "[Trojan] DE_speednode_0005"
-      - "[Vless] DE_speednode_0006"
-      - "[Trojan] DE_speednode_0007"
+      - "[SS] 🇻🇳 越南|@ripaojiedian 2"
+      - "[Trojan] BE_speednode_0001"
+      - "[Trojan] CA_speednode_0003"
+      - "[Trojan] CH_speednode_0005"
+      - "[Vless] CZ_speednode_0006"
       - "[Vless] DE_speednode_0008"
       - "[Vless] DE_speednode_0009"
-      - "[Trojan] ES_speednode_0010"
-      - "[Trojan] FR_speednode_0012"
-      - "[Vless] GB_speednode_0016"
-      - "[Vless] GB_speednode_0017"
-      - "[Vless] GB_speednode_0018"
-      - "[Trojan] HK_speednode_0019"
-      - "[Trojan] IT_speednode_0020"
-      - "[Vless] JP_speednode_0026"
-      - "[Vless] JP_speednode_0030"
-      - "[Vless] JP_speednode_0031"
-      - "[Trojan] NL_speednode_0035"
-      - "[Trojan] NL_speednode_0036"
-      - "[Vless] PL_speednode_0037"
-      - "[Vless] PL_speednode_0038"
-      - "[Vless] PL_speednode_0039"
-      - "[Vless] PL_speednode_0040"
-      - "[Vless] PL_speednode_0041"
-      - "[Vless] RU_speednode_0042"
-      - "[Vless] RU_speednode_0043"
-      - "[Vless] RU_speednode_0044"
-      - "[Vless] US_speednode_0045"
+      - "[Trojan] EE_speednode_0010"
+      - "[Vless] ES_speednode_0011"
+      - "[Trojan] ES_speednode_0012"
+      - "[Vless] GB_speednode_0013"
+      - "[Vless] KR_speednode_0016"
+      - "[Vless] KR_speednode_0017"
+      - "[Vless] KR_speednode_0018"
+      - "[Vless] KR_speednode_0019"
+      - "[Vless] KR_speednode_0021"
+      - "[Trojan] NL_speednode_0025"
+      - "[Vless] PL_speednode_0026"
+      - "[Vless] PL_speednode_0027"
+      - "[Vless] PL_speednode_0028"
+      - "[Vless] PL_speednode_0029"
+      - "[Trojan] RU_speednode_0030"
+      - "[Vless] RU_speednode_0031"
+      - "[Vless] RU_speednode_0033"
+      - "[Vless] RU_speednode_0034"
+      - "[Vless] RU_speednode_0035"
+      - "[Trojan] US_speednode_0043"
+      - "[Trojan] US_speednode_0044"
       - "[SS] 🇭🇰 香港2|@ripaojiedian 2"
   - name: 🎥 NETFLIX
     type: select
@@ -15830,7 +15723,7 @@ proxy-groups:
       - "[Hysteria2] All-@V2rayAlpha--43"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-11"
       - "[Hysteria2] https://t.me/Selinc"
-      - "[Hysteria2] ‍☠️@FreakConfig"
+      - "[Hysteria2] All-@V2ray_Alpha--30"
       - "[Hysteria2] telegram » mainv𝟮ray¹"
       - "[Hysteria2] All-@V2rayAlpha--42"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-8"
@@ -15883,7 +15776,7 @@ proxy-groups:
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+      - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
@@ -15896,6 +15789,7 @@ proxy-groups:
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1"
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2"
+      - "[Hysteria2] +@Azarakhsh_Proxy+🩷"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8"
       - "[Hysteria2] All-@V2rayAlpha--2 #1"
@@ -15909,7 +15803,7 @@ proxy-groups:
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
       - "[Hysteria2] All--@IRAN_V2RAY1 #3"
-      - "[Hysteria2] All--@IRAN_V2RAY1 #4"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
       - "[Hysteria2] @Hddify |~| چنل هدیفای"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2"
@@ -15917,20 +15811,20 @@ proxy-groups:
       - "[Hysteria2] @FreakConfig 3"
       - "[Hysteria2] @Selinc #10"
       - "[Hysteria2] @Selinc #11"
-      - "[Hysteria2] ‍☠️@FreakConfig #1"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+      - "[Hysteria2] telegram @mtmvpn #2"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN"
       - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14"
+      - "[Hysteria2] @FreakConfig #5"
       - "[Hysteria2] @sunflowerplato🌻 #2"
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
       - "[Hysteria2] All-@V2rayAlpha--1"
       - "[Hysteria2] All-@V2ray_Alpha--9"
       - "[Hysteria2] All--@V2rayAlpha-1"
       - "[Hysteria2] All--@V2rayAlpha-2"
+      - "[Hysteria2] @meli_proxyy #9"
       - "[Hysteria2] @FreakConfig #2"
       - "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5"
       - "[Hysteria2] @V2rayNG3 #16"
@@ -15952,7 +15846,7 @@ proxy-groups:
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6"
+      - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19"
       - "[SS] tg频道:@ripaojiedian"
       - "[VMess] 🇭🇰 香港|@ripaojiedian"
@@ -15970,36 +15864,37 @@ proxy-groups:
       - "[Trojan] 🇺🇸 美国2|@ripaojiedian"
       - "[Trojan] 🇺🇸 美国3|@ripaojiedian"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian"
+      - "[SS] 🇻🇳 越南|@ripaojiedian"
       - "[SS] tg频道:@ripaojiedian 2"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian 2"
-      - "[Trojan] CA_speednode_0001"
-      - "[Vless] CZ_speednode_0004"
-      - "[Trojan] DE_speednode_0005"
-      - "[Vless] DE_speednode_0006"
-      - "[Trojan] DE_speednode_0007"
+      - "[SS] 🇻🇳 越南|@ripaojiedian 2"
+      - "[Trojan] BE_speednode_0001"
+      - "[Trojan] CA_speednode_0003"
+      - "[Trojan] CH_speednode_0005"
+      - "[Vless] CZ_speednode_0006"
       - "[Vless] DE_speednode_0008"
       - "[Vless] DE_speednode_0009"
-      - "[Trojan] ES_speednode_0010"
-      - "[Trojan] FR_speednode_0012"
-      - "[Vless] GB_speednode_0016"
-      - "[Vless] GB_speednode_0017"
-      - "[Vless] GB_speednode_0018"
-      - "[Trojan] HK_speednode_0019"
-      - "[Trojan] IT_speednode_0020"
-      - "[Vless] JP_speednode_0026"
-      - "[Vless] JP_speednode_0030"
-      - "[Vless] JP_speednode_0031"
-      - "[Trojan] NL_speednode_0035"
-      - "[Trojan] NL_speednode_0036"
-      - "[Vless] PL_speednode_0037"
-      - "[Vless] PL_speednode_0038"
-      - "[Vless] PL_speednode_0039"
-      - "[Vless] PL_speednode_0040"
-      - "[Vless] PL_speednode_0041"
-      - "[Vless] RU_speednode_0042"
-      - "[Vless] RU_speednode_0043"
-      - "[Vless] RU_speednode_0044"
-      - "[Vless] US_speednode_0045"
+      - "[Trojan] EE_speednode_0010"
+      - "[Vless] ES_speednode_0011"
+      - "[Trojan] ES_speednode_0012"
+      - "[Vless] GB_speednode_0013"
+      - "[Vless] KR_speednode_0016"
+      - "[Vless] KR_speednode_0017"
+      - "[Vless] KR_speednode_0018"
+      - "[Vless] KR_speednode_0019"
+      - "[Vless] KR_speednode_0021"
+      - "[Trojan] NL_speednode_0025"
+      - "[Vless] PL_speednode_0026"
+      - "[Vless] PL_speednode_0027"
+      - "[Vless] PL_speednode_0028"
+      - "[Vless] PL_speednode_0029"
+      - "[Trojan] RU_speednode_0030"
+      - "[Vless] RU_speednode_0031"
+      - "[Vless] RU_speednode_0033"
+      - "[Vless] RU_speednode_0034"
+      - "[Vless] RU_speednode_0035"
+      - "[Trojan] US_speednode_0043"
+      - "[Trojan] US_speednode_0044"
       - "[SS] 🇭🇰 香港2|@ripaojiedian 2"
   - name: ⛔️ 广告拦截
     type: select
@@ -16048,7 +15943,7 @@ proxy-groups:
       - "[Hysteria2] All-@V2rayAlpha--43"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-11"
       - "[Hysteria2] https://t.me/Selinc"
-      - "[Hysteria2] ‍☠️@FreakConfig"
+      - "[Hysteria2] All-@V2ray_Alpha--30"
       - "[Hysteria2] telegram » mainv𝟮ray¹"
       - "[Hysteria2] All-@V2rayAlpha--42"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-8"
@@ -16101,7 +15996,7 @@ proxy-groups:
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+      - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
@@ -16114,6 +16009,7 @@ proxy-groups:
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1"
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2"
+      - "[Hysteria2] +@Azarakhsh_Proxy+🩷"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8"
       - "[Hysteria2] All-@V2rayAlpha--2 #1"
@@ -16127,7 +16023,7 @@ proxy-groups:
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
       - "[Hysteria2] All--@IRAN_V2RAY1 #3"
-      - "[Hysteria2] All--@IRAN_V2RAY1 #4"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
       - "[Hysteria2] @Hddify |~| چنل هدیفای"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2"
@@ -16135,20 +16031,20 @@ proxy-groups:
       - "[Hysteria2] @FreakConfig 3"
       - "[Hysteria2] @Selinc #10"
       - "[Hysteria2] @Selinc #11"
-      - "[Hysteria2] ‍☠️@FreakConfig #1"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+      - "[Hysteria2] telegram @mtmvpn #2"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN"
       - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14"
+      - "[Hysteria2] @FreakConfig #5"
       - "[Hysteria2] @sunflowerplato🌻 #2"
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
       - "[Hysteria2] All-@V2rayAlpha--1"
       - "[Hysteria2] All-@V2ray_Alpha--9"
       - "[Hysteria2] All--@V2rayAlpha-1"
       - "[Hysteria2] All--@V2rayAlpha-2"
+      - "[Hysteria2] @meli_proxyy #9"
       - "[Hysteria2] @FreakConfig #2"
       - "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5"
       - "[Hysteria2] @V2rayNG3 #16"
@@ -16170,7 +16066,7 @@ proxy-groups:
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6"
+      - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19"
       - "[SS] tg频道:@ripaojiedian"
       - "[VMess] 🇭🇰 香港|@ripaojiedian"
@@ -16188,36 +16084,37 @@ proxy-groups:
       - "[Trojan] 🇺🇸 美国2|@ripaojiedian"
       - "[Trojan] 🇺🇸 美国3|@ripaojiedian"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian"
+      - "[SS] 🇻🇳 越南|@ripaojiedian"
       - "[SS] tg频道:@ripaojiedian 2"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian 2"
-      - "[Trojan] CA_speednode_0001"
-      - "[Vless] CZ_speednode_0004"
-      - "[Trojan] DE_speednode_0005"
-      - "[Vless] DE_speednode_0006"
-      - "[Trojan] DE_speednode_0007"
+      - "[SS] 🇻🇳 越南|@ripaojiedian 2"
+      - "[Trojan] BE_speednode_0001"
+      - "[Trojan] CA_speednode_0003"
+      - "[Trojan] CH_speednode_0005"
+      - "[Vless] CZ_speednode_0006"
       - "[Vless] DE_speednode_0008"
       - "[Vless] DE_speednode_0009"
-      - "[Trojan] ES_speednode_0010"
-      - "[Trojan] FR_speednode_0012"
-      - "[Vless] GB_speednode_0016"
-      - "[Vless] GB_speednode_0017"
-      - "[Vless] GB_speednode_0018"
-      - "[Trojan] HK_speednode_0019"
-      - "[Trojan] IT_speednode_0020"
-      - "[Vless] JP_speednode_0026"
-      - "[Vless] JP_speednode_0030"
-      - "[Vless] JP_speednode_0031"
-      - "[Trojan] NL_speednode_0035"
-      - "[Trojan] NL_speednode_0036"
-      - "[Vless] PL_speednode_0037"
-      - "[Vless] PL_speednode_0038"
-      - "[Vless] PL_speednode_0039"
-      - "[Vless] PL_speednode_0040"
-      - "[Vless] PL_speednode_0041"
-      - "[Vless] RU_speednode_0042"
-      - "[Vless] RU_speednode_0043"
-      - "[Vless] RU_speednode_0044"
-      - "[Vless] US_speednode_0045"
+      - "[Trojan] EE_speednode_0010"
+      - "[Vless] ES_speednode_0011"
+      - "[Trojan] ES_speednode_0012"
+      - "[Vless] GB_speednode_0013"
+      - "[Vless] KR_speednode_0016"
+      - "[Vless] KR_speednode_0017"
+      - "[Vless] KR_speednode_0018"
+      - "[Vless] KR_speednode_0019"
+      - "[Vless] KR_speednode_0021"
+      - "[Trojan] NL_speednode_0025"
+      - "[Vless] PL_speednode_0026"
+      - "[Vless] PL_speednode_0027"
+      - "[Vless] PL_speednode_0028"
+      - "[Vless] PL_speednode_0029"
+      - "[Trojan] RU_speednode_0030"
+      - "[Vless] RU_speednode_0031"
+      - "[Vless] RU_speednode_0033"
+      - "[Vless] RU_speednode_0034"
+      - "[Vless] RU_speednode_0035"
+      - "[Trojan] US_speednode_0043"
+      - "[Trojan] US_speednode_0044"
       - "[SS] 🇭🇰 香港2|@ripaojiedian 2"
   - name: 🌏 国内媒体
     type: select
@@ -16264,7 +16161,7 @@ proxy-groups:
       - "[Hysteria2] All-@V2rayAlpha--43"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-11"
       - "[Hysteria2] https://t.me/Selinc"
-      - "[Hysteria2] ‍☠️@FreakConfig"
+      - "[Hysteria2] All-@V2ray_Alpha--30"
       - "[Hysteria2] telegram » mainv𝟮ray¹"
       - "[Hysteria2] All-@V2rayAlpha--42"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-8"
@@ -16317,7 +16214,7 @@ proxy-groups:
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+      - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
@@ -16330,6 +16227,7 @@ proxy-groups:
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1"
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2"
+      - "[Hysteria2] +@Azarakhsh_Proxy+🩷"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8"
       - "[Hysteria2] All-@V2rayAlpha--2 #1"
@@ -16343,7 +16241,7 @@ proxy-groups:
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
       - "[Hysteria2] All--@IRAN_V2RAY1 #3"
-      - "[Hysteria2] All--@IRAN_V2RAY1 #4"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
       - "[Hysteria2] @Hddify |~| چنل هدیفای"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2"
@@ -16351,20 +16249,20 @@ proxy-groups:
       - "[Hysteria2] @FreakConfig 3"
       - "[Hysteria2] @Selinc #10"
       - "[Hysteria2] @Selinc #11"
-      - "[Hysteria2] ‍☠️@FreakConfig #1"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+      - "[Hysteria2] telegram @mtmvpn #2"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN"
       - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14"
+      - "[Hysteria2] @FreakConfig #5"
       - "[Hysteria2] @sunflowerplato🌻 #2"
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
       - "[Hysteria2] All-@V2rayAlpha--1"
       - "[Hysteria2] All-@V2ray_Alpha--9"
       - "[Hysteria2] All--@V2rayAlpha-1"
       - "[Hysteria2] All--@V2rayAlpha-2"
+      - "[Hysteria2] @meli_proxyy #9"
       - "[Hysteria2] @FreakConfig #2"
       - "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5"
       - "[Hysteria2] @V2rayNG3 #16"
@@ -16386,7 +16284,7 @@ proxy-groups:
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6"
+      - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19"
       - "[SS] tg频道:@ripaojiedian"
       - "[VMess] 🇭🇰 香港|@ripaojiedian"
@@ -16404,36 +16302,37 @@ proxy-groups:
       - "[Trojan] 🇺🇸 美国2|@ripaojiedian"
       - "[Trojan] 🇺🇸 美国3|@ripaojiedian"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian"
+      - "[SS] 🇻🇳 越南|@ripaojiedian"
       - "[SS] tg频道:@ripaojiedian 2"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian 2"
-      - "[Trojan] CA_speednode_0001"
-      - "[Vless] CZ_speednode_0004"
-      - "[Trojan] DE_speednode_0005"
-      - "[Vless] DE_speednode_0006"
-      - "[Trojan] DE_speednode_0007"
+      - "[SS] 🇻🇳 越南|@ripaojiedian 2"
+      - "[Trojan] BE_speednode_0001"
+      - "[Trojan] CA_speednode_0003"
+      - "[Trojan] CH_speednode_0005"
+      - "[Vless] CZ_speednode_0006"
       - "[Vless] DE_speednode_0008"
       - "[Vless] DE_speednode_0009"
-      - "[Trojan] ES_speednode_0010"
-      - "[Trojan] FR_speednode_0012"
-      - "[Vless] GB_speednode_0016"
-      - "[Vless] GB_speednode_0017"
-      - "[Vless] GB_speednode_0018"
-      - "[Trojan] HK_speednode_0019"
-      - "[Trojan] IT_speednode_0020"
-      - "[Vless] JP_speednode_0026"
-      - "[Vless] JP_speednode_0030"
-      - "[Vless] JP_speednode_0031"
-      - "[Trojan] NL_speednode_0035"
-      - "[Trojan] NL_speednode_0036"
-      - "[Vless] PL_speednode_0037"
-      - "[Vless] PL_speednode_0038"
-      - "[Vless] PL_speednode_0039"
-      - "[Vless] PL_speednode_0040"
-      - "[Vless] PL_speednode_0041"
-      - "[Vless] RU_speednode_0042"
-      - "[Vless] RU_speednode_0043"
-      - "[Vless] RU_speednode_0044"
-      - "[Vless] US_speednode_0045"
+      - "[Trojan] EE_speednode_0010"
+      - "[Vless] ES_speednode_0011"
+      - "[Trojan] ES_speednode_0012"
+      - "[Vless] GB_speednode_0013"
+      - "[Vless] KR_speednode_0016"
+      - "[Vless] KR_speednode_0017"
+      - "[Vless] KR_speednode_0018"
+      - "[Vless] KR_speednode_0019"
+      - "[Vless] KR_speednode_0021"
+      - "[Trojan] NL_speednode_0025"
+      - "[Vless] PL_speednode_0026"
+      - "[Vless] PL_speednode_0027"
+      - "[Vless] PL_speednode_0028"
+      - "[Vless] PL_speednode_0029"
+      - "[Trojan] RU_speednode_0030"
+      - "[Vless] RU_speednode_0031"
+      - "[Vless] RU_speednode_0033"
+      - "[Vless] RU_speednode_0034"
+      - "[Vless] RU_speednode_0035"
+      - "[Trojan] US_speednode_0043"
+      - "[Trojan] US_speednode_0044"
       - "[SS] 🇭🇰 香港2|@ripaojiedian 2"
   - name: 📲 电报信息
     type: select
@@ -16469,7 +16368,7 @@ proxy-groups:
       - "[Hysteria2] All-@V2rayAlpha--43"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-11"
       - "[Hysteria2] https://t.me/Selinc"
-      - "[Hysteria2] ‍☠️@FreakConfig"
+      - "[Hysteria2] All-@V2ray_Alpha--30"
       - "[Hysteria2] telegram » mainv𝟮ray¹"
       - "[Hysteria2] All-@V2rayAlpha--42"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-8"
@@ -16522,7 +16421,7 @@ proxy-groups:
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+      - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
@@ -16535,6 +16434,7 @@ proxy-groups:
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1"
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2"
+      - "[Hysteria2] +@Azarakhsh_Proxy+🩷"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8"
       - "[Hysteria2] All-@V2rayAlpha--2 #1"
@@ -16548,7 +16448,7 @@ proxy-groups:
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
       - "[Hysteria2] All--@IRAN_V2RAY1 #3"
-      - "[Hysteria2] All--@IRAN_V2RAY1 #4"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
       - "[Hysteria2] @Hddify |~| چنل هدیفای"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2"
@@ -16556,20 +16456,20 @@ proxy-groups:
       - "[Hysteria2] @FreakConfig 3"
       - "[Hysteria2] @Selinc #10"
       - "[Hysteria2] @Selinc #11"
-      - "[Hysteria2] ‍☠️@FreakConfig #1"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+      - "[Hysteria2] telegram @mtmvpn #2"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN"
       - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14"
+      - "[Hysteria2] @FreakConfig #5"
       - "[Hysteria2] @sunflowerplato🌻 #2"
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
       - "[Hysteria2] All-@V2rayAlpha--1"
       - "[Hysteria2] All-@V2ray_Alpha--9"
       - "[Hysteria2] All--@V2rayAlpha-1"
       - "[Hysteria2] All--@V2rayAlpha-2"
+      - "[Hysteria2] @meli_proxyy #9"
       - "[Hysteria2] @FreakConfig #2"
       - "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5"
       - "[Hysteria2] @V2rayNG3 #16"
@@ -16591,7 +16491,7 @@ proxy-groups:
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6"
+      - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19"
       - "[SS] tg频道:@ripaojiedian"
       - "[VMess] 🇭🇰 香港|@ripaojiedian"
@@ -16609,36 +16509,37 @@ proxy-groups:
       - "[Trojan] 🇺🇸 美国2|@ripaojiedian"
       - "[Trojan] 🇺🇸 美国3|@ripaojiedian"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian"
+      - "[SS] 🇻🇳 越南|@ripaojiedian"
       - "[SS] tg频道:@ripaojiedian 2"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian 2"
-      - "[Trojan] CA_speednode_0001"
-      - "[Vless] CZ_speednode_0004"
-      - "[Trojan] DE_speednode_0005"
-      - "[Vless] DE_speednode_0006"
-      - "[Trojan] DE_speednode_0007"
+      - "[SS] 🇻🇳 越南|@ripaojiedian 2"
+      - "[Trojan] BE_speednode_0001"
+      - "[Trojan] CA_speednode_0003"
+      - "[Trojan] CH_speednode_0005"
+      - "[Vless] CZ_speednode_0006"
       - "[Vless] DE_speednode_0008"
       - "[Vless] DE_speednode_0009"
-      - "[Trojan] ES_speednode_0010"
-      - "[Trojan] FR_speednode_0012"
-      - "[Vless] GB_speednode_0016"
-      - "[Vless] GB_speednode_0017"
-      - "[Vless] GB_speednode_0018"
-      - "[Trojan] HK_speednode_0019"
-      - "[Trojan] IT_speednode_0020"
-      - "[Vless] JP_speednode_0026"
-      - "[Vless] JP_speednode_0030"
-      - "[Vless] JP_speednode_0031"
-      - "[Trojan] NL_speednode_0035"
-      - "[Trojan] NL_speednode_0036"
-      - "[Vless] PL_speednode_0037"
-      - "[Vless] PL_speednode_0038"
-      - "[Vless] PL_speednode_0039"
-      - "[Vless] PL_speednode_0040"
-      - "[Vless] PL_speednode_0041"
-      - "[Vless] RU_speednode_0042"
-      - "[Vless] RU_speednode_0043"
-      - "[Vless] RU_speednode_0044"
-      - "[Vless] US_speednode_0045"
+      - "[Trojan] EE_speednode_0010"
+      - "[Vless] ES_speednode_0011"
+      - "[Trojan] ES_speednode_0012"
+      - "[Vless] GB_speednode_0013"
+      - "[Vless] KR_speednode_0016"
+      - "[Vless] KR_speednode_0017"
+      - "[Vless] KR_speednode_0018"
+      - "[Vless] KR_speednode_0019"
+      - "[Vless] KR_speednode_0021"
+      - "[Trojan] NL_speednode_0025"
+      - "[Vless] PL_speednode_0026"
+      - "[Vless] PL_speednode_0027"
+      - "[Vless] PL_speednode_0028"
+      - "[Vless] PL_speednode_0029"
+      - "[Trojan] RU_speednode_0030"
+      - "[Vless] RU_speednode_0031"
+      - "[Vless] RU_speednode_0033"
+      - "[Vless] RU_speednode_0034"
+      - "[Vless] RU_speednode_0035"
+      - "[Trojan] US_speednode_0043"
+      - "[Trojan] US_speednode_0044"
       - "[SS] 🇭🇰 香港2|@ripaojiedian 2"
   - name: 🍎 苹果服务
     type: select
@@ -16675,7 +16576,7 @@ proxy-groups:
       - "[Hysteria2] All-@V2rayAlpha--43"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-11"
       - "[Hysteria2] https://t.me/Selinc"
-      - "[Hysteria2] ‍☠️@FreakConfig"
+      - "[Hysteria2] All-@V2ray_Alpha--30"
       - "[Hysteria2] telegram » mainv𝟮ray¹"
       - "[Hysteria2] All-@V2rayAlpha--42"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-8"
@@ -16728,7 +16629,7 @@ proxy-groups:
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+      - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
@@ -16741,6 +16642,7 @@ proxy-groups:
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1"
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2"
+      - "[Hysteria2] +@Azarakhsh_Proxy+🩷"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8"
       - "[Hysteria2] All-@V2rayAlpha--2 #1"
@@ -16754,7 +16656,7 @@ proxy-groups:
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
       - "[Hysteria2] All--@IRAN_V2RAY1 #3"
-      - "[Hysteria2] All--@IRAN_V2RAY1 #4"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
       - "[Hysteria2] @Hddify |~| چنل هدیفای"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2"
@@ -16762,20 +16664,20 @@ proxy-groups:
       - "[Hysteria2] @FreakConfig 3"
       - "[Hysteria2] @Selinc #10"
       - "[Hysteria2] @Selinc #11"
-      - "[Hysteria2] ‍☠️@FreakConfig #1"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+      - "[Hysteria2] telegram @mtmvpn #2"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN"
       - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14"
+      - "[Hysteria2] @FreakConfig #5"
       - "[Hysteria2] @sunflowerplato🌻 #2"
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
       - "[Hysteria2] All-@V2rayAlpha--1"
       - "[Hysteria2] All-@V2ray_Alpha--9"
       - "[Hysteria2] All--@V2rayAlpha-1"
       - "[Hysteria2] All--@V2rayAlpha-2"
+      - "[Hysteria2] @meli_proxyy #9"
       - "[Hysteria2] @FreakConfig #2"
       - "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5"
       - "[Hysteria2] @V2rayNG3 #16"
@@ -16797,7 +16699,7 @@ proxy-groups:
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6"
+      - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19"
       - "[SS] tg频道:@ripaojiedian"
       - "[VMess] 🇭🇰 香港|@ripaojiedian"
@@ -16815,36 +16717,37 @@ proxy-groups:
       - "[Trojan] 🇺🇸 美国2|@ripaojiedian"
       - "[Trojan] 🇺🇸 美国3|@ripaojiedian"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian"
+      - "[SS] 🇻🇳 越南|@ripaojiedian"
       - "[SS] tg频道:@ripaojiedian 2"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian 2"
-      - "[Trojan] CA_speednode_0001"
-      - "[Vless] CZ_speednode_0004"
-      - "[Trojan] DE_speednode_0005"
-      - "[Vless] DE_speednode_0006"
-      - "[Trojan] DE_speednode_0007"
+      - "[SS] 🇻🇳 越南|@ripaojiedian 2"
+      - "[Trojan] BE_speednode_0001"
+      - "[Trojan] CA_speednode_0003"
+      - "[Trojan] CH_speednode_0005"
+      - "[Vless] CZ_speednode_0006"
       - "[Vless] DE_speednode_0008"
       - "[Vless] DE_speednode_0009"
-      - "[Trojan] ES_speednode_0010"
-      - "[Trojan] FR_speednode_0012"
-      - "[Vless] GB_speednode_0016"
-      - "[Vless] GB_speednode_0017"
-      - "[Vless] GB_speednode_0018"
-      - "[Trojan] HK_speednode_0019"
-      - "[Trojan] IT_speednode_0020"
-      - "[Vless] JP_speednode_0026"
-      - "[Vless] JP_speednode_0030"
-      - "[Vless] JP_speednode_0031"
-      - "[Trojan] NL_speednode_0035"
-      - "[Trojan] NL_speednode_0036"
-      - "[Vless] PL_speednode_0037"
-      - "[Vless] PL_speednode_0038"
-      - "[Vless] PL_speednode_0039"
-      - "[Vless] PL_speednode_0040"
-      - "[Vless] PL_speednode_0041"
-      - "[Vless] RU_speednode_0042"
-      - "[Vless] RU_speednode_0043"
-      - "[Vless] RU_speednode_0044"
-      - "[Vless] US_speednode_0045"
+      - "[Trojan] EE_speednode_0010"
+      - "[Vless] ES_speednode_0011"
+      - "[Trojan] ES_speednode_0012"
+      - "[Vless] GB_speednode_0013"
+      - "[Vless] KR_speednode_0016"
+      - "[Vless] KR_speednode_0017"
+      - "[Vless] KR_speednode_0018"
+      - "[Vless] KR_speednode_0019"
+      - "[Vless] KR_speednode_0021"
+      - "[Trojan] NL_speednode_0025"
+      - "[Vless] PL_speednode_0026"
+      - "[Vless] PL_speednode_0027"
+      - "[Vless] PL_speednode_0028"
+      - "[Vless] PL_speednode_0029"
+      - "[Trojan] RU_speednode_0030"
+      - "[Vless] RU_speednode_0031"
+      - "[Vless] RU_speednode_0033"
+      - "[Vless] RU_speednode_0034"
+      - "[Vless] RU_speednode_0035"
+      - "[Trojan] US_speednode_0043"
+      - "[Trojan] US_speednode_0044"
       - "[SS] 🇭🇰 香港2|@ripaojiedian 2"
   - name: 🎯 全球直连
     type: select
@@ -16890,7 +16793,7 @@ proxy-groups:
       - "[Hysteria2] All-@V2rayAlpha--43"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-11"
       - "[Hysteria2] https://t.me/Selinc"
-      - "[Hysteria2] ‍☠️@FreakConfig"
+      - "[Hysteria2] All-@V2ray_Alpha--30"
       - "[Hysteria2] telegram » mainv𝟮ray¹"
       - "[Hysteria2] All-@V2rayAlpha--42"
       - "[Hysteria2] MCI-IR--@V2rayAlpha-8"
@@ -16943,7 +16846,7 @@ proxy-groups:
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #1"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #4"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+      - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #3"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #5"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #4"
@@ -16956,6 +16859,7 @@ proxy-groups:
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #1"
       - "[Hysteria2] https://t.me/V2ray_Tunnel_Plus... #2"
+      - "[Hysteria2] +@Azarakhsh_Proxy+🩷"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #7"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #8"
       - "[Hysteria2] All-@V2rayAlpha--2 #1"
@@ -16969,7 +16873,7 @@ proxy-groups:
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
       - "[Hysteria2] All--@IRAN_V2RAY1 #3"
-      - "[Hysteria2] All--@IRAN_V2RAY1 #4"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
       - "[Hysteria2] @Hddify |~| چنل هدیفای"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #1"
       - "[Hysteria2] کانفیگ های بیشتر در چنل تلگرا... #2"
@@ -16977,20 +16881,20 @@ proxy-groups:
       - "[Hysteria2] @FreakConfig 3"
       - "[Hysteria2] @Selinc #10"
       - "[Hysteria2] @Selinc #11"
-      - "[Hysteria2] ‍☠️@FreakConfig #1"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+      - "[Hysteria2] telegram @mtmvpn #2"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
       - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN"
       - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #2"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #4"
-      - "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #14"
+      - "[Hysteria2] @FreakConfig #5"
       - "[Hysteria2] @sunflowerplato🌻 #2"
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
       - "[Hysteria2] All-@V2rayAlpha--1"
       - "[Hysteria2] All-@V2ray_Alpha--9"
       - "[Hysteria2] All--@V2rayAlpha-1"
       - "[Hysteria2] All--@V2rayAlpha-2"
+      - "[Hysteria2] @meli_proxyy #9"
       - "[Hysteria2] @FreakConfig #2"
       - "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #5"
       - "[Hysteria2] @V2rayNG3 #16"
@@ -17012,7 +16916,7 @@ proxy-groups:
       - "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #18"
       - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #15"
-      - "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #6"
+      - "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه... #16"
       - "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه... #19"
       - "[SS] tg频道:@ripaojiedian"
       - "[VMess] 🇭🇰 香港|@ripaojiedian"
@@ -17030,36 +16934,37 @@ proxy-groups:
       - "[Trojan] 🇺🇸 美国2|@ripaojiedian"
       - "[Trojan] 🇺🇸 美国3|@ripaojiedian"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian"
+      - "[SS] 🇻🇳 越南|@ripaojiedian"
       - "[SS] tg频道:@ripaojiedian 2"
       - "[VMess] 🇺🇸 美国4|@ripaojiedian 2"
-      - "[Trojan] CA_speednode_0001"
-      - "[Vless] CZ_speednode_0004"
-      - "[Trojan] DE_speednode_0005"
-      - "[Vless] DE_speednode_0006"
-      - "[Trojan] DE_speednode_0007"
+      - "[SS] 🇻🇳 越南|@ripaojiedian 2"
+      - "[Trojan] BE_speednode_0001"
+      - "[Trojan] CA_speednode_0003"
+      - "[Trojan] CH_speednode_0005"
+      - "[Vless] CZ_speednode_0006"
       - "[Vless] DE_speednode_0008"
       - "[Vless] DE_speednode_0009"
-      - "[Trojan] ES_speednode_0010"
-      - "[Trojan] FR_speednode_0012"
-      - "[Vless] GB_speednode_0016"
-      - "[Vless] GB_speednode_0017"
-      - "[Vless] GB_speednode_0018"
-      - "[Trojan] HK_speednode_0019"
-      - "[Trojan] IT_speednode_0020"
-      - "[Vless] JP_speednode_0026"
-      - "[Vless] JP_speednode_0030"
-      - "[Vless] JP_speednode_0031"
-      - "[Trojan] NL_speednode_0035"
-      - "[Trojan] NL_speednode_0036"
-      - "[Vless] PL_speednode_0037"
-      - "[Vless] PL_speednode_0038"
-      - "[Vless] PL_speednode_0039"
-      - "[Vless] PL_speednode_0040"
-      - "[Vless] PL_speednode_0041"
-      - "[Vless] RU_speednode_0042"
-      - "[Vless] RU_speednode_0043"
-      - "[Vless] RU_speednode_0044"
-      - "[Vless] US_speednode_0045"
+      - "[Trojan] EE_speednode_0010"
+      - "[Vless] ES_speednode_0011"
+      - "[Trojan] ES_speednode_0012"
+      - "[Vless] GB_speednode_0013"
+      - "[Vless] KR_speednode_0016"
+      - "[Vless] KR_speednode_0017"
+      - "[Vless] KR_speednode_0018"
+      - "[Vless] KR_speednode_0019"
+      - "[Vless] KR_speednode_0021"
+      - "[Trojan] NL_speednode_0025"
+      - "[Vless] PL_speednode_0026"
+      - "[Vless] PL_speednode_0027"
+      - "[Vless] PL_speednode_0028"
+      - "[Vless] PL_speednode_0029"
+      - "[Trojan] RU_speednode_0030"
+      - "[Vless] RU_speednode_0031"
+      - "[Vless] RU_speednode_0033"
+      - "[Vless] RU_speednode_0034"
+      - "[Vless] RU_speednode_0035"
+      - "[Trojan] US_speednode_0043"
+      - "[Trojan] US_speednode_0044"
       - "[SS] 🇭🇰 香港2|@ripaojiedian 2"
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
