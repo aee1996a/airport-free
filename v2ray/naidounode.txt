@@ -1,1 +1,1 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251207-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251208-v2ray.txt
