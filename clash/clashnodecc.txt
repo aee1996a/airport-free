@@ -267,21 +267,6 @@ proxies:
       public-key: Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ
       short-id: aba7bc9a
     client-fingerprint: chrome
-  - type: vmess
-    name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: tcp
-    cipher: auto
-    servername: v36.hdacd.com
-  - type: ss
-    name: 🇮🇷_IR_伊朗
-    server: 217.60.249.112
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 0eC4ZBvStOgQEzTpCYjWN5
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -307,8 +292,6 @@ proxy-groups:
       - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_1
       - 🇬🇧_GB_英国_1
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 🇮🇷_IR_伊朗
   - name: ♻️ 自动选择
     type: url-test
     proxies:
@@ -331,8 +314,6 @@ proxy-groups:
       - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_1
       - 🇬🇧_GB_英国_1
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 🇮🇷_IR_伊朗
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -371,8 +352,6 @@ proxy-groups:
       - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_1
       - 🇬🇧_GB_英国_1
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 🇮🇷_IR_伊朗
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -455,207 +434,155 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TW台湾(mibei77.com 米贝节点分享), server: green2.cdntencentmusic.com, port: 31104, type: trojan, password: 3846a29b-57d5-40f2-8acd-13855aa025cd, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享), server: ccc.922922.shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /RkUUbqhA9GJZBROjL3Q5vTymr, ws-headers: {Host: cCc.922922.ShOp}, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 2, server: 119.59.98.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享), server: zyipv6.pai50288.uk, port: 55588, type: ss, cipher: aes-128-gcm, password: XMj65epCcyjN6DSqz0W0VLlZWaW+XLQdMftFQIXff6s=, udp: true}
+  - {name: TW台湾(mibei77.com 米贝节点分享), server: 193.203.203.66, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: 95.164.116.33, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 104.19.220.22, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: mfyousheng.nl.eu.org, port: 443, type: trojan, password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q, sni: mfyousheng.nl.eu.org, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 6, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: cf.0sm.com, port: 443, type: trojan, password: 7418004a-0ecd-41c0-a062-42bf966d3fb2, sni: cf.0sm.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 4, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 7, server: 162.159.24.131, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: TW台湾(mibei77.com 米贝节点分享) 2, server: 104.17.162.3, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 8, server: dddffgthyu.922922.shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /RkUUbqhA9GJZBROjL3Q5vTymr, ws-headers: {Host: dDdFfGTHYU.922922.SHOP}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 9, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 10, server: dDdFfGTHYU.922922.SHOP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /RkUUbqhA9GJZBROjL3Q5vTymr, ws-headers: {Host: dDdFfGTHYU.922922.SHOP}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 11, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: freeyx.cloudflare88.eu.org, skip-cert-verify: true, udp: true}
+  - {name: TW台湾(mibei77.com 米贝节点分享) 3, server: 172.64.229.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 777.ai7777777.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: 777.ai7777777.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW台湾(mibei77.com 米贝节点分享) 4, server: 104.19.55.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 13, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 5, server: n1761214902.wpg27.xyz, port: 443, type: vmess, uuid: 469e9a38-b64e-46c3-9793-234158942d3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: n1761214902.wpg27.xyz}, udp: true}
+  - {name: TW台湾(mibei77.com 米贝节点分享) 5, server: 2001:bc8:32d7:2013::8, port: 62211, type: vmess, uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: www.bing.com}, udp: true}
   - {name: NL荷兰(mibei77.com 米贝节点分享), server: mfyousheng.nl.eu.org, port: 443, type: trojan, password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q, sni: mfyousheng.nl.eu.org, skip-cert-verify: true, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 3, server: green2.cdntencentmusic.com, port: 33301, type: trojan, password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 2, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: freeyx.cloudflare88.eu.org, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 4, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: KR韩国(mibei77.com 米贝节点分享), server: 89.221.225.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 5, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 6, server: 194.246.114.101, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 7, server: mfyousheng.nl.eu.org, port: 443, type: trojan, password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q, sni: mfyousheng.nl.eu.org, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 8, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 4, server: 220.130.58.138, port: 33301, type: trojan, password: a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 9, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 3846a29b-57d5-40f2-8acd-13855aa025cd, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 10, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享), server: n1747624280.lie5d.cyou, port: 443, type: vmess, uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: n1747624280.lie5d.cyou}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 11, server: 777.ai7777777.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: 777.ai7777777.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享), server: n1761214906.wpg27.xyz, port: 443, type: vmess, uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: n1761214906.wpg27.xyz}, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 13, server: zyipv6.pai50288.uk, port: 55588, type: ss, cipher: aes-128-gcm, password: XMj65epCcyjN6DSqz0W0VLlZWaW+XLQdMftFQIXff6s=, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 5, server: 104.17.162.3, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 14, server: bbbbbbbbb.222769.xyz, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /f6taOMcOSZb9TPR, ws-headers: {Host: bbbbbbbbb.222769.xyz}, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 6, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 7, server: 172.64.229.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 8, server: 104.19.55.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: KR韩国(mibei77.com 米贝节点分享) 2, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 15, server: 162.159.24.131, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: NL荷兰(mibei77.com 米贝节点分享) 2, server: cf.0sm.com, port: 443, type: trojan, password: 7418004a-0ecd-41c0-a062-42bf966d3fb2, sni: cf.0sm.com, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 16, server: 104.19.220.22, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 17, server: 95.164.116.33, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: n1761214911.74qxv.top, port: 443, type: vmess, uuid: 372c1939-299d-4946-9633-5ffa971f8b67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: n1761214911.74qxv.top}, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: 43.165.7.71, port: 19751, type: vmess, uuid: 6cfa6103-5d06-40cb-f452-b563db578288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 9, server: green2.cdntencentmusic.com, port: 34411, type: trojan, password: a5049baa-eadf-4523-bcac-33139e4a99ea, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 18, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 19, server: 208.67.106.73, port: 44884, type: ss, cipher: chacha20-ietf-poly1305, password: 2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw, udp: true}
-  - {name: TW台湾(mibei77.com 米贝节点分享) 10, server: 220.130.58.138, port: 34411, type: trojan, password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 20, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 21, server: 2001:bc8:32d7:2013::8, port: 62211, type: vmess, uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: NL荷兰(mibei77.com 米贝节点分享) 3, server: 193.203.203.66, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 22, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 23, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 24, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 6, server: n1761214907.74qxv.top, port: 443, type: vmess, uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: n1761214907.74qxv.top}, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 7, server: n1761214911.74qxv.top, port: 443, type: vmess, uuid: 372c1939-299d-4946-9633-5ffa971f8b67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: n1761214911.74qxv.top}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 14, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 8, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 15, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: TW台湾(mibei77.com 米贝节点分享) 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW台湾(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - NL荷兰(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
+      - TW台湾(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 8
-      - TW台湾(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 10
-      - GB英国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 11
-      - HK香港(mibei77.com 米贝节点分享)
-      - FR法国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 12
-      - US美国(mibei77.com 米贝节点分享) 13
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - US美国(mibei77.com 米贝节点分享) 14
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
-      - KR韩国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 15
-      - NL荷兰(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 16
-      - US美国(mibei77.com 米贝节点分享) 17
-      - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 18
-      - US美国(mibei77.com 米贝节点分享) 19
-      - TW台湾(mibei77.com 米贝节点分享) 10
-      - US美国(mibei77.com 米贝节点分享) 20
-      - US美国(mibei77.com 米贝节点分享) 21
-      - NL荷兰(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 22
-      - US美国(mibei77.com 米贝节点分享) 23
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 7
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 12
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 15
+      - TW台湾(mibei77.com 米贝节点分享) 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TW台湾(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - NL荷兰(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
+      - TW台湾(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 8
-      - TW台湾(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 10
-      - GB英国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 11
-      - HK香港(mibei77.com 米贝节点分享)
-      - FR法国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 12
-      - US美国(mibei77.com 米贝节点分享) 13
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - US美国(mibei77.com 米贝节点分享) 14
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
-      - KR韩国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 15
-      - NL荷兰(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 16
-      - US美国(mibei77.com 米贝节点分享) 17
-      - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 18
-      - US美国(mibei77.com 米贝节点分享) 19
-      - TW台湾(mibei77.com 米贝节点分享) 10
-      - US美国(mibei77.com 米贝节点分享) 20
-      - US美国(mibei77.com 米贝节点分享) 21
-      - NL荷兰(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 22
-      - US美国(mibei77.com 米贝节点分享) 23
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 7
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 12
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 15
+      - TW台湾(mibei77.com 米贝节点分享) 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW台湾(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - NL荷兰(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
+      - TW台湾(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 8
-      - TW台湾(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 10
-      - GB英国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 11
-      - HK香港(mibei77.com 米贝节点分享)
-      - FR法国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 12
-      - US美国(mibei77.com 米贝节点分享) 13
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - US美国(mibei77.com 米贝节点分享) 14
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
-      - KR韩国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 15
-      - NL荷兰(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 16
-      - US美国(mibei77.com 米贝节点分享) 17
-      - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 18
-      - US美国(mibei77.com 米贝节点分享) 19
-      - TW台湾(mibei77.com 米贝节点分享) 10
-      - US美国(mibei77.com 米贝节点分享) 20
-      - US美国(mibei77.com 米贝节点分享) 21
-      - NL荷兰(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 22
-      - US美国(mibei77.com 米贝节点分享) 23
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 7
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 12
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 15
+      - TW台湾(mibei77.com 米贝节点分享) 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -674,225 +601,173 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW台湾(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - NL荷兰(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
+      - TW台湾(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 8
-      - TW台湾(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 10
-      - GB英国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 11
-      - HK香港(mibei77.com 米贝节点分享)
-      - FR法国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 12
-      - US美国(mibei77.com 米贝节点分享) 13
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - US美国(mibei77.com 米贝节点分享) 14
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
-      - KR韩国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 15
-      - NL荷兰(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 16
-      - US美国(mibei77.com 米贝节点分享) 17
-      - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 18
-      - US美国(mibei77.com 米贝节点分享) 19
-      - TW台湾(mibei77.com 米贝节点分享) 10
-      - US美国(mibei77.com 米贝节点分享) 20
-      - US美国(mibei77.com 米贝节点分享) 21
-      - NL荷兰(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 22
-      - US美国(mibei77.com 米贝节点分享) 23
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 7
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 12
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 15
+      - TW台湾(mibei77.com 米贝节点分享) 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - TW台湾(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - TW台湾(mibei77.com 米贝节点分享) 3
-      - TW台湾(mibei77.com 米贝节点分享) 4
       - HK香港(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
+      - TW台湾(mibei77.com 米贝节点分享)
       - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - TW台湾(mibei77.com 米贝节点分享) 10
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - TW台湾(mibei77.com 米贝节点分享) 6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TW台湾(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - NL荷兰(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
+      - TW台湾(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 8
-      - TW台湾(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 10
-      - GB英国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 11
-      - HK香港(mibei77.com 米贝节点分享)
-      - FR法国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 12
-      - US美国(mibei77.com 米贝节点分享) 13
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - US美国(mibei77.com 米贝节点分享) 14
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
-      - KR韩国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 15
-      - NL荷兰(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 16
-      - US美国(mibei77.com 米贝节点分享) 17
-      - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 18
-      - US美国(mibei77.com 米贝节点分享) 19
-      - TW台湾(mibei77.com 米贝节点分享) 10
-      - US美国(mibei77.com 米贝节点分享) 20
-      - US美国(mibei77.com 米贝节点分享) 21
-      - NL荷兰(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 22
-      - US美国(mibei77.com 米贝节点分享) 23
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 7
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 12
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 15
+      - TW台湾(mibei77.com 米贝节点分享) 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TW台湾(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - NL荷兰(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
+      - TW台湾(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 8
-      - TW台湾(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 10
-      - GB英国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 11
-      - HK香港(mibei77.com 米贝节点分享)
-      - FR法国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 12
-      - US美国(mibei77.com 米贝节点分享) 13
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - US美国(mibei77.com 米贝节点分享) 14
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
-      - KR韩国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 15
-      - NL荷兰(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 16
-      - US美国(mibei77.com 米贝节点分享) 17
-      - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 18
-      - US美国(mibei77.com 米贝节点分享) 19
-      - TW台湾(mibei77.com 米贝节点分享) 10
-      - US美国(mibei77.com 米贝节点分享) 20
-      - US美国(mibei77.com 米贝节点分享) 21
-      - NL荷兰(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 22
-      - US美国(mibei77.com 米贝节点分享) 23
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 7
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 12
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 15
+      - TW台湾(mibei77.com 米贝节点分享) 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW台湾(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - NL荷兰(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
+      - TW台湾(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 8
-      - TW台湾(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 10
-      - GB英国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 11
-      - HK香港(mibei77.com 米贝节点分享)
-      - FR法国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 12
-      - US美国(mibei77.com 米贝节点分享) 13
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - US美国(mibei77.com 米贝节点分享) 14
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
-      - KR韩国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 15
-      - NL荷兰(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 16
-      - US美国(mibei77.com 米贝节点分享) 17
-      - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 18
-      - US美国(mibei77.com 米贝节点分享) 19
-      - TW台湾(mibei77.com 米贝节点分享) 10
-      - US美国(mibei77.com 米贝节点分享) 20
-      - US美国(mibei77.com 米贝节点分享) 21
-      - NL荷兰(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 22
-      - US美国(mibei77.com 米贝节点分享) 23
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 7
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 12
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 15
+      - TW台湾(mibei77.com 米贝节点分享) 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -908,52 +783,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW台湾(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
+      - FR法国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 2
-      - NL荷兰(mibei77.com 米贝节点分享)
-      - TW台湾(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
+      - TW台湾(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 8
-      - TW台湾(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 10
-      - GB英国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 11
-      - HK香港(mibei77.com 米贝节点分享)
-      - FR法国(mibei77.com 米贝节点分享)
-      - US美国(mibei77.com 米贝节点分享) 12
-      - US美国(mibei77.com 米贝节点分享) 13
-      - TW台湾(mibei77.com 米贝节点分享) 5
-      - US美国(mibei77.com 米贝节点分享) 14
-      - TW台湾(mibei77.com 米贝节点分享) 6
-      - TW台湾(mibei77.com 米贝节点分享) 7
-      - TW台湾(mibei77.com 米贝节点分享) 8
-      - KR韩国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 15
-      - NL荷兰(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 16
-      - US美国(mibei77.com 米贝节点分享) 17
-      - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
-      - TW台湾(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 18
-      - US美国(mibei77.com 米贝节点分享) 19
-      - TW台湾(mibei77.com 米贝节点分享) 10
-      - US美国(mibei77.com 米贝节点分享) 20
-      - US美国(mibei77.com 米贝节点分享) 21
-      - NL荷兰(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 22
-      - US美国(mibei77.com 米贝节点分享) 23
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 7
+      - TW台湾(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - TW台湾(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 12
+      - TW台湾(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - TW台湾(mibei77.com 米贝节点分享) 5
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 15
+      - TW台湾(mibei77.com 米贝节点分享) 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -11176,22 +11038,23 @@ dns:
 proxies:
   - {name: 8元老牌专线机场：cczzuu.top, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港|@stairnode, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|@stairnode, server: 111.47.247.196, port: 16632, type: vmess, uuid: f93123ed-84e2-4165-aaaa-db46a6eceb69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: abfba8affeca9988664697aab83c3851.mobgslb.tbcache.com}}}
+  - {name: 🇭🇰 香港2|@stairnode, server: 154.38.116.8, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hk.nbee.pp.ua, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}}
   - {name: 🇭🇰 香港3|@stairnode, server: 112.118.116.8, port: 443, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇭🇰 香港4|@stairnode, server: 58.152.25.71, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: 🇭🇰 香港5|@stairnode, server: 58.152.26.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@stairnode, server: 18.177.141.4, port: 2762, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.107.37, port: 3169, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.107.37, port: 3093, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本4|@stairnode, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡|@stairnode, server: 160.16.116.227, port: 2760, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 160.16.57.238, port: 2760, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡3|@stairnode, server: 57.180.28.48, port: 804, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@stairnode, server: 160.16.116.227, port: 4054, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2|@stairnode, server: 160.16.204.136, port: 2890, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国3|@stairnode, server: 95.40.14.227, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港6|@stairnode, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: cfdf8794-5365-41ac-9e59-573aab964b3e, sni: green2.cdntencentmusic.com, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾|@stairnode, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}}
+  - {name: 🇯🇵 日本|@stairnode, server: 54.65.145.17, port: 3760, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.87.174, port: 3093, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@stairnode, server: 13.231.130.241, port: 3093, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@stairnode, server: 202.181.103.246, port: 2760, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 160.16.136.130, port: 2760, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡3|@stairnode, server: 3.112.42.86, port: 1691, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@stairnode, server: 160.16.196.59, port: 2890, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@stairnode, server: 160.16.131.243, port: 4054, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国3|@stairnode, server: 13.115.1.198, port: 2173, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: 🇺🇸 美国4|@stairnode, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇻🇳 越南|@stairnode, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇻🇳 越南|@stairnode, server: 103.186.154.207, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -11204,10 +11067,11 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
-      - 🇯🇵 日本4|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
@@ -11228,10 +11092,11 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
-      - 🇯🇵 日本4|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
@@ -11252,10 +11117,11 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
-      - 🇯🇵 日本4|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
@@ -11275,10 +11141,11 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
-      - 🇯🇵 日本4|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
@@ -11298,10 +11165,11 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
-      - 🇯🇵 日本4|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
@@ -11321,10 +11189,11 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
-      - 🇯🇵 日本4|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
@@ -11345,10 +11214,11 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
-      - 🇯🇵 日本4|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
@@ -11385,10 +11255,11 @@ proxy-groups:
       - 🇭🇰 香港3|@stairnode
       - 🇭🇰 香港4|@stairnode
       - 🇭🇰 香港5|@stairnode
+      - 🇭🇰 香港6|@stairnode
+      - 🇹🇼 台湾|@stairnode
       - 🇯🇵 日本|@stairnode
       - 🇯🇵 日本2|@stairnode
       - 🇯🇵 日本3|@stairnode
-      - 🇯🇵 日本4|@stairnode
       - 🇸🇬 新加坡|@stairnode
       - 🇸🇬 新加坡2|@stairnode
       - 🇸🇬 新加坡3|@stairnode
@@ -15467,23 +15338,37 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 未知 SS-02 | free-nodes, server: 193.135.174.135, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
-  - {name: 🇫🇷 FR TROJAN-09 | free-nodes, server: 35.180.13.228, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇩🇪 DE TROJAN-14 | free-nodes, server: 35.158.205.73, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇭🇰 HK TROJAN-19 | free-nodes, server: 58.152.110.104, port: 443, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net}
-  - {name: 未知 SS-32 | free-nodes, server: 208.67.106.73, port: 44884, type: ss, cipher: chacha20-ietf-poly1305, password: 2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw}
+  - {name: 🇫🇷 FR TROJAN-03 | free-nodes, server: 15.237.171.88, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 🇩🇪 DE TROJAN-08 | free-nodes, server: 63.182.42.237, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 🇩🇪 DE TROJAN-09 | free-nodes, server: 52.58.135.191, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 未知 SS-14 | free-nodes, server: 196.245.238.34, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 6a85b249286a74a9}
+  - {name: 🇺🇸 US SS-22 | free-nodes, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 未知 SS-34 | free-nodes, server: 208.67.106.73, port: 44884, type: ss, cipher: chacha20-ietf-poly1305, password: 2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw}
   - {name: 🇨🇦 CA SS-39 | free-nodes, server: 193.203.203.66, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm}
-  - {name: TR TROJAN-42 | free-nodes, server: 80.173.230.196, port: 26279, type: trojan, password: a5inYFE=JGV89+hjxIqgDp1tcWBd6}
-  - {name: 🇭🇰 HK TROJAN-52 | free-nodes, server: 58.152.26.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 HK TROJAN-53 | free-nodes, server: 58.152.25.71, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 US SS-54 | free-nodes, server: 103.35.189.136, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: SS2QvbC9nqLp2sXXZo0BVy4slcErRuCt}
-  - {name: 未知 SS-69 | free-nodes, server: 103.253.74.94, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: rNa753BcUuPBL8YxXx9Bx5b4dfVFu45QkzorwqZizTl6Af3N}
-  - {name: 未知 SS-70 | free-nodes, server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇨🇦 CA SS-89 | free-nodes, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
-  - {name: 未知 SS-95 | free-nodes, server: 45.12.136.170, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: l668XHPejoSNNuD66BYzyehaCpZexiF7}
-  - {name: 未知 SS-96 | free-nodes, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
-  - {name: 🇺🇸 US TROJAN-119 | free-nodes, server: 107.174.82.102.sslip.io, port: 443, type: trojan, password: bb824a22-b7ce-427b-9ed6-1adf0751da02, sni: 107.174.82.102.sslip.io, network: ws, ws-opts: {path: /gXKGj8a1tp1nNbZEcRugowKV, headers: {Host: 107.174.82.102.sslip.io}}}
-  - {name: 🇬🇧 GB SS-140 | free-nodes, server: 51.195.203.247, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: OMOpV2XCoMOBYsKGAjLDmsKkw6bDpMOkdVhtD15fwpQqw70AN8Krw6AyH8OaCQ==}
+  - {name: TR TROJAN-41 | free-nodes, server: 80.173.230.196, port: 26279, type: trojan, password: a5inYFE=JGV89+hjxIqgDp1tcWBd6}
+  - {name: TR TROJAN-42 | free-nodes, server: 83.143.87.9, port: 18581, type: trojan, password: RPyW62_b9aH.ztJKeArou}
+  - {name: TR TROJAN-49 | free-nodes, server: 58.152.26.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: TR TROJAN-50 | free-nodes, server: 58.152.25.71, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 US SS-51 | free-nodes, server: 103.35.189.136, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: SS2QvbC9nqLp2sXXZo0BVy4slcErRuCt}
+  - {name: 🇨🇦 CA SS-52 | free-nodes, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 🇨🇦 CA SS-59 | free-nodes, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 🇨🇦 CA SS-60 | free-nodes, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: TR TROJAN-61 | free-nodes, server: 167.17.185.172, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj}
+  - {name: 🇨🇦 CA SS-63 | free-nodes, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 未知 SS-72 | free-nodes, server: 103.253.74.94, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: rNa753BcUuPBL8YxXx9Bx5b4dfVFu45QkzorwqZizTl6Af3N}
+  - {name: 未知 SS-73 | free-nodes, server: 193.29.139.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇨🇦 CA SS-74 | free-nodes, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: TR TROJAN-75 | free-nodes, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N}
+  - {name: TR TROJAN-76 | free-nodes, server: 172.238.229.254, port: 14051, type: trojan, password: OdgHycGphesfLmPMYolUF}
+  - {name: 🇩🇪 DE SS-103 | free-nodes, server: 38.60.250.107, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 未知 SS-104 | free-nodes, server: 45.12.136.170, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: l668XHPejoSNNuD66BYzyehaCpZexiF7}
+  - {name: 🇨🇦 CA SS-105 | free-nodes, server: 79.127.200.169, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 未知 SS-109 | free-nodes, server: 185.213.23.63, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 🇭🇰 HK TROJAN-113 | free-nodes, server: 112.118.116.8, port: 443, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 未知 SS-115 | free-nodes, server: 193.135.174.135, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
+  - {name: 🇺🇸 US TROJAN-128 | free-nodes, server: 107.174.82.102.sslip.io, port: 443, type: trojan, password: bb824a22-b7ce-427b-9ed6-1adf0751da02, sni: 107.174.82.102.sslip.io, network: ws, ws-opts: {path: /gXKGj8a1tp1nNbZEcRugowKV, headers: {Host: 107.174.82.102.sslip.io}}}
+  - {name: 🇬🇧 GB SS-148 | free-nodes, server: 51.195.203.247, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: OMOpV2XCoMOBYsKGAjLDmsKkw6bDpMOkdVhtD15fwpQqw70AN8Krw6AyH8OaCQ==}
+  - {name: 未知 SS-149 | free-nodes, server: 127.0.0.1, port: 80, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -15496,46 +15381,74 @@ proxy-groups:
   - name: ☑️ 手动切换
     type: select
     proxies:
-      - 未知 SS-02 | free-nodes
-      - 🇫🇷 FR TROJAN-09 | free-nodes
-      - 🇩🇪 DE TROJAN-14 | free-nodes
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 未知 SS-32 | free-nodes
+      - 🇫🇷 FR TROJAN-03 | free-nodes
+      - 🇩🇪 DE TROJAN-08 | free-nodes
+      - 🇩🇪 DE TROJAN-09 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 未知 SS-34 | free-nodes
       - 🇨🇦 CA SS-39 | free-nodes
+      - TR TROJAN-41 | free-nodes
       - TR TROJAN-42 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
-      - 🇺🇸 US SS-54 | free-nodes
-      - 未知 SS-69 | free-nodes
-      - 未知 SS-70 | free-nodes
-      - 🇨🇦 CA SS-89 | free-nodes
-      - 未知 SS-95 | free-nodes
-      - 未知 SS-96 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
-      - 🇬🇧 GB SS-140 | free-nodes
+      - TR TROJAN-49 | free-nodes
+      - TR TROJAN-50 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇨🇦 CA SS-52 | free-nodes
+      - 🇨🇦 CA SS-59 | free-nodes
+      - 🇨🇦 CA SS-60 | free-nodes
+      - TR TROJAN-61 | free-nodes
+      - 🇨🇦 CA SS-63 | free-nodes
+      - 未知 SS-72 | free-nodes
+      - 未知 SS-73 | free-nodes
+      - 🇨🇦 CA SS-74 | free-nodes
+      - TR TROJAN-75 | free-nodes
+      - TR TROJAN-76 | free-nodes
+      - 🇩🇪 DE SS-103 | free-nodes
+      - 未知 SS-104 | free-nodes
+      - 🇨🇦 CA SS-105 | free-nodes
+      - 未知 SS-109 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
+      - 未知 SS-115 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
+      - 🇬🇧 GB SS-148 | free-nodes
+      - 未知 SS-149 | free-nodes
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 未知 SS-02 | free-nodes
-      - 🇫🇷 FR TROJAN-09 | free-nodes
-      - 🇩🇪 DE TROJAN-14 | free-nodes
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 未知 SS-32 | free-nodes
+      - 🇫🇷 FR TROJAN-03 | free-nodes
+      - 🇩🇪 DE TROJAN-08 | free-nodes
+      - 🇩🇪 DE TROJAN-09 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 未知 SS-34 | free-nodes
       - 🇨🇦 CA SS-39 | free-nodes
+      - TR TROJAN-41 | free-nodes
       - TR TROJAN-42 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
-      - 🇺🇸 US SS-54 | free-nodes
-      - 未知 SS-69 | free-nodes
-      - 未知 SS-70 | free-nodes
-      - 🇨🇦 CA SS-89 | free-nodes
-      - 未知 SS-95 | free-nodes
-      - 未知 SS-96 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
-      - 🇬🇧 GB SS-140 | free-nodes
+      - TR TROJAN-49 | free-nodes
+      - TR TROJAN-50 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇨🇦 CA SS-52 | free-nodes
+      - 🇨🇦 CA SS-59 | free-nodes
+      - 🇨🇦 CA SS-60 | free-nodes
+      - TR TROJAN-61 | free-nodes
+      - 🇨🇦 CA SS-63 | free-nodes
+      - 未知 SS-72 | free-nodes
+      - 未知 SS-73 | free-nodes
+      - 🇨🇦 CA SS-74 | free-nodes
+      - TR TROJAN-75 | free-nodes
+      - TR TROJAN-76 | free-nodes
+      - 🇩🇪 DE SS-103 | free-nodes
+      - 未知 SS-104 | free-nodes
+      - 🇨🇦 CA SS-105 | free-nodes
+      - 未知 SS-109 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
+      - 未知 SS-115 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
+      - 🇬🇧 GB SS-148 | free-nodes
+      - 未知 SS-149 | free-nodes
   - name: 📹 油管视频
     type: select
     proxies:
@@ -15556,45 +15469,73 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 未知 SS-02 | free-nodes
-      - 🇫🇷 FR TROJAN-09 | free-nodes
-      - 🇩🇪 DE TROJAN-14 | free-nodes
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 未知 SS-32 | free-nodes
+      - 🇫🇷 FR TROJAN-03 | free-nodes
+      - 🇩🇪 DE TROJAN-08 | free-nodes
+      - 🇩🇪 DE TROJAN-09 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 未知 SS-34 | free-nodes
       - 🇨🇦 CA SS-39 | free-nodes
+      - TR TROJAN-41 | free-nodes
       - TR TROJAN-42 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
-      - 🇺🇸 US SS-54 | free-nodes
-      - 未知 SS-69 | free-nodes
-      - 未知 SS-70 | free-nodes
-      - 🇨🇦 CA SS-89 | free-nodes
-      - 未知 SS-95 | free-nodes
-      - 未知 SS-96 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
-      - 🇬🇧 GB SS-140 | free-nodes
+      - TR TROJAN-49 | free-nodes
+      - TR TROJAN-50 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇨🇦 CA SS-52 | free-nodes
+      - 🇨🇦 CA SS-59 | free-nodes
+      - 🇨🇦 CA SS-60 | free-nodes
+      - TR TROJAN-61 | free-nodes
+      - 🇨🇦 CA SS-63 | free-nodes
+      - 未知 SS-72 | free-nodes
+      - 未知 SS-73 | free-nodes
+      - 🇨🇦 CA SS-74 | free-nodes
+      - TR TROJAN-75 | free-nodes
+      - TR TROJAN-76 | free-nodes
+      - 🇩🇪 DE SS-103 | free-nodes
+      - 未知 SS-104 | free-nodes
+      - 🇨🇦 CA SS-105 | free-nodes
+      - 未知 SS-109 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
+      - 未知 SS-115 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
+      - 🇬🇧 GB SS-148 | free-nodes
+      - 未知 SS-149 | free-nodes
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 未知 SS-02 | free-nodes
-      - 🇫🇷 FR TROJAN-09 | free-nodes
-      - 🇩🇪 DE TROJAN-14 | free-nodes
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 未知 SS-32 | free-nodes
+      - 🇫🇷 FR TROJAN-03 | free-nodes
+      - 🇩🇪 DE TROJAN-08 | free-nodes
+      - 🇩🇪 DE TROJAN-09 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 未知 SS-34 | free-nodes
       - 🇨🇦 CA SS-39 | free-nodes
+      - TR TROJAN-41 | free-nodes
       - TR TROJAN-42 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
-      - 🇺🇸 US SS-54 | free-nodes
-      - 未知 SS-69 | free-nodes
-      - 未知 SS-70 | free-nodes
-      - 🇨🇦 CA SS-89 | free-nodes
-      - 未知 SS-95 | free-nodes
-      - 未知 SS-96 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
-      - 🇬🇧 GB SS-140 | free-nodes
+      - TR TROJAN-49 | free-nodes
+      - TR TROJAN-50 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇨🇦 CA SS-52 | free-nodes
+      - 🇨🇦 CA SS-59 | free-nodes
+      - 🇨🇦 CA SS-60 | free-nodes
+      - TR TROJAN-61 | free-nodes
+      - 🇨🇦 CA SS-63 | free-nodes
+      - 未知 SS-72 | free-nodes
+      - 未知 SS-73 | free-nodes
+      - 🇨🇦 CA SS-74 | free-nodes
+      - TR TROJAN-75 | free-nodes
+      - TR TROJAN-76 | free-nodes
+      - 🇩🇪 DE SS-103 | free-nodes
+      - 未知 SS-104 | free-nodes
+      - 🇨🇦 CA SS-105 | free-nodes
+      - 未知 SS-109 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
+      - 未知 SS-115 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
+      - 🇬🇧 GB SS-148 | free-nodes
+      - 未知 SS-149 | free-nodes
   - name: 🤖 OpenAi
     type: select
     proxies:
@@ -15608,68 +15549,110 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 未知 SS-02 | free-nodes
-      - 🇫🇷 FR TROJAN-09 | free-nodes
-      - 🇩🇪 DE TROJAN-14 | free-nodes
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 未知 SS-32 | free-nodes
+      - 🇫🇷 FR TROJAN-03 | free-nodes
+      - 🇩🇪 DE TROJAN-08 | free-nodes
+      - 🇩🇪 DE TROJAN-09 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 未知 SS-34 | free-nodes
       - 🇨🇦 CA SS-39 | free-nodes
+      - TR TROJAN-41 | free-nodes
       - TR TROJAN-42 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
-      - 🇺🇸 US SS-54 | free-nodes
-      - 未知 SS-69 | free-nodes
-      - 未知 SS-70 | free-nodes
-      - 🇨🇦 CA SS-89 | free-nodes
-      - 未知 SS-95 | free-nodes
-      - 未知 SS-96 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
-      - 🇬🇧 GB SS-140 | free-nodes
+      - TR TROJAN-49 | free-nodes
+      - TR TROJAN-50 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇨🇦 CA SS-52 | free-nodes
+      - 🇨🇦 CA SS-59 | free-nodes
+      - 🇨🇦 CA SS-60 | free-nodes
+      - TR TROJAN-61 | free-nodes
+      - 🇨🇦 CA SS-63 | free-nodes
+      - 未知 SS-72 | free-nodes
+      - 未知 SS-73 | free-nodes
+      - 🇨🇦 CA SS-74 | free-nodes
+      - TR TROJAN-75 | free-nodes
+      - TR TROJAN-76 | free-nodes
+      - 🇩🇪 DE SS-103 | free-nodes
+      - 未知 SS-104 | free-nodes
+      - 🇨🇦 CA SS-105 | free-nodes
+      - 未知 SS-109 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
+      - 未知 SS-115 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
+      - 🇬🇧 GB SS-148 | free-nodes
+      - 未知 SS-149 | free-nodes
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 未知 SS-02 | free-nodes
-      - 🇫🇷 FR TROJAN-09 | free-nodes
-      - 🇩🇪 DE TROJAN-14 | free-nodes
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 未知 SS-32 | free-nodes
+      - 🇫🇷 FR TROJAN-03 | free-nodes
+      - 🇩🇪 DE TROJAN-08 | free-nodes
+      - 🇩🇪 DE TROJAN-09 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 未知 SS-34 | free-nodes
       - 🇨🇦 CA SS-39 | free-nodes
+      - TR TROJAN-41 | free-nodes
       - TR TROJAN-42 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
-      - 🇺🇸 US SS-54 | free-nodes
-      - 未知 SS-69 | free-nodes
-      - 未知 SS-70 | free-nodes
-      - 🇨🇦 CA SS-89 | free-nodes
-      - 未知 SS-95 | free-nodes
-      - 未知 SS-96 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
-      - 🇬🇧 GB SS-140 | free-nodes
+      - TR TROJAN-49 | free-nodes
+      - TR TROJAN-50 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇨🇦 CA SS-52 | free-nodes
+      - 🇨🇦 CA SS-59 | free-nodes
+      - 🇨🇦 CA SS-60 | free-nodes
+      - TR TROJAN-61 | free-nodes
+      - 🇨🇦 CA SS-63 | free-nodes
+      - 未知 SS-72 | free-nodes
+      - 未知 SS-73 | free-nodes
+      - 🇨🇦 CA SS-74 | free-nodes
+      - TR TROJAN-75 | free-nodes
+      - TR TROJAN-76 | free-nodes
+      - 🇩🇪 DE SS-103 | free-nodes
+      - 未知 SS-104 | free-nodes
+      - 🇨🇦 CA SS-105 | free-nodes
+      - 未知 SS-109 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
+      - 未知 SS-115 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
+      - 🇬🇧 GB SS-148 | free-nodes
+      - 未知 SS-149 | free-nodes
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 未知 SS-02 | free-nodes
-      - 🇫🇷 FR TROJAN-09 | free-nodes
-      - 🇩🇪 DE TROJAN-14 | free-nodes
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 未知 SS-32 | free-nodes
+      - 🇫🇷 FR TROJAN-03 | free-nodes
+      - 🇩🇪 DE TROJAN-08 | free-nodes
+      - 🇩🇪 DE TROJAN-09 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 未知 SS-34 | free-nodes
       - 🇨🇦 CA SS-39 | free-nodes
+      - TR TROJAN-41 | free-nodes
       - TR TROJAN-42 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
-      - 🇺🇸 US SS-54 | free-nodes
-      - 未知 SS-69 | free-nodes
-      - 未知 SS-70 | free-nodes
-      - 🇨🇦 CA SS-89 | free-nodes
-      - 未知 SS-95 | free-nodes
-      - 未知 SS-96 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
-      - 🇬🇧 GB SS-140 | free-nodes
+      - TR TROJAN-49 | free-nodes
+      - TR TROJAN-50 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇨🇦 CA SS-52 | free-nodes
+      - 🇨🇦 CA SS-59 | free-nodes
+      - 🇨🇦 CA SS-60 | free-nodes
+      - TR TROJAN-61 | free-nodes
+      - 🇨🇦 CA SS-63 | free-nodes
+      - 未知 SS-72 | free-nodes
+      - 未知 SS-73 | free-nodes
+      - 🇨🇦 CA SS-74 | free-nodes
+      - TR TROJAN-75 | free-nodes
+      - TR TROJAN-76 | free-nodes
+      - 🇩🇪 DE SS-103 | free-nodes
+      - 未知 SS-104 | free-nodes
+      - 🇨🇦 CA SS-105 | free-nodes
+      - 未知 SS-109 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
+      - 未知 SS-115 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
+      - 🇬🇧 GB SS-148 | free-nodes
+      - 未知 SS-149 | free-nodes
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -15692,40 +15675,53 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 未知 SS-02 | free-nodes
-      - 🇫🇷 FR TROJAN-09 | free-nodes
-      - 🇩🇪 DE TROJAN-14 | free-nodes
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 未知 SS-32 | free-nodes
+      - 🇫🇷 FR TROJAN-03 | free-nodes
+      - 🇩🇪 DE TROJAN-08 | free-nodes
+      - 🇩🇪 DE TROJAN-09 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 未知 SS-34 | free-nodes
       - 🇨🇦 CA SS-39 | free-nodes
+      - TR TROJAN-41 | free-nodes
       - TR TROJAN-42 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
-      - 🇺🇸 US SS-54 | free-nodes
-      - 未知 SS-69 | free-nodes
-      - 未知 SS-70 | free-nodes
-      - 🇨🇦 CA SS-89 | free-nodes
-      - 未知 SS-95 | free-nodes
-      - 未知 SS-96 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
-      - 🇬🇧 GB SS-140 | free-nodes
+      - TR TROJAN-49 | free-nodes
+      - TR TROJAN-50 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇨🇦 CA SS-52 | free-nodes
+      - 🇨🇦 CA SS-59 | free-nodes
+      - 🇨🇦 CA SS-60 | free-nodes
+      - TR TROJAN-61 | free-nodes
+      - 🇨🇦 CA SS-63 | free-nodes
+      - 未知 SS-72 | free-nodes
+      - 未知 SS-73 | free-nodes
+      - 🇨🇦 CA SS-74 | free-nodes
+      - TR TROJAN-75 | free-nodes
+      - TR TROJAN-76 | free-nodes
+      - 🇩🇪 DE SS-103 | free-nodes
+      - 未知 SS-104 | free-nodes
+      - 🇨🇦 CA SS-105 | free-nodes
+      - 未知 SS-109 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
+      - 未知 SS-115 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
+      - 🇬🇧 GB SS-148 | free-nodes
+      - 未知 SS-149 | free-nodes
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK TROJAN-19 | free-nodes
-      - 🇭🇰 HK TROJAN-52 | free-nodes
-      - 🇭🇰 HK TROJAN-53 | free-nodes
+      - 🇭🇰 HK TROJAN-113 | free-nodes
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 US SS-54 | free-nodes
-      - 🇺🇸 US TROJAN-119 | free-nodes
+      - 🇺🇸 US SS-22 | free-nodes
+      - 🇺🇸 US SS-51 | free-nodes
+      - 🇺🇸 US TROJAN-128 | free-nodes
 rules:
   - PROCESS-NAME,cfnat-android-arm64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-amd64,🎯 全球直连
