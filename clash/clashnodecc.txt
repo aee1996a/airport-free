@@ -55,115 +55,379 @@ tun:
 proxies:
   - name: 🇭🇰HK
     type: vless
-    server: 8.210.29.68
+    server: 8.223.63.150
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.jpmj.dev
+    servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
-        Host: sni.jpmj.dev
-  - name: 🇭🇰HK_1
-    type: vless
-    server: 8.212.27.131
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 台灣
-    type: vless
-    server: hinet4.gzcloud.shop
-    port: 20280
-    uuid: a2d12dc9-c111-45ac-b803-87e48f3484d8
-    servername: buylite.music.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    reality-opts:
-      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-      short-id: 4b070735
+        Host: sni.111000.indevs.in
   - name: 🇯🇵JP
     type: vless
-    server: 103.238.129.215
-    port: 42734
+    server: 193.32.148.125
+    port: 57518
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.jpmj.dev
+    servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
-        Host: sni.jpmj.dev
-  - name: 🇸🇬SG
-    type: vless
-    server: 8.222.220.81
-    port: 25435
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
+        Host: sni.111000.indevs.in
   - name: 🇯🇵JP_1
     type: vless
-    server: 206.237.120.143
+    server: 45.129.9.198
+    port: 37779
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_2
+    type: vless
+    server: 45.12.89.31
+    port: 11443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_3
+    type: vless
+    server: 45.129.8.68
+    port: 45631
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_4
+    type: vless
+    server: 185.200.65.82
+    port: 56798
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_5
+    type: vless
+    server: 45.8.114.50
+    port: 63897
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇨🇳TW
+    type: vless
+    server: 220.128.110.108
+    port: 43
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_6
+    type: vless
+    server: 45.129.8.65
+    port: 30000
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_7
+    type: vless
+    server: 193.32.151.128
+    port: 11871
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_8
+    type: vless
+    server: 202.84.53.85
+    port: 19999
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_9
+    type: vless
+    server: 45.8.113.200
+    port: 33275
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_10
+    type: vless
+    server: 18.183.158.211
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.jpmj.dev
+    servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
-        Host: sni.jpmj.dev
+        Host: sni.111000.indevs.in
+  - name: 🇨🇳TW_1
+    type: vless
+    server: 220.130.58.230
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇭🇰HK_1
+    type: vless
+    server: 202.85.53.54
+    port: 7000
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR
+    type: vless
+    server: 1.232.86.168
+    port: 50001
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
   - name: 🇭🇰HK_2
     type: vless
-    server: 43.198.204.35
-    port: 443
+    server: 103.251.89.149
+    port: 29876
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.jpmj.dev
+    servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
-        Host: sni.jpmj.dev
-  - name: 🇸🇬SG_1
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_1
     type: vless
-    server: 13.250.31.132
-    port: 443
+    server: 106.251.70.75
+    port: 50001
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.jpmj.dev
+    servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
-        Host: sni.jpmj.dev
-  - name: 🇸🇬SG_2
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_2
     type: vless
-    server: 38.180.249.123
+    server: 123.143.9.5
+    port: 14041
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_3
+    type: vless
+    server: 185.214.103.86
+    port: 57569
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇨🇳TW_2
+    type: vless
+    server: 203.69.248.40
+    port: 10443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_4
+    type: vless
+    server: 115.94.122.118
+    port: 50001
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_11
+    type: vless
+    server: 38.180.28.163
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_5
+    type: vless
+    server: 116.93.199.28
+    port: 12136
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_12
+    type: vless
+    server: 38.180.28.163
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇮🇳IN
+    type: vless
+    server: 98.70.26.236
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.jpmj.dev
+    servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
-        Host: sni.jpmj.dev
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_13
+    type: vless
+    server: 141.98.198.38
+    port: 58207
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_6
+    type: vless
+    server: 116.93.199.28
+    port: 12020
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_14
+    type: vless
+    server: 141.98.197.83
+    port: 28245
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_15
+    type: vless
+    server: 193.111.31.182
+    port: 59541
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_16
+    type: vless
+    server: 141.98.197.111
+    port: 10118
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
   - name: 🇫🇷FR
     type: vless
-    server: 46.8.225.24
+    server: 31.59.121.188
     port: 8443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -171,81 +435,57 @@ proxies:
     tls: true
     ws-opts:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_7
+    type: vless
+    server: 211.197.161.123
+    port: 10041
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
   - name: 🇫🇷FR_1
     type: vless
-    server: 194.4.49.85
-    port: 443
+    server: 31.59.121.155
+    port: 8443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_8
+    type: vless
+    server: 121.191.68.246
+    port: 10068
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_9
+    type: vless
+    server: 150.109.236.191
+    port: 25565
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
   - name: 🇫🇷FR_2
-    type: vless
-    server: 31.56.146.127
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_3
-    type: vless
-    server: 31.59.121.155
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US
-    type: vless
-    server: 216.24.178.29
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_4
-    type: vless
-    server: 217.60.37.196
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_5
-    type: vless
-    server: 46.8.224.150
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_6
     type: vless
     server: 31.59.120.161
     port: 2053
@@ -257,7 +497,7 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_7
+  - name: 🇫🇷FR_3
     type: vless
     server: 217.60.36.58
     port: 8443
@@ -269,57 +509,9 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_8
+  - name: 🇫🇷FR_4
     type: vless
-    server: 94.131.9.241
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_135
-    type: vless
-    server: 160.153.1.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇫🇷FR_9
-    type: vless
-    server: 217.60.36.183
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_10
-    type: vless
-    server: 94.131.9.65
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_1
-    type: vless
-    server: 74.211.96.225
+    server: 95.182.97.147
     port: 8443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -329,10 +521,10 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇺🇸US_2
+  - name: 🇫🇷FR_5
     type: vless
-    server: 45.77.4.176
-    port: 36983
+    server: 194.4.49.85
+    port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
@@ -341,7 +533,31 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_11
+  - name: 🇫🇷FR_6
+    type: vless
+    server: 31.59.121.155
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇫🇷FR_7
+    type: vless
+    server: 46.8.224.150
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇫🇷FR_8
     type: vless
     server: 45.156.27.152
     port: 8443
@@ -353,9 +569,129 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_12
+  - name: 🇰🇷KR_10
     type: vless
-    server: 89.168.43.31
+    server: 129.154.54.67
+    port: 19567
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇫🇷FR_9
+    type: vless
+    server: 217.60.37.196
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_11
+    type: vless
+    server: 52.141.25.42
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_12
+    type: vless
+    server: 144.24.84.212
+    port: 49888
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_13
+    type: vless
+    server: 152.69.227.72
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_14
+    type: vless
+    server: 158.179.173.208
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_15
+    type: vless
+    server: 144.24.83.227
+    port: 4443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_16
+    type: vless
+    server: 144.24.71.78
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_17
+    type: vless
+    server: 144.24.92.117
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇮🇳IN_1
+    type: vless
+    server: 134.195.137.107
+    port: 22473
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇫🇷FR_10
+    type: vless
+    server: 95.182.98.38
     port: 8443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -365,93 +701,92 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_13
+  - name: 🇧🇷_BR_巴西
     type: vless
-    server: 94.131.9.202
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_3
-    type: vless
-    server: 45.32.131.28
-    port: 31001
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_4
-    type: vless
-    server: 93.179.98.217
-    port: 15368
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_5
-    type: vless
-    server: 192.9.145.87
-    port: 13611
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_6
-    type: vless
-    server: 165.227.11.101
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_7
-    type: vless
-    server: 54.176.205.20
+    server: 188.114.98.112
     port: 80
+    uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+    network: ws
+    tls: false
+    ws-opts:
+      path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
+      headers:
+        Host: elenaaaaaaaaaa.cloudns.pro.
+  - name: 🇺🇸US_316
+    type: vless
+    server: 25.25.25.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.jpmj.dev
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.jpmj.dev
+  - name: 🇰🇷KR_18
+    type: vless
+    server: 121.150.130.214
+    port: 11001
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇺🇸US_8
+  - name: 🇰🇷KR_19
     type: vless
-    server: 45.62.100.129
-    port: 8443
+    server: 138.2.122.197
+    port: 39863
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇬🇧GB
+  - name: 🇺🇸US_318
     type: vless
-    server: 2.56.179.89
+    server: 14.102.228.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.jpmj.dev
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.jpmj.dev
+  - name: 🇭🇰HK_3
+    type: vless
+    server: 36.50.90.241
+    port: 35951
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_20
+    type: vless
+    server: 129.154.48.176
+    port: 36355
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇫🇷FR_11
+    type: vless
+    server: 94.131.9.65
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -461,9 +796,33 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇺🇸US_315
+  - name: 美国节点
+    type: trojan
+    server: 109.234.211.66
+    port: 2087
+    password: trojan
+    sni: store.timimi.dpdns.org
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: store.timimi.dpdns.org
+  - name: 🇰🇷KR_21
     type: vless
-    server: 25.26.27.238
+    server: 14.32.3.193
+    port: 16058
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇺🇸US_257
+    type: vless
+    server: 45.202.113.238
     port: 2096
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -485,9 +844,21 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.jpmj.dev
-  - name: 🇺🇸US_68
+  - name: 🇰🇷KR_22
     type: vless
-    server: 185.251.81.238
+    server: 121.162.145.231
+    port: 50003
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇺🇸US_315
+    type: vless
+    server: 25.26.27.238
     port: 2096
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -497,410 +868,18 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.jpmj.dev
-  - name: 🇺🇸US_299
+  - name: " 芬兰 01"
     type: vless
-    server: 45.40.145.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇺🇸US_318
-    type: vless
-    server: 14.102.228.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇫🇷FR_14
-    type: vless
-    server: 146.59.231.117
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_9
-    type: vless
-    server: 67.226.221.104
-    port: 80
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_10
-    type: vless
-    server: 31.59.136.248
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_11
-    type: vless
-    server: 142.171.220.62
-    port: 16003
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_12
-    type: vless
-    server: 142.171.88.226
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_292
-    type: vless
-    server: 45.40.152.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇬🇧GB_1
-    type: vless
-    server: 95.164.18.202
+    server: 78.153.139.68
     port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
+    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+    servername: images.apple.com
     tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_13
-    type: vless
-    server: 165.232.129.138
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇬🇧GB_2
-    type: vless
-    server: 95.164.18.132
-    port: 81
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_326
-    type: vless
-    server: 5.10.247.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇺🇸US_309
-    type: vless
-    server: 27.50.49.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇺🇸US_14
-    type: vless
-    server: 142.171.220.62
-    port: 16005
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_295
-    type: vless
-    server: 45.40.149.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇺🇸US_325
-    type: vless
-    server: 5.175.141.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 英国
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇺🇸US_15
-    type: vless
-    server: 74.48.98.173
-    port: 46862
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_16
-    type: vless
-    server: 142.171.129.125
-    port: 2201
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 美国节点
-    type: trojan
-    server: 109.234.211.66
-    port: 2087
-    password: trojan
-    sni: store.timimi.dpdns.org
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-      headers:
-        Host: store.timimi.dpdns.org
-  - name: 🇺🇸US_17
-    type: vless
-    server: 18.236.13.188
-    port: 80
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_76
-    type: vless
-    server: 185.207.196.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 英国节点
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国节点_1
-    type: trojan
-    server: 109.234.211.66
-    port: 2087
-    password: trojan
-    sni: store.timimi.dpdns.org
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: store.timimi.dpdns.org
-  - name: 英国节点_1
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 英国节点_2
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美國
-    type: trojan
-    server: 205.185.115.223
-    port: 19258
-    password: iWnFtzMiac
-    sni: cloudflare.com
-    skip-cert-verify: false
-    tls: true
-  - name: 🇺🇸US_257
-    type: vless
-    server: 45.202.113.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇺🇸US_296
-    type: vless
-    server: 45.40.148.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 🇫🇷FR_15
-    type: vless
-    server: 45.63.114.83
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_18
-    type: vless
-    server: 207.246.97.82
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_316
-    type: vless
-    server: 25.25.25.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.jpmj.dev
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.jpmj.dev
-  - name: 英国节点_3
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美国节点_2
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 英国节点_4
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 英国_1
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+      short-id: 58c512b4422e2517
   - name: 🇺🇸US_311
     type: vless
     server: 25.129.199.238
@@ -913,9 +892,33 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.jpmj.dev
-  - name: 🇺🇸US_243
+  - name: 🇫🇷FR_12
     type: vless
-    server: 50.62.195.238
+    server: 31.59.121.227
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇸🇬SG
+    type: vless
+    server: 185.81.28.95
+    port: 30503
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇺🇸US_68
+    type: vless
+    server: 185.251.81.238
     port: 2096
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -925,34 +928,22 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.jpmj.dev
-  - name: 🇺🇸US_19
+  - name: 🇮🇳IN_2
     type: vless
-    server: 72.18.132.149
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_16
-    type: vless
-    server: 31.59.121.39
+    server: 20.235.105.146
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_17
+  - name: 🇫🇷FR_13
     type: vless
-    server: 31.59.121.188
-    port: 8443
+    server: 31.59.121.39
+    port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
@@ -973,9 +964,41 @@ proxies:
       path: /WangCai-8
       headers:
         Host: dimskiee.biz.id
-  - name: 🇫🇷FR_18
+  - name: 🇬🇧GB
     type: vless
-    server: 141.94.220.168
+    server: 95.164.18.202
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇺🇸US
+    type: vless
+    server: 54.176.205.20
+    port: 80
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 美國
+    type: trojan
+    server: 205.185.115.223
+    port: 19258
+    password: iWnFtzMiac
+    sni: cloudflare.com
+    skip-cert-verify: false
+    tls: true
+  - name: 🇫🇷FR_14
+    type: vless
+    server: 217.60.36.183
     port: 2053
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -985,21 +1008,21 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_19
+  - name: 🇰🇷KR_23
     type: vless
-    server: 194.36.170.6
-    port: 2053
+    server: 222.114.57.191
+    port: 50001
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇺🇸US_20
+  - name: 🇫🇷FR_15
     type: vless
-    server: 198.57.46.6
+    server: 94.131.9.241
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -1009,45 +1032,153 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇺🇸US_21
+  - name: 🇯🇵JP_17
     type: vless
-    server: 172.245.54.238
+    server: 138.3.222.124
+    port: 46209
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_18
+    type: vless
+    server: 158.101.145.82
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_20
+  - name: 🇯🇵JP_19
     type: vless
-    server: 193.42.60.128
+    server: 158.101.131.94
+    port: 2083
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_20
+    type: vless
+    server: 150.230.196.57
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_21
+    type: vless
+    server: 138.2.10.149
+    port: 45638
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 美国节点_1
+    type: vless
+    server: 45.83.143.28
     port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
+    uuid: ad475ad1-e80f-4e63-89e6-4120a3387377
+    servername: teamdocs.su
     tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_22
-    type: vless
-    server: 144.24.9.81
-    port: 12169
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 美国节点_3
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: WfEk0nBnQWMGXLVnQuOuL6k_nMA8CFngSpUioIclo24
+      short-id: c87aa6d3d9be1df0
+  - name: 法国
     type: vmess
-    server: 2001:bc8:32d7:302::11
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+  - name: 美国
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: 美国节点_2
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: AZERB.NET
+  - name: 🇯🇵JP_22
+    type: vless
+    server: 155.248.181.189
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_23
+    type: vless
+    server: 138.2.10.217
+    port: 27446
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_24
+    type: vless
+    server: 150.230.107.25
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 美国_1
+    type: vmess
+    server: 2001:bc8:32d7:302::14
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -1059,53 +1190,76 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
       headers:
         Host: TABRIZ.NET
-  - name: 德国 黑森州 法兰克福 — 甲骨文云
-    type: hysteria2
-    server: 130.61.50.75
-    port: 6443
-    password: zhangyang
-    sni: dash.cloudflare.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - name: 法国节点
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
-  - name: 香港节点_1
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: AZERB.NET
-  - name: 🇺🇸US_23
+  - name: 🇯🇵JP_25
     type: vless
-    server: 74.48.145.83
-    port: 31556
+    server: 168.138.192.16
+    port: 54584
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇺🇸US_1
+    type: vless
+    server: 67.226.221.104
+    port: 80
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_26
+    type: vless
+    server: 158.101.152.6
+    port: 2919
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 美国节点_3
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: 🇯🇵JP_27
+    type: vless
+    server: 138.2.12.103
+    port: 14453
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇯🇵JP_28
+    type: vless
+    server: 152.70.82.101
+    port: 18650
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
   - name: 俄羅斯
@@ -1120,57 +1274,7 @@ proxies:
     reality-opts:
       public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
       short-id: 58c512b4422e2517
-  - name: 美国节点_4
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: AZERB.NET
-  - name: 美国
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: 法国节点_1
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: 美国节点_5
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: 美国_1
+  - name: 美国_2
     type: vmess
     server: 2001:bc8:32d7:302::17
     port: 44579
@@ -1184,101 +1288,7 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: AZERB.NET
-  - name: 法国节点_2
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-  - name: 美国节点_6
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: ?ed=2048
-  - name: 🇺🇸US_24
-    type: vless
-    server: 64.181.227.82
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 🇺🇸US_25
-    type: vless
-    server: 192.193.104.25
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 俄羅斯_1
-    type: vless
-    server: 176.125.240.166
-    port: 443
-    uuid: 002accb526534fcab24a72b0ea1cff59
-    servername: apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    reality-opts:
-      public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
-      short-id: aabbccdd
-  - name: 🇫🇷FR_21
-    type: vless
-    server: 31.59.121.155
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 法国
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-  - name: 🇬🇧GB_3
-    type: vless
-    server: 2.56.179.239
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.indevs.in
-    tls: true
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
-      headers:
-        Host: sni.111000.indevs.in
-  - name: 美国节点_7
+  - name: 美国节点_4
     type: vmess
     server: 2001:bc8:32d7:302::16
     port: 44579
@@ -1292,9 +1302,21 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: AZERB.NET
-  - name: 🇬🇧GB_4
+  - name: 🇯🇵JP_29
     type: vless
-    server: 57.128.179.254
+    server: 131.186.38.156
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇺🇸US_2
+    type: vless
+    server: 192.193.104.25
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
@@ -1304,18 +1326,84 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 🇫🇷FR_22
+  - name: 🇮🇳IN_3
     type: vless
-    server: 141.94.205.63
-    port: 2053
+    server: 64.227.158.180
+    port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
+  - name: 法国节点
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇮🇳IN_4
+    type: vless
+    server: 35.154.123.52
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 法国节点_1
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+  - name: 法国节点_2
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: TURK1.NET.NET
+  - name: 美国节点_5
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
   - name: 法国节点_3
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -1327,11 +1415,11 @@ proxies:
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: 🇫🇷FR_23
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  - name: 🇫🇷FR_16
     type: vless
-    server: 172.233.249.145
-    port: 443
+    server: 141.94.205.248
+    port: 2053
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
@@ -1340,7 +1428,7 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳 @WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: 英国节点_5
+  - name: 美国节点_6
     type: vmess
     server: 2001:bc8:32d7:302::10
     port: 44579
@@ -1351,8 +1439,116 @@ proxies:
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /?ed=2048
-  - name: 美国_2
+      path: ?ed=2048
+  - name: 🇯🇵JP_30
+    type: vless
+    server: 45.77.25.6
+    port: 27854
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇮🇳IN_5
+    type: vless
+    server: 139.84.163.149
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇬🇷_GR_希腊
+    type: vless
+    server: 185.234.57.207
+    port: 443
+    uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
+    servername: teamdocs.su
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
+      short-id: b5e0cd9ca194c0a5
+  - name: 🇮🇳IN_6
+    type: vless
+    server: 148.113.43.228
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇮🇳IN_7
+    type: vless
+    server: 64.227.174.213
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇬🇷_GR_希腊_1
+    type: vless
+    server: 185.234.57.207
+    port: 443
+    uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
+    servername: teamdocs.su
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
+      short-id: b5e0cd9ca194c0a5
+  - name: 法国节点_4
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - name: 以色列节点
+    type: vless
+    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+    port: 443
+    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+    servername: i2pd.website
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+      short-id: 55e6af1a35e64a98
+  - name: 🇯🇵JP_31
+    type: vless
+    server: 140.83.57.114
+    port: 25965
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 美国_3
     type: vmess
     server: 2001:bc8:32d7:302::11
     port: 44579
@@ -1366,30 +1562,30 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
       headers:
         Host: Azerb.NET
-  - name: 🇬🇧GB_5
+  - name: 🇯🇵JP_32
     type: vless
-    server: 83.147.216.31
+    server: 217.142.230.253
+    port: 587
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      headers:
+        Host: sni.111000.indevs.in
+  - name: 🇰🇷KR_24
+    type: vless
+    server: 146.56.167.171
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.111000.indevs.in
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳 @WangCai2
+      path: /?ed=2560&Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.indevs.in
-  - name: " 芬兰 01"
-    type: vless
-    server: 78.153.139.68
-    port: 8443
-    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-    servername: images.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-      short-id: 58c512b4422e2517
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -1397,234 +1593,262 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰HK
-      - 🇭🇰HK_1
-      - 台灣
       - 🇯🇵JP
-      - 🇸🇬SG
       - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇯🇵JP_5
+      - 🇨🇳TW
+      - 🇯🇵JP_6
+      - 🇯🇵JP_7
+      - 🇯🇵JP_8
+      - 🇯🇵JP_9
+      - 🇯🇵JP_10
+      - 🇨🇳TW_1
+      - 🇭🇰HK_1
+      - 🇰🇷KR
       - 🇭🇰HK_2
-      - 🇸🇬SG_1
-      - 🇸🇬SG_2
+      - 🇰🇷KR_1
+      - 🇰🇷KR_2
+      - 🇰🇷KR_3
+      - 🇨🇳TW_2
+      - 🇰🇷KR_4
+      - 🇯🇵JP_11
+      - 🇰🇷KR_5
+      - 🇯🇵JP_12
+      - 🇮🇳IN
+      - 🇯🇵JP_13
+      - 🇰🇷KR_6
+      - 🇯🇵JP_14
+      - 🇯🇵JP_15
+      - 🇯🇵JP_16
       - 🇫🇷FR
+      - 🇰🇷KR_7
       - 🇫🇷FR_1
+      - 🇰🇷KR_8
+      - 🇰🇷KR_9
       - 🇫🇷FR_2
       - 🇫🇷FR_3
-      - 🇺🇸US
       - 🇫🇷FR_4
       - 🇫🇷FR_5
       - 🇫🇷FR_6
       - 🇫🇷FR_7
       - 🇫🇷FR_8
-      - 🇺🇸US_135
+      - 🇰🇷KR_10
       - 🇫🇷FR_9
+      - 🇰🇷KR_11
+      - 🇰🇷KR_12
+      - 🇰🇷KR_13
+      - 🇰🇷KR_14
+      - 🇰🇷KR_15
+      - 🇰🇷KR_16
+      - 🇰🇷KR_17
+      - 🇮🇳IN_1
       - 🇫🇷FR_10
-      - 🇺🇸US_1
-      - 🇺🇸US_2
-      - 🇫🇷FR_11
-      - 🇫🇷FR_12
-      - 🇫🇷FR_13
-      - 🇺🇸US_3
-      - 🇺🇸US_4
-      - 🇺🇸US_5
-      - 🇺🇸US_6
-      - 🇺🇸US_7
-      - 🇺🇸US_8
-      - 🇬🇧GB
-      - 🇺🇸US_315
-      - 🇺🇸US_331
-      - 🇺🇸US_68
-      - 🇺🇸US_299
-      - 🇺🇸US_318
-      - 🇫🇷FR_14
-      - 🇺🇸US_9
-      - 🇺🇸US_10
-      - 🇺🇸US_11
-      - 🇺🇸US_12
-      - 🇺🇸US_292
-      - 🇬🇧GB_1
-      - 🇺🇸US_13
-      - 🇬🇧GB_2
-      - 🇺🇸US_326
-      - 🇺🇸US_309
-      - 🇺🇸US_14
-      - 🇺🇸US_295
-      - 🇺🇸US_325
-      - 英国
-      - 🇺🇸US_15
-      - 🇺🇸US_16
-      - 美国节点
-      - 🇺🇸US_17
-      - 🇺🇸US_76
-      - 英国节点
-      - 美国节点_1
-      - 英国节点_1
-      - 英国节点_2
-      - 美國
-      - 🇺🇸US_257
-      - 🇺🇸US_296
-      - 🇫🇷FR_15
-      - 🇺🇸US_18
+      - 🇧🇷_BR_巴西
       - 🇺🇸US_316
-      - 英国节点_3
-      - 美国节点_2
-      - 英国节点_4
-      - 英国_1
-      - 🇺🇸US_311
-      - 🇺🇸US_243
-      - 🇺🇸US_19
-      - 🇫🇷FR_16
-      - 🇫🇷FR_17
-      - 香港节点
-      - 🇫🇷FR_18
-      - 🇫🇷FR_19
-      - 🇺🇸US_20
-      - 🇺🇸US_21
-      - 🇫🇷FR_20
-      - 🇺🇸US_22
-      - 美国节点_3
-      - 德国 黑森州 法兰克福 — 甲骨文云
-      - 法国节点
-      - 香港节点_1
-      - 🇺🇸US_23
-      - 俄羅斯
-      - 美国节点_4
-      - 美国
-      - 法国节点_1
-      - 美国节点_5
-      - 美国_1
-      - 法国节点_2
-      - 美国节点_6
-      - 🇺🇸US_24
-      - 🇺🇸US_25
-      - 俄羅斯_1
-      - 🇫🇷FR_21
-      - 法国
-      - 🇬🇧GB_3
-      - 美国节点_7
-      - 🇬🇧GB_4
-      - 🇫🇷FR_22
-      - 法国节点_3
-      - 🇫🇷FR_23
-      - 英国节点_5
-      - 美国_2
-      - 🇬🇧GB_5
+      - 🇰🇷KR_18
+      - 🇰🇷KR_19
+      - 🇺🇸US_318
+      - 🇭🇰HK_3
+      - 🇰🇷KR_20
+      - 🇫🇷FR_11
+      - 美国节点
+      - 🇰🇷KR_21
+      - 🇺🇸US_257
+      - 🇺🇸US_331
+      - 🇰🇷KR_22
+      - 🇺🇸US_315
       - " 芬兰 01"
+      - 🇺🇸US_311
+      - 🇫🇷FR_12
+      - 🇸🇬SG
+      - 🇺🇸US_68
+      - 🇮🇳IN_2
+      - 🇫🇷FR_13
+      - 香港节点
+      - 🇬🇧GB
+      - 🇺🇸US
+      - 美國
+      - 🇫🇷FR_14
+      - 🇰🇷KR_23
+      - 🇫🇷FR_15
+      - 🇯🇵JP_17
+      - 🇯🇵JP_18
+      - 🇯🇵JP_19
+      - 🇯🇵JP_20
+      - 🇯🇵JP_21
+      - 美国节点_1
+      - 法国
+      - 美国
+      - 美国节点_2
+      - 🇯🇵JP_22
+      - 🇯🇵JP_23
+      - 🇯🇵JP_24
+      - 美国_1
+      - 🇯🇵JP_25
+      - 🇺🇸US_1
+      - 🇯🇵JP_26
+      - 美国节点_3
+      - 🇯🇵JP_27
+      - 🇯🇵JP_28
+      - 俄羅斯
+      - 美国_2
+      - 美国节点_4
+      - 🇯🇵JP_29
+      - 🇺🇸US_2
+      - 🇮🇳IN_3
+      - 法国节点
+      - 🇮🇳IN_4
+      - 法国节点_1
+      - 法国节点_2
+      - 美国节点_5
+      - 法国节点_3
+      - 🇫🇷FR_16
+      - 美国节点_6
+      - 🇯🇵JP_30
+      - 🇮🇳IN_5
+      - 🇬🇷_GR_希腊
+      - 🇮🇳IN_6
+      - 🇮🇳IN_7
+      - 🇬🇷_GR_希腊_1
+      - 法国节点_4
+      - 以色列节点
+      - 🇯🇵JP_31
+      - 美国_3
+      - 🇯🇵JP_32
+      - 🇰🇷KR_24
   - name: ♻️ 自动选择
     type: url-test
     proxies:
       - 🇭🇰HK
-      - 🇭🇰HK_1
-      - 台灣
       - 🇯🇵JP
-      - 🇸🇬SG
       - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇯🇵JP_5
+      - 🇨🇳TW
+      - 🇯🇵JP_6
+      - 🇯🇵JP_7
+      - 🇯🇵JP_8
+      - 🇯🇵JP_9
+      - 🇯🇵JP_10
+      - 🇨🇳TW_1
+      - 🇭🇰HK_1
+      - 🇰🇷KR
       - 🇭🇰HK_2
-      - 🇸🇬SG_1
-      - 🇸🇬SG_2
+      - 🇰🇷KR_1
+      - 🇰🇷KR_2
+      - 🇰🇷KR_3
+      - 🇨🇳TW_2
+      - 🇰🇷KR_4
+      - 🇯🇵JP_11
+      - 🇰🇷KR_5
+      - 🇯🇵JP_12
+      - 🇮🇳IN
+      - 🇯🇵JP_13
+      - 🇰🇷KR_6
+      - 🇯🇵JP_14
+      - 🇯🇵JP_15
+      - 🇯🇵JP_16
       - 🇫🇷FR
+      - 🇰🇷KR_7
       - 🇫🇷FR_1
+      - 🇰🇷KR_8
+      - 🇰🇷KR_9
       - 🇫🇷FR_2
       - 🇫🇷FR_3
-      - 🇺🇸US
       - 🇫🇷FR_4
       - 🇫🇷FR_5
       - 🇫🇷FR_6
       - 🇫🇷FR_7
       - 🇫🇷FR_8
-      - 🇺🇸US_135
+      - 🇰🇷KR_10
       - 🇫🇷FR_9
+      - 🇰🇷KR_11
+      - 🇰🇷KR_12
+      - 🇰🇷KR_13
+      - 🇰🇷KR_14
+      - 🇰🇷KR_15
+      - 🇰🇷KR_16
+      - 🇰🇷KR_17
+      - 🇮🇳IN_1
       - 🇫🇷FR_10
-      - 🇺🇸US_1
-      - 🇺🇸US_2
-      - 🇫🇷FR_11
-      - 🇫🇷FR_12
-      - 🇫🇷FR_13
-      - 🇺🇸US_3
-      - 🇺🇸US_4
-      - 🇺🇸US_5
-      - 🇺🇸US_6
-      - 🇺🇸US_7
-      - 🇺🇸US_8
-      - 🇬🇧GB
-      - 🇺🇸US_315
-      - 🇺🇸US_331
-      - 🇺🇸US_68
-      - 🇺🇸US_299
-      - 🇺🇸US_318
-      - 🇫🇷FR_14
-      - 🇺🇸US_9
-      - 🇺🇸US_10
-      - 🇺🇸US_11
-      - 🇺🇸US_12
-      - 🇺🇸US_292
-      - 🇬🇧GB_1
-      - 🇺🇸US_13
-      - 🇬🇧GB_2
-      - 🇺🇸US_326
-      - 🇺🇸US_309
-      - 🇺🇸US_14
-      - 🇺🇸US_295
-      - 🇺🇸US_325
-      - 英国
-      - 🇺🇸US_15
-      - 🇺🇸US_16
-      - 美国节点
-      - 🇺🇸US_17
-      - 🇺🇸US_76
-      - 英国节点
-      - 美国节点_1
-      - 英国节点_1
-      - 英国节点_2
-      - 美國
-      - 🇺🇸US_257
-      - 🇺🇸US_296
-      - 🇫🇷FR_15
-      - 🇺🇸US_18
+      - 🇧🇷_BR_巴西
       - 🇺🇸US_316
-      - 英国节点_3
-      - 美国节点_2
-      - 英国节点_4
-      - 英国_1
-      - 🇺🇸US_311
-      - 🇺🇸US_243
-      - 🇺🇸US_19
-      - 🇫🇷FR_16
-      - 🇫🇷FR_17
-      - 香港节点
-      - 🇫🇷FR_18
-      - 🇫🇷FR_19
-      - 🇺🇸US_20
-      - 🇺🇸US_21
-      - 🇫🇷FR_20
-      - 🇺🇸US_22
-      - 美国节点_3
-      - 德国 黑森州 法兰克福 — 甲骨文云
-      - 法国节点
-      - 香港节点_1
-      - 🇺🇸US_23
-      - 俄羅斯
-      - 美国节点_4
-      - 美国
-      - 法国节点_1
-      - 美国节点_5
-      - 美国_1
-      - 法国节点_2
-      - 美国节点_6
-      - 🇺🇸US_24
-      - 🇺🇸US_25
-      - 俄羅斯_1
-      - 🇫🇷FR_21
-      - 法国
-      - 🇬🇧GB_3
-      - 美国节点_7
-      - 🇬🇧GB_4
-      - 🇫🇷FR_22
-      - 法国节点_3
-      - 🇫🇷FR_23
-      - 英国节点_5
-      - 美国_2
-      - 🇬🇧GB_5
+      - 🇰🇷KR_18
+      - 🇰🇷KR_19
+      - 🇺🇸US_318
+      - 🇭🇰HK_3
+      - 🇰🇷KR_20
+      - 🇫🇷FR_11
+      - 美国节点
+      - 🇰🇷KR_21
+      - 🇺🇸US_257
+      - 🇺🇸US_331
+      - 🇰🇷KR_22
+      - 🇺🇸US_315
       - " 芬兰 01"
+      - 🇺🇸US_311
+      - 🇫🇷FR_12
+      - 🇸🇬SG
+      - 🇺🇸US_68
+      - 🇮🇳IN_2
+      - 🇫🇷FR_13
+      - 香港节点
+      - 🇬🇧GB
+      - 🇺🇸US
+      - 美國
+      - 🇫🇷FR_14
+      - 🇰🇷KR_23
+      - 🇫🇷FR_15
+      - 🇯🇵JP_17
+      - 🇯🇵JP_18
+      - 🇯🇵JP_19
+      - 🇯🇵JP_20
+      - 🇯🇵JP_21
+      - 美国节点_1
+      - 法国
+      - 美国
+      - 美国节点_2
+      - 🇯🇵JP_22
+      - 🇯🇵JP_23
+      - 🇯🇵JP_24
+      - 美国_1
+      - 🇯🇵JP_25
+      - 🇺🇸US_1
+      - 🇯🇵JP_26
+      - 美国节点_3
+      - 🇯🇵JP_27
+      - 🇯🇵JP_28
+      - 俄羅斯
+      - 美国_2
+      - 美国节点_4
+      - 🇯🇵JP_29
+      - 🇺🇸US_2
+      - 🇮🇳IN_3
+      - 法国节点
+      - 🇮🇳IN_4
+      - 法国节点_1
+      - 法国节点_2
+      - 美国节点_5
+      - 法国节点_3
+      - 🇫🇷FR_16
+      - 美国节点_6
+      - 🇯🇵JP_30
+      - 🇮🇳IN_5
+      - 🇬🇷_GR_希腊
+      - 🇮🇳IN_6
+      - 🇮🇳IN_7
+      - 🇬🇷_GR_希腊_1
+      - 法国节点_4
+      - 以色列节点
+      - 🇯🇵JP_31
+      - 美国_3
+      - 🇯🇵JP_32
+      - 🇰🇷KR_24
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1635,472 +1859,528 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰HK
-      - 🇭🇰HK_1
-      - 台灣
       - 🇯🇵JP
-      - 🇸🇬SG
       - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇯🇵JP_5
+      - 🇨🇳TW
+      - 🇯🇵JP_6
+      - 🇯🇵JP_7
+      - 🇯🇵JP_8
+      - 🇯🇵JP_9
+      - 🇯🇵JP_10
+      - 🇨🇳TW_1
+      - 🇭🇰HK_1
+      - 🇰🇷KR
       - 🇭🇰HK_2
-      - 🇸🇬SG_1
-      - 🇸🇬SG_2
+      - 🇰🇷KR_1
+      - 🇰🇷KR_2
+      - 🇰🇷KR_3
+      - 🇨🇳TW_2
+      - 🇰🇷KR_4
+      - 🇯🇵JP_11
+      - 🇰🇷KR_5
+      - 🇯🇵JP_12
+      - 🇮🇳IN
+      - 🇯🇵JP_13
+      - 🇰🇷KR_6
+      - 🇯🇵JP_14
+      - 🇯🇵JP_15
+      - 🇯🇵JP_16
       - 🇫🇷FR
+      - 🇰🇷KR_7
       - 🇫🇷FR_1
+      - 🇰🇷KR_8
+      - 🇰🇷KR_9
       - 🇫🇷FR_2
       - 🇫🇷FR_3
-      - 🇺🇸US
       - 🇫🇷FR_4
       - 🇫🇷FR_5
       - 🇫🇷FR_6
       - 🇫🇷FR_7
       - 🇫🇷FR_8
-      - 🇺🇸US_135
+      - 🇰🇷KR_10
       - 🇫🇷FR_9
+      - 🇰🇷KR_11
+      - 🇰🇷KR_12
+      - 🇰🇷KR_13
+      - 🇰🇷KR_14
+      - 🇰🇷KR_15
+      - 🇰🇷KR_16
+      - 🇰🇷KR_17
+      - 🇮🇳IN_1
       - 🇫🇷FR_10
-      - 🇺🇸US_1
-      - 🇺🇸US_2
-      - 🇫🇷FR_11
-      - 🇫🇷FR_12
-      - 🇫🇷FR_13
-      - 🇺🇸US_3
-      - 🇺🇸US_4
-      - 🇺🇸US_5
-      - 🇺🇸US_6
-      - 🇺🇸US_7
-      - 🇺🇸US_8
-      - 🇬🇧GB
-      - 🇺🇸US_315
-      - 🇺🇸US_331
-      - 🇺🇸US_68
-      - 🇺🇸US_299
-      - 🇺🇸US_318
-      - 🇫🇷FR_14
-      - 🇺🇸US_9
-      - 🇺🇸US_10
-      - 🇺🇸US_11
-      - 🇺🇸US_12
-      - 🇺🇸US_292
-      - 🇬🇧GB_1
-      - 🇺🇸US_13
-      - 🇬🇧GB_2
-      - 🇺🇸US_326
-      - 🇺🇸US_309
-      - 🇺🇸US_14
-      - 🇺🇸US_295
-      - 🇺🇸US_325
-      - 英国
-      - 🇺🇸US_15
-      - 🇺🇸US_16
-      - 美国节点
-      - 🇺🇸US_17
-      - 🇺🇸US_76
-      - 英国节点
-      - 美国节点_1
-      - 英国节点_1
-      - 英国节点_2
-      - 美國
-      - 🇺🇸US_257
-      - 🇺🇸US_296
-      - 🇫🇷FR_15
-      - 🇺🇸US_18
+      - 🇧🇷_BR_巴西
       - 🇺🇸US_316
-      - 英国节点_3
-      - 美国节点_2
-      - 英国节点_4
-      - 英国_1
-      - 🇺🇸US_311
-      - 🇺🇸US_243
-      - 🇺🇸US_19
-      - 🇫🇷FR_16
-      - 🇫🇷FR_17
-      - 香港节点
-      - 🇫🇷FR_18
-      - 🇫🇷FR_19
-      - 🇺🇸US_20
-      - 🇺🇸US_21
-      - 🇫🇷FR_20
-      - 🇺🇸US_22
-      - 美国节点_3
-      - 德国 黑森州 法兰克福 — 甲骨文云
-      - 法国节点
-      - 香港节点_1
-      - 🇺🇸US_23
-      - 俄羅斯
-      - 美国节点_4
-      - 美国
-      - 法国节点_1
-      - 美国节点_5
-      - 美国_1
-      - 法国节点_2
-      - 美国节点_6
-      - 🇺🇸US_24
-      - 🇺🇸US_25
-      - 俄羅斯_1
-      - 🇫🇷FR_21
-      - 法国
-      - 🇬🇧GB_3
-      - 美国节点_7
-      - 🇬🇧GB_4
-      - 🇫🇷FR_22
-      - 法国节点_3
-      - 🇫🇷FR_23
-      - 英国节点_5
-      - 美国_2
-      - 🇬🇧GB_5
+      - 🇰🇷KR_18
+      - 🇰🇷KR_19
+      - 🇺🇸US_318
+      - 🇭🇰HK_3
+      - 🇰🇷KR_20
+      - 🇫🇷FR_11
+      - 美国节点
+      - 🇰🇷KR_21
+      - 🇺🇸US_257
+      - 🇺🇸US_331
+      - 🇰🇷KR_22
+      - 🇺🇸US_315
       - " 芬兰 01"
+      - 🇺🇸US_311
+      - 🇫🇷FR_12
+      - 🇸🇬SG
+      - 🇺🇸US_68
+      - 🇮🇳IN_2
+      - 🇫🇷FR_13
+      - 香港节点
+      - 🇬🇧GB
+      - 🇺🇸US
+      - 美國
+      - 🇫🇷FR_14
+      - 🇰🇷KR_23
+      - 🇫🇷FR_15
+      - 🇯🇵JP_17
+      - 🇯🇵JP_18
+      - 🇯🇵JP_19
+      - 🇯🇵JP_20
+      - 🇯🇵JP_21
+      - 美国节点_1
+      - 法国
+      - 美国
+      - 美国节点_2
+      - 🇯🇵JP_22
+      - 🇯🇵JP_23
+      - 🇯🇵JP_24
+      - 美国_1
+      - 🇯🇵JP_25
+      - 🇺🇸US_1
+      - 🇯🇵JP_26
+      - 美国节点_3
+      - 🇯🇵JP_27
+      - 🇯🇵JP_28
+      - 俄羅斯
+      - 美国_2
+      - 美国节点_4
+      - 🇯🇵JP_29
+      - 🇺🇸US_2
+      - 🇮🇳IN_3
+      - 法国节点
+      - 🇮🇳IN_4
+      - 法国节点_1
+      - 法国节点_2
+      - 美国节点_5
+      - 法国节点_3
+      - 🇫🇷FR_16
+      - 美国节点_6
+      - 🇯🇵JP_30
+      - 🇮🇳IN_5
+      - 🇬🇷_GR_希腊
+      - 🇮🇳IN_6
+      - 🇮🇳IN_7
+      - 🇬🇷_GR_希腊_1
+      - 法国节点_4
+      - 以色列节点
+      - 🇯🇵JP_31
+      - 美国_3
+      - 🇯🇵JP_32
+      - 🇰🇷KR_24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇭🇰HK
-      - 🇭🇰HK_1
-      - 台灣
       - 🇯🇵JP
-      - 🇸🇬SG
       - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇯🇵JP_5
+      - 🇨🇳TW
+      - 🇯🇵JP_6
+      - 🇯🇵JP_7
+      - 🇯🇵JP_8
+      - 🇯🇵JP_9
+      - 🇯🇵JP_10
+      - 🇨🇳TW_1
+      - 🇭🇰HK_1
+      - 🇰🇷KR
       - 🇭🇰HK_2
-      - 🇸🇬SG_1
-      - 🇸🇬SG_2
+      - 🇰🇷KR_1
+      - 🇰🇷KR_2
+      - 🇰🇷KR_3
+      - 🇨🇳TW_2
+      - 🇰🇷KR_4
+      - 🇯🇵JP_11
+      - 🇰🇷KR_5
+      - 🇯🇵JP_12
+      - 🇮🇳IN
+      - 🇯🇵JP_13
+      - 🇰🇷KR_6
+      - 🇯🇵JP_14
+      - 🇯🇵JP_15
+      - 🇯🇵JP_16
       - 🇫🇷FR
+      - 🇰🇷KR_7
       - 🇫🇷FR_1
+      - 🇰🇷KR_8
+      - 🇰🇷KR_9
       - 🇫🇷FR_2
       - 🇫🇷FR_3
-      - 🇺🇸US
       - 🇫🇷FR_4
       - 🇫🇷FR_5
       - 🇫🇷FR_6
       - 🇫🇷FR_7
       - 🇫🇷FR_8
-      - 🇺🇸US_135
+      - 🇰🇷KR_10
       - 🇫🇷FR_9
+      - 🇰🇷KR_11
+      - 🇰🇷KR_12
+      - 🇰🇷KR_13
+      - 🇰🇷KR_14
+      - 🇰🇷KR_15
+      - 🇰🇷KR_16
+      - 🇰🇷KR_17
+      - 🇮🇳IN_1
       - 🇫🇷FR_10
-      - 🇺🇸US_1
-      - 🇺🇸US_2
-      - 🇫🇷FR_11
-      - 🇫🇷FR_12
-      - 🇫🇷FR_13
-      - 🇺🇸US_3
-      - 🇺🇸US_4
-      - 🇺🇸US_5
-      - 🇺🇸US_6
-      - 🇺🇸US_7
-      - 🇺🇸US_8
-      - 🇬🇧GB
-      - 🇺🇸US_315
-      - 🇺🇸US_331
-      - 🇺🇸US_68
-      - 🇺🇸US_299
-      - 🇺🇸US_318
-      - 🇫🇷FR_14
-      - 🇺🇸US_9
-      - 🇺🇸US_10
-      - 🇺🇸US_11
-      - 🇺🇸US_12
-      - 🇺🇸US_292
-      - 🇬🇧GB_1
-      - 🇺🇸US_13
-      - 🇬🇧GB_2
-      - 🇺🇸US_326
-      - 🇺🇸US_309
-      - 🇺🇸US_14
-      - 🇺🇸US_295
-      - 🇺🇸US_325
-      - 英国
-      - 🇺🇸US_15
-      - 🇺🇸US_16
-      - 美国节点
-      - 🇺🇸US_17
-      - 🇺🇸US_76
-      - 英国节点
-      - 美国节点_1
-      - 英国节点_1
-      - 英国节点_2
-      - 美國
-      - 🇺🇸US_257
-      - 🇺🇸US_296
-      - 🇫🇷FR_15
-      - 🇺🇸US_18
+      - 🇧🇷_BR_巴西
       - 🇺🇸US_316
-      - 英国节点_3
-      - 美国节点_2
-      - 英国节点_4
-      - 英国_1
-      - 🇺🇸US_311
-      - 🇺🇸US_243
-      - 🇺🇸US_19
-      - 🇫🇷FR_16
-      - 🇫🇷FR_17
-      - 香港节点
-      - 🇫🇷FR_18
-      - 🇫🇷FR_19
-      - 🇺🇸US_20
-      - 🇺🇸US_21
-      - 🇫🇷FR_20
-      - 🇺🇸US_22
-      - 美国节点_3
-      - 德国 黑森州 法兰克福 — 甲骨文云
-      - 法国节点
-      - 香港节点_1
-      - 🇺🇸US_23
-      - 俄羅斯
-      - 美国节点_4
-      - 美国
-      - 法国节点_1
-      - 美国节点_5
-      - 美国_1
-      - 法国节点_2
-      - 美国节点_6
-      - 🇺🇸US_24
-      - 🇺🇸US_25
-      - 俄羅斯_1
-      - 🇫🇷FR_21
-      - 法国
-      - 🇬🇧GB_3
-      - 美国节点_7
-      - 🇬🇧GB_4
-      - 🇫🇷FR_22
-      - 法国节点_3
-      - 🇫🇷FR_23
-      - 英国节点_5
-      - 美国_2
-      - 🇬🇧GB_5
+      - 🇰🇷KR_18
+      - 🇰🇷KR_19
+      - 🇺🇸US_318
+      - 🇭🇰HK_3
+      - 🇰🇷KR_20
+      - 🇫🇷FR_11
+      - 美国节点
+      - 🇰🇷KR_21
+      - 🇺🇸US_257
+      - 🇺🇸US_331
+      - 🇰🇷KR_22
+      - 🇺🇸US_315
       - " 芬兰 01"
+      - 🇺🇸US_311
+      - 🇫🇷FR_12
+      - 🇸🇬SG
+      - 🇺🇸US_68
+      - 🇮🇳IN_2
+      - 🇫🇷FR_13
+      - 香港节点
+      - 🇬🇧GB
+      - 🇺🇸US
+      - 美國
+      - 🇫🇷FR_14
+      - 🇰🇷KR_23
+      - 🇫🇷FR_15
+      - 🇯🇵JP_17
+      - 🇯🇵JP_18
+      - 🇯🇵JP_19
+      - 🇯🇵JP_20
+      - 🇯🇵JP_21
+      - 美国节点_1
+      - 法国
+      - 美国
+      - 美国节点_2
+      - 🇯🇵JP_22
+      - 🇯🇵JP_23
+      - 🇯🇵JP_24
+      - 美国_1
+      - 🇯🇵JP_25
+      - 🇺🇸US_1
+      - 🇯🇵JP_26
+      - 美国节点_3
+      - 🇯🇵JP_27
+      - 🇯🇵JP_28
+      - 俄羅斯
+      - 美国_2
+      - 美国节点_4
+      - 🇯🇵JP_29
+      - 🇺🇸US_2
+      - 🇮🇳IN_3
+      - 法国节点
+      - 🇮🇳IN_4
+      - 法国节点_1
+      - 法国节点_2
+      - 美国节点_5
+      - 法国节点_3
+      - 🇫🇷FR_16
+      - 美国节点_6
+      - 🇯🇵JP_30
+      - 🇮🇳IN_5
+      - 🇬🇷_GR_希腊
+      - 🇮🇳IN_6
+      - 🇮🇳IN_7
+      - 🇬🇷_GR_希腊_1
+      - 法国节点_4
+      - 以色列节点
+      - 🇯🇵JP_31
+      - 美国_3
+      - 🇯🇵JP_32
+      - 🇰🇷KR_24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇭🇰HK
-      - 🇭🇰HK_1
-      - 台灣
       - 🇯🇵JP
-      - 🇸🇬SG
       - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇯🇵JP_5
+      - 🇨🇳TW
+      - 🇯🇵JP_6
+      - 🇯🇵JP_7
+      - 🇯🇵JP_8
+      - 🇯🇵JP_9
+      - 🇯🇵JP_10
+      - 🇨🇳TW_1
+      - 🇭🇰HK_1
+      - 🇰🇷KR
       - 🇭🇰HK_2
-      - 🇸🇬SG_1
-      - 🇸🇬SG_2
+      - 🇰🇷KR_1
+      - 🇰🇷KR_2
+      - 🇰🇷KR_3
+      - 🇨🇳TW_2
+      - 🇰🇷KR_4
+      - 🇯🇵JP_11
+      - 🇰🇷KR_5
+      - 🇯🇵JP_12
+      - 🇮🇳IN
+      - 🇯🇵JP_13
+      - 🇰🇷KR_6
+      - 🇯🇵JP_14
+      - 🇯🇵JP_15
+      - 🇯🇵JP_16
       - 🇫🇷FR
+      - 🇰🇷KR_7
       - 🇫🇷FR_1
+      - 🇰🇷KR_8
+      - 🇰🇷KR_9
       - 🇫🇷FR_2
       - 🇫🇷FR_3
-      - 🇺🇸US
       - 🇫🇷FR_4
       - 🇫🇷FR_5
       - 🇫🇷FR_6
       - 🇫🇷FR_7
       - 🇫🇷FR_8
-      - 🇺🇸US_135
+      - 🇰🇷KR_10
       - 🇫🇷FR_9
+      - 🇰🇷KR_11
+      - 🇰🇷KR_12
+      - 🇰🇷KR_13
+      - 🇰🇷KR_14
+      - 🇰🇷KR_15
+      - 🇰🇷KR_16
+      - 🇰🇷KR_17
+      - 🇮🇳IN_1
       - 🇫🇷FR_10
-      - 🇺🇸US_1
-      - 🇺🇸US_2
-      - 🇫🇷FR_11
-      - 🇫🇷FR_12
-      - 🇫🇷FR_13
-      - 🇺🇸US_3
-      - 🇺🇸US_4
-      - 🇺🇸US_5
-      - 🇺🇸US_6
-      - 🇺🇸US_7
-      - 🇺🇸US_8
-      - 🇬🇧GB
-      - 🇺🇸US_315
-      - 🇺🇸US_331
-      - 🇺🇸US_68
-      - 🇺🇸US_299
-      - 🇺🇸US_318
-      - 🇫🇷FR_14
-      - 🇺🇸US_9
-      - 🇺🇸US_10
-      - 🇺🇸US_11
-      - 🇺🇸US_12
-      - 🇺🇸US_292
-      - 🇬🇧GB_1
-      - 🇺🇸US_13
-      - 🇬🇧GB_2
-      - 🇺🇸US_326
-      - 🇺🇸US_309
-      - 🇺🇸US_14
-      - 🇺🇸US_295
-      - 🇺🇸US_325
-      - 英国
-      - 🇺🇸US_15
-      - 🇺🇸US_16
-      - 美国节点
-      - 🇺🇸US_17
-      - 🇺🇸US_76
-      - 英国节点
-      - 美国节点_1
-      - 英国节点_1
-      - 英国节点_2
-      - 美國
-      - 🇺🇸US_257
-      - 🇺🇸US_296
-      - 🇫🇷FR_15
-      - 🇺🇸US_18
+      - 🇧🇷_BR_巴西
       - 🇺🇸US_316
-      - 英国节点_3
-      - 美国节点_2
-      - 英国节点_4
-      - 英国_1
-      - 🇺🇸US_311
-      - 🇺🇸US_243
-      - 🇺🇸US_19
-      - 🇫🇷FR_16
-      - 🇫🇷FR_17
-      - 香港节点
-      - 🇫🇷FR_18
-      - 🇫🇷FR_19
-      - 🇺🇸US_20
-      - 🇺🇸US_21
-      - 🇫🇷FR_20
-      - 🇺🇸US_22
-      - 美国节点_3
-      - 德国 黑森州 法兰克福 — 甲骨文云
-      - 法国节点
-      - 香港节点_1
-      - 🇺🇸US_23
-      - 俄羅斯
-      - 美国节点_4
-      - 美国
-      - 法国节点_1
-      - 美国节点_5
-      - 美国_1
-      - 法国节点_2
-      - 美国节点_6
-      - 🇺🇸US_24
-      - 🇺🇸US_25
-      - 俄羅斯_1
-      - 🇫🇷FR_21
-      - 法国
-      - 🇬🇧GB_3
-      - 美国节点_7
-      - 🇬🇧GB_4
-      - 🇫🇷FR_22
-      - 法国节点_3
-      - 🇫🇷FR_23
-      - 英国节点_5
-      - 美国_2
-      - 🇬🇧GB_5
+      - 🇰🇷KR_18
+      - 🇰🇷KR_19
+      - 🇺🇸US_318
+      - 🇭🇰HK_3
+      - 🇰🇷KR_20
+      - 🇫🇷FR_11
+      - 美国节点
+      - 🇰🇷KR_21
+      - 🇺🇸US_257
+      - 🇺🇸US_331
+      - 🇰🇷KR_22
+      - 🇺🇸US_315
       - " 芬兰 01"
+      - 🇺🇸US_311
+      - 🇫🇷FR_12
+      - 🇸🇬SG
+      - 🇺🇸US_68
+      - 🇮🇳IN_2
+      - 🇫🇷FR_13
+      - 香港节点
+      - 🇬🇧GB
+      - 🇺🇸US
+      - 美國
+      - 🇫🇷FR_14
+      - 🇰🇷KR_23
+      - 🇫🇷FR_15
+      - 🇯🇵JP_17
+      - 🇯🇵JP_18
+      - 🇯🇵JP_19
+      - 🇯🇵JP_20
+      - 🇯🇵JP_21
+      - 美国节点_1
+      - 法国
+      - 美国
+      - 美国节点_2
+      - 🇯🇵JP_22
+      - 🇯🇵JP_23
+      - 🇯🇵JP_24
+      - 美国_1
+      - 🇯🇵JP_25
+      - 🇺🇸US_1
+      - 🇯🇵JP_26
+      - 美国节点_3
+      - 🇯🇵JP_27
+      - 🇯🇵JP_28
+      - 俄羅斯
+      - 美国_2
+      - 美国节点_4
+      - 🇯🇵JP_29
+      - 🇺🇸US_2
+      - 🇮🇳IN_3
+      - 法国节点
+      - 🇮🇳IN_4
+      - 法国节点_1
+      - 法国节点_2
+      - 美国节点_5
+      - 法国节点_3
+      - 🇫🇷FR_16
+      - 美国节点_6
+      - 🇯🇵JP_30
+      - 🇮🇳IN_5
+      - 🇬🇷_GR_希腊
+      - 🇮🇳IN_6
+      - 🇮🇳IN_7
+      - 🇬🇷_GR_希腊_1
+      - 法国节点_4
+      - 以色列节点
+      - 🇯🇵JP_31
+      - 美国_3
+      - 🇯🇵JP_32
+      - 🇰🇷KR_24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇭🇰HK
-      - 🇭🇰HK_1
-      - 台灣
       - 🇯🇵JP
-      - 🇸🇬SG
       - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇯🇵JP_5
+      - 🇨🇳TW
+      - 🇯🇵JP_6
+      - 🇯🇵JP_7
+      - 🇯🇵JP_8
+      - 🇯🇵JP_9
+      - 🇯🇵JP_10
+      - 🇨🇳TW_1
+      - 🇭🇰HK_1
+      - 🇰🇷KR
       - 🇭🇰HK_2
-      - 🇸🇬SG_1
-      - 🇸🇬SG_2
+      - 🇰🇷KR_1
+      - 🇰🇷KR_2
+      - 🇰🇷KR_3
+      - 🇨🇳TW_2
+      - 🇰🇷KR_4
+      - 🇯🇵JP_11
+      - 🇰🇷KR_5
+      - 🇯🇵JP_12
+      - 🇮🇳IN
+      - 🇯🇵JP_13
+      - 🇰🇷KR_6
+      - 🇯🇵JP_14
+      - 🇯🇵JP_15
+      - 🇯🇵JP_16
       - 🇫🇷FR
+      - 🇰🇷KR_7
       - 🇫🇷FR_1
+      - 🇰🇷KR_8
+      - 🇰🇷KR_9
       - 🇫🇷FR_2
       - 🇫🇷FR_3
-      - 🇺🇸US
       - 🇫🇷FR_4
       - 🇫🇷FR_5
       - 🇫🇷FR_6
       - 🇫🇷FR_7
       - 🇫🇷FR_8
-      - 🇺🇸US_135
+      - 🇰🇷KR_10
       - 🇫🇷FR_9
+      - 🇰🇷KR_11
+      - 🇰🇷KR_12
+      - 🇰🇷KR_13
+      - 🇰🇷KR_14
+      - 🇰🇷KR_15
+      - 🇰🇷KR_16
+      - 🇰🇷KR_17
+      - 🇮🇳IN_1
       - 🇫🇷FR_10
-      - 🇺🇸US_1
-      - 🇺🇸US_2
-      - 🇫🇷FR_11
-      - 🇫🇷FR_12
-      - 🇫🇷FR_13
-      - 🇺🇸US_3
-      - 🇺🇸US_4
-      - 🇺🇸US_5
-      - 🇺🇸US_6
-      - 🇺🇸US_7
-      - 🇺🇸US_8
-      - 🇬🇧GB
-      - 🇺🇸US_315
-      - 🇺🇸US_331
-      - 🇺🇸US_68
-      - 🇺🇸US_299
-      - 🇺🇸US_318
-      - 🇫🇷FR_14
-      - 🇺🇸US_9
-      - 🇺🇸US_10
-      - 🇺🇸US_11
-      - 🇺🇸US_12
-      - 🇺🇸US_292
-      - 🇬🇧GB_1
-      - 🇺🇸US_13
-      - 🇬🇧GB_2
-      - 🇺🇸US_326
-      - 🇺🇸US_309
-      - 🇺🇸US_14
-      - 🇺🇸US_295
-      - 🇺🇸US_325
-      - 英国
-      - 🇺🇸US_15
-      - 🇺🇸US_16
-      - 美国节点
-      - 🇺🇸US_17
-      - 🇺🇸US_76
-      - 英国节点
-      - 美国节点_1
-      - 英国节点_1
-      - 英国节点_2
-      - 美國
-      - 🇺🇸US_257
-      - 🇺🇸US_296
-      - 🇫🇷FR_15
-      - 🇺🇸US_18
+      - 🇧🇷_BR_巴西
       - 🇺🇸US_316
-      - 英国节点_3
-      - 美国节点_2
-      - 英国节点_4
-      - 英国_1
-      - 🇺🇸US_311
-      - 🇺🇸US_243
-      - 🇺🇸US_19
-      - 🇫🇷FR_16
-      - 🇫🇷FR_17
-      - 香港节点
-      - 🇫🇷FR_18
-      - 🇫🇷FR_19
-      - 🇺🇸US_20
-      - 🇺🇸US_21
-      - 🇫🇷FR_20
-      - 🇺🇸US_22
-      - 美国节点_3
-      - 德国 黑森州 法兰克福 — 甲骨文云
-      - 法国节点
-      - 香港节点_1
-      - 🇺🇸US_23
-      - 俄羅斯
-      - 美国节点_4
-      - 美国
-      - 法国节点_1
-      - 美国节点_5
-      - 美国_1
-      - 法国节点_2
-      - 美国节点_6
-      - 🇺🇸US_24
-      - 🇺🇸US_25
-      - 俄羅斯_1
-      - 🇫🇷FR_21
-      - 法国
-      - 🇬🇧GB_3
-      - 美国节点_7
-      - 🇬🇧GB_4
-      - 🇫🇷FR_22
-      - 法国节点_3
-      - 🇫🇷FR_23
-      - 英国节点_5
-      - 美国_2
-      - 🇬🇧GB_5
+      - 🇰🇷KR_18
+      - 🇰🇷KR_19
+      - 🇺🇸US_318
+      - 🇭🇰HK_3
+      - 🇰🇷KR_20
+      - 🇫🇷FR_11
+      - 美国节点
+      - 🇰🇷KR_21
+      - 🇺🇸US_257
+      - 🇺🇸US_331
+      - 🇰🇷KR_22
+      - 🇺🇸US_315
       - " 芬兰 01"
+      - 🇺🇸US_311
+      - 🇫🇷FR_12
+      - 🇸🇬SG
+      - 🇺🇸US_68
+      - 🇮🇳IN_2
+      - 🇫🇷FR_13
+      - 香港节点
+      - 🇬🇧GB
+      - 🇺🇸US
+      - 美國
+      - 🇫🇷FR_14
+      - 🇰🇷KR_23
+      - 🇫🇷FR_15
+      - 🇯🇵JP_17
+      - 🇯🇵JP_18
+      - 🇯🇵JP_19
+      - 🇯🇵JP_20
+      - 🇯🇵JP_21
+      - 美国节点_1
+      - 法国
+      - 美国
+      - 美国节点_2
+      - 🇯🇵JP_22
+      - 🇯🇵JP_23
+      - 🇯🇵JP_24
+      - 美国_1
+      - 🇯🇵JP_25
+      - 🇺🇸US_1
+      - 🇯🇵JP_26
+      - 美国节点_3
+      - 🇯🇵JP_27
+      - 🇯🇵JP_28
+      - 俄羅斯
+      - 美国_2
+      - 美国节点_4
+      - 🇯🇵JP_29
+      - 🇺🇸US_2
+      - 🇮🇳IN_3
+      - 法国节点
+      - 🇮🇳IN_4
+      - 法国节点_1
+      - 法国节点_2
+      - 美国节点_5
+      - 法国节点_3
+      - 🇫🇷FR_16
+      - 美国节点_6
+      - 🇯🇵JP_30
+      - 🇮🇳IN_5
+      - 🇬🇷_GR_希腊
+      - 🇮🇳IN_6
+      - 🇮🇳IN_7
+      - 🇬🇷_GR_希腊_1
+      - 法国节点_4
+      - 以色列节点
+      - 🇯🇵JP_31
+      - 美国_3
+      - 🇯🇵JP_32
+      - 🇰🇷KR_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2124,118 +2404,132 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰HK
-      - 🇭🇰HK_1
-      - 台灣
       - 🇯🇵JP
-      - 🇸🇬SG
       - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇯🇵JP_5
+      - 🇨🇳TW
+      - 🇯🇵JP_6
+      - 🇯🇵JP_7
+      - 🇯🇵JP_8
+      - 🇯🇵JP_9
+      - 🇯🇵JP_10
+      - 🇨🇳TW_1
+      - 🇭🇰HK_1
+      - 🇰🇷KR
       - 🇭🇰HK_2
-      - 🇸🇬SG_1
-      - 🇸🇬SG_2
+      - 🇰🇷KR_1
+      - 🇰🇷KR_2
+      - 🇰🇷KR_3
+      - 🇨🇳TW_2
+      - 🇰🇷KR_4
+      - 🇯🇵JP_11
+      - 🇰🇷KR_5
+      - 🇯🇵JP_12
+      - 🇮🇳IN
+      - 🇯🇵JP_13
+      - 🇰🇷KR_6
+      - 🇯🇵JP_14
+      - 🇯🇵JP_15
+      - 🇯🇵JP_16
       - 🇫🇷FR
+      - 🇰🇷KR_7
       - 🇫🇷FR_1
+      - 🇰🇷KR_8
+      - 🇰🇷KR_9
       - 🇫🇷FR_2
       - 🇫🇷FR_3
-      - 🇺🇸US
       - 🇫🇷FR_4
       - 🇫🇷FR_5
       - 🇫🇷FR_6
       - 🇫🇷FR_7
       - 🇫🇷FR_8
-      - 🇺🇸US_135
+      - 🇰🇷KR_10
       - 🇫🇷FR_9
+      - 🇰🇷KR_11
+      - 🇰🇷KR_12
+      - 🇰🇷KR_13
+      - 🇰🇷KR_14
+      - 🇰🇷KR_15
+      - 🇰🇷KR_16
+      - 🇰🇷KR_17
+      - 🇮🇳IN_1
       - 🇫🇷FR_10
-      - 🇺🇸US_1
-      - 🇺🇸US_2
-      - 🇫🇷FR_11
-      - 🇫🇷FR_12
-      - 🇫🇷FR_13
-      - 🇺🇸US_3
-      - 🇺🇸US_4
-      - 🇺🇸US_5
-      - 🇺🇸US_6
-      - 🇺🇸US_7
-      - 🇺🇸US_8
-      - 🇬🇧GB
-      - 🇺🇸US_315
-      - 🇺🇸US_331
-      - 🇺🇸US_68
-      - 🇺🇸US_299
-      - 🇺🇸US_318
-      - 🇫🇷FR_14
-      - 🇺🇸US_9
-      - 🇺🇸US_10
-      - 🇺🇸US_11
-      - 🇺🇸US_12
-      - 🇺🇸US_292
-      - 🇬🇧GB_1
-      - 🇺🇸US_13
-      - 🇬🇧GB_2
-      - 🇺🇸US_326
-      - 🇺🇸US_309
-      - 🇺🇸US_14
-      - 🇺🇸US_295
-      - 🇺🇸US_325
-      - 英国
-      - 🇺🇸US_15
-      - 🇺🇸US_16
-      - 美国节点
-      - 🇺🇸US_17
-      - 🇺🇸US_76
-      - 英国节点
-      - 美国节点_1
-      - 英国节点_1
-      - 英国节点_2
-      - 美國
-      - 🇺🇸US_257
-      - 🇺🇸US_296
-      - 🇫🇷FR_15
-      - 🇺🇸US_18
+      - 🇧🇷_BR_巴西
       - 🇺🇸US_316
-      - 英国节点_3
-      - 美国节点_2
-      - 英国节点_4
-      - 英国_1
-      - 🇺🇸US_311
-      - 🇺🇸US_243
-      - 🇺🇸US_19
-      - 🇫🇷FR_16
-      - 🇫🇷FR_17
-      - 香港节点
-      - 🇫🇷FR_18
-      - 🇫🇷FR_19
-      - 🇺🇸US_20
-      - 🇺🇸US_21
-      - 🇫🇷FR_20
-      - 🇺🇸US_22
-      - 美国节点_3
-      - 德国 黑森州 法兰克福 — 甲骨文云
-      - 法国节点
-      - 香港节点_1
-      - 🇺🇸US_23
-      - 俄羅斯
-      - 美国节点_4
-      - 美国
-      - 法国节点_1
-      - 美国节点_5
-      - 美国_1
-      - 法国节点_2
-      - 美国节点_6
-      - 🇺🇸US_24
-      - 🇺🇸US_25
-      - 俄羅斯_1
-      - 🇫🇷FR_21
-      - 法国
-      - 🇬🇧GB_3
-      - 美国节点_7
-      - 🇬🇧GB_4
-      - 🇫🇷FR_22
-      - 法国节点_3
-      - 🇫🇷FR_23
-      - 英国节点_5
-      - 美国_2
-      - 🇬🇧GB_5
+      - 🇰🇷KR_18
+      - 🇰🇷KR_19
+      - 🇺🇸US_318
+      - 🇭🇰HK_3
+      - 🇰🇷KR_20
+      - 🇫🇷FR_11
+      - 美国节点
+      - 🇰🇷KR_21
+      - 🇺🇸US_257
+      - 🇺🇸US_331
+      - 🇰🇷KR_22
+      - 🇺🇸US_315
       - " 芬兰 01"
+      - 🇺🇸US_311
+      - 🇫🇷FR_12
+      - 🇸🇬SG
+      - 🇺🇸US_68
+      - 🇮🇳IN_2
+      - 🇫🇷FR_13
+      - 香港节点
+      - 🇬🇧GB
+      - 🇺🇸US
+      - 美國
+      - 🇫🇷FR_14
+      - 🇰🇷KR_23
+      - 🇫🇷FR_15
+      - 🇯🇵JP_17
+      - 🇯🇵JP_18
+      - 🇯🇵JP_19
+      - 🇯🇵JP_20
+      - 🇯🇵JP_21
+      - 美国节点_1
+      - 法国
+      - 美国
+      - 美国节点_2
+      - 🇯🇵JP_22
+      - 🇯🇵JP_23
+      - 🇯🇵JP_24
+      - 美国_1
+      - 🇯🇵JP_25
+      - 🇺🇸US_1
+      - 🇯🇵JP_26
+      - 美国节点_3
+      - 🇯🇵JP_27
+      - 🇯🇵JP_28
+      - 俄羅斯
+      - 美国_2
+      - 美国节点_4
+      - 🇯🇵JP_29
+      - 🇺🇸US_2
+      - 🇮🇳IN_3
+      - 法国节点
+      - 🇮🇳IN_4
+      - 法国节点_1
+      - 法国节点_2
+      - 美国节点_5
+      - 法国节点_3
+      - 🇫🇷FR_16
+      - 美国节点_6
+      - 🇯🇵JP_30
+      - 🇮🇳IN_5
+      - 🇬🇷_GR_希腊
+      - 🇮🇳IN_6
+      - 🇮🇳IN_7
+      - 🇬🇷_GR_希腊_1
+      - 法国节点_4
+      - 以色列节点
+      - 🇯🇵JP_31
+      - 美国_3
+      - 🇯🇵JP_32
+      - 🇰🇷KR_24
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -2320,215 +2614,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: US美国(mibei77.com 米贝节点分享), server: v3.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: v3.dabache.top, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: bpbg.anguswen.top, port: 8443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 172.64.152.23, port: 8443, type: vmess, uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /gbt, ws-headers: {Host: frsys.fl-dl.com}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: mmmhu.huangshang.online, port: 443, type: trojan, password: 5cccb4da-8aee-4b01-be84-2056265e52dc, sni: mmmhu.huangshang.online, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 6, server: bBbNHJ.890634.xyz, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: bbbnHJ.890634.XYz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 7, server: CCCVFffF.191288.Xyz, port: 80, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TaBvkrUbsyvsvinsGGg, ws-headers: {Host: cCCVfffF.191288.xyZ}, udp: true}
+  - {name: DE德国(mibei77.com 米贝节点分享), server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sy4.620720.xyz}, udp: true}
+  - {name: DE德国(mibei77.com 米贝节点分享) 2, server: tuntro010.instconn.com, port: 443, type: trojan, password: 63b21d86-a49c-4936-a634-0b5af3e30433, sni: tuntro010.instconn.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 8, server: eEfrT.890699.xYz, port: 80, type: vmess, uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj, ws-headers: {Host: eEFRT.890699.XYz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 9, server: gggbnh.www890604.dpdns.org, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: gggbnh.www890604.dpdns.org, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 10, server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: Ul0rGyAAed5HRDpvFqr2C0, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 11, server: jjjk.191268.xyz, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: jjjk.191268.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 12, server: vip3.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: vip3.kaixincloud.top, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 13, server: vvvbbbnhj.taipei102.indevs.in, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: vvvbbbnhj.taipei102.indevs.in, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 14, server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: v1.dabache.top, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 15, server: mMmKi.890634.xyZ, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: MMmKI.890634.XyZ}, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 16, server: mmKk.wWW890604.dpdns.OrG, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: mmKk.wWW890604.DPdNS.OrG}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 17, server: 90.890624.xyz, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, ws-headers: {Host: 90.890624.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 18, server: vVVbNHj.191288.xYz, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: VvVBnHj.191288.XYZ}, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享), server: gf.usa2030.indevs.in, port: 80, type: vmess, uuid: 5196aae7-1479-4f3c-978b-68e74977b509, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /kl01iHu1vgbJmQ5IKMBivnR3, ws-headers: {Host: gf.usa2030.indevs.in}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 19, server: hhnm.7777128.xyz, port: 80, type: vmess, uuid: dd39bb7d-2bea-41b5-be20-fa228a45f639, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vitRvGVofV7ia41dH, ws-headers: {Host: hhnm.7777128.xyz}, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享), server: bpbg.anguswen.top, port: 8443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 2, server: lll9.7777198.xyz, port: 443, type: trojan, password: b9bb332d-5e0d-41af-adac-49362dde8661, sni: lll9.7777198.xyz, skip-cert-verify: true, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 3, server: bbbnmkl.2030.pp.ua, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: bbbnmkl.2030.pp.ua}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 2, server: blackshadow.dpdns.org, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: blackshadow.dpdns.org, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 3, server: vip1.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: vip1.kaixincloud.top, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 4, server: blackshadow.dpdns.org, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: blackshadow.dpdns.org, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 2, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享), server: ru1.clear-vpn.org, port: 504, type: ss, cipher: chacha20-ietf-poly1305, password: nKohne07VrxB-nq43cxzs7Vu9Nnp4JXY, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: eEfrT.890699.xYz, port: 80, type: vmess, uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj, ws-headers: {Host: eEFRT.890699.XYz}, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: gf.usa2030.indevs.in, port: 80, type: vmess, uuid: 5196aae7-1479-4f3c-978b-68e74977b509, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /kl01iHu1vgbJmQ5IKMBivnR3, ws-headers: {Host: gf.usa2030.indevs.in}, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 5, server: mmmju.890634.xyz, port: 80, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, ws-headers: {Host: mmmju.890634.xyz}, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 6, server: eEfrT.890699.xYz, port: 80, type: vmess, uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj, ws-headers: {Host: eEFRT.890699.XYz}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 6, server: mmKk.wWW890604.dpdns.OrG, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: mmKk.wWW890604.DPdNS.OrG}, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 3, server: 172.67.219.254, port: 443, type: vmess, uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /KHtPvNZl371C8NsbbZ1wwDhJ3, ws-headers: {Host: 42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io}, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 7, server: eed4.7777125.xyz, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eszjp4nTT8TxDHFepMpfNkCk8, ws-headers: {Host: eed4.7777125.xyz}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 7, server: mkouy.99890604.xyz, port: 443, type: trojan, password: 5196aae7-1479-4f3c-978b-68e74977b509, sni: mkouy.99890604.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 8, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vc, ws-headers: {Host: vc.fly.dev}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 9, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享), server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 10, server: rrrrrrr5.191262.xyz, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: rrrrrrr5.191262.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 11, server: llloooiu.191292.xyz, port: 443, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, ws-headers: {Host: llloooiu.191292.xyz}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 12, server: yyyyu.taiwan2026.indevs.in, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: yyyyu.taiwan2026.indevs.in, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 4, server: rrrgt.2030.pp.ua, port: 80, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /eszjp4nTT8TxDHFepMpfNkCk8, ws-headers: {Host: rrrgt.2030.pp.ua}, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 8, server: vip2.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: vip2.kaixincloud.top, skip-cert-verify: true, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 9, server: vip1.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: vip1.kaixincloud.top, skip-cert-verify: true, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 10, server: YyYYuUI.iRAn1912.dpDNs.oRG, port: 443, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /TaBvkrUbsyvsvinsGGg, ws-headers: {Host: YYyYUui.iran1912.dpdNS.OrG}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 13, server: vip3.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: vip3.kaixincloud.top, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 14, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 15, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 16, server: 172.64.152.23, port: 8443, type: vmess, uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /gbt, ws-headers: {Host: frsys.fl-dl.com}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 17, server: vVVbNHj.191288.xYz, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: VvVBnHj.191288.XYZ}, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 4, server: ooiuyt.890699.xyz, port: 443, type: trojan, password: 98b419ef-83a2-4d1b-a23d-566b7f24477b, sni: ooiuyt.890699.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 18, server: bbbnmkl.2030.pp.ua, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: bbbnmkl.2030.pp.ua}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 19, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 20, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 5, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 6, server: tttyu.2030.pp.ua, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eszjp4nTT8TxDHFepMpfNkCk8, ws-headers: {Host: tttyu.2030.pp.ua}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 21, server: bpbg.anguswen.top, port: 8443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 22, server: HHhjki.TAIwaN2028.indEvS.in, port: 80, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: hHHJkI.taiwAn2028.iNDEVs.in}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 23, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 24, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: CA加拿大(mibei77.com 米贝节点分享) 11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 25, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 26, server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: v1.dabache.top, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 20, server: vvVBNhJ.191288.xyZ, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: VvvbnhJ.191288.xyZ}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 21, server: BbBBBBBh.hUAngsHANg.OnLINe, port: 443, type: vmess, uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj, ws-headers: {Host: BBBBbbBh.HUangSHaNg.oNline}, udp: true}
+  - {name: DE德国(mibei77.com 米贝节点分享) 3, server: yyyhhjki.taipei101.indevs.in, port: 443, type: trojan, password: 98b419ef-83a2-4d1b-a23d-566b7f24477b, sni: yyyhhjki.taipei101.indevs.in, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 22, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 23, server: nmk.288288.shop, port: 443, type: trojan, password: 5cccb4da-8aee-4b01-be84-2056265e52dc, sni: nmk.288288.shop, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 24, server: fffffg.890602.pp.ua, port: 80, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TaBvkrUbsyvsvinsGGg, ws-headers: {Host: fffffg.890602.pp.ua}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 25, server: gggnnjui.191292.xyz, port: 80, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, ws-headers: {Host: gggnnjui.191292.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 26, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大(mibei77.com 米贝节点分享), server: YyYYuUI.iRAn1912.dpDNs.oRG, port: 443, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /TaBvkrUbsyvsvinsGGg, ws-headers: {Host: YYyYUui.iran1912.dpdNS.OrG}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 27, server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz, port: 443, type: trojan, password: 87d1bfd4-574e-4c96-ad42-0426f27461ff, sni: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 28, server: gggnnjui.191292.xyz, port: 80, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, ws-headers: {Host: gggnnjui.191292.xyz}, udp: true}
+  - {name: DE德国(mibei77.com 米贝节点分享) 4, server: BBBbBb.tAiWAn2028.IndEvs.In, port: 443, type: vmess, uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AwUJyGh9Ym6vVzg35A6ueyyZnWd, ws-headers: {Host: BbBbBB.taIwAN2028.InDeVs.iN}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 29, server: blackshadow.dpdns.org, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: blackshadow.dpdns.org, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 30, server: vip1.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: vip1.kaixincloud.top, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 31, server: mmmju.890634.xyz, port: 80, type: vmess, uuid: b9bb332d-5e0d-41af-adac-49362dde8661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /iqjxVCqiIAaLCt5Q2GkKGWRMg, ws-headers: {Host: mmmju.890634.xyz}, udp: true}
+  - {name: CA加拿大(mibei77.com 米贝节点分享) 2, server: bpbg.anguswen.top, port: 8443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大(mibei77.com 米贝节点分享) 3, server: ooiuyt.890699.xyz, port: 443, type: trojan, password: 98b419ef-83a2-4d1b-a23d-566b7f24477b, sni: ooiuyt.890699.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 32, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 33, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 34, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 35, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 36, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB英国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 5
-      - CA加拿大(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 6
-      - GB英国(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 7
+      - DE德国(mibei77.com 米贝节点分享)
+      - DE德国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
-      - HK香港(mibei77.com 米贝节点分享) 4
-      - CA加拿大(mibei77.com 米贝节点分享) 8
-      - CA加拿大(mibei77.com 米贝节点分享) 9
-      - CA加拿大(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 16
       - US美国(mibei77.com 米贝节点分享) 17
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 19
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 20
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 21
+      - DE德国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 22
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
-      - CA加拿大(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
+      - CA加拿大(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - DE德国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - CA加拿大(mibei77.com 米贝节点分享) 2
+      - CA加拿大(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GB英国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 5
-      - CA加拿大(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 6
-      - GB英国(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 7
+      - DE德国(mibei77.com 米贝节点分享)
+      - DE德国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
-      - HK香港(mibei77.com 米贝节点分享) 4
-      - CA加拿大(mibei77.com 米贝节点分享) 8
-      - CA加拿大(mibei77.com 米贝节点分享) 9
-      - CA加拿大(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 16
       - US美国(mibei77.com 米贝节点分享) 17
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 19
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 20
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 21
+      - DE德国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 22
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
-      - CA加拿大(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
+      - CA加拿大(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - DE德国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - CA加拿大(mibei77.com 米贝节点分享) 2
+      - CA加拿大(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB英国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 5
-      - CA加拿大(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 6
-      - GB英国(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 7
+      - DE德国(mibei77.com 米贝节点分享)
+      - DE德国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
-      - HK香港(mibei77.com 米贝节点分享) 4
-      - CA加拿大(mibei77.com 米贝节点分享) 8
-      - CA加拿大(mibei77.com 米贝节点分享) 9
-      - CA加拿大(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 16
       - US美国(mibei77.com 米贝节点分享) 17
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 19
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 20
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 21
+      - DE德国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 22
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
-      - CA加拿大(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
+      - CA加拿大(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - DE德国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - CA加拿大(mibei77.com 米贝节点分享) 2
+      - CA加拿大(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -2547,223 +2833,212 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB英国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 5
-      - CA加拿大(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 6
-      - GB英国(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 7
+      - DE德国(mibei77.com 米贝节点分享)
+      - DE德国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
-      - HK香港(mibei77.com 米贝节点分享) 4
-      - CA加拿大(mibei77.com 米贝节点分享) 8
-      - CA加拿大(mibei77.com 米贝节点分享) 9
-      - CA加拿大(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 16
       - US美国(mibei77.com 米贝节点分享) 17
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 19
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 20
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 21
+      - DE德国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 22
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
-      - CA加拿大(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
+      - CA加拿大(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - DE德国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - CA加拿大(mibei77.com 米贝节点分享) 2
+      - CA加拿大(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GB英国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 5
-      - CA加拿大(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 6
-      - GB英国(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 7
+      - DE德国(mibei77.com 米贝节点分享)
+      - DE德国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
-      - HK香港(mibei77.com 米贝节点分享) 4
-      - CA加拿大(mibei77.com 米贝节点分享) 8
-      - CA加拿大(mibei77.com 米贝节点分享) 9
-      - CA加拿大(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 16
       - US美国(mibei77.com 米贝节点分享) 17
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 19
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 20
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 21
+      - DE德国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 22
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
-      - CA加拿大(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
+      - CA加拿大(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - DE德国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - CA加拿大(mibei77.com 米贝节点分享) 2
+      - CA加拿大(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GB英国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 5
-      - CA加拿大(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 6
-      - GB英国(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 7
+      - DE德国(mibei77.com 米贝节点分享)
+      - DE德国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
-      - HK香港(mibei77.com 米贝节点分享) 4
-      - CA加拿大(mibei77.com 米贝节点分享) 8
-      - CA加拿大(mibei77.com 米贝节点分享) 9
-      - CA加拿大(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 16
       - US美国(mibei77.com 米贝节点分享) 17
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 19
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 20
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 21
+      - DE德国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 22
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
-      - CA加拿大(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
+      - CA加拿大(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - DE德国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - CA加拿大(mibei77.com 米贝节点分享) 2
+      - CA加拿大(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB英国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 5
-      - CA加拿大(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 6
-      - GB英国(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 7
+      - DE德国(mibei77.com 米贝节点分享)
+      - DE德国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
-      - HK香港(mibei77.com 米贝节点分享) 4
-      - CA加拿大(mibei77.com 米贝节点分享) 8
-      - CA加拿大(mibei77.com 米贝节点分享) 9
-      - CA加拿大(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 16
       - US美国(mibei77.com 米贝节点分享) 17
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 19
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 20
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 21
+      - DE德国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 22
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
-      - CA加拿大(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
+      - CA加拿大(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - DE德国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - CA加拿大(mibei77.com 米贝节点分享) 2
+      - CA加拿大(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2779,54 +3054,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB英国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
-      - CA加拿大(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - HK香港(mibei77.com 米贝节点分享)
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - CA加拿大(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 5
-      - CA加拿大(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 6
-      - GB英国(mibei77.com 米贝节点分享) 3
-      - CA加拿大(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 7
+      - DE德国(mibei77.com 米贝节点分享)
+      - DE德国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
-      - HK香港(mibei77.com 米贝节点分享) 4
-      - CA加拿大(mibei77.com 米贝节点分享) 8
-      - CA加拿大(mibei77.com 米贝节点分享) 9
-      - CA加拿大(mibei77.com 米贝节点分享) 10
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 16
       - US美国(mibei77.com 米贝节点分享) 17
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 19
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 20
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享) 6
       - US美国(mibei77.com 米贝节点分享) 21
+      - DE德国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 22
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
-      - CA加拿大(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
+      - CA加拿大(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - DE德国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - CA加拿大(mibei77.com 米贝节点分享) 2
+      - CA加拿大(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - US美国(mibei77.com 米贝节点分享) 34
+      - US美国(mibei77.com 米贝节点分享) 35
+      - US美国(mibei77.com 米贝节点分享) 36
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -13049,18 +13322,19 @@ dns:
 proxies:
   - {name: 8元老牌专线机场：cczzuu.top, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港|@stairnode, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@stairnode, server: 3.112.45.123, port: 3373, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@stairnode, server: 13.115.128.246, port: 1820, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@stairnode, server: 52.195.179.165, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@stairnode, server: 18.183.170.92, port: 26378, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@stairnode, server: 202.181.103.246, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.214.104, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡|@stairnode, server: 202.181.103.246, port: 3076, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 13.231.234.230, port: 544, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3|@stairnode, server: 57.181.30.136, port: 532, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@stairnode, server: 38.180.190.13, port: 443, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2|@stairnode, server: 38.180.107.76, port: 443, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国3|@stairnode, server: 52.194.248.81, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3|@stairnode, server: 18.179.142.141, port: 3373, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港4|@stairnode, server: 13.112.171.80, port: 1820, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@stairnode, server: 112.120.31.36, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@stairnode, server: 52.194.222.6, port: 26378, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.124.55, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.116.227, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@stairnode, server: 160.16.89.176, port: 3076, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 160.16.236.32, port: 3901, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3|@stairnode, server: 3.112.215.135, port: 8041, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@stairnode, server: 160.16.231.103, port: 1276, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@stairnode, server: 160.16.231.103, port: 2760, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国3|@stairnode, server: 18.181.177.51, port: 3159, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国|@stairnode, server: 168.126.234.233, port: 25879, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13081,6 +13355,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇰🇷 韩国|@stairnode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -13101,6 +13376,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇰🇷 韩国|@stairnode
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -13121,6 +13397,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇰🇷 韩国|@stairnode
   - name: 📲 电报信息
     type: select
     proxies:
@@ -13140,6 +13417,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇰🇷 韩国|@stairnode
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -13159,6 +13437,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇰🇷 韩国|@stairnode
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -13178,6 +13457,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇰🇷 韩国|@stairnode
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -13198,6 +13478,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇰🇷 韩国|@stairnode
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -13234,6 +13515,7 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
+      - 🇰🇷 韩国|@stairnode
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -17438,45 +17720,48 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 未知 SS-01 | free-nodes, server: 163.171.137.76, port: 48436, type: ss, cipher: chacha20-ietf-poly1305, password: 6d0084c6e4502ab7}
+  - {name: 未知 SS-01 | free-nodes, server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: 43fXf1uMKbIKkxoNYGQMtt}
   - {name: 🇩🇪 DE SS-02 | free-nodes, server: 57.129.95.140, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 6d75de740e3d5197}
   - {name: 🇩🇪 DE SS-03 | free-nodes, server: 54.37.77.201, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 70fa4568f0fce450}
-  - {name: 未知 SS-04 | free-nodes, server: 119.159.245.24, port: 26736, type: ss, cipher: chacha20-ietf-poly1305, password: 1d1bc54689ed4b75}
-  - {name: 🇩🇪 DE SS-05 | free-nodes, server: 57.129.94.79, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: 2ac1be36286986e4}
+  - {name: 🇩🇪 DE SS-04 | free-nodes, server: 141.95.106.127, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 94aae0510188e8c5}
+  - {name: 未知 SS-05 | free-nodes, server: 163.171.206.24, port: 44235, type: ss, cipher: chacha20-ietf-poly1305, password: 9d97433688e7efd5}
   - {name: 🇩🇪 DE SS-06 | free-nodes, server: 141.95.105.28, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 37ef4f029f1ac0ac}
   - {name: 未知 SS-07 | free-nodes, server: 38.54.97.247, port: 28026, type: ss, cipher: chacha20-ietf-poly1305, password: 3bb08205cb6c8af0}
   - {name: 未知 SS-08 | free-nodes, server: 37.143.129.98, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
   - {name: TR SS-09 | free-nodes, server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: Ul0rGyAAed5HRDpvFqr2C0}
-  - {name: 🇩🇪 DE SS-10 | free-nodes, server: 57.129.95.78, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: e0e4014bb22f7329}
-  - {name: 🇩🇪 DE SS-11 | free-nodes, server: 162.19.214.191, port: 59724, type: ss, cipher: chacha20-ietf-poly1305, password: e7yQKOelKM4UIJCZYLrzQX}
-  - {name: 🇸🇬 SG SS-12 | free-nodes, server: 3.1.195.148, port: 8319, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13..}
-  - {name: 🇯🇵 JP SS-13 | free-nodes, server: 3.112.130.53, port: 8316, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13..}
-  - {name: 🇬🇧 GB SS-14 | free-nodes, server: 57.128.174.124, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: n9nttvBcO9T460EJIpFk4Q}
-  - {name: 🇷🇺 RU SS-15 | free-nodes, server: ru1.clear-vpn.org, port: 504, type: ss, cipher: chacha20-ietf-poly1305, password: nKohne07VrxB-nq43cxzs7Vu9Nnp4JXY}
-  - {name: 未知 SS-16 | free-nodes, server: 82.38.31.101, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 未知 SS-17 | free-nodes, server: 82.38.31.122, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 未知 SS-18 | free-nodes, server: 82.38.31.61, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 未知 SS-19 | free-nodes, server: 82.38.31.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 未知 SS-20 | free-nodes, server: 54.36.174.134, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pvgz9pq}
-  - {name: 未知 SS-21 | free-nodes, server: 54.36.174.140, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pvgz9pq}
-  - {name: 未知 SS-22 | free-nodes, server: 38.180.216.114, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 未知 SS-23 | free-nodes, server: 156.244.8.155, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇩🇪 DE TROJAN-24 | free-nodes, server: tuntro010.instconn.com, port: 443, type: trojan, password: 63b21d86-a49c-4936-a634-0b5af3e30433, sni: frankfurtrm2.686911.xyz}
-  - {name: 🇬🇧 GB TROJAN-25 | free-nodes, server: hl-freedom-0.undef.network, port: 443, type: trojan, password: 76yTlnTIsjCTlmqnUJ5Tzc1rM, sni: hl-freedom-0.undef.network, skip-cert-verify: true, network: ws, ws-opts: {path: /f2fc2a1f, headers: {Host: hl-freedom-0.undef.network}}}
-  - {name: 🇺🇸 US TROJAN-26 | free-nodes, server: 18.182.62.89, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: TR TROJAN-27 | free-nodes, server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: true, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}}
-  - {name: TR TROJAN-28 | free-nodes, server: v1.dabache.top, port: 443, type: trojan, password: a9570330-769d-11ef-90dc-1577c1651679, sni: sg-trojan.andfree.my.id, skip-cert-verify: true, network: ws, ws-opts: {path: /welcome, headers: {Host: sg-trojan.andfree.my.id}}}
-  - {name: 🇭🇰 HK TROJAN-29 | free-nodes, server: 203.198.122.20, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net}
-  - {name: 🇭🇰 HK TROJAN-30 | free-nodes, server: 203.198.84.150, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 US TROJAN-31 | free-nodes, server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com}
-  - {name: TR TROJAN-32 | free-nodes, server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9=z23Rs.Z, sni: celestialcorset.crystalhamster.click}
-  - {name: 🇫🇷 FR TROJAN-33 | free-nodes, server: 35.181.17.83, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: 未知 SS-138 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
-  - {name: 未知 SS-139 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
-  - {name: 未知 SS-140 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
-  - {name: 未知 SS-141 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
-  - {name: 未知 SS-142 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
-  - {name: 未知 SS-143 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
+  - {name: 🇩🇪 DE SS-10 | free-nodes, server: 141.95.106.231, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: c8e2102ca3eee7ec}
+  - {name: 🇩🇪 DE SS-11 | free-nodes, server: 57.129.95.78, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: e0e4014bb22f7329}
+  - {name: 未知 SS-12 | free-nodes, server: 163.171.137.76, port: 47394, type: ss, cipher: chacha20-ietf-poly1305, password: eafad96826c79ddd}
+  - {name: 🇩🇪 DE SS-13 | free-nodes, server: 141.95.105.163, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: edd359f594dea842}
+  - {name: 未知 SS-14 | free-nodes, server: 119.159.245.24, port: 29700, type: ss, cipher: chacha20-ietf-poly1305, password: fec4e6f9e954aead}
+  - {name: 🇬🇧 GB SS-15 | free-nodes, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI}
+  - {name: 🇸🇬 SG SS-16 | free-nodes, server: 3.1.195.148, port: 8316, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13..}
+  - {name: 🇯🇵 JP SS-17 | free-nodes, server: 3.112.130.53, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13..}
+  - {name: 未知 SS-18 | free-nodes, server: 45.43.137.202, port: 3908, type: ss, cipher: chacha20-ietf-poly1305, password: lo2bDjzYuKcQ3kf9Btwxx0}
+  - {name: 未知 SS-19 | free-nodes, server: 82.38.31.101, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 未知 SS-20 | free-nodes, server: 82.38.31.122, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 未知 SS-21 | free-nodes, server: 82.38.31.61, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 未知 SS-22 | free-nodes, server: 82.38.31.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 未知 SS-23 | free-nodes, server: 82.38.31.89, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 未知 SS-24 | free-nodes, server: 54.36.174.134, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pvgz9pq}
+  - {name: 未知 SS-25 | free-nodes, server: 54.36.174.140, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pvgz9pq}
+  - {name: 🇺🇸 US SS-26 | free-nodes, server: 144.217.164.29, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==}
+  - {name: 🇩🇪 DE SS-27 | free-nodes, server: 57.128.214.100, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==}
+  - {name: 未知 SS-28 | free-nodes, server: 38.180.216.114, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 未知 SS-29 | free-nodes, server: 156.244.8.155, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇩🇪 DE TROJAN-30 | free-nodes, server: tuntro010.instconn.com, port: 443, type: trojan, password: 63b21d86-a49c-4936-a634-0b5af3e30433, sni: frankfurtrm2.686911.xyz}
+  - {name: 🇬🇧 GB TROJAN-31 | free-nodes, server: 45.89.111.142, port: 443, type: trojan, password: 7LBbob9IutFObLxLf9Svc1HaV, sni: hl-freedom-1.undef.network}
+  - {name: TR TROJAN-32 | free-nodes, server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}}
+  - {name: 🇺🇸 US TROJAN-33 | free-nodes, server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com}
+  - {name: TR TROJAN-34 | free-nodes, server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9=z23Rs.Z, sni: celestialcorset.crystalhamster.click, skip-cert-verify: false}
+  - {name: TR TROJAN-35 | free-nodes, server: 3.68.152.232, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇫🇷 FR TROJAN-36 | free-nodes, server: 13.38.170.83, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 未知 SS-131 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
+  - {name: 未知 SS-132 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
+  - {name: 未知 SS-133 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
+  - {name: 未知 SS-134 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
+  - {name: 未知 SS-135 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
+  - {name: 未知 SS-136 | free-nodes, server: www.ccgfw.top, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -17492,42 +17777,45 @@ proxy-groups:
       - 未知 SS-01 | free-nodes
       - 🇩🇪 DE SS-02 | free-nodes
       - 🇩🇪 DE SS-03 | free-nodes
-      - 未知 SS-04 | free-nodes
-      - 🇩🇪 DE SS-05 | free-nodes
+      - 🇩🇪 DE SS-04 | free-nodes
+      - 未知 SS-05 | free-nodes
       - 🇩🇪 DE SS-06 | free-nodes
       - 未知 SS-07 | free-nodes
       - 未知 SS-08 | free-nodes
       - TR SS-09 | free-nodes
       - 🇩🇪 DE SS-10 | free-nodes
       - 🇩🇪 DE SS-11 | free-nodes
-      - 🇸🇬 SG SS-12 | free-nodes
-      - 🇯🇵 JP SS-13 | free-nodes
-      - 🇬🇧 GB SS-14 | free-nodes
-      - 🇷🇺 RU SS-15 | free-nodes
-      - 未知 SS-16 | free-nodes
-      - 未知 SS-17 | free-nodes
+      - 未知 SS-12 | free-nodes
+      - 🇩🇪 DE SS-13 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇬🇧 GB SS-15 | free-nodes
+      - 🇸🇬 SG SS-16 | free-nodes
+      - 🇯🇵 JP SS-17 | free-nodes
       - 未知 SS-18 | free-nodes
       - 未知 SS-19 | free-nodes
       - 未知 SS-20 | free-nodes
       - 未知 SS-21 | free-nodes
       - 未知 SS-22 | free-nodes
       - 未知 SS-23 | free-nodes
-      - 🇩🇪 DE TROJAN-24 | free-nodes
-      - 🇬🇧 GB TROJAN-25 | free-nodes
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - TR TROJAN-27 | free-nodes
-      - TR TROJAN-28 | free-nodes
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 未知 SS-24 | free-nodes
+      - 未知 SS-25 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇩🇪 DE SS-27 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - 未知 SS-29 | free-nodes
+      - 🇩🇪 DE TROJAN-30 | free-nodes
+      - 🇬🇧 GB TROJAN-31 | free-nodes
       - TR TROJAN-32 | free-nodes
-      - 🇫🇷 FR TROJAN-33 | free-nodes
-      - 未知 SS-138 | free-nodes
-      - 未知 SS-139 | free-nodes
-      - 未知 SS-140 | free-nodes
-      - 未知 SS-141 | free-nodes
-      - 未知 SS-142 | free-nodes
-      - 未知 SS-143 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
+      - TR TROJAN-34 | free-nodes
+      - TR TROJAN-35 | free-nodes
+      - 🇫🇷 FR TROJAN-36 | free-nodes
+      - 未知 SS-131 | free-nodes
+      - 未知 SS-132 | free-nodes
+      - 未知 SS-133 | free-nodes
+      - 未知 SS-134 | free-nodes
+      - 未知 SS-135 | free-nodes
+      - 未知 SS-136 | free-nodes
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -17537,42 +17825,45 @@ proxy-groups:
       - 未知 SS-01 | free-nodes
       - 🇩🇪 DE SS-02 | free-nodes
       - 🇩🇪 DE SS-03 | free-nodes
-      - 未知 SS-04 | free-nodes
-      - 🇩🇪 DE SS-05 | free-nodes
+      - 🇩🇪 DE SS-04 | free-nodes
+      - 未知 SS-05 | free-nodes
       - 🇩🇪 DE SS-06 | free-nodes
       - 未知 SS-07 | free-nodes
       - 未知 SS-08 | free-nodes
       - TR SS-09 | free-nodes
       - 🇩🇪 DE SS-10 | free-nodes
       - 🇩🇪 DE SS-11 | free-nodes
-      - 🇸🇬 SG SS-12 | free-nodes
-      - 🇯🇵 JP SS-13 | free-nodes
-      - 🇬🇧 GB SS-14 | free-nodes
-      - 🇷🇺 RU SS-15 | free-nodes
-      - 未知 SS-16 | free-nodes
-      - 未知 SS-17 | free-nodes
+      - 未知 SS-12 | free-nodes
+      - 🇩🇪 DE SS-13 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇬🇧 GB SS-15 | free-nodes
+      - 🇸🇬 SG SS-16 | free-nodes
+      - 🇯🇵 JP SS-17 | free-nodes
       - 未知 SS-18 | free-nodes
       - 未知 SS-19 | free-nodes
       - 未知 SS-20 | free-nodes
       - 未知 SS-21 | free-nodes
       - 未知 SS-22 | free-nodes
       - 未知 SS-23 | free-nodes
-      - 🇩🇪 DE TROJAN-24 | free-nodes
-      - 🇬🇧 GB TROJAN-25 | free-nodes
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - TR TROJAN-27 | free-nodes
-      - TR TROJAN-28 | free-nodes
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 未知 SS-24 | free-nodes
+      - 未知 SS-25 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇩🇪 DE SS-27 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - 未知 SS-29 | free-nodes
+      - 🇩🇪 DE TROJAN-30 | free-nodes
+      - 🇬🇧 GB TROJAN-31 | free-nodes
       - TR TROJAN-32 | free-nodes
-      - 🇫🇷 FR TROJAN-33 | free-nodes
-      - 未知 SS-138 | free-nodes
-      - 未知 SS-139 | free-nodes
-      - 未知 SS-140 | free-nodes
-      - 未知 SS-141 | free-nodes
-      - 未知 SS-142 | free-nodes
-      - 未知 SS-143 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
+      - TR TROJAN-34 | free-nodes
+      - TR TROJAN-35 | free-nodes
+      - 🇫🇷 FR TROJAN-36 | free-nodes
+      - 未知 SS-131 | free-nodes
+      - 未知 SS-132 | free-nodes
+      - 未知 SS-133 | free-nodes
+      - 未知 SS-134 | free-nodes
+      - 未知 SS-135 | free-nodes
+      - 未知 SS-136 | free-nodes
   - name: 📹 油管视频
     type: select
     proxies:
@@ -17596,42 +17887,45 @@ proxy-groups:
       - 未知 SS-01 | free-nodes
       - 🇩🇪 DE SS-02 | free-nodes
       - 🇩🇪 DE SS-03 | free-nodes
-      - 未知 SS-04 | free-nodes
-      - 🇩🇪 DE SS-05 | free-nodes
+      - 🇩🇪 DE SS-04 | free-nodes
+      - 未知 SS-05 | free-nodes
       - 🇩🇪 DE SS-06 | free-nodes
       - 未知 SS-07 | free-nodes
       - 未知 SS-08 | free-nodes
       - TR SS-09 | free-nodes
       - 🇩🇪 DE SS-10 | free-nodes
       - 🇩🇪 DE SS-11 | free-nodes
-      - 🇸🇬 SG SS-12 | free-nodes
-      - 🇯🇵 JP SS-13 | free-nodes
-      - 🇬🇧 GB SS-14 | free-nodes
-      - 🇷🇺 RU SS-15 | free-nodes
-      - 未知 SS-16 | free-nodes
-      - 未知 SS-17 | free-nodes
+      - 未知 SS-12 | free-nodes
+      - 🇩🇪 DE SS-13 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇬🇧 GB SS-15 | free-nodes
+      - 🇸🇬 SG SS-16 | free-nodes
+      - 🇯🇵 JP SS-17 | free-nodes
       - 未知 SS-18 | free-nodes
       - 未知 SS-19 | free-nodes
       - 未知 SS-20 | free-nodes
       - 未知 SS-21 | free-nodes
       - 未知 SS-22 | free-nodes
       - 未知 SS-23 | free-nodes
-      - 🇩🇪 DE TROJAN-24 | free-nodes
-      - 🇬🇧 GB TROJAN-25 | free-nodes
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - TR TROJAN-27 | free-nodes
-      - TR TROJAN-28 | free-nodes
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 未知 SS-24 | free-nodes
+      - 未知 SS-25 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇩🇪 DE SS-27 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - 未知 SS-29 | free-nodes
+      - 🇩🇪 DE TROJAN-30 | free-nodes
+      - 🇬🇧 GB TROJAN-31 | free-nodes
       - TR TROJAN-32 | free-nodes
-      - 🇫🇷 FR TROJAN-33 | free-nodes
-      - 未知 SS-138 | free-nodes
-      - 未知 SS-139 | free-nodes
-      - 未知 SS-140 | free-nodes
-      - 未知 SS-141 | free-nodes
-      - 未知 SS-142 | free-nodes
-      - 未知 SS-143 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
+      - TR TROJAN-34 | free-nodes
+      - TR TROJAN-35 | free-nodes
+      - 🇫🇷 FR TROJAN-36 | free-nodes
+      - 未知 SS-131 | free-nodes
+      - 未知 SS-132 | free-nodes
+      - 未知 SS-133 | free-nodes
+      - 未知 SS-134 | free-nodes
+      - 未知 SS-135 | free-nodes
+      - 未知 SS-136 | free-nodes
   - name: 📲 电报信息
     type: select
     proxies:
@@ -17640,42 +17934,45 @@ proxy-groups:
       - 未知 SS-01 | free-nodes
       - 🇩🇪 DE SS-02 | free-nodes
       - 🇩🇪 DE SS-03 | free-nodes
-      - 未知 SS-04 | free-nodes
-      - 🇩🇪 DE SS-05 | free-nodes
+      - 🇩🇪 DE SS-04 | free-nodes
+      - 未知 SS-05 | free-nodes
       - 🇩🇪 DE SS-06 | free-nodes
       - 未知 SS-07 | free-nodes
       - 未知 SS-08 | free-nodes
       - TR SS-09 | free-nodes
       - 🇩🇪 DE SS-10 | free-nodes
       - 🇩🇪 DE SS-11 | free-nodes
-      - 🇸🇬 SG SS-12 | free-nodes
-      - 🇯🇵 JP SS-13 | free-nodes
-      - 🇬🇧 GB SS-14 | free-nodes
-      - 🇷🇺 RU SS-15 | free-nodes
-      - 未知 SS-16 | free-nodes
-      - 未知 SS-17 | free-nodes
+      - 未知 SS-12 | free-nodes
+      - 🇩🇪 DE SS-13 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇬🇧 GB SS-15 | free-nodes
+      - 🇸🇬 SG SS-16 | free-nodes
+      - 🇯🇵 JP SS-17 | free-nodes
       - 未知 SS-18 | free-nodes
       - 未知 SS-19 | free-nodes
       - 未知 SS-20 | free-nodes
       - 未知 SS-21 | free-nodes
       - 未知 SS-22 | free-nodes
       - 未知 SS-23 | free-nodes
-      - 🇩🇪 DE TROJAN-24 | free-nodes
-      - 🇬🇧 GB TROJAN-25 | free-nodes
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - TR TROJAN-27 | free-nodes
-      - TR TROJAN-28 | free-nodes
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 未知 SS-24 | free-nodes
+      - 未知 SS-25 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇩🇪 DE SS-27 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - 未知 SS-29 | free-nodes
+      - 🇩🇪 DE TROJAN-30 | free-nodes
+      - 🇬🇧 GB TROJAN-31 | free-nodes
       - TR TROJAN-32 | free-nodes
-      - 🇫🇷 FR TROJAN-33 | free-nodes
-      - 未知 SS-138 | free-nodes
-      - 未知 SS-139 | free-nodes
-      - 未知 SS-140 | free-nodes
-      - 未知 SS-141 | free-nodes
-      - 未知 SS-142 | free-nodes
-      - 未知 SS-143 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
+      - TR TROJAN-34 | free-nodes
+      - TR TROJAN-35 | free-nodes
+      - 🇫🇷 FR TROJAN-36 | free-nodes
+      - 未知 SS-131 | free-nodes
+      - 未知 SS-132 | free-nodes
+      - 未知 SS-133 | free-nodes
+      - 未知 SS-134 | free-nodes
+      - 未知 SS-135 | free-nodes
+      - 未知 SS-136 | free-nodes
   - name: 🤖 OpenAi
     type: select
     proxies:
@@ -17692,42 +17989,45 @@ proxy-groups:
       - 未知 SS-01 | free-nodes
       - 🇩🇪 DE SS-02 | free-nodes
       - 🇩🇪 DE SS-03 | free-nodes
-      - 未知 SS-04 | free-nodes
-      - 🇩🇪 DE SS-05 | free-nodes
+      - 🇩🇪 DE SS-04 | free-nodes
+      - 未知 SS-05 | free-nodes
       - 🇩🇪 DE SS-06 | free-nodes
       - 未知 SS-07 | free-nodes
       - 未知 SS-08 | free-nodes
       - TR SS-09 | free-nodes
       - 🇩🇪 DE SS-10 | free-nodes
       - 🇩🇪 DE SS-11 | free-nodes
-      - 🇸🇬 SG SS-12 | free-nodes
-      - 🇯🇵 JP SS-13 | free-nodes
-      - 🇬🇧 GB SS-14 | free-nodes
-      - 🇷🇺 RU SS-15 | free-nodes
-      - 未知 SS-16 | free-nodes
-      - 未知 SS-17 | free-nodes
+      - 未知 SS-12 | free-nodes
+      - 🇩🇪 DE SS-13 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇬🇧 GB SS-15 | free-nodes
+      - 🇸🇬 SG SS-16 | free-nodes
+      - 🇯🇵 JP SS-17 | free-nodes
       - 未知 SS-18 | free-nodes
       - 未知 SS-19 | free-nodes
       - 未知 SS-20 | free-nodes
       - 未知 SS-21 | free-nodes
       - 未知 SS-22 | free-nodes
       - 未知 SS-23 | free-nodes
-      - 🇩🇪 DE TROJAN-24 | free-nodes
-      - 🇬🇧 GB TROJAN-25 | free-nodes
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - TR TROJAN-27 | free-nodes
-      - TR TROJAN-28 | free-nodes
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 未知 SS-24 | free-nodes
+      - 未知 SS-25 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇩🇪 DE SS-27 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - 未知 SS-29 | free-nodes
+      - 🇩🇪 DE TROJAN-30 | free-nodes
+      - 🇬🇧 GB TROJAN-31 | free-nodes
       - TR TROJAN-32 | free-nodes
-      - 🇫🇷 FR TROJAN-33 | free-nodes
-      - 未知 SS-138 | free-nodes
-      - 未知 SS-139 | free-nodes
-      - 未知 SS-140 | free-nodes
-      - 未知 SS-141 | free-nodes
-      - 未知 SS-142 | free-nodes
-      - 未知 SS-143 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
+      - TR TROJAN-34 | free-nodes
+      - TR TROJAN-35 | free-nodes
+      - 🇫🇷 FR TROJAN-36 | free-nodes
+      - 未知 SS-131 | free-nodes
+      - 未知 SS-132 | free-nodes
+      - 未知 SS-133 | free-nodes
+      - 未知 SS-134 | free-nodes
+      - 未知 SS-135 | free-nodes
+      - 未知 SS-136 | free-nodes
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -17736,42 +18036,45 @@ proxy-groups:
       - 未知 SS-01 | free-nodes
       - 🇩🇪 DE SS-02 | free-nodes
       - 🇩🇪 DE SS-03 | free-nodes
-      - 未知 SS-04 | free-nodes
-      - 🇩🇪 DE SS-05 | free-nodes
+      - 🇩🇪 DE SS-04 | free-nodes
+      - 未知 SS-05 | free-nodes
       - 🇩🇪 DE SS-06 | free-nodes
       - 未知 SS-07 | free-nodes
       - 未知 SS-08 | free-nodes
       - TR SS-09 | free-nodes
       - 🇩🇪 DE SS-10 | free-nodes
       - 🇩🇪 DE SS-11 | free-nodes
-      - 🇸🇬 SG SS-12 | free-nodes
-      - 🇯🇵 JP SS-13 | free-nodes
-      - 🇬🇧 GB SS-14 | free-nodes
-      - 🇷🇺 RU SS-15 | free-nodes
-      - 未知 SS-16 | free-nodes
-      - 未知 SS-17 | free-nodes
+      - 未知 SS-12 | free-nodes
+      - 🇩🇪 DE SS-13 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇬🇧 GB SS-15 | free-nodes
+      - 🇸🇬 SG SS-16 | free-nodes
+      - 🇯🇵 JP SS-17 | free-nodes
       - 未知 SS-18 | free-nodes
       - 未知 SS-19 | free-nodes
       - 未知 SS-20 | free-nodes
       - 未知 SS-21 | free-nodes
       - 未知 SS-22 | free-nodes
       - 未知 SS-23 | free-nodes
-      - 🇩🇪 DE TROJAN-24 | free-nodes
-      - 🇬🇧 GB TROJAN-25 | free-nodes
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - TR TROJAN-27 | free-nodes
-      - TR TROJAN-28 | free-nodes
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 未知 SS-24 | free-nodes
+      - 未知 SS-25 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇩🇪 DE SS-27 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - 未知 SS-29 | free-nodes
+      - 🇩🇪 DE TROJAN-30 | free-nodes
+      - 🇬🇧 GB TROJAN-31 | free-nodes
       - TR TROJAN-32 | free-nodes
-      - 🇫🇷 FR TROJAN-33 | free-nodes
-      - 未知 SS-138 | free-nodes
-      - 未知 SS-139 | free-nodes
-      - 未知 SS-140 | free-nodes
-      - 未知 SS-141 | free-nodes
-      - 未知 SS-142 | free-nodes
-      - 未知 SS-143 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
+      - TR TROJAN-34 | free-nodes
+      - TR TROJAN-35 | free-nodes
+      - 🇫🇷 FR TROJAN-36 | free-nodes
+      - 未知 SS-131 | free-nodes
+      - 未知 SS-132 | free-nodes
+      - 未知 SS-133 | free-nodes
+      - 未知 SS-134 | free-nodes
+      - 未知 SS-135 | free-nodes
+      - 未知 SS-136 | free-nodes
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -17781,42 +18084,45 @@ proxy-groups:
       - 未知 SS-01 | free-nodes
       - 🇩🇪 DE SS-02 | free-nodes
       - 🇩🇪 DE SS-03 | free-nodes
-      - 未知 SS-04 | free-nodes
-      - 🇩🇪 DE SS-05 | free-nodes
+      - 🇩🇪 DE SS-04 | free-nodes
+      - 未知 SS-05 | free-nodes
       - 🇩🇪 DE SS-06 | free-nodes
       - 未知 SS-07 | free-nodes
       - 未知 SS-08 | free-nodes
       - TR SS-09 | free-nodes
       - 🇩🇪 DE SS-10 | free-nodes
       - 🇩🇪 DE SS-11 | free-nodes
-      - 🇸🇬 SG SS-12 | free-nodes
-      - 🇯🇵 JP SS-13 | free-nodes
-      - 🇬🇧 GB SS-14 | free-nodes
-      - 🇷🇺 RU SS-15 | free-nodes
-      - 未知 SS-16 | free-nodes
-      - 未知 SS-17 | free-nodes
+      - 未知 SS-12 | free-nodes
+      - 🇩🇪 DE SS-13 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇬🇧 GB SS-15 | free-nodes
+      - 🇸🇬 SG SS-16 | free-nodes
+      - 🇯🇵 JP SS-17 | free-nodes
       - 未知 SS-18 | free-nodes
       - 未知 SS-19 | free-nodes
       - 未知 SS-20 | free-nodes
       - 未知 SS-21 | free-nodes
       - 未知 SS-22 | free-nodes
       - 未知 SS-23 | free-nodes
-      - 🇩🇪 DE TROJAN-24 | free-nodes
-      - 🇬🇧 GB TROJAN-25 | free-nodes
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - TR TROJAN-27 | free-nodes
-      - TR TROJAN-28 | free-nodes
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 未知 SS-24 | free-nodes
+      - 未知 SS-25 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇩🇪 DE SS-27 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - 未知 SS-29 | free-nodes
+      - 🇩🇪 DE TROJAN-30 | free-nodes
+      - 🇬🇧 GB TROJAN-31 | free-nodes
       - TR TROJAN-32 | free-nodes
-      - 🇫🇷 FR TROJAN-33 | free-nodes
-      - 未知 SS-138 | free-nodes
-      - 未知 SS-139 | free-nodes
-      - 未知 SS-140 | free-nodes
-      - 未知 SS-141 | free-nodes
-      - 未知 SS-142 | free-nodes
-      - 未知 SS-143 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
+      - TR TROJAN-34 | free-nodes
+      - TR TROJAN-35 | free-nodes
+      - 🇫🇷 FR TROJAN-36 | free-nodes
+      - 未知 SS-131 | free-nodes
+      - 未知 SS-132 | free-nodes
+      - 未知 SS-133 | free-nodes
+      - 未知 SS-134 | free-nodes
+      - 未知 SS-135 | free-nodes
+      - 未知 SS-136 | free-nodes
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -17842,58 +18148,60 @@ proxy-groups:
       - 未知 SS-01 | free-nodes
       - 🇩🇪 DE SS-02 | free-nodes
       - 🇩🇪 DE SS-03 | free-nodes
-      - 未知 SS-04 | free-nodes
-      - 🇩🇪 DE SS-05 | free-nodes
+      - 🇩🇪 DE SS-04 | free-nodes
+      - 未知 SS-05 | free-nodes
       - 🇩🇪 DE SS-06 | free-nodes
       - 未知 SS-07 | free-nodes
       - 未知 SS-08 | free-nodes
       - TR SS-09 | free-nodes
       - 🇩🇪 DE SS-10 | free-nodes
       - 🇩🇪 DE SS-11 | free-nodes
-      - 🇸🇬 SG SS-12 | free-nodes
-      - 🇯🇵 JP SS-13 | free-nodes
-      - 🇬🇧 GB SS-14 | free-nodes
-      - 🇷🇺 RU SS-15 | free-nodes
-      - 未知 SS-16 | free-nodes
-      - 未知 SS-17 | free-nodes
+      - 未知 SS-12 | free-nodes
+      - 🇩🇪 DE SS-13 | free-nodes
+      - 未知 SS-14 | free-nodes
+      - 🇬🇧 GB SS-15 | free-nodes
+      - 🇸🇬 SG SS-16 | free-nodes
+      - 🇯🇵 JP SS-17 | free-nodes
       - 未知 SS-18 | free-nodes
       - 未知 SS-19 | free-nodes
       - 未知 SS-20 | free-nodes
       - 未知 SS-21 | free-nodes
       - 未知 SS-22 | free-nodes
       - 未知 SS-23 | free-nodes
-      - 🇩🇪 DE TROJAN-24 | free-nodes
-      - 🇬🇧 GB TROJAN-25 | free-nodes
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - TR TROJAN-27 | free-nodes
-      - TR TROJAN-28 | free-nodes
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 未知 SS-24 | free-nodes
+      - 未知 SS-25 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇩🇪 DE SS-27 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - 未知 SS-29 | free-nodes
+      - 🇩🇪 DE TROJAN-30 | free-nodes
+      - 🇬🇧 GB TROJAN-31 | free-nodes
       - TR TROJAN-32 | free-nodes
-      - 🇫🇷 FR TROJAN-33 | free-nodes
-      - 未知 SS-138 | free-nodes
-      - 未知 SS-139 | free-nodes
-      - 未知 SS-140 | free-nodes
-      - 未知 SS-141 | free-nodes
-      - 未知 SS-142 | free-nodes
-      - 未知 SS-143 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
+      - TR TROJAN-34 | free-nodes
+      - TR TROJAN-35 | free-nodes
+      - 🇫🇷 FR TROJAN-36 | free-nodes
+      - 未知 SS-131 | free-nodes
+      - 未知 SS-132 | free-nodes
+      - 未知 SS-133 | free-nodes
+      - 未知 SS-134 | free-nodes
+      - 未知 SS-135 | free-nodes
+      - 未知 SS-136 | free-nodes
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK TROJAN-29 | free-nodes
-      - 🇭🇰 HK TROJAN-30 | free-nodes
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 US TROJAN-26 | free-nodes
-      - 🇺🇸 US TROJAN-31 | free-nodes
+      - 🇺🇸 US SS-26 | free-nodes
+      - 🇺🇸 US TROJAN-33 | free-nodes
 rules:
   - PROCESS-NAME,cfnat-android-arm64,🎯 全球直连
   - PROCESS-NAME,cfnat-darwin-amd64,🎯 全球直连
