@@ -53,6 +53,52 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 🇨🇳TW臺灣
+    type: trojan
+    server: 167.253.153.147
+    port: 443
+    password: Telegram🇨🇳 @WangCai2
+    sni: x1.badmoos.qzz.io
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /Free/WangCai-8
+      headers:
+        Host: x1.badmoos.qzz.io
+  - name: 🇮🇳IN印度
+    type: trojan
+    server: 172.236.187.52
+    port: 443
+    password: Telegram🇨🇳 @WangCai2
+    sni: x1.badmoos.qzz.io
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /Free/WangCai-8
+      headers:
+        Host: x1.badmoos.qzz.io
+  - name: 🇲🇾MY馬來西亞
+    type: ss
+    server: 45.89.107.78
+    port: 2053
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇰🇷KR韓國
+    type: ss
+    server: 59.24.1.109
+    port: 50001
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 🇭🇰HK香港
     type: ss
     server: 47.242.145.136
@@ -66,18 +112,7 @@ proxies:
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 🇯🇵JP
     type: ss
-    server: 8.216.121.234
-    port: 51922
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇨🇳TW
-    type: ss
-    server: 114.33.57.170
+    server: 143.14.105.100
     port: 443
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
@@ -86,65 +121,10 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵JP_1
+  - name: 香港節點
     type: ss
-    server: 115.163.106.137
+    server: 8.223.63.150
     port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG新加坡
-    type: ss
-    server: 4.194.113.191
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG
-    type: ss
-    server: 34.143.159.175
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇬SG_1
-    type: ss
-    server: 47.237.71.245
-    port: 15430
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG_2
-    type: ss
-    server: 103.241.62.245
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇰🇷KR韓國
-    type: ss
-    server: 1.232.206.121
-    port: 12409
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
@@ -163,28 +143,6 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP_2
-    type: ss
-    server: 202.84.53.85
-    port: 19999
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷KR韓國_1
-    type: ss
-    server: 111.65.134.21
-    port: 36210
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   - name: 🇭🇰HK
     type: ss
     server: 103.194.107.166
@@ -196,9 +154,86 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP日本
+  - name: 🇸🇬SG新加坡
     type: ss
-    server: 155.248.181.189
+    server: 4.194.113.191
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇨🇳TW
+    type: ss
+    server: 114.33.57.170
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇸🇬SG
+    type: ss
+    server: 47.237.71.245
+    port: 15430
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇸🇬SG_1
+    type: ss
+    server: 34.143.159.175
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇸🇬SG_2
+    type: ss
+    server: 103.241.62.245
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 韓國
+    type: ss
+    server: 116.44.53.251
+    port: 12126
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇯🇵JP_1
+    type: ss
+    server: 115.163.106.137
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇯🇵JP_2
+    type: ss
+    server: 140.238.50.134
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -229,10 +264,21 @@ proxies:
       mode: websocket
       host: woshinidie-et3.pages.dev
       path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 韓國🇰🇷KR
+  - name: 🇭🇰HK_1
     type: ss
-    server: 223.222.195.84
-    port: 11654
+    server: 154.3.33.43
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇰🇷KR韓國_1
+    type: ss
+    server: 111.65.134.21
+    port: 36210
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
@@ -240,87 +286,10 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵JP_3
+  - name: 🇰🇷KR
     type: ss
-    server: 140.238.50.134
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP_4
-    type: ss
-    server: 89.116.88.19
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 德國
-    type: ss
-    server: 143.20.160.38
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE
-    type: ss
-    server: 94.159.98.140
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_美國
-    type: ss
-    server: 104.238.70.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_243
-    type: ss
-    server: 50.62.195.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_美國_1
-    type: ss
-    server: 50.62.88.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US美國
-    type: ss
-    server: 31.58.50.110
-    port: 2053
+    server: 112.133.148.226
+    port: 20016
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
@@ -330,40 +299,7 @@ proxies:
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   - name: 🇩🇪DE德国
     type: ss
-    server: 94.159.110.149
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_290
-    type: ss
-    server: 45.40.154.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_24
-    type: ss
-    server: 198.71.188.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_27
-    type: ss
-    server: 198.12.144.16
+    server: 94.159.98.123
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -383,9 +319,64 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_1
+  - name: 美國🇺🇸US
+    type: ss
+    server: 31.58.226.196
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇺🇸US_243
+    type: ss
+    server: 50.62.195.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 德國
+    type: ss
+    server: 143.20.160.38
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US美國
+    type: ss
+    server: 31.58.50.110
+    port: 2053
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE
     type: ss
     server: 89.169.6.69
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_美國
+    type: ss
+    server: 104.238.70.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -405,10 +396,21 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_133
+  - name: 🇱🇻LV拉脫維亞
     type: ss
-    server: 160.153.137.16
-    port: 443
+    server: 193.68.89.220
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇭🇰HK_2
+    type: ss
+    server: 141.11.91.67
+    port: 8080
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
@@ -416,6 +418,15 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美国
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
   - name: 🇺🇸 US美国
     type: vmess
     server: 82.198.246.97
@@ -425,21 +436,10 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 🇰🇷KR
+  - name: 🇩🇪DE德国节点
     type: ss
-    server: 112.133.148.226
-    port: 20016
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE_2
-    type: ss
-    server: 94.237.101.95
-    port: 443
+    server: 45.14.247.168
+    port: 2053
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
@@ -447,10 +447,10 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷KR韓國_2
+  - name: 🇺🇸US_290
     type: ss
-    server: 59.24.1.109
-    port: 50001
+    server: 45.40.154.16
+    port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
@@ -467,7 +467,18 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 美国
+  - name: 🇺🇸US_133
+    type: ss
+    server: 160.153.137.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美国_1
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -476,73 +487,18 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 🇯🇵JP_5
+  - name: 🇺🇸US_美國_1
     type: ss
-    server: 202.84.53.85
-    port: 12145
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE德国节点
-    type: ss
-    server: 45.14.247.168
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 韓國
-    type: ss
-    server: 116.44.53.251
-    port: 12126
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_3
-    type: ss
-    server: 185.186.26.101
+    server: 50.62.88.16
     port: 443
     cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇺🇸US
-    type: ss
-    server: 170.114.45.38
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE_4
-    type: ss
-    server: 143.20.213.97
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇬🇧 GB英国
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇬🇧 英国
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -551,20 +507,9 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 🇯🇵 JP
+  - name: 🇺🇸US_27
     type: ss
-    server: cdns.doon.eu.org
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇩🇪DE德國
-    type: ss
-    server: 52.59.201.146
+    server: 198.12.144.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -573,86 +518,9 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_56
+  - name: 🇺🇸US_24
     type: ss
-    server: 190.93.246.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE德国_1
-    type: ss
-    server: 94.159.98.123
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰 HK
-    type: ss
-    server: cf.008500.xyz
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇭🇰 HK_1
-    type: ss
-    server: cf.zhetengsha.eu.org
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇯🇵 JP_1
-    type: ss
-    server: saas.sin.fan
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇸🇬 SG新加坡
-    type: ss
-    server: cf.090227.xyz
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇭🇰 HK_2
-    type: ss
-    server: cf.877774.xyz
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇺🇸US_235
-    type: ss
-    server: 69.84.182.16
+    server: 198.71.188.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -672,17 +540,39 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇬 SG新加坡节点
+  - name: 韓國_1
     type: ss
-    server: store.ubi.com
-    port: 443
+    server: 211.48.77.114
+    port: 12312
     cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_235
+    type: ss
+    server: 69.84.182.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 瑞典🇸🇪SE
+    type: ss
+    server: 188.126.77.155
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   - name: 美國
     type: trojan
     server: 172.66.44.230
@@ -695,40 +585,7 @@ proxies:
       path: /tro8sFW1S91B6sZrM1?ed=2560
       headers:
         Host: Koma-YT.PAGeS.Dev
-  - name: 瑞典🇸🇪SE
-    type: ss
-    server: 188.126.77.155
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE_5
-    type: ss
-    server: 45.147.248.115
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇱🇻LV拉脫維亞
-    type: ss
-    server: 193.68.89.220
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE德國_1
+  - name: 🇩🇪DE德國
     type: ss
     server: 2.59.134.242
     port: 2002
@@ -739,7 +596,71 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE_1
+    type: ss
+    server: 94.159.98.140
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇬🇧 GB英国
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸US
+    type: ss
+    server: 170.114.45.38
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE德国_1
+    type: ss
+    server: 94.159.110.149
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 🇺🇸US_1
+    type: ss
+    server: 216.205.52.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE德國_1
+    type: ss
+    server: 52.59.201.146
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_2
     type: ss
     server: 103.133.1.38
     port: 443
@@ -750,9 +671,131 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 美国_1
+  - name: 🇯🇵JP_3
+    type: ss
+    server: 202.84.53.85
+    port: 19999
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇯🇵 JP
+    type: ss
+    server: saas.sin.fan
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇭🇰 HK
+    type: ss
+    server: cf.008500.xyz
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇸🇬 SG新加坡节点
+    type: ss
+    server: store.ubi.com
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇯🇵JP_4
+    type: ss
+    server: 89.116.88.19
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇭🇰 HK_1
+    type: ss
+    server: cf.zhetengsha.eu.org
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇭🇰 HK_2
+    type: ss
+    server: cf.877774.xyz
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇩🇪DE_2
+    type: ss
+    server: 94.237.101.95
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇯🇵 JP_1
+    type: ss
+    server: cdns.doon.eu.org
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇸🇬 SG新加坡
+    type: ss
+    server: cf.090227.xyz
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 芬蘭
+    type: vless
+    server: 78.153.139.68
+    port: 8443
+    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+    servername: images.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+      short-id: 58c512b4422e2517
+  - name: 法国节点
     type: vmess
-    server: 2001:bc8:32d7:302::17
+    server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -764,28 +807,20 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: AZERB.NET
-  - name: 🇸🇪SE瑞典節點
-    type: ss
-    server: 46.246.96.59
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 德國🇩🇪DE
-    type: ss
-    server: 143.20.213.135
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 法国节点_1
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: TURK1.NET.NET
   - name: 美国_2
     type: vmess
     server: 2001:bc8:32d7:302::11
@@ -800,39 +835,7 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
       headers:
         Host: Azerb.NET
-  - name: 美国节点
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-  - name: 🇺🇸 US美国_2
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: TABRIZ.NET
-  - name: 法国节点
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-  - name: 法国节点_1
+  - name: 法国节点_2
     type: vmess
     server: 2001:bc8:32d7:302::10
     port: 44579
@@ -847,7 +850,7 @@ proxies:
       path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
       headers:
         Host: 2001:bc8:32d7:302::10
-  - name: 美国_3
+  - name: 美国节点
     type: vmess
     server: 2001:bc8:32d7:302::10
     port: 44579
@@ -858,27 +861,97 @@ proxies:
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: 🇺🇸 US美国_3
+      path: ?ed=2048
+  - name: 🇲🇾MY马来西亚
     type: ss
-    server: switcher-nick-croquet.freesocks.work
+    server: 96.126.190.83
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: wwzVn2ZnHfqYa6l8EWh3eY
-  - name: 韓國_1
-    type: ss
-    server: 211.48.77.114
-    port: 12312
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
       host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 德國🇩🇪DE
+    type: ss
+    server: 143.20.213.135
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 香港节点
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: AZERB.NET
+  - name: 法国节点_3
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      headers:
+        Host: 2001:bc8:32d7:302::10
   - name: 美国节点_1
     type: vmess
-    server: 2001:bc8:32d7:302::16
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: 🇯🇵JP_5
+    type: ss
+    server: 202.84.53.85
+    port: 14740
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美国_3
+    type: vmess
+    server: 2001:bc8:32d7:302::14
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
+  - name: 法国节点_4
+    type: vmess
+    server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
@@ -888,12 +961,10 @@ proxies:
     network: ws
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
-  - name: 🇸🇪SE瑞典節點_1
+  - name: 🇩🇪DE_3
     type: ss
-    server: 51.20.160.11
-    port: 443
+    server: 143.20.213.97
+    port: 8443
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
@@ -911,304 +982,6 @@ proxies:
     tls: false
     skip-cert-verify: false
     network: ws
-  - name: 香港节点
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: AZERB.NET
-  - name: 美国节点_2
-    type: vmess
-    server: 2001:bc8:32d7:302::11
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: TABRIZ.NET
-  - name: 🇩🇪DE_6
-    type: ss
-    server: 94.141.123.231
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 美国节点_3
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: AZERB.NET
-  - name: 美国_4
-    type: vmess
-    server: 2001:bc8:32d7:302::14
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: TABRIZ.NET
-  - name: 🇩🇪DE_7
-    type: ss
-    server: 188.241.241.3
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 法国节点_2
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇩🇪DE_8
-    type: ss
-    server: 135.125.191.9
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 法国节点_3
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
-  - name: 美国节点_4
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇩🇪DE_9
-    type: ss
-    server: 135.125.191.9
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱NL荷蘭
-    type: ss
-    server: 89.110.113.198
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇰🇷KR韓國_3
-    type: ss
-    server: 1.232.206.121
-    port: 14399
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇭🇰HK_1
-    type: ss
-    server: 185.241.41.72
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 美国节点_5
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - name: 🇯🇵JP_6
-    type: ss
-    server: 143.14.105.100
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE_10
-    type: ss
-    server: 192.46.237.206
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰HK_2
-    type: ss
-    server: 192.252.182.52
-    port: 7602
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 美国_5
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: RFK38Cg7APneSB5cWDcpbm
-  - name: 🇩🇪DE_11
-    type: ss
-    server: 139.162.150.12
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_12
-    type: ss
-    server: 83.147.253.18
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_13
-    type: ss
-    server: 194.233.167.228
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_14
-    type: ss
-    server: 45.43.88.13
-    port: 2053
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 法国节点_4
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷 FR
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
   - name: 法国节点_5
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -1221,44 +994,20 @@ proxies:
     network: ws
     ws-opts:
       path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - name: 法国节点_6
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - name: 美国节点_6
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: ?ed=2048
-  - name: 荷蘭🇳🇱NL
+  - name: 🇭🇰HK_3
     type: ss
-    server: 212.192.215.229
-    port: 8443
+    server: 217.60.38.213
+    port: 443
     cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE_15
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_56
     type: ss
-    server: 167.235.224.25
+    server: 190.93.246.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1267,34 +1016,9 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 香港節點
+  - name: 🇸🇬SG新加坡節點
     type: ss
-    server: 8.223.63.150
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 美国节点_7
-    type: vmess
-    server: 2001:bc8:32d7:302::15
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: TURK.NET
-  - name: 🇺🇸US_2
-    type: ss
-    server: 216.205.52.16
+    server: 129.226.150.167
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1314,6 +1038,80 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 美国节点_2
+    type: vmess
+    server: 2001:bc8:32d7:302::15
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: TURK.NET
+  - name: 美国节点_3
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 9tqhMdIrTkgQ46PvhyAtMH
+  - name: 法国节点_6
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+  - name: 🇺🇸 US 132 | ⬇️ 2MB/s
+    type: anytls
+    server: us1.anliangjifei.top
+    port: 12053
+    password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+    sni: us1.anliangjifei.top
+    skip-cert-verify: true
+    tls: true
+    udp: false
+  - name: 🇯🇵JP_6
+    type: ss
+    server: 202.84.53.85
+    port: 11738
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_4
+    type: ss
+    server: 135.125.191.9
+    port: 8443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 荷蘭🇳🇱NL
+    type: ss
+    server: 212.192.215.229
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   - name: 英国节点
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -1326,7 +1124,123 @@ proxies:
     network: ws
     ws-opts:
       path: /?ed=2048
-  - name: 🇩🇪DE_16
+  - name: 美国节点_4
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇭🇰HK_4
+    type: ss
+    server: 217.60.38.249
+    port: 8443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_5
+    type: ss
+    server: 185.186.26.101
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇸🇪SE瑞典節點
+    type: ss
+    server: 46.246.96.59
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 美国节点_5
+    type: vmess
+    server: 2001:bc8:32d7:302::16
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: 🇩🇪DE_6
+    type: ss
+    server: 194.233.167.228
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_7
+    type: ss
+    server: 172.104.143.156
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇯🇵JP_7
+    type: ss
+    server: 202.84.53.85
+    port: 12145
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇸🇪SE瑞典節點_1
+    type: ss
+    server: 51.20.160.11
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE_8
+    type: ss
+    server: 94.141.123.231
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE_9
     type: ss
     server: 172.104.250.194
     port: 443
@@ -1337,9 +1251,43 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_17
+  - name: 🇱🇻LV拉脫維亞_1
     type: ss
-    server: 167.235.149.67
+    server: 195.123.210.147
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇯🇵JP_8
+    type: ss
+    server: 202.84.53.85
+    port: 19999
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: FI_speednode_0006
+    type: vless
+    server: 78.153.139.68
+    port: 8443
+    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+    servername: images.apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    reality-opts:
+      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+      short-id: 58c512b4422e2517
+  - name: 🇩🇪DE_10
+    type: ss
+    server: 192.46.237.206
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1348,9 +1296,62 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_18
+  - name: 🇩🇪DE_11
     type: ss
-    server: 139.162.141.75
+    server: 45.43.88.13
+    port: 2053
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇫🇷 FR
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: 美国节点_6
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: AZERB.NET
+  - name: 🇺🇸 US美国_2
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
+  - name: 🇩🇪DE_12
+    type: ss
+    server: 167.235.224.25
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1359,9 +1360,34 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_19
+  - name: 法国节点_7
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇭🇰HK_5
     type: ss
-    server: 78.40.216.169
+    server: 185.241.41.72
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_13
+    type: ss
+    server: 45.147.248.115
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1381,9 +1407,101 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇱🇻LV拉脫維亞_1
+  - name: 🇩🇪DE_14
     type: ss
-    server: 195.123.210.147
+    server: 139.162.150.12
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_15
+    type: ss
+    server: 78.40.216.169
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美国_4
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - name: 🇩🇪DE_16
+    type: ss
+    server: 135.125.191.9
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇯🇵JP_9
+    type: ss
+    server: 202.84.53.85
+    port: 20755
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_17
+    type: ss
+    server: 188.241.241.3
+    port: 2053
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_18
+    type: ss
+    server: 167.235.149.67
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美国_5
+    type: vmess
+    server: 2001:bc8:32d7:302::17
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: 🇳🇱NL荷蘭
+    type: ss
+    server: 89.110.113.198
     port: 443
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
@@ -1392,9 +1510,9 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE德國_2
+  - name: 🇩🇪DE_19
     type: ss
-    server: 139.144.77.162
+    server: 139.162.141.75
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1403,20 +1521,31 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_20
+  - name: 🇨🇳TW_1
     type: ss
-    server: 49.13.85.76
-    port: 8443
+    server: 167.253.153.44
+    port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
       host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_21
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇭🇰HK_6
     type: ss
-    server: 172.104.143.156
+    server: 47.82.92.52
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE德國_2
+    type: ss
+    server: 139.144.77.162
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1438,18 +1567,18 @@ proxies:
       path: /love
       headers:
         Host: tar.alabama-tigr.info
+  - name: 🇩🇪DE_20
+    type: ss
+    server: 139.162.174.148
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 🇺🇸_US_美国
-    type: vless
-    server: 104.18.32.47
-    port: 2052
-    uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
-  - name: 🇺🇸_US_美国_1
     type: vless
     server: 198.62.62.235
     port: 443
@@ -1461,10 +1590,21 @@ proxies:
       path: /love
       headers:
         Host: bank.alaska-tigr.info
-  - name: 🇩🇪DE_22
+  - name: 🇺🇸_US_美国_1
+    type: vless
+    server: 104.18.32.47
+    port: 2052
+    uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
+  - name: 🇻🇳VN越南
     type: ss
-    server: 139.162.174.148
-    port: 443
+    server: 103.15.90.134
+    port: 49678
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
@@ -1478,65 +1618,9 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: 🇻🇳VN越南
+  - name: 🇩🇪DE_21
     type: ss
-    server: 103.15.90.134
-    port: 49678
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 法国节点_7
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: TURK1.NET.NET
-  - name: 🇭🇰HK_3
-    type: ss
-    server: 141.11.91.67
-    port: 8080
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 美國🇺🇸US
-    type: ss
-    server: 31.58.226.196
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇺🇸 US 132 | ⬇️ 2MB/s
-    type: anytls
-    server: us1.anliangjifei.top
-    port: 12053
-    password: ae74dd32-c336-4be4-9c15-f6108292b3e5
-    sni: us1.anliangjifei.top
-    skip-cert-verify: true
-    tls: true
-    udp: false
-  - name: 🇸🇬SG新加坡節點
-    type: ss
-    server: 129.226.150.167
+    server: 83.147.253.18
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1545,6 +1629,31 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美国_6
+    type: vless
+    server: 104.21.31.4
+    port: 8880
+    uuid: 0a5ab719-2407-4398-b507-8437ef365023
+    network: ws
+    tls: false
+    ws-opts:
+      path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
+      headers:
+        Host: underthegun.cfd.
+  - name: 美国节点_7
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
   - name: 亚太地区
     type: vmess
     server: 103.181.164.237
@@ -1554,15 +1663,95 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 🇬🇧 英国
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
+  - name: 美国_7
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: RFK38Cg7APneSB5cWDcpbm
+  - name: 🇺🇸 US美国_3
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: wwzVn2ZnHfqYa6l8EWh3eY
+  - name: 🇯🇵JP_10
+    type: ss
+    server: 8.216.121.234
+    port: 51922
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇰🇷KR韓國_2
+    type: ss
+    server: 1.232.206.121
+    port: 12409
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇯🇵JP日本
+    type: ss
+    server: 155.248.181.189
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 韓國🇰🇷KR
+    type: ss
+    server: 223.222.195.84
+    port: 11654
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇰🇷KR韓國_3
+    type: ss
+    server: 1.232.206.121
+    port: 14399
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇭🇰HK_7
+    type: ss
+    server: 192.252.182.52
+    port: 7602
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_22
+    type: ss
+    server: 49.13.85.76
+    port: 8443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 🇺🇸 北美地区
     type: vmess
     server: 198.62.62.199
@@ -1577,50 +1766,6 @@ proxies:
       path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
       headers:
         Host: ous3.dean52.top
-  - name: 美国_6
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: FI_speednode_0006
-    type: vless
-    server: 78.153.139.68
-    port: 8443
-    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-    servername: images.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    reality-opts:
-      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-      short-id: 58c512b4422e2517
-  - name: 芬蘭
-    type: vless
-    server: 78.153.139.68
-    port: 8443
-    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-    servername: images.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-      short-id: 58c512b4422e2517
-  - name: 美国_7
-    type: vless
-    server: 104.21.31.4
-    port: 8880
-    uuid: 0a5ab719-2407-4398-b507-8437ef365023
-    network: ws
-    tls: false
-    ws-opts:
-      path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
-      headers:
-        Host: underthegun.cfd.
   - name: 韩国
     type: vless
     server: lord.kokopit.info
@@ -1644,9 +1789,9 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰HK_4
+  - name: 🇮🇳IN印度_1
     type: ss
-    server: 217.60.38.213
+    server: 20.235.105.146
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1655,10 +1800,10 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP_7
+  - name: 🇮🇳IN印度節點
     type: ss
-    server: 202.84.53.85
-    port: 14740
+    server: 172.236.187.52
+    port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
@@ -1666,7 +1811,73 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇲🇾MY马来西亚
+  - name: 🇲🇾MY馬來西亞_1
+    type: ss
+    server: 45.89.107.8
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇲🇾MY馬來西亞_2
+    type: ss
+    server: 166.0.253.126
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇯🇵JP日本_1
+    type: ss
+    server: 138.2.55.219
+    port: 8443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇲🇾MY馬來西亞_3
+    type: ss
+    server: 45.134.36.21
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇲🇾MY
+    type: ss
+    server: 23.27.240.159
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇸🇬SG新加坡_1
+    type: ss
+    server: 213.35.102.5
+    port: 65333
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇲🇾MY馬來西亞_4
     type: ss
     server: 96.126.190.83
     port: 443
@@ -1677,396 +1888,385 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP_8
-    type: ss
-    server: 202.84.53.85
-    port: 19999
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP_9
-    type: ss
-    server: 202.84.53.85
-    port: 20755
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰HK_5
-    type: ss
-    server: 47.82.92.52
+  - name: 🇲🇾MY馬來西亞_5
+    type: trojan
+    server: 45.134.36.21
     port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰HK_6
-    type: ss
-    server: 154.3.33.43
+    password: Telegram🇨🇳 @WangCai2
+    sni: x1.badmoos.qzz.io
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /Free/WangCai-8
+      headers:
+        Host: x1.badmoos.qzz.io
+  - name: 🇲🇾MY馬來西亞_6
+    type: trojan
+    server: 108.165.177.149
     port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰HK_7
-    type: ss
-    server: 217.60.38.249
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP_10
-    type: ss
-    server: 202.84.53.85
-    port: 11738
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇨🇳TW_1
-    type: ss
-    server: 167.253.153.44
+    password: Telegram🇨🇳 @WangCai2
+    sni: x1.badmoos.qzz.io
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /Free/WangCai-8
+      headers:
+        Host: x1.badmoos.qzz.io
+  - name: 🇲🇾MY_1
+    type: trojan
+    server: 96.126.190.83
     port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+    password: Telegram🇨🇳 @WangCai2
+    sni: x1.badmoos.qzz.io
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /Free/WangCai-8
+      headers:
+        Host: x1.badmoos.qzz.io
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳TW臺灣
+      - 🇮🇳IN印度
+      - 🇲🇾MY馬來西亞
+      - 🇰🇷KR韓國
       - 🇭🇰HK香港
       - 🇯🇵JP
-      - 🇨🇳TW
-      - 🇯🇵JP_1
+      - 香港節點
+      - 🇭🇰HK香港_1
+      - 🇭🇰HK
       - 🇸🇬SG新加坡
+      - 🇨🇳TW
       - 🇸🇬SG
       - 🇸🇬SG_1
       - 🇸🇬SG_2
-      - 🇰🇷KR韓國
-      - 🇭🇰HK香港_1
+      - 韓國
+      - 🇯🇵JP_1
       - 🇯🇵JP_2
-      - 🇰🇷KR韓國_1
-      - 🇭🇰HK
-      - 🇯🇵JP日本
       - 🇯🇵JP日本節點
       - 🇨🇳 TW台湾节点
-      - 韓國🇰🇷KR
-      - 🇯🇵JP_3
-      - 🇯🇵JP_4
+      - 🇭🇰HK_1
+      - 🇰🇷KR韓國_1
+      - 🇰🇷KR
+      - 🇩🇪DE德国
+      - 🇺🇸US_297
+      - 美國🇺🇸US
+      - 🇺🇸US_243
       - 德國
+      - 🇺🇸US美國
       - 🇩🇪DE
       - 🇺🇸US_美國
-      - 🇺🇸US_243
-      - 🇺🇸US_美國_1
-      - 🇺🇸US美國
-      - 🇩🇪DE德国
-      - 🇺🇸US_290
-      - 🇺🇸US_24
-      - 🇺🇸US_27
-      - 🇺🇸US_297
-      - 🇩🇪DE_1
       - 🇺🇸US_161
-      - 🇺🇸US_133
-      - 🇺🇸 US美国
-      - 🇰🇷KR
-      - 🇩🇪DE_2
-      - 🇰🇷KR韓國_2
-      - 🇺🇸 US美国_1
+      - 🇱🇻LV拉脫維亞
+      - 🇭🇰HK_2
       - 美国
-      - 🇯🇵JP_5
+      - 🇺🇸 US美国
       - 🇩🇪DE德国节点
-      - 韓國
-      - 🇩🇪DE_3
-      - 🇺🇸US
-      - 🇩🇪DE_4
-      - 🇬🇧 GB英国
-      - 🇯🇵 JP
+      - 🇺🇸US_290
+      - 🇺🇸 US美国_1
+      - 🇺🇸US_133
+      - 美国_1
+      - 🇺🇸US_美國_1
+      - 🇬🇧 英国
+      - 🇺🇸US_27
+      - 🇺🇸US_24
+      - 🇺🇸US_250
+      - 韓國_1
+      - 🇺🇸US_235
+      - 瑞典🇸🇪SE
+      - 美國
       - 🇩🇪DE德國
-      - 🇺🇸US_56
+      - 🇩🇪DE_1
+      - 🇬🇧 GB英国
+      - 🇺🇸US
       - 🇩🇪DE德国_1
+      - 🇺🇸US_1
+      - 🇩🇪DE德國_1
+      - 🇺🇸US_2
+      - 🇯🇵JP_3
+      - 🇯🇵 JP
       - 🇭🇰 HK
+      - 🇸🇬 SG新加坡节点
+      - 🇯🇵JP_4
       - 🇭🇰 HK_1
+      - 🇭🇰 HK_2
+      - 🇩🇪DE_2
       - 🇯🇵 JP_1
       - 🇸🇬 SG新加坡
-      - 🇭🇰 HK_2
-      - 🇺🇸US_235
-      - 🇺🇸US_250
-      - 🇸🇬 SG新加坡节点
-      - 美國
-      - 瑞典🇸🇪SE
-      - 🇩🇪DE_5
-      - 🇱🇻LV拉脫維亞
-      - 🇩🇪DE德國_1
-      - 🇺🇸US_1
-      - 美国_1
-      - 🇸🇪SE瑞典節點
-      - 德國🇩🇪DE
-      - 美国_2
-      - 美国节点
-      - 🇺🇸 US美国_2
+      - 芬蘭
       - 法国节点
       - 法国节点_1
-      - 美国_3
-      - 🇺🇸 US美国_3
-      - 韓國_1
-      - 美国节点_1
-      - 🇸🇪SE瑞典節點_1
-      - 法国
-      - 香港节点
-      - 美国节点_2
-      - 🇩🇪DE_6
-      - 美国节点_3
-      - 美国_4
-      - 🇩🇪DE_7
+      - 美国_2
       - 法国节点_2
-      - 🇩🇪DE_8
+      - 美国节点
+      - 🇲🇾MY马来西亚
+      - 德國🇩🇪DE
+      - 香港节点
       - 法国节点_3
-      - 美国节点_4
-      - 🇩🇪DE_9
-      - 🇳🇱NL荷蘭
-      - 🇰🇷KR韓國_3
-      - 🇭🇰HK_1
-      - 美国节点_5
-      - 🇯🇵JP_6
-      - 🇩🇪DE_10
-      - 🇭🇰HK_2
-      - 美国_5
-      - 🇩🇪DE_11
-      - 🇩🇪DE_12
-      - 🇩🇪DE_13
-      - 🇩🇪DE_14
+      - 美国节点_1
+      - 🇯🇵JP_5
+      - 美国_3
       - 法国节点_4
-      - 🇫🇷 FR
+      - 🇩🇪DE_3
+      - 法国
       - 法国节点_5
-      - 法国节点_6
-      - 美国节点_6
-      - 荷蘭🇳🇱NL
-      - 🇩🇪DE_15
-      - 香港節點
-      - 美国节点_7
-      - 🇺🇸US_2
+      - 🇭🇰HK_3
+      - 🇺🇸US_56
+      - 🇸🇬SG新加坡節點
       - 🇨🇦CA加拿大節點
+      - 美国节点_2
+      - 美国节点_3
+      - 法国节点_6
+      - 🇺🇸 US 132 | ⬇️ 2MB/s
+      - 🇯🇵JP_6
+      - 🇩🇪DE_4
+      - 荷蘭🇳🇱NL
       - 英国节点
+      - 美国节点_4
+      - 🇭🇰HK_4
+      - 🇩🇪DE_5
+      - 🇸🇪SE瑞典節點
+      - 美国节点_5
+      - 🇩🇪DE_6
+      - 🇩🇪DE_7
+      - 🇯🇵JP_7
+      - 🇸🇪SE瑞典節點_1
+      - 🇩🇪DE_8
+      - 🇩🇪DE_9
+      - 🇱🇻LV拉脫維亞_1
+      - 🇯🇵JP_8
+      - FI_speednode_0006
+      - 🇩🇪DE_10
+      - 🇩🇪DE_11
+      - 🇫🇷 FR
+      - 美国节点_6
+      - 🇺🇸 US美国_2
+      - 🇩🇪DE_12
+      - 法国节点_7
+      - 🇭🇰HK_5
+      - 🇩🇪DE_13
+      - 🇫🇮FI
+      - 🇩🇪DE_14
+      - 🇩🇪DE_15
+      - 美国_4
       - 🇩🇪DE_16
+      - 🇯🇵JP_9
       - 🇩🇪DE_17
       - 🇩🇪DE_18
+      - 美国_5
+      - 🇳🇱NL荷蘭
       - 🇩🇪DE_19
-      - 🇫🇮FI
-      - 🇱🇻LV拉脫維亞_1
+      - 🇨🇳TW_1
+      - 🇭🇰HK_6
       - 🇩🇪DE德國_2
-      - 🇩🇪DE_20
-      - 🇩🇪DE_21
       - 🇺🇸 US 247 | ⬇️ 3MB/s
+      - 🇩🇪DE_20
       - 🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇩🇪DE_22
-      - 🇺🇸 US SS-20
       - 🇻🇳VN越南
-      - 法国节点_7
-      - 🇭🇰HK_3
-      - 美國🇺🇸US
-      - 🇺🇸 US 132 | ⬇️ 2MB/s
-      - 🇸🇬SG新加坡節點
-      - 亚太地区
-      - 🇬🇧 英国
-      - 🇺🇸 北美地区
+      - 🇺🇸 US SS-20
+      - 🇩🇪DE_21
       - 美国_6
-      - FI_speednode_0006
-      - 芬蘭
+      - 美国节点_7
+      - 亚太地区
       - 美国_7
+      - 🇺🇸 US美国_3
+      - 🇯🇵JP_10
+      - 🇰🇷KR韓國_2
+      - 🇯🇵JP日本
+      - 韓國🇰🇷KR
+      - 🇰🇷KR韓國_3
+      - 🇭🇰HK_7
+      - 🇩🇪DE_22
+      - 🇺🇸 北美地区
       - 韩国
       - 🇰🇷KR_1
-      - 🇭🇰HK_4
-      - 🇯🇵JP_7
-      - 🇲🇾MY马来西亚
-      - 🇯🇵JP_8
-      - 🇯🇵JP_9
-      - 🇭🇰HK_5
-      - 🇭🇰HK_6
-      - 🇭🇰HK_7
-      - 🇯🇵JP_10
-      - 🇨🇳TW_1
+      - 🇮🇳IN印度_1
+      - 🇮🇳IN印度節點
+      - 🇲🇾MY馬來西亞_1
+      - 🇲🇾MY馬來西亞_2
+      - 🇯🇵JP日本_1
+      - 🇲🇾MY馬來西亞_3
+      - 🇲🇾MY
+      - 🇸🇬SG新加坡_1
+      - 🇲🇾MY馬來西亞_4
+      - 🇲🇾MY馬來西亞_5
+      - 🇲🇾MY馬來西亞_6
+      - 🇲🇾MY_1
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - 🇨🇳TW臺灣
+      - 🇮🇳IN印度
+      - 🇲🇾MY馬來西亞
+      - 🇰🇷KR韓國
       - 🇭🇰HK香港
       - 🇯🇵JP
-      - 🇨🇳TW
-      - 🇯🇵JP_1
+      - 香港節點
+      - 🇭🇰HK香港_1
+      - 🇭🇰HK
       - 🇸🇬SG新加坡
+      - 🇨🇳TW
       - 🇸🇬SG
       - 🇸🇬SG_1
       - 🇸🇬SG_2
-      - 🇰🇷KR韓國
-      - 🇭🇰HK香港_1
+      - 韓國
+      - 🇯🇵JP_1
       - 🇯🇵JP_2
-      - 🇰🇷KR韓國_1
-      - 🇭🇰HK
-      - 🇯🇵JP日本
       - 🇯🇵JP日本節點
       - 🇨🇳 TW台湾节点
-      - 韓國🇰🇷KR
-      - 🇯🇵JP_3
-      - 🇯🇵JP_4
+      - 🇭🇰HK_1
+      - 🇰🇷KR韓國_1
+      - 🇰🇷KR
+      - 🇩🇪DE德国
+      - 🇺🇸US_297
+      - 美國🇺🇸US
+      - 🇺🇸US_243
       - 德國
+      - 🇺🇸US美國
       - 🇩🇪DE
       - 🇺🇸US_美國
-      - 🇺🇸US_243
-      - 🇺🇸US_美國_1
-      - 🇺🇸US美國
-      - 🇩🇪DE德国
-      - 🇺🇸US_290
-      - 🇺🇸US_24
-      - 🇺🇸US_27
-      - 🇺🇸US_297
-      - 🇩🇪DE_1
       - 🇺🇸US_161
-      - 🇺🇸US_133
-      - 🇺🇸 US美国
-      - 🇰🇷KR
-      - 🇩🇪DE_2
-      - 🇰🇷KR韓國_2
-      - 🇺🇸 US美国_1
+      - 🇱🇻LV拉脫維亞
+      - 🇭🇰HK_2
       - 美国
-      - 🇯🇵JP_5
+      - 🇺🇸 US美国
       - 🇩🇪DE德国节点
-      - 韓國
-      - 🇩🇪DE_3
-      - 🇺🇸US
-      - 🇩🇪DE_4
-      - 🇬🇧 GB英国
-      - 🇯🇵 JP
+      - 🇺🇸US_290
+      - 🇺🇸 US美国_1
+      - 🇺🇸US_133
+      - 美国_1
+      - 🇺🇸US_美國_1
+      - 🇬🇧 英国
+      - 🇺🇸US_27
+      - 🇺🇸US_24
+      - 🇺🇸US_250
+      - 韓國_1
+      - 🇺🇸US_235
+      - 瑞典🇸🇪SE
+      - 美國
       - 🇩🇪DE德國
-      - 🇺🇸US_56
+      - 🇩🇪DE_1
+      - 🇬🇧 GB英国
+      - 🇺🇸US
       - 🇩🇪DE德国_1
+      - 🇺🇸US_1
+      - 🇩🇪DE德國_1
+      - 🇺🇸US_2
+      - 🇯🇵JP_3
+      - 🇯🇵 JP
       - 🇭🇰 HK
+      - 🇸🇬 SG新加坡节点
+      - 🇯🇵JP_4
       - 🇭🇰 HK_1
+      - 🇭🇰 HK_2
+      - 🇩🇪DE_2
       - 🇯🇵 JP_1
       - 🇸🇬 SG新加坡
-      - 🇭🇰 HK_2
-      - 🇺🇸US_235
-      - 🇺🇸US_250
-      - 🇸🇬 SG新加坡节点
-      - 美國
-      - 瑞典🇸🇪SE
-      - 🇩🇪DE_5
-      - 🇱🇻LV拉脫維亞
-      - 🇩🇪DE德國_1
-      - 🇺🇸US_1
-      - 美国_1
-      - 🇸🇪SE瑞典節點
-      - 德國🇩🇪DE
-      - 美国_2
-      - 美国节点
-      - 🇺🇸 US美国_2
+      - 芬蘭
       - 法国节点
       - 法国节点_1
-      - 美国_3
-      - 🇺🇸 US美国_3
-      - 韓國_1
-      - 美国节点_1
-      - 🇸🇪SE瑞典節點_1
-      - 法国
-      - 香港节点
-      - 美国节点_2
-      - 🇩🇪DE_6
-      - 美国节点_3
-      - 美国_4
-      - 🇩🇪DE_7
+      - 美国_2
       - 法国节点_2
-      - 🇩🇪DE_8
+      - 美国节点
+      - 🇲🇾MY马来西亚
+      - 德國🇩🇪DE
+      - 香港节点
       - 法国节点_3
-      - 美国节点_4
-      - 🇩🇪DE_9
-      - 🇳🇱NL荷蘭
-      - 🇰🇷KR韓國_3
-      - 🇭🇰HK_1
-      - 美国节点_5
-      - 🇯🇵JP_6
-      - 🇩🇪DE_10
-      - 🇭🇰HK_2
-      - 美国_5
-      - 🇩🇪DE_11
-      - 🇩🇪DE_12
-      - 🇩🇪DE_13
-      - 🇩🇪DE_14
+      - 美国节点_1
+      - 🇯🇵JP_5
+      - 美国_3
       - 法国节点_4
-      - 🇫🇷 FR
+      - 🇩🇪DE_3
+      - 法国
       - 法国节点_5
-      - 法国节点_6
-      - 美国节点_6
-      - 荷蘭🇳🇱NL
-      - 🇩🇪DE_15
-      - 香港節點
-      - 美国节点_7
-      - 🇺🇸US_2
+      - 🇭🇰HK_3
+      - 🇺🇸US_56
+      - 🇸🇬SG新加坡節點
       - 🇨🇦CA加拿大節點
+      - 美国节点_2
+      - 美国节点_3
+      - 法国节点_6
+      - 🇺🇸 US 132 | ⬇️ 2MB/s
+      - 🇯🇵JP_6
+      - 🇩🇪DE_4
+      - 荷蘭🇳🇱NL
       - 英国节点
+      - 美国节点_4
+      - 🇭🇰HK_4
+      - 🇩🇪DE_5
+      - 🇸🇪SE瑞典節點
+      - 美国节点_5
+      - 🇩🇪DE_6
+      - 🇩🇪DE_7
+      - 🇯🇵JP_7
+      - 🇸🇪SE瑞典節點_1
+      - 🇩🇪DE_8
+      - 🇩🇪DE_9
+      - 🇱🇻LV拉脫維亞_1
+      - 🇯🇵JP_8
+      - FI_speednode_0006
+      - 🇩🇪DE_10
+      - 🇩🇪DE_11
+      - 🇫🇷 FR
+      - 美国节点_6
+      - 🇺🇸 US美国_2
+      - 🇩🇪DE_12
+      - 法国节点_7
+      - 🇭🇰HK_5
+      - 🇩🇪DE_13
+      - 🇫🇮FI
+      - 🇩🇪DE_14
+      - 🇩🇪DE_15
+      - 美国_4
       - 🇩🇪DE_16
+      - 🇯🇵JP_9
       - 🇩🇪DE_17
       - 🇩🇪DE_18
+      - 美国_5
+      - 🇳🇱NL荷蘭
       - 🇩🇪DE_19
-      - 🇫🇮FI
-      - 🇱🇻LV拉脫維亞_1
+      - 🇨🇳TW_1
+      - 🇭🇰HK_6
       - 🇩🇪DE德國_2
-      - 🇩🇪DE_20
-      - 🇩🇪DE_21
       - 🇺🇸 US 247 | ⬇️ 3MB/s
+      - 🇩🇪DE_20
       - 🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇩🇪DE_22
-      - 🇺🇸 US SS-20
       - 🇻🇳VN越南
-      - 法国节点_7
-      - 🇭🇰HK_3
-      - 美國🇺🇸US
-      - 🇺🇸 US 132 | ⬇️ 2MB/s
-      - 🇸🇬SG新加坡節點
-      - 亚太地区
-      - 🇬🇧 英国
-      - 🇺🇸 北美地区
+      - 🇺🇸 US SS-20
+      - 🇩🇪DE_21
       - 美国_6
-      - FI_speednode_0006
-      - 芬蘭
+      - 美国节点_7
+      - 亚太地区
       - 美国_7
+      - 🇺🇸 US美国_3
+      - 🇯🇵JP_10
+      - 🇰🇷KR韓國_2
+      - 🇯🇵JP日本
+      - 韓國🇰🇷KR
+      - 🇰🇷KR韓國_3
+      - 🇭🇰HK_7
+      - 🇩🇪DE_22
+      - 🇺🇸 北美地区
       - 韩国
       - 🇰🇷KR_1
-      - 🇭🇰HK_4
-      - 🇯🇵JP_7
-      - 🇲🇾MY马来西亚
-      - 🇯🇵JP_8
-      - 🇯🇵JP_9
-      - 🇭🇰HK_5
-      - 🇭🇰HK_6
-      - 🇭🇰HK_7
-      - 🇯🇵JP_10
-      - 🇨🇳TW_1
+      - 🇮🇳IN印度_1
+      - 🇮🇳IN印度節點
+      - 🇲🇾MY馬來西亞_1
+      - 🇲🇾MY馬來西亞_2
+      - 🇯🇵JP日本_1
+      - 🇲🇾MY馬來西亞_3
+      - 🇲🇾MY
+      - 🇸🇬SG新加坡_1
+      - 🇲🇾MY馬來西亞_4
+      - 🇲🇾MY馬來西亞_5
+      - 🇲🇾MY馬來西亞_6
+      - 🇲🇾MY_1
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -2076,629 +2276,689 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳TW臺灣
+      - 🇮🇳IN印度
+      - 🇲🇾MY馬來西亞
+      - 🇰🇷KR韓國
       - 🇭🇰HK香港
       - 🇯🇵JP
-      - 🇨🇳TW
-      - 🇯🇵JP_1
+      - 香港節點
+      - 🇭🇰HK香港_1
+      - 🇭🇰HK
       - 🇸🇬SG新加坡
+      - 🇨🇳TW
       - 🇸🇬SG
       - 🇸🇬SG_1
       - 🇸🇬SG_2
-      - 🇰🇷KR韓國
-      - 🇭🇰HK香港_1
+      - 韓國
+      - 🇯🇵JP_1
       - 🇯🇵JP_2
-      - 🇰🇷KR韓國_1
-      - 🇭🇰HK
-      - 🇯🇵JP日本
       - 🇯🇵JP日本節點
       - 🇨🇳 TW台湾节点
-      - 韓國🇰🇷KR
-      - 🇯🇵JP_3
-      - 🇯🇵JP_4
+      - 🇭🇰HK_1
+      - 🇰🇷KR韓國_1
+      - 🇰🇷KR
+      - 🇩🇪DE德国
+      - 🇺🇸US_297
+      - 美國🇺🇸US
+      - 🇺🇸US_243
       - 德國
+      - 🇺🇸US美國
       - 🇩🇪DE
       - 🇺🇸US_美國
-      - 🇺🇸US_243
-      - 🇺🇸US_美國_1
-      - 🇺🇸US美國
-      - 🇩🇪DE德国
-      - 🇺🇸US_290
-      - 🇺🇸US_24
-      - 🇺🇸US_27
-      - 🇺🇸US_297
-      - 🇩🇪DE_1
       - 🇺🇸US_161
-      - 🇺🇸US_133
-      - 🇺🇸 US美国
-      - 🇰🇷KR
-      - 🇩🇪DE_2
-      - 🇰🇷KR韓國_2
-      - 🇺🇸 US美国_1
+      - 🇱🇻LV拉脫維亞
+      - 🇭🇰HK_2
       - 美国
-      - 🇯🇵JP_5
+      - 🇺🇸 US美国
       - 🇩🇪DE德国节点
-      - 韓國
-      - 🇩🇪DE_3
-      - 🇺🇸US
-      - 🇩🇪DE_4
-      - 🇬🇧 GB英国
-      - 🇯🇵 JP
+      - 🇺🇸US_290
+      - 🇺🇸 US美国_1
+      - 🇺🇸US_133
+      - 美国_1
+      - 🇺🇸US_美國_1
+      - 🇬🇧 英国
+      - 🇺🇸US_27
+      - 🇺🇸US_24
+      - 🇺🇸US_250
+      - 韓國_1
+      - 🇺🇸US_235
+      - 瑞典🇸🇪SE
+      - 美國
       - 🇩🇪DE德國
-      - 🇺🇸US_56
+      - 🇩🇪DE_1
+      - 🇬🇧 GB英国
+      - 🇺🇸US
       - 🇩🇪DE德国_1
+      - 🇺🇸US_1
+      - 🇩🇪DE德國_1
+      - 🇺🇸US_2
+      - 🇯🇵JP_3
+      - 🇯🇵 JP
       - 🇭🇰 HK
+      - 🇸🇬 SG新加坡节点
+      - 🇯🇵JP_4
       - 🇭🇰 HK_1
+      - 🇭🇰 HK_2
+      - 🇩🇪DE_2
       - 🇯🇵 JP_1
       - 🇸🇬 SG新加坡
-      - 🇭🇰 HK_2
-      - 🇺🇸US_235
-      - 🇺🇸US_250
-      - 🇸🇬 SG新加坡节点
-      - 美國
-      - 瑞典🇸🇪SE
-      - 🇩🇪DE_5
-      - 🇱🇻LV拉脫維亞
-      - 🇩🇪DE德國_1
-      - 🇺🇸US_1
-      - 美国_1
-      - 🇸🇪SE瑞典節點
-      - 德國🇩🇪DE
-      - 美国_2
-      - 美国节点
-      - 🇺🇸 US美国_2
+      - 芬蘭
       - 法国节点
       - 法国节点_1
-      - 美国_3
-      - 🇺🇸 US美国_3
-      - 韓國_1
-      - 美国节点_1
-      - 🇸🇪SE瑞典節點_1
-      - 法国
-      - 香港节点
-      - 美国节点_2
-      - 🇩🇪DE_6
-      - 美国节点_3
-      - 美国_4
-      - 🇩🇪DE_7
+      - 美国_2
       - 法国节点_2
-      - 🇩🇪DE_8
+      - 美国节点
+      - 🇲🇾MY马来西亚
+      - 德國🇩🇪DE
+      - 香港节点
       - 法国节点_3
-      - 美国节点_4
-      - 🇩🇪DE_9
-      - 🇳🇱NL荷蘭
-      - 🇰🇷KR韓國_3
-      - 🇭🇰HK_1
-      - 美国节点_5
-      - 🇯🇵JP_6
-      - 🇩🇪DE_10
-      - 🇭🇰HK_2
-      - 美国_5
-      - 🇩🇪DE_11
-      - 🇩🇪DE_12
-      - 🇩🇪DE_13
-      - 🇩🇪DE_14
+      - 美国节点_1
+      - 🇯🇵JP_5
+      - 美国_3
       - 法国节点_4
-      - 🇫🇷 FR
+      - 🇩🇪DE_3
+      - 法国
       - 法国节点_5
-      - 法国节点_6
-      - 美国节点_6
-      - 荷蘭🇳🇱NL
-      - 🇩🇪DE_15
-      - 香港節點
-      - 美国节点_7
-      - 🇺🇸US_2
+      - 🇭🇰HK_3
+      - 🇺🇸US_56
+      - 🇸🇬SG新加坡節點
       - 🇨🇦CA加拿大節點
+      - 美国节点_2
+      - 美国节点_3
+      - 法国节点_6
+      - 🇺🇸 US 132 | ⬇️ 2MB/s
+      - 🇯🇵JP_6
+      - 🇩🇪DE_4
+      - 荷蘭🇳🇱NL
       - 英国节点
+      - 美国节点_4
+      - 🇭🇰HK_4
+      - 🇩🇪DE_5
+      - 🇸🇪SE瑞典節點
+      - 美国节点_5
+      - 🇩🇪DE_6
+      - 🇩🇪DE_7
+      - 🇯🇵JP_7
+      - 🇸🇪SE瑞典節點_1
+      - 🇩🇪DE_8
+      - 🇩🇪DE_9
+      - 🇱🇻LV拉脫維亞_1
+      - 🇯🇵JP_8
+      - FI_speednode_0006
+      - 🇩🇪DE_10
+      - 🇩🇪DE_11
+      - 🇫🇷 FR
+      - 美国节点_6
+      - 🇺🇸 US美国_2
+      - 🇩🇪DE_12
+      - 法国节点_7
+      - 🇭🇰HK_5
+      - 🇩🇪DE_13
+      - 🇫🇮FI
+      - 🇩🇪DE_14
+      - 🇩🇪DE_15
+      - 美国_4
       - 🇩🇪DE_16
+      - 🇯🇵JP_9
       - 🇩🇪DE_17
       - 🇩🇪DE_18
+      - 美国_5
+      - 🇳🇱NL荷蘭
       - 🇩🇪DE_19
-      - 🇫🇮FI
-      - 🇱🇻LV拉脫維亞_1
+      - 🇨🇳TW_1
+      - 🇭🇰HK_6
       - 🇩🇪DE德國_2
-      - 🇩🇪DE_20
-      - 🇩🇪DE_21
       - 🇺🇸 US 247 | ⬇️ 3MB/s
+      - 🇩🇪DE_20
       - 🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇩🇪DE_22
-      - 🇺🇸 US SS-20
       - 🇻🇳VN越南
-      - 法国节点_7
-      - 🇭🇰HK_3
-      - 美國🇺🇸US
-      - 🇺🇸 US 132 | ⬇️ 2MB/s
-      - 🇸🇬SG新加坡節點
-      - 亚太地区
-      - 🇬🇧 英国
-      - 🇺🇸 北美地区
+      - 🇺🇸 US SS-20
+      - 🇩🇪DE_21
       - 美国_6
-      - FI_speednode_0006
-      - 芬蘭
+      - 美国节点_7
+      - 亚太地区
       - 美国_7
+      - 🇺🇸 US美国_3
+      - 🇯🇵JP_10
+      - 🇰🇷KR韓國_2
+      - 🇯🇵JP日本
+      - 韓國🇰🇷KR
+      - 🇰🇷KR韓國_3
+      - 🇭🇰HK_7
+      - 🇩🇪DE_22
+      - 🇺🇸 北美地区
       - 韩国
       - 🇰🇷KR_1
-      - 🇭🇰HK_4
-      - 🇯🇵JP_7
-      - 🇲🇾MY马来西亚
-      - 🇯🇵JP_8
-      - 🇯🇵JP_9
-      - 🇭🇰HK_5
-      - 🇭🇰HK_6
-      - 🇭🇰HK_7
-      - 🇯🇵JP_10
-      - 🇨🇳TW_1
+      - 🇮🇳IN印度_1
+      - 🇮🇳IN印度節點
+      - 🇲🇾MY馬來西亞_1
+      - 🇲🇾MY馬來西亞_2
+      - 🇯🇵JP日本_1
+      - 🇲🇾MY馬來西亞_3
+      - 🇲🇾MY
+      - 🇸🇬SG新加坡_1
+      - 🇲🇾MY馬來西亞_4
+      - 🇲🇾MY馬來西亞_5
+      - 🇲🇾MY馬來西亞_6
+      - 🇲🇾MY_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳TW臺灣
+      - 🇮🇳IN印度
+      - 🇲🇾MY馬來西亞
+      - 🇰🇷KR韓國
       - 🇭🇰HK香港
       - 🇯🇵JP
-      - 🇨🇳TW
-      - 🇯🇵JP_1
+      - 香港節點
+      - 🇭🇰HK香港_1
+      - 🇭🇰HK
       - 🇸🇬SG新加坡
+      - 🇨🇳TW
       - 🇸🇬SG
       - 🇸🇬SG_1
       - 🇸🇬SG_2
-      - 🇰🇷KR韓國
-      - 🇭🇰HK香港_1
+      - 韓國
+      - 🇯🇵JP_1
       - 🇯🇵JP_2
-      - 🇰🇷KR韓國_1
-      - 🇭🇰HK
-      - 🇯🇵JP日本
       - 🇯🇵JP日本節點
       - 🇨🇳 TW台湾节点
-      - 韓國🇰🇷KR
-      - 🇯🇵JP_3
-      - 🇯🇵JP_4
+      - 🇭🇰HK_1
+      - 🇰🇷KR韓國_1
+      - 🇰🇷KR
+      - 🇩🇪DE德国
+      - 🇺🇸US_297
+      - 美國🇺🇸US
+      - 🇺🇸US_243
       - 德國
+      - 🇺🇸US美國
       - 🇩🇪DE
       - 🇺🇸US_美國
-      - 🇺🇸US_243
-      - 🇺🇸US_美國_1
-      - 🇺🇸US美國
-      - 🇩🇪DE德国
-      - 🇺🇸US_290
-      - 🇺🇸US_24
-      - 🇺🇸US_27
-      - 🇺🇸US_297
-      - 🇩🇪DE_1
       - 🇺🇸US_161
-      - 🇺🇸US_133
-      - 🇺🇸 US美国
-      - 🇰🇷KR
-      - 🇩🇪DE_2
-      - 🇰🇷KR韓國_2
-      - 🇺🇸 US美国_1
+      - 🇱🇻LV拉脫維亞
+      - 🇭🇰HK_2
       - 美国
-      - 🇯🇵JP_5
+      - 🇺🇸 US美国
       - 🇩🇪DE德国节点
-      - 韓國
-      - 🇩🇪DE_3
-      - 🇺🇸US
-      - 🇩🇪DE_4
-      - 🇬🇧 GB英国
-      - 🇯🇵 JP
+      - 🇺🇸US_290
+      - 🇺🇸 US美国_1
+      - 🇺🇸US_133
+      - 美国_1
+      - 🇺🇸US_美國_1
+      - 🇬🇧 英国
+      - 🇺🇸US_27
+      - 🇺🇸US_24
+      - 🇺🇸US_250
+      - 韓國_1
+      - 🇺🇸US_235
+      - 瑞典🇸🇪SE
+      - 美國
       - 🇩🇪DE德國
-      - 🇺🇸US_56
+      - 🇩🇪DE_1
+      - 🇬🇧 GB英国
+      - 🇺🇸US
       - 🇩🇪DE德国_1
+      - 🇺🇸US_1
+      - 🇩🇪DE德國_1
+      - 🇺🇸US_2
+      - 🇯🇵JP_3
+      - 🇯🇵 JP
       - 🇭🇰 HK
+      - 🇸🇬 SG新加坡节点
+      - 🇯🇵JP_4
       - 🇭🇰 HK_1
+      - 🇭🇰 HK_2
+      - 🇩🇪DE_2
       - 🇯🇵 JP_1
       - 🇸🇬 SG新加坡
-      - 🇭🇰 HK_2
-      - 🇺🇸US_235
-      - 🇺🇸US_250
-      - 🇸🇬 SG新加坡节点
-      - 美國
-      - 瑞典🇸🇪SE
-      - 🇩🇪DE_5
-      - 🇱🇻LV拉脫維亞
-      - 🇩🇪DE德國_1
-      - 🇺🇸US_1
-      - 美国_1
-      - 🇸🇪SE瑞典節點
-      - 德國🇩🇪DE
-      - 美国_2
-      - 美国节点
-      - 🇺🇸 US美国_2
+      - 芬蘭
       - 法国节点
       - 法国节点_1
-      - 美国_3
-      - 🇺🇸 US美国_3
-      - 韓國_1
-      - 美国节点_1
-      - 🇸🇪SE瑞典節點_1
-      - 法国
-      - 香港节点
-      - 美国节点_2
-      - 🇩🇪DE_6
-      - 美国节点_3
-      - 美国_4
-      - 🇩🇪DE_7
+      - 美国_2
       - 法国节点_2
-      - 🇩🇪DE_8
+      - 美国节点
+      - 🇲🇾MY马来西亚
+      - 德國🇩🇪DE
+      - 香港节点
       - 法国节点_3
-      - 美国节点_4
-      - 🇩🇪DE_9
-      - 🇳🇱NL荷蘭
-      - 🇰🇷KR韓國_3
-      - 🇭🇰HK_1
-      - 美国节点_5
-      - 🇯🇵JP_6
-      - 🇩🇪DE_10
-      - 🇭🇰HK_2
-      - 美国_5
-      - 🇩🇪DE_11
-      - 🇩🇪DE_12
-      - 🇩🇪DE_13
-      - 🇩🇪DE_14
+      - 美国节点_1
+      - 🇯🇵JP_5
+      - 美国_3
       - 法国节点_4
-      - 🇫🇷 FR
+      - 🇩🇪DE_3
+      - 法国
       - 法国节点_5
-      - 法国节点_6
-      - 美国节点_6
-      - 荷蘭🇳🇱NL
-      - 🇩🇪DE_15
-      - 香港節點
-      - 美国节点_7
-      - 🇺🇸US_2
+      - 🇭🇰HK_3
+      - 🇺🇸US_56
+      - 🇸🇬SG新加坡節點
       - 🇨🇦CA加拿大節點
+      - 美国节点_2
+      - 美国节点_3
+      - 法国节点_6
+      - 🇺🇸 US 132 | ⬇️ 2MB/s
+      - 🇯🇵JP_6
+      - 🇩🇪DE_4
+      - 荷蘭🇳🇱NL
       - 英国节点
+      - 美国节点_4
+      - 🇭🇰HK_4
+      - 🇩🇪DE_5
+      - 🇸🇪SE瑞典節點
+      - 美国节点_5
+      - 🇩🇪DE_6
+      - 🇩🇪DE_7
+      - 🇯🇵JP_7
+      - 🇸🇪SE瑞典節點_1
+      - 🇩🇪DE_8
+      - 🇩🇪DE_9
+      - 🇱🇻LV拉脫維亞_1
+      - 🇯🇵JP_8
+      - FI_speednode_0006
+      - 🇩🇪DE_10
+      - 🇩🇪DE_11
+      - 🇫🇷 FR
+      - 美国节点_6
+      - 🇺🇸 US美国_2
+      - 🇩🇪DE_12
+      - 法国节点_7
+      - 🇭🇰HK_5
+      - 🇩🇪DE_13
+      - 🇫🇮FI
+      - 🇩🇪DE_14
+      - 🇩🇪DE_15
+      - 美国_4
       - 🇩🇪DE_16
+      - 🇯🇵JP_9
       - 🇩🇪DE_17
       - 🇩🇪DE_18
+      - 美国_5
+      - 🇳🇱NL荷蘭
       - 🇩🇪DE_19
-      - 🇫🇮FI
-      - 🇱🇻LV拉脫維亞_1
+      - 🇨🇳TW_1
+      - 🇭🇰HK_6
       - 🇩🇪DE德國_2
-      - 🇩🇪DE_20
-      - 🇩🇪DE_21
       - 🇺🇸 US 247 | ⬇️ 3MB/s
+      - 🇩🇪DE_20
       - 🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇩🇪DE_22
-      - 🇺🇸 US SS-20
       - 🇻🇳VN越南
-      - 法国节点_7
-      - 🇭🇰HK_3
-      - 美國🇺🇸US
-      - 🇺🇸 US 132 | ⬇️ 2MB/s
-      - 🇸🇬SG新加坡節點
-      - 亚太地区
-      - 🇬🇧 英国
-      - 🇺🇸 北美地区
+      - 🇺🇸 US SS-20
+      - 🇩🇪DE_21
       - 美国_6
-      - FI_speednode_0006
-      - 芬蘭
+      - 美国节点_7
+      - 亚太地区
       - 美国_7
+      - 🇺🇸 US美国_3
+      - 🇯🇵JP_10
+      - 🇰🇷KR韓國_2
+      - 🇯🇵JP日本
+      - 韓國🇰🇷KR
+      - 🇰🇷KR韓國_3
+      - 🇭🇰HK_7
+      - 🇩🇪DE_22
+      - 🇺🇸 北美地区
       - 韩国
       - 🇰🇷KR_1
-      - 🇭🇰HK_4
-      - 🇯🇵JP_7
-      - 🇲🇾MY马来西亚
-      - 🇯🇵JP_8
-      - 🇯🇵JP_9
-      - 🇭🇰HK_5
-      - 🇭🇰HK_6
-      - 🇭🇰HK_7
-      - 🇯🇵JP_10
-      - 🇨🇳TW_1
+      - 🇮🇳IN印度_1
+      - 🇮🇳IN印度節點
+      - 🇲🇾MY馬來西亞_1
+      - 🇲🇾MY馬來西亞_2
+      - 🇯🇵JP日本_1
+      - 🇲🇾MY馬來西亞_3
+      - 🇲🇾MY
+      - 🇸🇬SG新加坡_1
+      - 🇲🇾MY馬來西亞_4
+      - 🇲🇾MY馬來西亞_5
+      - 🇲🇾MY馬來西亞_6
+      - 🇲🇾MY_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇨🇳TW臺灣
+      - 🇮🇳IN印度
+      - 🇲🇾MY馬來西亞
+      - 🇰🇷KR韓國
       - 🇭🇰HK香港
       - 🇯🇵JP
-      - 🇨🇳TW
-      - 🇯🇵JP_1
+      - 香港節點
+      - 🇭🇰HK香港_1
+      - 🇭🇰HK
       - 🇸🇬SG新加坡
+      - 🇨🇳TW
       - 🇸🇬SG
       - 🇸🇬SG_1
       - 🇸🇬SG_2
-      - 🇰🇷KR韓國
-      - 🇭🇰HK香港_1
+      - 韓國
+      - 🇯🇵JP_1
       - 🇯🇵JP_2
-      - 🇰🇷KR韓國_1
-      - 🇭🇰HK
-      - 🇯🇵JP日本
       - 🇯🇵JP日本節點
       - 🇨🇳 TW台湾节点
-      - 韓國🇰🇷KR
-      - 🇯🇵JP_3
-      - 🇯🇵JP_4
+      - 🇭🇰HK_1
+      - 🇰🇷KR韓國_1
+      - 🇰🇷KR
+      - 🇩🇪DE德国
+      - 🇺🇸US_297
+      - 美國🇺🇸US
+      - 🇺🇸US_243
       - 德國
+      - 🇺🇸US美國
       - 🇩🇪DE
       - 🇺🇸US_美國
-      - 🇺🇸US_243
-      - 🇺🇸US_美國_1
-      - 🇺🇸US美國
-      - 🇩🇪DE德国
-      - 🇺🇸US_290
-      - 🇺🇸US_24
-      - 🇺🇸US_27
-      - 🇺🇸US_297
-      - 🇩🇪DE_1
       - 🇺🇸US_161
-      - 🇺🇸US_133
-      - 🇺🇸 US美国
-      - 🇰🇷KR
-      - 🇩🇪DE_2
-      - 🇰🇷KR韓國_2
-      - 🇺🇸 US美国_1
+      - 🇱🇻LV拉脫維亞
+      - 🇭🇰HK_2
       - 美国
-      - 🇯🇵JP_5
+      - 🇺🇸 US美国
       - 🇩🇪DE德国节点
-      - 韓國
-      - 🇩🇪DE_3
-      - 🇺🇸US
-      - 🇩🇪DE_4
-      - 🇬🇧 GB英国
-      - 🇯🇵 JP
+      - 🇺🇸US_290
+      - 🇺🇸 US美国_1
+      - 🇺🇸US_133
+      - 美国_1
+      - 🇺🇸US_美國_1
+      - 🇬🇧 英国
+      - 🇺🇸US_27
+      - 🇺🇸US_24
+      - 🇺🇸US_250
+      - 韓國_1
+      - 🇺🇸US_235
+      - 瑞典🇸🇪SE
+      - 美國
       - 🇩🇪DE德國
-      - 🇺🇸US_56
+      - 🇩🇪DE_1
+      - 🇬🇧 GB英国
+      - 🇺🇸US
       - 🇩🇪DE德国_1
+      - 🇺🇸US_1
+      - 🇩🇪DE德國_1
+      - 🇺🇸US_2
+      - 🇯🇵JP_3
+      - 🇯🇵 JP
       - 🇭🇰 HK
+      - 🇸🇬 SG新加坡节点
+      - 🇯🇵JP_4
       - 🇭🇰 HK_1
+      - 🇭🇰 HK_2
+      - 🇩🇪DE_2
       - 🇯🇵 JP_1
       - 🇸🇬 SG新加坡
-      - 🇭🇰 HK_2
-      - 🇺🇸US_235
-      - 🇺🇸US_250
-      - 🇸🇬 SG新加坡节点
-      - 美國
-      - 瑞典🇸🇪SE
-      - 🇩🇪DE_5
-      - 🇱🇻LV拉脫維亞
-      - 🇩🇪DE德國_1
-      - 🇺🇸US_1
-      - 美国_1
-      - 🇸🇪SE瑞典節點
-      - 德國🇩🇪DE
-      - 美国_2
-      - 美国节点
-      - 🇺🇸 US美国_2
+      - 芬蘭
       - 法国节点
       - 法国节点_1
-      - 美国_3
-      - 🇺🇸 US美国_3
-      - 韓國_1
-      - 美国节点_1
-      - 🇸🇪SE瑞典節點_1
-      - 法国
-      - 香港节点
-      - 美国节点_2
-      - 🇩🇪DE_6
-      - 美国节点_3
-      - 美国_4
-      - 🇩🇪DE_7
+      - 美国_2
       - 法国节点_2
-      - 🇩🇪DE_8
+      - 美国节点
+      - 🇲🇾MY马来西亚
+      - 德國🇩🇪DE
+      - 香港节点
       - 法国节点_3
-      - 美国节点_4
-      - 🇩🇪DE_9
-      - 🇳🇱NL荷蘭
-      - 🇰🇷KR韓國_3
-      - 🇭🇰HK_1
-      - 美国节点_5
-      - 🇯🇵JP_6
-      - 🇩🇪DE_10
-      - 🇭🇰HK_2
-      - 美国_5
-      - 🇩🇪DE_11
-      - 🇩🇪DE_12
-      - 🇩🇪DE_13
-      - 🇩🇪DE_14
+      - 美国节点_1
+      - 🇯🇵JP_5
+      - 美国_3
       - 法国节点_4
-      - 🇫🇷 FR
+      - 🇩🇪DE_3
+      - 法国
       - 法国节点_5
-      - 法国节点_6
-      - 美国节点_6
-      - 荷蘭🇳🇱NL
-      - 🇩🇪DE_15
-      - 香港節點
-      - 美国节点_7
-      - 🇺🇸US_2
+      - 🇭🇰HK_3
+      - 🇺🇸US_56
+      - 🇸🇬SG新加坡節點
       - 🇨🇦CA加拿大節點
+      - 美国节点_2
+      - 美国节点_3
+      - 法国节点_6
+      - 🇺🇸 US 132 | ⬇️ 2MB/s
+      - 🇯🇵JP_6
+      - 🇩🇪DE_4
+      - 荷蘭🇳🇱NL
       - 英国节点
+      - 美国节点_4
+      - 🇭🇰HK_4
+      - 🇩🇪DE_5
+      - 🇸🇪SE瑞典節點
+      - 美国节点_5
+      - 🇩🇪DE_6
+      - 🇩🇪DE_7
+      - 🇯🇵JP_7
+      - 🇸🇪SE瑞典節點_1
+      - 🇩🇪DE_8
+      - 🇩🇪DE_9
+      - 🇱🇻LV拉脫維亞_1
+      - 🇯🇵JP_8
+      - FI_speednode_0006
+      - 🇩🇪DE_10
+      - 🇩🇪DE_11
+      - 🇫🇷 FR
+      - 美国节点_6
+      - 🇺🇸 US美国_2
+      - 🇩🇪DE_12
+      - 法国节点_7
+      - 🇭🇰HK_5
+      - 🇩🇪DE_13
+      - 🇫🇮FI
+      - 🇩🇪DE_14
+      - 🇩🇪DE_15
+      - 美国_4
       - 🇩🇪DE_16
+      - 🇯🇵JP_9
       - 🇩🇪DE_17
       - 🇩🇪DE_18
+      - 美国_5
+      - 🇳🇱NL荷蘭
       - 🇩🇪DE_19
-      - 🇫🇮FI
-      - 🇱🇻LV拉脫維亞_1
+      - 🇨🇳TW_1
+      - 🇭🇰HK_6
       - 🇩🇪DE德國_2
-      - 🇩🇪DE_20
-      - 🇩🇪DE_21
       - 🇺🇸 US 247 | ⬇️ 3MB/s
+      - 🇩🇪DE_20
       - 🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇩🇪DE_22
-      - 🇺🇸 US SS-20
       - 🇻🇳VN越南
-      - 法国节点_7
-      - 🇭🇰HK_3
-      - 美國🇺🇸US
-      - 🇺🇸 US 132 | ⬇️ 2MB/s
-      - 🇸🇬SG新加坡節點
-      - 亚太地区
-      - 🇬🇧 英国
-      - 🇺🇸 北美地区
+      - 🇺🇸 US SS-20
+      - 🇩🇪DE_21
       - 美国_6
-      - FI_speednode_0006
-      - 芬蘭
+      - 美国节点_7
+      - 亚太地区
       - 美国_7
+      - 🇺🇸 US美国_3
+      - 🇯🇵JP_10
+      - 🇰🇷KR韓國_2
+      - 🇯🇵JP日本
+      - 韓國🇰🇷KR
+      - 🇰🇷KR韓國_3
+      - 🇭🇰HK_7
+      - 🇩🇪DE_22
+      - 🇺🇸 北美地区
       - 韩国
       - 🇰🇷KR_1
-      - 🇭🇰HK_4
-      - 🇯🇵JP_7
-      - 🇲🇾MY马来西亚
-      - 🇯🇵JP_8
-      - 🇯🇵JP_9
-      - 🇭🇰HK_5
-      - 🇭🇰HK_6
-      - 🇭🇰HK_7
-      - 🇯🇵JP_10
-      - 🇨🇳TW_1
+      - 🇮🇳IN印度_1
+      - 🇮🇳IN印度節點
+      - 🇲🇾MY馬來西亞_1
+      - 🇲🇾MY馬來西亞_2
+      - 🇯🇵JP日本_1
+      - 🇲🇾MY馬來西亞_3
+      - 🇲🇾MY
+      - 🇸🇬SG新加坡_1
+      - 🇲🇾MY馬來西亞_4
+      - 🇲🇾MY馬來西亞_5
+      - 🇲🇾MY馬來西亞_6
+      - 🇲🇾MY_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳TW臺灣
+      - 🇮🇳IN印度
+      - 🇲🇾MY馬來西亞
+      - 🇰🇷KR韓國
       - 🇭🇰HK香港
       - 🇯🇵JP
-      - 🇨🇳TW
-      - 🇯🇵JP_1
+      - 香港節點
+      - 🇭🇰HK香港_1
+      - 🇭🇰HK
       - 🇸🇬SG新加坡
+      - 🇨🇳TW
       - 🇸🇬SG
       - 🇸🇬SG_1
       - 🇸🇬SG_2
-      - 🇰🇷KR韓國
-      - 🇭🇰HK香港_1
+      - 韓國
+      - 🇯🇵JP_1
       - 🇯🇵JP_2
-      - 🇰🇷KR韓國_1
-      - 🇭🇰HK
-      - 🇯🇵JP日本
       - 🇯🇵JP日本節點
       - 🇨🇳 TW台湾节点
-      - 韓國🇰🇷KR
-      - 🇯🇵JP_3
-      - 🇯🇵JP_4
+      - 🇭🇰HK_1
+      - 🇰🇷KR韓國_1
+      - 🇰🇷KR
+      - 🇩🇪DE德国
+      - 🇺🇸US_297
+      - 美國🇺🇸US
+      - 🇺🇸US_243
       - 德國
+      - 🇺🇸US美國
       - 🇩🇪DE
       - 🇺🇸US_美國
-      - 🇺🇸US_243
-      - 🇺🇸US_美國_1
-      - 🇺🇸US美國
-      - 🇩🇪DE德国
-      - 🇺🇸US_290
-      - 🇺🇸US_24
-      - 🇺🇸US_27
-      - 🇺🇸US_297
-      - 🇩🇪DE_1
       - 🇺🇸US_161
-      - 🇺🇸US_133
-      - 🇺🇸 US美国
-      - 🇰🇷KR
-      - 🇩🇪DE_2
-      - 🇰🇷KR韓國_2
-      - 🇺🇸 US美国_1
+      - 🇱🇻LV拉脫維亞
+      - 🇭🇰HK_2
       - 美国
-      - 🇯🇵JP_5
+      - 🇺🇸 US美国
       - 🇩🇪DE德国节点
-      - 韓國
-      - 🇩🇪DE_3
-      - 🇺🇸US
-      - 🇩🇪DE_4
-      - 🇬🇧 GB英国
-      - 🇯🇵 JP
+      - 🇺🇸US_290
+      - 🇺🇸 US美国_1
+      - 🇺🇸US_133
+      - 美国_1
+      - 🇺🇸US_美國_1
+      - 🇬🇧 英国
+      - 🇺🇸US_27
+      - 🇺🇸US_24
+      - 🇺🇸US_250
+      - 韓國_1
+      - 🇺🇸US_235
+      - 瑞典🇸🇪SE
+      - 美國
       - 🇩🇪DE德國
-      - 🇺🇸US_56
+      - 🇩🇪DE_1
+      - 🇬🇧 GB英国
+      - 🇺🇸US
       - 🇩🇪DE德国_1
+      - 🇺🇸US_1
+      - 🇩🇪DE德國_1
+      - 🇺🇸US_2
+      - 🇯🇵JP_3
+      - 🇯🇵 JP
       - 🇭🇰 HK
+      - 🇸🇬 SG新加坡节点
+      - 🇯🇵JP_4
       - 🇭🇰 HK_1
+      - 🇭🇰 HK_2
+      - 🇩🇪DE_2
       - 🇯🇵 JP_1
       - 🇸🇬 SG新加坡
-      - 🇭🇰 HK_2
-      - 🇺🇸US_235
-      - 🇺🇸US_250
-      - 🇸🇬 SG新加坡节点
-      - 美國
-      - 瑞典🇸🇪SE
-      - 🇩🇪DE_5
-      - 🇱🇻LV拉脫維亞
-      - 🇩🇪DE德國_1
-      - 🇺🇸US_1
-      - 美国_1
-      - 🇸🇪SE瑞典節點
-      - 德國🇩🇪DE
-      - 美国_2
-      - 美国节点
-      - 🇺🇸 US美国_2
+      - 芬蘭
       - 法国节点
       - 法国节点_1
-      - 美国_3
-      - 🇺🇸 US美国_3
-      - 韓國_1
-      - 美国节点_1
-      - 🇸🇪SE瑞典節點_1
-      - 法国
-      - 香港节点
-      - 美国节点_2
-      - 🇩🇪DE_6
-      - 美国节点_3
-      - 美国_4
-      - 🇩🇪DE_7
+      - 美国_2
       - 法国节点_2
-      - 🇩🇪DE_8
+      - 美国节点
+      - 🇲🇾MY马来西亚
+      - 德國🇩🇪DE
+      - 香港节点
       - 法国节点_3
-      - 美国节点_4
-      - 🇩🇪DE_9
-      - 🇳🇱NL荷蘭
-      - 🇰🇷KR韓國_3
-      - 🇭🇰HK_1
-      - 美国节点_5
-      - 🇯🇵JP_6
-      - 🇩🇪DE_10
-      - 🇭🇰HK_2
-      - 美国_5
-      - 🇩🇪DE_11
-      - 🇩🇪DE_12
-      - 🇩🇪DE_13
-      - 🇩🇪DE_14
+      - 美国节点_1
+      - 🇯🇵JP_5
+      - 美国_3
       - 法国节点_4
-      - 🇫🇷 FR
+      - 🇩🇪DE_3
+      - 法国
       - 法国节点_5
-      - 法国节点_6
-      - 美国节点_6
-      - 荷蘭🇳🇱NL
-      - 🇩🇪DE_15
-      - 香港節點
-      - 美国节点_7
-      - 🇺🇸US_2
+      - 🇭🇰HK_3
+      - 🇺🇸US_56
+      - 🇸🇬SG新加坡節點
       - 🇨🇦CA加拿大節點
+      - 美国节点_2
+      - 美国节点_3
+      - 法国节点_6
+      - 🇺🇸 US 132 | ⬇️ 2MB/s
+      - 🇯🇵JP_6
+      - 🇩🇪DE_4
+      - 荷蘭🇳🇱NL
       - 英国节点
+      - 美国节点_4
+      - 🇭🇰HK_4
+      - 🇩🇪DE_5
+      - 🇸🇪SE瑞典節點
+      - 美国节点_5
+      - 🇩🇪DE_6
+      - 🇩🇪DE_7
+      - 🇯🇵JP_7
+      - 🇸🇪SE瑞典節點_1
+      - 🇩🇪DE_8
+      - 🇩🇪DE_9
+      - 🇱🇻LV拉脫維亞_1
+      - 🇯🇵JP_8
+      - FI_speednode_0006
+      - 🇩🇪DE_10
+      - 🇩🇪DE_11
+      - 🇫🇷 FR
+      - 美国节点_6
+      - 🇺🇸 US美国_2
+      - 🇩🇪DE_12
+      - 法国节点_7
+      - 🇭🇰HK_5
+      - 🇩🇪DE_13
+      - 🇫🇮FI
+      - 🇩🇪DE_14
+      - 🇩🇪DE_15
+      - 美国_4
       - 🇩🇪DE_16
+      - 🇯🇵JP_9
       - 🇩🇪DE_17
       - 🇩🇪DE_18
+      - 美国_5
+      - 🇳🇱NL荷蘭
       - 🇩🇪DE_19
-      - 🇫🇮FI
-      - 🇱🇻LV拉脫維亞_1
+      - 🇨🇳TW_1
+      - 🇭🇰HK_6
       - 🇩🇪DE德國_2
-      - 🇩🇪DE_20
-      - 🇩🇪DE_21
       - 🇺🇸 US 247 | ⬇️ 3MB/s
+      - 🇩🇪DE_20
       - 🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇩🇪DE_22
-      - 🇺🇸 US SS-20
       - 🇻🇳VN越南
-      - 法国节点_7
-      - 🇭🇰HK_3
-      - 美國🇺🇸US
-      - 🇺🇸 US 132 | ⬇️ 2MB/s
-      - 🇸🇬SG新加坡節點
-      - 亚太地区
-      - 🇬🇧 英国
-      - 🇺🇸 北美地区
+      - 🇺🇸 US SS-20
+      - 🇩🇪DE_21
       - 美国_6
-      - FI_speednode_0006
-      - 芬蘭
+      - 美国节点_7
+      - 亚太地区
       - 美国_7
+      - 🇺🇸 US美国_3
+      - 🇯🇵JP_10
+      - 🇰🇷KR韓國_2
+      - 🇯🇵JP日本
+      - 韓國🇰🇷KR
+      - 🇰🇷KR韓國_3
+      - 🇭🇰HK_7
+      - 🇩🇪DE_22
+      - 🇺🇸 北美地区
       - 韩国
       - 🇰🇷KR_1
-      - 🇭🇰HK_4
-      - 🇯🇵JP_7
-      - 🇲🇾MY马来西亚
-      - 🇯🇵JP_8
-      - 🇯🇵JP_9
-      - 🇭🇰HK_5
-      - 🇭🇰HK_6
-      - 🇭🇰HK_7
-      - 🇯🇵JP_10
-      - 🇨🇳TW_1
+      - 🇮🇳IN印度_1
+      - 🇮🇳IN印度節點
+      - 🇲🇾MY馬來西亞_1
+      - 🇲🇾MY馬來西亞_2
+      - 🇯🇵JP日本_1
+      - 🇲🇾MY馬來西亞_3
+      - 🇲🇾MY
+      - 🇸🇬SG新加坡_1
+      - 🇲🇾MY馬來西亞_4
+      - 🇲🇾MY馬來西亞_5
+      - 🇲🇾MY馬來西亞_6
+      - 🇲🇾MY_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2721,158 +2981,173 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳TW臺灣
+      - 🇮🇳IN印度
+      - 🇲🇾MY馬來西亞
+      - 🇰🇷KR韓國
       - 🇭🇰HK香港
       - 🇯🇵JP
-      - 🇨🇳TW
-      - 🇯🇵JP_1
+      - 香港節點
+      - 🇭🇰HK香港_1
+      - 🇭🇰HK
       - 🇸🇬SG新加坡
+      - 🇨🇳TW
       - 🇸🇬SG
       - 🇸🇬SG_1
       - 🇸🇬SG_2
-      - 🇰🇷KR韓國
-      - 🇭🇰HK香港_1
+      - 韓國
+      - 🇯🇵JP_1
       - 🇯🇵JP_2
-      - 🇰🇷KR韓國_1
-      - 🇭🇰HK
-      - 🇯🇵JP日本
       - 🇯🇵JP日本節點
       - 🇨🇳 TW台湾节点
-      - 韓國🇰🇷KR
-      - 🇯🇵JP_3
-      - 🇯🇵JP_4
+      - 🇭🇰HK_1
+      - 🇰🇷KR韓國_1
+      - 🇰🇷KR
+      - 🇩🇪DE德国
+      - 🇺🇸US_297
+      - 美國🇺🇸US
+      - 🇺🇸US_243
       - 德國
+      - 🇺🇸US美國
       - 🇩🇪DE
       - 🇺🇸US_美國
-      - 🇺🇸US_243
-      - 🇺🇸US_美國_1
-      - 🇺🇸US美國
-      - 🇩🇪DE德国
-      - 🇺🇸US_290
-      - 🇺🇸US_24
-      - 🇺🇸US_27
-      - 🇺🇸US_297
-      - 🇩🇪DE_1
       - 🇺🇸US_161
-      - 🇺🇸US_133
-      - 🇺🇸 US美国
-      - 🇰🇷KR
-      - 🇩🇪DE_2
-      - 🇰🇷KR韓國_2
-      - 🇺🇸 US美国_1
+      - 🇱🇻LV拉脫維亞
+      - 🇭🇰HK_2
       - 美国
-      - 🇯🇵JP_5
+      - 🇺🇸 US美国
       - 🇩🇪DE德国节点
-      - 韓國
-      - 🇩🇪DE_3
-      - 🇺🇸US
-      - 🇩🇪DE_4
-      - 🇬🇧 GB英国
-      - 🇯🇵 JP
+      - 🇺🇸US_290
+      - 🇺🇸 US美国_1
+      - 🇺🇸US_133
+      - 美国_1
+      - 🇺🇸US_美國_1
+      - 🇬🇧 英国
+      - 🇺🇸US_27
+      - 🇺🇸US_24
+      - 🇺🇸US_250
+      - 韓國_1
+      - 🇺🇸US_235
+      - 瑞典🇸🇪SE
+      - 美國
       - 🇩🇪DE德國
-      - 🇺🇸US_56
+      - 🇩🇪DE_1
+      - 🇬🇧 GB英国
+      - 🇺🇸US
       - 🇩🇪DE德国_1
+      - 🇺🇸US_1
+      - 🇩🇪DE德國_1
+      - 🇺🇸US_2
+      - 🇯🇵JP_3
+      - 🇯🇵 JP
       - 🇭🇰 HK
+      - 🇸🇬 SG新加坡节点
+      - 🇯🇵JP_4
       - 🇭🇰 HK_1
+      - 🇭🇰 HK_2
+      - 🇩🇪DE_2
       - 🇯🇵 JP_1
       - 🇸🇬 SG新加坡
-      - 🇭🇰 HK_2
-      - 🇺🇸US_235
-      - 🇺🇸US_250
-      - 🇸🇬 SG新加坡节点
-      - 美國
-      - 瑞典🇸🇪SE
-      - 🇩🇪DE_5
-      - 🇱🇻LV拉脫維亞
-      - 🇩🇪DE德國_1
-      - 🇺🇸US_1
-      - 美国_1
-      - 🇸🇪SE瑞典節點
-      - 德國🇩🇪DE
-      - 美国_2
-      - 美国节点
-      - 🇺🇸 US美国_2
+      - 芬蘭
       - 法国节点
       - 法国节点_1
-      - 美国_3
-      - 🇺🇸 US美国_3
-      - 韓國_1
-      - 美国节点_1
-      - 🇸🇪SE瑞典節點_1
-      - 法国
-      - 香港节点
-      - 美国节点_2
-      - 🇩🇪DE_6
-      - 美国节点_3
-      - 美国_4
-      - 🇩🇪DE_7
+      - 美国_2
       - 法国节点_2
-      - 🇩🇪DE_8
+      - 美国节点
+      - 🇲🇾MY马来西亚
+      - 德國🇩🇪DE
+      - 香港节点
       - 法国节点_3
-      - 美国节点_4
-      - 🇩🇪DE_9
-      - 🇳🇱NL荷蘭
-      - 🇰🇷KR韓國_3
-      - 🇭🇰HK_1
-      - 美国节点_5
-      - 🇯🇵JP_6
-      - 🇩🇪DE_10
-      - 🇭🇰HK_2
-      - 美国_5
-      - 🇩🇪DE_11
-      - 🇩🇪DE_12
-      - 🇩🇪DE_13
-      - 🇩🇪DE_14
+      - 美国节点_1
+      - 🇯🇵JP_5
+      - 美国_3
       - 法国节点_4
-      - 🇫🇷 FR
+      - 🇩🇪DE_3
+      - 法国
       - 法国节点_5
-      - 法国节点_6
-      - 美国节点_6
-      - 荷蘭🇳🇱NL
-      - 🇩🇪DE_15
-      - 香港節點
-      - 美国节点_7
-      - 🇺🇸US_2
+      - 🇭🇰HK_3
+      - 🇺🇸US_56
+      - 🇸🇬SG新加坡節點
       - 🇨🇦CA加拿大節點
+      - 美国节点_2
+      - 美国节点_3
+      - 法国节点_6
+      - 🇺🇸 US 132 | ⬇️ 2MB/s
+      - 🇯🇵JP_6
+      - 🇩🇪DE_4
+      - 荷蘭🇳🇱NL
       - 英国节点
+      - 美国节点_4
+      - 🇭🇰HK_4
+      - 🇩🇪DE_5
+      - 🇸🇪SE瑞典節點
+      - 美国节点_5
+      - 🇩🇪DE_6
+      - 🇩🇪DE_7
+      - 🇯🇵JP_7
+      - 🇸🇪SE瑞典節點_1
+      - 🇩🇪DE_8
+      - 🇩🇪DE_9
+      - 🇱🇻LV拉脫維亞_1
+      - 🇯🇵JP_8
+      - FI_speednode_0006
+      - 🇩🇪DE_10
+      - 🇩🇪DE_11
+      - 🇫🇷 FR
+      - 美国节点_6
+      - 🇺🇸 US美国_2
+      - 🇩🇪DE_12
+      - 法国节点_7
+      - 🇭🇰HK_5
+      - 🇩🇪DE_13
+      - 🇫🇮FI
+      - 🇩🇪DE_14
+      - 🇩🇪DE_15
+      - 美国_4
       - 🇩🇪DE_16
+      - 🇯🇵JP_9
       - 🇩🇪DE_17
       - 🇩🇪DE_18
+      - 美国_5
+      - 🇳🇱NL荷蘭
       - 🇩🇪DE_19
-      - 🇫🇮FI
-      - 🇱🇻LV拉脫維亞_1
+      - 🇨🇳TW_1
+      - 🇭🇰HK_6
       - 🇩🇪DE德國_2
-      - 🇩🇪DE_20
-      - 🇩🇪DE_21
       - 🇺🇸 US 247 | ⬇️ 3MB/s
+      - 🇩🇪DE_20
       - 🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇩🇪DE_22
-      - 🇺🇸 US SS-20
       - 🇻🇳VN越南
-      - 法国节点_7
-      - 🇭🇰HK_3
-      - 美國🇺🇸US
-      - 🇺🇸 US 132 | ⬇️ 2MB/s
-      - 🇸🇬SG新加坡節點
-      - 亚太地区
-      - 🇬🇧 英国
-      - 🇺🇸 北美地区
+      - 🇺🇸 US SS-20
+      - 🇩🇪DE_21
       - 美国_6
-      - FI_speednode_0006
-      - 芬蘭
+      - 美国节点_7
+      - 亚太地区
       - 美国_7
+      - 🇺🇸 US美国_3
+      - 🇯🇵JP_10
+      - 🇰🇷KR韓國_2
+      - 🇯🇵JP日本
+      - 韓國🇰🇷KR
+      - 🇰🇷KR韓國_3
+      - 🇭🇰HK_7
+      - 🇩🇪DE_22
+      - 🇺🇸 北美地区
       - 韩国
       - 🇰🇷KR_1
-      - 🇭🇰HK_4
-      - 🇯🇵JP_7
-      - 🇲🇾MY马来西亚
-      - 🇯🇵JP_8
-      - 🇯🇵JP_9
-      - 🇭🇰HK_5
-      - 🇭🇰HK_6
-      - 🇭🇰HK_7
-      - 🇯🇵JP_10
-      - 🇨🇳TW_1
+      - 🇮🇳IN印度_1
+      - 🇮🇳IN印度節點
+      - 🇲🇾MY馬來西亞_1
+      - 🇲🇾MY馬來西亞_2
+      - 🇯🇵JP日本_1
+      - 🇲🇾MY馬來西亞_3
+      - 🇲🇾MY
+      - 🇸🇬SG新加坡_1
+      - 🇲🇾MY馬來西亞_4
+      - 🇲🇾MY馬來西亞_5
+      - 🇲🇾MY馬來西亞_6
+      - 🇲🇾MY_1
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -2957,75 +3232,118 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 4, server: 152.53.200.167, port: 8444, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 5, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 6, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 7, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享), server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 6, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享), server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
   - {name: US美国(mibei77.com 米贝节点分享) 8, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国(mibei77.com 米贝节点分享) 9, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享), server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 10, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享), server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 10, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
   - {name: US美国(mibei77.com 米贝节点分享) 11, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 12, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享), server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国(mibei77.com 米贝节点分享) 13, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 14, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 15, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 16, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享), server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 17, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 18, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 19, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 20, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 21, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 22, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 23, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 24, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 25, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 4, server: iepl.huli168.com, port: 19822, type: ss, cipher: aes-256-gcm, password: g4JtpkuxkwRH4jhj, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 26, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 5, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享), server: 141.11.21.219, port: 50521, type: vmess, uuid: 7b4c6795-3be5-4a4e-b234-07a46f580c45, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 27, server: iepl.huli168.com, port: 19822, type: ss, cipher: aes-256-gcm, password: g4JtpkuxkwRH4jhj, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 28, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 14, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 15, server: 143.14.105.140, port: 8443, type: vmess, uuid: 62d5f178-daec-44f7-d7ed-d40b6c786d6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 143.14.105.140}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 16, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: FR法国(mibei77.com 米贝节点分享) 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 17, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 18, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 19, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 20, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 21, server: 130.250.137.199, port: 443, type: vmess, uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f08369d1-5ee7-4b16-d786-30bce12fc33c, ws-headers: {Host: ous3.dean52.top}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 22, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 23, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 24, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(mibei77.com 米贝节点分享), server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vc, ws-headers: {Host: vc.fly.dev}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 25, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: Azerb.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 26, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 27, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 28, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 29, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 30, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 31, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 32, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 29, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 33, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 4, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享) 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 30, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 5, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 6, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 31, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 7, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 8, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 9, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 10, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享) 4, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 32, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 33, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 11, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 12, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 34, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 35, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 36, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 13, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 37, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 14, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 5, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 34, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 15, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 4, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(mibei77.com 米贝节点分享) 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 35, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 36, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 37, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 38, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 39, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 40, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 41, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 42, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 43, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 44, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 45, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 46, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 47, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 48, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 16, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 49, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国(mibei77.com 米贝节点分享) 17, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 38, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 39, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 40, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 41, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 50, server: 2001:bc8:32d7:302::16, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 51, server: 2001:bc8:32d7:302::14, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 52, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 18, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 53, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 19, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 54, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 55, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 56, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 20, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 57, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国(mibei77.com 米贝节点分享) 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 58, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 59, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK.NET}, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 21, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 22, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 23, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 60, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 61, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 5, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 24, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 25, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 62, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 26, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 27, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 6, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 63, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 64, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(mibei77.com 米贝节点分享) 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 65, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 66, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 67, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 7, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 68, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 69, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -3035,72 +3353,115 @@ proxy-groups:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
-      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
       - US美国(mibei77.com 米贝节点分享) 22
-      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 25
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 26
-      - HK香港(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 27
       - US美国(mibei77.com 米贝节点分享) 28
-      - FR法国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 32
       - GB英国(mibei77.com 米贝节点分享) 2
       - GB英国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 4
-      - FR法国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 30
       - GB英国(mibei77.com 米贝节点分享) 5
       - GB英国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 31
       - GB英国(mibei77.com 米贝节点分享) 7
       - GB英国(mibei77.com 米贝节点分享) 8
       - GB英国(mibei77.com 米贝节点分享) 9
       - GB英国(mibei77.com 米贝节点分享) 10
-      - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 32
-      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 11
       - GB英国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享) 13
+      - GB英国(mibei77.com 米贝节点分享) 14
+      - FR法国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 34
+      - GB英国(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 35
       - US美国(mibei77.com 米贝节点分享) 36
-      - GB英国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 37
-      - GB英国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 15
-      - GB英国(mibei77.com 米贝节点分享) 16
-      - GB英国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 38
       - US美国(mibei77.com 米贝节点分享) 39
       - US美国(mibei77.com 米贝节点分享) 40
       - US美国(mibei77.com 米贝节点分享) 41
+      - US美国(mibei77.com 米贝节点分享) 42
+      - US美国(mibei77.com 米贝节点分享) 43
+      - US美国(mibei77.com 米贝节点分享) 44
+      - US美国(mibei77.com 米贝节点分享) 45
+      - US美国(mibei77.com 米贝节点分享) 46
+      - US美国(mibei77.com 米贝节点分享) 47
+      - US美国(mibei77.com 米贝节点分享) 48
+      - GB英国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 49
+      - GB英国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 50
+      - US美国(mibei77.com 米贝节点分享) 51
+      - US美国(mibei77.com 米贝节点分享) 52
+      - GB英国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 53
+      - GB英国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 54
+      - US美国(mibei77.com 米贝节点分享) 55
+      - US美国(mibei77.com 米贝节点分享) 56
+      - GB英国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 57
+      - FR法国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 58
+      - US美国(mibei77.com 米贝节点分享) 59
+      - GB英国(mibei77.com 米贝节点分享) 21
+      - GB英国(mibei77.com 米贝节点分享) 22
+      - GB英国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 60
+      - US美国(mibei77.com 米贝节点分享) 61
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - GB英国(mibei77.com 米贝节点分享) 24
+      - GB英国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 62
+      - GB英国(mibei77.com 米贝节点分享) 26
+      - GB英国(mibei77.com 米贝节点分享) 27
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 63
+      - US美国(mibei77.com 米贝节点分享) 64
+      - SG新加坡(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 65
+      - US美国(mibei77.com 米贝节点分享) 66
+      - US美国(mibei77.com 米贝节点分享) 67
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 68
+      - US美国(mibei77.com 米贝节点分享) 69
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -3109,72 +3470,115 @@ proxy-groups:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
-      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
       - US美国(mibei77.com 米贝节点分享) 22
-      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 25
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 26
-      - HK香港(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 27
       - US美国(mibei77.com 米贝节点分享) 28
-      - FR法国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 32
       - GB英国(mibei77.com 米贝节点分享) 2
       - GB英国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 4
-      - FR法国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 30
       - GB英国(mibei77.com 米贝节点分享) 5
       - GB英国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 31
       - GB英国(mibei77.com 米贝节点分享) 7
       - GB英国(mibei77.com 米贝节点分享) 8
       - GB英国(mibei77.com 米贝节点分享) 9
       - GB英国(mibei77.com 米贝节点分享) 10
-      - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 32
-      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 11
       - GB英国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享) 13
+      - GB英国(mibei77.com 米贝节点分享) 14
+      - FR法国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 34
+      - GB英国(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 35
       - US美国(mibei77.com 米贝节点分享) 36
-      - GB英国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 37
-      - GB英国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 15
-      - GB英国(mibei77.com 米贝节点分享) 16
-      - GB英国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 38
       - US美国(mibei77.com 米贝节点分享) 39
       - US美国(mibei77.com 米贝节点分享) 40
       - US美国(mibei77.com 米贝节点分享) 41
+      - US美国(mibei77.com 米贝节点分享) 42
+      - US美国(mibei77.com 米贝节点分享) 43
+      - US美国(mibei77.com 米贝节点分享) 44
+      - US美国(mibei77.com 米贝节点分享) 45
+      - US美国(mibei77.com 米贝节点分享) 46
+      - US美国(mibei77.com 米贝节点分享) 47
+      - US美国(mibei77.com 米贝节点分享) 48
+      - GB英国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 49
+      - GB英国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 50
+      - US美国(mibei77.com 米贝节点分享) 51
+      - US美国(mibei77.com 米贝节点分享) 52
+      - GB英国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 53
+      - GB英国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 54
+      - US美国(mibei77.com 米贝节点分享) 55
+      - US美国(mibei77.com 米贝节点分享) 56
+      - GB英国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 57
+      - FR法国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 58
+      - US美国(mibei77.com 米贝节点分享) 59
+      - GB英国(mibei77.com 米贝节点分享) 21
+      - GB英国(mibei77.com 米贝节点分享) 22
+      - GB英国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 60
+      - US美国(mibei77.com 米贝节点分享) 61
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - GB英国(mibei77.com 米贝节点分享) 24
+      - GB英国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 62
+      - GB英国(mibei77.com 米贝节点分享) 26
+      - GB英国(mibei77.com 米贝节点分享) 27
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 63
+      - US美国(mibei77.com 米贝节点分享) 64
+      - SG新加坡(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 65
+      - US美国(mibei77.com 米贝节点分享) 66
+      - US美国(mibei77.com 米贝节点分享) 67
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 68
+      - US美国(mibei77.com 米贝节点分享) 69
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -3184,72 +3588,115 @@ proxy-groups:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
-      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
       - US美国(mibei77.com 米贝节点分享) 22
-      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 25
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 26
-      - HK香港(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 27
       - US美国(mibei77.com 米贝节点分享) 28
-      - FR法国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 32
       - GB英国(mibei77.com 米贝节点分享) 2
       - GB英国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 4
-      - FR法国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 30
       - GB英国(mibei77.com 米贝节点分享) 5
       - GB英国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 31
       - GB英国(mibei77.com 米贝节点分享) 7
       - GB英国(mibei77.com 米贝节点分享) 8
       - GB英国(mibei77.com 米贝节点分享) 9
       - GB英国(mibei77.com 米贝节点分享) 10
-      - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 32
-      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 11
       - GB英国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享) 13
+      - GB英国(mibei77.com 米贝节点分享) 14
+      - FR法国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 34
+      - GB英国(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 35
       - US美国(mibei77.com 米贝节点分享) 36
-      - GB英国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 37
-      - GB英国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 15
-      - GB英国(mibei77.com 米贝节点分享) 16
-      - GB英国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 38
       - US美国(mibei77.com 米贝节点分享) 39
       - US美国(mibei77.com 米贝节点分享) 40
       - US美国(mibei77.com 米贝节点分享) 41
+      - US美国(mibei77.com 米贝节点分享) 42
+      - US美国(mibei77.com 米贝节点分享) 43
+      - US美国(mibei77.com 米贝节点分享) 44
+      - US美国(mibei77.com 米贝节点分享) 45
+      - US美国(mibei77.com 米贝节点分享) 46
+      - US美国(mibei77.com 米贝节点分享) 47
+      - US美国(mibei77.com 米贝节点分享) 48
+      - GB英国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 49
+      - GB英国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 50
+      - US美国(mibei77.com 米贝节点分享) 51
+      - US美国(mibei77.com 米贝节点分享) 52
+      - GB英国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 53
+      - GB英国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 54
+      - US美国(mibei77.com 米贝节点分享) 55
+      - US美国(mibei77.com 米贝节点分享) 56
+      - GB英国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 57
+      - FR法国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 58
+      - US美国(mibei77.com 米贝节点分享) 59
+      - GB英国(mibei77.com 米贝节点分享) 21
+      - GB英国(mibei77.com 米贝节点分享) 22
+      - GB英国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 60
+      - US美国(mibei77.com 米贝节点分享) 61
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - GB英国(mibei77.com 米贝节点分享) 24
+      - GB英国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 62
+      - GB英国(mibei77.com 米贝节点分享) 26
+      - GB英国(mibei77.com 米贝节点分享) 27
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 63
+      - US美国(mibei77.com 米贝节点分享) 64
+      - SG新加坡(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 65
+      - US美国(mibei77.com 米贝节点分享) 66
+      - US美国(mibei77.com 米贝节点分享) 67
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 68
+      - US美国(mibei77.com 米贝节点分享) 69
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -3271,72 +3718,115 @@ proxy-groups:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
-      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
       - US美国(mibei77.com 米贝节点分享) 22
-      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 25
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 26
-      - HK香港(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 27
       - US美国(mibei77.com 米贝节点分享) 28
-      - FR法国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 32
       - GB英国(mibei77.com 米贝节点分享) 2
       - GB英国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 4
-      - FR法国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 30
       - GB英国(mibei77.com 米贝节点分享) 5
       - GB英国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 31
       - GB英国(mibei77.com 米贝节点分享) 7
       - GB英国(mibei77.com 米贝节点分享) 8
       - GB英国(mibei77.com 米贝节点分享) 9
       - GB英国(mibei77.com 米贝节点分享) 10
-      - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 32
-      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 11
       - GB英国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享) 13
+      - GB英国(mibei77.com 米贝节点分享) 14
+      - FR法国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 34
+      - GB英国(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 35
       - US美国(mibei77.com 米贝节点分享) 36
-      - GB英国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 37
-      - GB英国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 15
-      - GB英国(mibei77.com 米贝节点分享) 16
-      - GB英国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 38
       - US美国(mibei77.com 米贝节点分享) 39
       - US美国(mibei77.com 米贝节点分享) 40
       - US美国(mibei77.com 米贝节点分享) 41
+      - US美国(mibei77.com 米贝节点分享) 42
+      - US美国(mibei77.com 米贝节点分享) 43
+      - US美国(mibei77.com 米贝节点分享) 44
+      - US美国(mibei77.com 米贝节点分享) 45
+      - US美国(mibei77.com 米贝节点分享) 46
+      - US美国(mibei77.com 米贝节点分享) 47
+      - US美国(mibei77.com 米贝节点分享) 48
+      - GB英国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 49
+      - GB英国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 50
+      - US美国(mibei77.com 米贝节点分享) 51
+      - US美国(mibei77.com 米贝节点分享) 52
+      - GB英国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 53
+      - GB英国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 54
+      - US美国(mibei77.com 米贝节点分享) 55
+      - US美国(mibei77.com 米贝节点分享) 56
+      - GB英国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 57
+      - FR法国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 58
+      - US美国(mibei77.com 米贝节点分享) 59
+      - GB英国(mibei77.com 米贝节点分享) 21
+      - GB英国(mibei77.com 米贝节点分享) 22
+      - GB英国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 60
+      - US美国(mibei77.com 米贝节点分享) 61
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - GB英国(mibei77.com 米贝节点分享) 24
+      - GB英国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 62
+      - GB英国(mibei77.com 米贝节点分享) 26
+      - GB英国(mibei77.com 米贝节点分享) 27
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 63
+      - US美国(mibei77.com 米贝节点分享) 64
+      - SG新加坡(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 65
+      - US美国(mibei77.com 米贝节点分享) 66
+      - US美国(mibei77.com 米贝节点分享) 67
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 68
+      - US美国(mibei77.com 米贝节点分享) 69
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -3346,6 +3836,8 @@ proxy-groups:
       - HK香港(mibei77.com 米贝节点分享) 3
       - HK香港(mibei77.com 米贝节点分享) 4
       - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -3355,72 +3847,115 @@ proxy-groups:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
-      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
       - US美国(mibei77.com 米贝节点分享) 22
-      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 25
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 26
-      - HK香港(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 27
       - US美国(mibei77.com 米贝节点分享) 28
-      - FR法国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 32
       - GB英国(mibei77.com 米贝节点分享) 2
       - GB英国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 4
-      - FR法国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 30
       - GB英国(mibei77.com 米贝节点分享) 5
       - GB英国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 31
       - GB英国(mibei77.com 米贝节点分享) 7
       - GB英国(mibei77.com 米贝节点分享) 8
       - GB英国(mibei77.com 米贝节点分享) 9
       - GB英国(mibei77.com 米贝节点分享) 10
-      - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 32
-      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 11
       - GB英国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享) 13
+      - GB英国(mibei77.com 米贝节点分享) 14
+      - FR法国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 34
+      - GB英国(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 35
       - US美国(mibei77.com 米贝节点分享) 36
-      - GB英国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 37
-      - GB英国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 15
-      - GB英国(mibei77.com 米贝节点分享) 16
-      - GB英国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 38
       - US美国(mibei77.com 米贝节点分享) 39
       - US美国(mibei77.com 米贝节点分享) 40
       - US美国(mibei77.com 米贝节点分享) 41
+      - US美国(mibei77.com 米贝节点分享) 42
+      - US美国(mibei77.com 米贝节点分享) 43
+      - US美国(mibei77.com 米贝节点分享) 44
+      - US美国(mibei77.com 米贝节点分享) 45
+      - US美国(mibei77.com 米贝节点分享) 46
+      - US美国(mibei77.com 米贝节点分享) 47
+      - US美国(mibei77.com 米贝节点分享) 48
+      - GB英国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 49
+      - GB英国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 50
+      - US美国(mibei77.com 米贝节点分享) 51
+      - US美国(mibei77.com 米贝节点分享) 52
+      - GB英国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 53
+      - GB英国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 54
+      - US美国(mibei77.com 米贝节点分享) 55
+      - US美国(mibei77.com 米贝节点分享) 56
+      - GB英国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 57
+      - FR法国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 58
+      - US美国(mibei77.com 米贝节点分享) 59
+      - GB英国(mibei77.com 米贝节点分享) 21
+      - GB英国(mibei77.com 米贝节点分享) 22
+      - GB英国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 60
+      - US美国(mibei77.com 米贝节点分享) 61
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - GB英国(mibei77.com 米贝节点分享) 24
+      - GB英国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 62
+      - GB英国(mibei77.com 米贝节点分享) 26
+      - GB英国(mibei77.com 米贝节点分享) 27
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 63
+      - US美国(mibei77.com 米贝节点分享) 64
+      - SG新加坡(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 65
+      - US美国(mibei77.com 米贝节点分享) 66
+      - US美国(mibei77.com 米贝节点分享) 67
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 68
+      - US美国(mibei77.com 米贝节点分享) 69
   - name: 📲 电报信息
     type: select
     proxies:
@@ -3429,72 +3964,115 @@ proxy-groups:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
-      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
       - US美国(mibei77.com 米贝节点分享) 22
-      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 25
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 26
-      - HK香港(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 27
       - US美国(mibei77.com 米贝节点分享) 28
-      - FR法国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 32
       - GB英国(mibei77.com 米贝节点分享) 2
       - GB英国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 4
-      - FR法国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 30
       - GB英国(mibei77.com 米贝节点分享) 5
       - GB英国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 31
       - GB英国(mibei77.com 米贝节点分享) 7
       - GB英国(mibei77.com 米贝节点分享) 8
       - GB英国(mibei77.com 米贝节点分享) 9
       - GB英国(mibei77.com 米贝节点分享) 10
-      - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 32
-      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 11
       - GB英国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享) 13
+      - GB英国(mibei77.com 米贝节点分享) 14
+      - FR法国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 34
+      - GB英国(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 35
       - US美国(mibei77.com 米贝节点分享) 36
-      - GB英国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 37
-      - GB英国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 15
-      - GB英国(mibei77.com 米贝节点分享) 16
-      - GB英国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 38
       - US美国(mibei77.com 米贝节点分享) 39
       - US美国(mibei77.com 米贝节点分享) 40
       - US美国(mibei77.com 米贝节点分享) 41
+      - US美国(mibei77.com 米贝节点分享) 42
+      - US美国(mibei77.com 米贝节点分享) 43
+      - US美国(mibei77.com 米贝节点分享) 44
+      - US美国(mibei77.com 米贝节点分享) 45
+      - US美国(mibei77.com 米贝节点分享) 46
+      - US美国(mibei77.com 米贝节点分享) 47
+      - US美国(mibei77.com 米贝节点分享) 48
+      - GB英国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 49
+      - GB英国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 50
+      - US美国(mibei77.com 米贝节点分享) 51
+      - US美国(mibei77.com 米贝节点分享) 52
+      - GB英国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 53
+      - GB英国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 54
+      - US美国(mibei77.com 米贝节点分享) 55
+      - US美国(mibei77.com 米贝节点分享) 56
+      - GB英国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 57
+      - FR法国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 58
+      - US美国(mibei77.com 米贝节点分享) 59
+      - GB英国(mibei77.com 米贝节点分享) 21
+      - GB英国(mibei77.com 米贝节点分享) 22
+      - GB英国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 60
+      - US美国(mibei77.com 米贝节点分享) 61
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - GB英国(mibei77.com 米贝节点分享) 24
+      - GB英国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 62
+      - GB英国(mibei77.com 米贝节点分享) 26
+      - GB英国(mibei77.com 米贝节点分享) 27
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 63
+      - US美国(mibei77.com 米贝节点分享) 64
+      - SG新加坡(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 65
+      - US美国(mibei77.com 米贝节点分享) 66
+      - US美国(mibei77.com 米贝节点分享) 67
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 68
+      - US美国(mibei77.com 米贝节点分享) 69
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3504,72 +4082,115 @@ proxy-groups:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
-      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
       - US美国(mibei77.com 米贝节点分享) 22
-      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 25
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 26
-      - HK香港(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 27
       - US美国(mibei77.com 米贝节点分享) 28
-      - FR法国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 32
       - GB英国(mibei77.com 米贝节点分享) 2
       - GB英国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 4
-      - FR法国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 30
       - GB英国(mibei77.com 米贝节点分享) 5
       - GB英国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 31
       - GB英国(mibei77.com 米贝节点分享) 7
       - GB英国(mibei77.com 米贝节点分享) 8
       - GB英国(mibei77.com 米贝节点分享) 9
       - GB英国(mibei77.com 米贝节点分享) 10
-      - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 32
-      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 11
       - GB英国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享) 13
+      - GB英国(mibei77.com 米贝节点分享) 14
+      - FR法国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 34
+      - GB英国(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 35
       - US美国(mibei77.com 米贝节点分享) 36
-      - GB英国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 37
-      - GB英国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 15
-      - GB英国(mibei77.com 米贝节点分享) 16
-      - GB英国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 38
       - US美国(mibei77.com 米贝节点分享) 39
       - US美国(mibei77.com 米贝节点分享) 40
       - US美国(mibei77.com 米贝节点分享) 41
+      - US美国(mibei77.com 米贝节点分享) 42
+      - US美国(mibei77.com 米贝节点分享) 43
+      - US美国(mibei77.com 米贝节点分享) 44
+      - US美国(mibei77.com 米贝节点分享) 45
+      - US美国(mibei77.com 米贝节点分享) 46
+      - US美国(mibei77.com 米贝节点分享) 47
+      - US美国(mibei77.com 米贝节点分享) 48
+      - GB英国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 49
+      - GB英国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 50
+      - US美国(mibei77.com 米贝节点分享) 51
+      - US美国(mibei77.com 米贝节点分享) 52
+      - GB英国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 53
+      - GB英国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 54
+      - US美国(mibei77.com 米贝节点分享) 55
+      - US美国(mibei77.com 米贝节点分享) 56
+      - GB英国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 57
+      - FR法国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 58
+      - US美国(mibei77.com 米贝节点分享) 59
+      - GB英国(mibei77.com 米贝节点分享) 21
+      - GB英国(mibei77.com 米贝节点分享) 22
+      - GB英国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 60
+      - US美国(mibei77.com 米贝节点分享) 61
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - GB英国(mibei77.com 米贝节点分享) 24
+      - GB英国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 62
+      - GB英国(mibei77.com 米贝节点分享) 26
+      - GB英国(mibei77.com 米贝节点分享) 27
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 63
+      - US美国(mibei77.com 米贝节点分享) 64
+      - SG新加坡(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 65
+      - US美国(mibei77.com 米贝节点分享) 66
+      - US美国(mibei77.com 米贝节点分享) 67
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 68
+      - US美国(mibei77.com 米贝节点分享) 69
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3588,72 +4209,115 @@ proxy-groups:
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 6
+      - FR法国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
       - US美国(mibei77.com 米贝节点分享) 8
       - US美国(mibei77.com 米贝节点分享) 9
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 10
-      - HK香港(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
       - US美国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 14
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - FR法国(mibei77.com 米贝节点分享)
+      - FR法国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
-      - HK香港(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
       - US美国(mibei77.com 米贝节点分享) 22
-      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 23
       - US美国(mibei77.com 米贝节点分享) 24
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 25
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 26
-      - HK香港(mibei77.com 米贝节点分享) 5
-      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 27
       - US美国(mibei77.com 米贝节点分享) 28
-      - FR法国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - FR法国(mibei77.com 米贝节点分享) 3
+      - FR法国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 32
       - GB英国(mibei77.com 米贝节点分享) 2
       - GB英国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 4
-      - FR法国(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 30
       - GB英国(mibei77.com 米贝节点分享) 5
       - GB英国(mibei77.com 米贝节点分享) 6
-      - US美国(mibei77.com 米贝节点分享) 31
       - GB英国(mibei77.com 米贝节点分享) 7
       - GB英国(mibei77.com 米贝节点分享) 8
       - GB英国(mibei77.com 米贝节点分享) 9
       - GB英国(mibei77.com 米贝节点分享) 10
-      - FR法国(mibei77.com 米贝节点分享) 4
-      - US美国(mibei77.com 米贝节点分享) 32
-      - US美国(mibei77.com 米贝节点分享) 33
       - GB英国(mibei77.com 米贝节点分享) 11
       - GB英国(mibei77.com 米贝节点分享) 12
+      - GB英国(mibei77.com 米贝节点分享) 13
+      - GB英国(mibei77.com 米贝节点分享) 14
+      - FR法国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 34
+      - GB英国(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 35
       - US美国(mibei77.com 米贝节点分享) 36
-      - GB英国(mibei77.com 米贝节点分享) 13
       - US美国(mibei77.com 米贝节点分享) 37
-      - GB英国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 15
-      - GB英国(mibei77.com 米贝节点分享) 16
-      - GB英国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 38
       - US美国(mibei77.com 米贝节点分享) 39
       - US美国(mibei77.com 米贝节点分享) 40
       - US美国(mibei77.com 米贝节点分享) 41
+      - US美国(mibei77.com 米贝节点分享) 42
+      - US美国(mibei77.com 米贝节点分享) 43
+      - US美国(mibei77.com 米贝节点分享) 44
+      - US美国(mibei77.com 米贝节点分享) 45
+      - US美国(mibei77.com 米贝节点分享) 46
+      - US美国(mibei77.com 米贝节点分享) 47
+      - US美国(mibei77.com 米贝节点分享) 48
+      - GB英国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 49
+      - GB英国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 50
+      - US美国(mibei77.com 米贝节点分享) 51
+      - US美国(mibei77.com 米贝节点分享) 52
+      - GB英国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 53
+      - GB英国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 54
+      - US美国(mibei77.com 米贝节点分享) 55
+      - US美国(mibei77.com 米贝节点分享) 56
+      - GB英国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 57
+      - FR法国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 58
+      - US美国(mibei77.com 米贝节点分享) 59
+      - GB英国(mibei77.com 米贝节点分享) 21
+      - GB英国(mibei77.com 米贝节点分享) 22
+      - GB英国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 60
+      - US美国(mibei77.com 米贝节点分享) 61
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - GB英国(mibei77.com 米贝节点分享) 24
+      - GB英国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 62
+      - GB英国(mibei77.com 米贝节点分享) 26
+      - GB英国(mibei77.com 米贝节点分享) 27
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 63
+      - US美国(mibei77.com 米贝节点分享) 64
+      - SG新加坡(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 65
+      - US美国(mibei77.com 米贝节点分享) 66
+      - US美国(mibei77.com 米贝节点分享) 67
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 68
+      - US美国(mibei77.com 米贝节点分享) 69
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -13876,19 +14540,18 @@ dns:
 proxies:
   - {name: 8元老牌专线机场：cczzuu.top, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港|@stairnode, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港3|@stairnode, server: 58.152.18.2, port: 443, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇭🇰 香港4|@stairnode, server: 16.163.107.16, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|@stairnode, server: 54.168.85.73, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本|@stairnode, server: 13.230.222.150, port: 21508, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.106.99, port: 34818, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.106.99, port: 4937, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡|@stairnode, server: 160.16.106.99, port: 3419, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡2|@stairnode, server: 160.16.106.99, port: 4674, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3|@stairnode, server: 54.168.85.73, port: 25343, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇺🇸 美国|@stairnode, server: 160.16.72.205, port: 3057, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2|@stairnode, server: 160.16.106.99, port: 3057, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国3|@stairnode, server: 16.163.149.149, port: 4864, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇭🇰 香港2|@stairnode, server: m.cnmjin.net, port: 16622, type: vmess, uuid: aa0751be-6b03-49c0-97f0-9a845d8543c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 6076cfa5b57881d4da968c78ccb3d162.mobgslb.tbcache.com}}}
+  - {name: 🇭🇰 香港3|@stairnode, server: 175.41.228.177, port: 921, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港4|@stairnode, server: 13.230.215.64, port: 388, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇭🇰 香港5|@stairnode, server: 18.163.80.240, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本|@stairnode, server: 52.68.96.91, port: 3022, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@stairnode, server: 160.16.214.104, port: 2001, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3|@stairnode, server: 160.16.214.104, port: 4937, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡|@stairnode, server: 160.16.214.104, port: 3419, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2|@stairnode, server: 160.16.214.104, port: 4674, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3|@stairnode, server: 16.162.45.163, port: 52951, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇺🇸 美国|@stairnode, server: 160.16.214.104, port: 3057, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国2|@stairnode, server: 160.16.214.104, port: 3057, type: trojan, password: f389ed926e512e15f382dc3804029474, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国3|@stairnode, server: 18.163.80.240, port: 5390, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13909,7 +14572,6 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
-      - 🇭🇰 香港2|@stairnode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -13930,7 +14592,6 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
-      - 🇭🇰 香港2|@stairnode
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -13951,7 +14612,6 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
-      - 🇭🇰 香港2|@stairnode
   - name: 📲 电报信息
     type: select
     proxies:
@@ -13971,7 +14631,6 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
-      - 🇭🇰 香港2|@stairnode
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -13991,7 +14650,6 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
-      - 🇭🇰 香港2|@stairnode
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -14011,7 +14669,6 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
-      - 🇭🇰 香港2|@stairnode
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -14032,7 +14689,6 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
-      - 🇭🇰 香港2|@stairnode
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -14069,7 +14725,6 @@ proxy-groups:
       - 🇺🇸 美国|@stairnode
       - 🇺🇸 美国2|@stairnode
       - 🇺🇸 美国3|@stairnode
-      - 🇭🇰 香港2|@stairnode
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
