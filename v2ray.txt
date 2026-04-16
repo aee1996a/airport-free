@@ -522,7 +522,7 @@ vless://872624ac-aa40-39b1-8232-f7270812c234@s392.ccgfw.top:443?encryption=none&
 vless://872624ac-aa40-39b1-8232-f7270812c234@158.51.99.69:443?encryption=none&type=grpc&headerType=none&fp=ios&host=s394.ccgfw.top&path=&flow=&security=tls&sni=u711541u85f7s394.ccgfw.top&serviceName=ssp&mode=gun&alpn=#US%20VLESS-175%20%7C%20free-nodes
 未获取到到节点，错误代码:404 Client Error: Not Found for url: https://naidounode.com/node/20260416-v2ray.txt
 未获取到到节点，错误代码:HTTPSConnectionPool(host='nodefree.githubrowcontent.com', port=443): Max retries exceeded with url: /2026/04/20260416.txt (Caused by NameResolutionError("HTTPSConnection(host='nodefree.githubrowcontent.com', port=443): Failed to resolve 'nodefree.githubrowcontent.com' ([Errno -2] Name or service not known)"))
-未获取到到节点，错误代码:('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2026/04/0-20260416.txt
 未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2026/04/1-20260416.txt
 未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2026/04/2-20260416.txt
 未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2026/04/3-20260416.txt
