@@ -98185,4 +98185,4 @@ proxy-groups:
       - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-miss
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2026/07/4-20260719.yml
