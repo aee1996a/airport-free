@@ -1,5 +1,5 @@
-未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/09/0-20260928.yaml
-未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/09/1-20260928.yaml
-未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/09/2-20260928.yaml
-未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/09/3-20260928.yaml
-未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/09/4-20260928.yaml
+未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/0-20261007.yaml
+未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/1-20261007.yaml
+未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/2-20261007.yaml
+未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/3-20261007.yaml
+未获取到节点，错误代码：526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/4-20261007.yaml
